@@ -216,6 +216,24 @@ The site is plain static files:
 
 No framework, bundler, or package manager is required.
 
+### Browser hardening
+
+For GitHub-hosted deployment, include a `Content-Security-Policy` **meta tag** in `tiersite/index.html`.
+
+Current policy intent:
+
+- `default-src 'self'`
+- `script-src 'self'`
+- `style-src 'self'`
+- `img-src 'self' data:`
+- `connect-src 'self'`
+- `object-src 'none'`
+- `base-uri 'self'`
+- `frame-ancestors 'none'`
+- `form-action 'self'`
+
+This site is a good fit for a restrictive self-only policy because its scripts, styles, and images are all local.
+
 ## UI Layout
 
 ### Header
