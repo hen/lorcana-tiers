@@ -404,7 +404,7 @@ body.is-dragging .card img,
 }
 
 .card-delta.is-negative {
-  background: rgba(138, 43, 43, 0.92);
+  background: rgba(39, 88, 173, 0.92);
 }
 
 .card-delta.is-neutral {

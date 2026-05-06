@@ -555,6 +555,7 @@ Exact colors can differ if rebuilt, but the information hierarchy should remain 
 4. **Card badge shows par delta, not set number**
    - bottom-right badge shows the difference from cost par
    - examples: `+1`, `-1`, `0`
+   - negative deltas use a blue badge rather than red
    - cards with `parDelta = null` show no badge
 
 5. **Basic value formula**
