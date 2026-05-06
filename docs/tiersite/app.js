@@ -206,7 +206,7 @@
   }
 
   function renderTabs() {
-    tabsRoot.innerHTML = "";
+    tabsRoot.replaceChildren();
     const costRow = document.createElement("div");
     costRow.className = "tab-row";
     const filterRow = document.createElement("div");
@@ -214,9 +214,12 @@
 
     for (const view of VIEW_DEFS) {
       const button = document.createElement("button");
+      const count = document.createElement("span");
       button.type = "button";
       button.className = view.key === activeViewKey ? "tab-button active" : "tab-button";
-      button.innerHTML = `${escapeHtml(view.label)}<span>${getViewCardCount(view)} cards</span>`;
+      button.append(view.label);
+      count.textContent = `${getViewCardCount(view)} cards`;
+      button.appendChild(count);
       button.addEventListener("click", () => {
         activeViewKey = view.key;
         render();
@@ -235,23 +238,14 @@
     const visibleState = getVisibleState(view);
     const viewCount = getViewCardCount(view);
     const renderedCount = getRenderedViewCount(view);
-    const countLabel = rarityFilterMode !== "all"
-      ? `Showing <strong>${renderedCount}</strong> of <strong>${viewCount}</strong> cards in <strong>${escapeHtml(view.label)}</strong>.`
-      : `Showing <strong>${viewCount}</strong> cards in <strong>${escapeHtml(view.label)}</strong>.`;
 
     const meta = document.createElement("section");
     meta.className = "tab-meta";
-    meta.innerHTML = `
-      <div>
-        ${countLabel}
-      </div>
-      <div>
-        Bottom-right numbers show how far a character is above or below that cost's vanilla stat line.
-      </div>
-      <div>
-        Hover a thumbnail to magnify it, then drag it into place.
-      </div>
-    `;
+    meta.append(
+      createMetaCount(viewCount, renderedCount, view.label),
+      createMetaText("Bottom-right numbers show how far a character is above or below that cost's vanilla stat line."),
+      createMetaText("Hover a thumbnail to magnify it, then drag it into place.")
+    );
 
     const board = document.createElement("section");
     board.className = "tier-board";
@@ -331,13 +325,17 @@
 
   function createPoolPanel(cardIds) {
     const wrapper = document.createElement("div");
+    const header = document.createElement("div");
+    const title = document.createElement("div");
+    const note = document.createElement("div");
     wrapper.className = "pool-content";
-    wrapper.innerHTML = `
-      <div class="pool-header">
-        <div class="pool-title">Untiered Pool</div>
-        <div class="pool-note">${cardIds.length} card${cardIds.length === 1 ? "" : "s"} remaining</div>
-      </div>
-    `;
+    header.className = "pool-header";
+    title.className = "pool-title";
+    title.textContent = "Untiered Pool";
+    note.className = "pool-note";
+    note.textContent = `${cardIds.length} card${cardIds.length === 1 ? "" : "s"} remaining`;
+    header.append(title, note);
+    wrapper.appendChild(header);
     wrapper.appendChild(createTrack("pool", cardIds, { showEmptyHint: true }));
     return wrapper;
   }
@@ -377,18 +375,21 @@
   function createCard(cardId) {
     const card = cardsById[cardId];
     const deltaLabel = formatParDelta(card.parDelta);
-    const deltaBadge = deltaLabel
-      ? `<div class="card-delta ${deltaClassName(card.parDelta)}">${deltaLabel}</div>`
-      : "";
     const article = document.createElement("article");
+    const image = document.createElement("img");
     article.className = "card";
     article.draggable = true;
     article.dataset.cardId = card.id;
     article.title = `${card.name}\nCost ${card.cost} • ${card.rarity}`;
-    article.innerHTML = `
-      <img src="${card.thumbnail}" alt="${escapeHtml(card.name)}">
-      ${deltaBadge}
-    `;
+    image.src = card.thumbnail;
+    image.alt = card.name;
+    article.appendChild(image);
+    if (deltaLabel) {
+      const deltaBadge = document.createElement("div");
+      deltaBadge.className = `card-delta ${deltaClassName(card.parDelta)}`;
+      deltaBadge.textContent = deltaLabel;
+      article.appendChild(deltaBadge);
+    }
 
     article.addEventListener("mouseenter", (event) => {
       if (document.body.classList.contains("is-dragging")) {
@@ -428,8 +429,10 @@
 
   function createHoverPreview() {
     const preview = document.createElement("div");
+    const image = document.createElement("img");
     preview.className = "hover-preview";
-    preview.innerHTML = '<img alt="">';
+    image.alt = "";
+    preview.appendChild(image);
     document.body.appendChild(preview);
     return preview;
   }
@@ -631,14 +634,6 @@
     return rows[targetRowIndex + 1]?.items[0]?.card ?? null;
   }
 
-  function escapeHtml(value) {
-    return value
-      .replaceAll("&", "&amp;")
-      .replaceAll("<", "&lt;")
-      .replaceAll(">", "&gt;")
-      .replaceAll('"', "&quot;");
-  }
-
   function formatParDelta(value) {
     if (typeof value !== "number") {
       return "";
@@ -723,6 +718,29 @@
     for (const zone of ZONES) {
       nextBucketState[zone].push(...sourceBucketState[zone].filter(predicate));
     }
+  }
+
+  function createMetaText(text) {
+    const node = document.createElement("div");
+    node.textContent = text;
+    return node;
+  }
+
+  function createMetaCount(viewCount, renderedCount, viewLabel) {
+    const node = document.createElement("div");
+    node.append("Showing ");
+    if (rarityFilterMode !== "all") {
+      node.append(createStrongText(renderedCount), " of ", createStrongText(viewCount), " cards in ", createStrongText(viewLabel), ".");
+    } else {
+      node.append(createStrongText(viewCount), " cards in ", createStrongText(viewLabel), ".");
+    }
+    return node;
+  }
+
+  function createStrongText(value) {
+    const strong = document.createElement("strong");
+    strong.textContent = String(value);
+    return strong;
   }
 
   function setRarityFilterMode(mode) {
