@@ -228,7 +228,7 @@
       button.type = "button";
       button.className = view.key === activeViewKey ? "tab-button active" : "tab-button";
       button.append(view.label);
-      count.textContent = `${getViewCardCount(view)} cards`;
+      count.textContent = getTabCountLabel(view);
       button.appendChild(count);
       button.addEventListener("click", () => {
         activeViewKey = view.key;
@@ -682,6 +682,18 @@
       return cardsByBucket[view.bucket]?.length || 0;
     }
     return cards.filter(view.predicate).length;
+  }
+
+  function getTabCountLabel(view) {
+    if (view.subtype) {
+      const subtypeCount = cards.filter((card) => card.subtypes.includes(view.subtype)).length;
+      const mentionOnlyCount = cards.filter(
+        (card) => !card.subtypes.includes(view.subtype) && (card.mentionedSubtypes || []).includes(view.subtype)
+      ).length;
+      return `${subtypeCount}/${mentionOnlyCount}`;
+    }
+
+    return `${getViewCardCount(view)} cards`;
   }
 
   function getRenderedViewCount(view) {

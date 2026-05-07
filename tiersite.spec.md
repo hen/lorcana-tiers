@@ -334,6 +334,7 @@ Rules:
 - start generated subtype tabs on a new line after `Uninkable`
 - place the rarity filter checkboxes on the right side of the tab rows
 - each tab label should include the number of cards in that view
+- generated subtype tab labels should show `subtype-card-count/mention-only-count` (for example `Super 15/5`)
 - `Songs` means `type == "Action"` and `subtypes` contains `"Song"`
 - `Actions` means `type == "Action"` and not a song
 - `Uninkable` means `inkwell == false`
