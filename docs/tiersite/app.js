@@ -17,19 +17,27 @@
   const EXPORT_FILENAME = "lorcana-set12-tier-list.json";
 
   const cards = Array.isArray(window.LORCANA_SET12_CARDS) ? window.LORCANA_SET12_CARDS.slice() : [];
+  const generatedSubtypeViews = Array.isArray(window.LORCANA_SET12_SUBTYPE_VIEWS)
+    ? window.LORCANA_SET12_SUBTYPE_VIEWS.slice()
+    : [];
   const cardsById = Object.fromEntries(cards.map((card) => [card.id, card]));
   const cardsByBucket = cards.reduce((acc, card) => {
     (acc[card.costBucket] ||= []).push(card);
     return acc;
   }, {});
   const costBuckets = TAB_ORDER.filter((bucket) => cardsByBucket[bucket]?.length);
-  const FILTER_VIEWS = [
+  const BUILTIN_FILTER_VIEWS = [
     { key: "filter:items", label: "Items", type: "filter", predicate: (card) => card.type === "Item" },
     { key: "filter:songs", label: "Songs", type: "filter", predicate: (card) => card.type === "Action" && card.subtypes.includes("Song") },
     { key: "filter:actions", label: "Actions", type: "filter", predicate: (card) => card.type === "Action" && !card.subtypes.includes("Song") },
     { key: "filter:locations", label: "Locations", type: "filter", predicate: (card) => card.type === "Location" },
     { key: "filter:uninkable", label: "Uninkable", type: "filter", predicate: (card) => card.inkwell === false },
   ];
+  const subtypeFilterViews = generatedSubtypeViews.map((view) => ({
+    ...view,
+    predicate: (card) => card.subtypes.includes(view.subtype) || (card.mentionedSubtypes || []).includes(view.subtype),
+  }));
+  const FILTER_VIEWS = [...BUILTIN_FILTER_VIEWS, ...subtypeFilterViews];
   const VIEW_DEFS = [
     ...costBuckets.map((bucket) => ({ key: `cost:${bucket}`, label: `Cost ${bucket}`, type: "cost", bucket })),
     ...FILTER_VIEWS.filter((view) => cards.some(view.predicate)),
@@ -209,8 +217,10 @@
     tabsRoot.replaceChildren();
     const costRow = document.createElement("div");
     costRow.className = "tab-row";
-    const filterRow = document.createElement("div");
-    filterRow.className = "tab-row";
+    const builtInFilterRow = document.createElement("div");
+    builtInFilterRow.className = "tab-row";
+    const subtypeFilterRow = document.createElement("div");
+    subtypeFilterRow.className = "tab-row";
 
     for (const view of VIEW_DEFS) {
       const button = document.createElement("button");
@@ -224,12 +234,21 @@
         activeViewKey = view.key;
         render();
       });
-      (view.type === "cost" ? costRow : filterRow).appendChild(button);
+      if (view.type === "cost") {
+        costRow.appendChild(button);
+      } else if (view.subtype) {
+        subtypeFilterRow.appendChild(button);
+      } else {
+        builtInFilterRow.appendChild(button);
+      }
     }
 
     tabsRoot.appendChild(costRow);
-    if (filterRow.childElementCount > 0) {
-      tabsRoot.appendChild(filterRow);
+    if (builtInFilterRow.childElementCount > 0) {
+      tabsRoot.appendChild(builtInFilterRow);
+    }
+    if (subtypeFilterRow.childElementCount > 0) {
+      tabsRoot.appendChild(subtypeFilterRow);
     }
   }
 
@@ -253,15 +272,15 @@
     const showEmptyTierHint = visibleState.pool.length > 0;
     for (const rowDef of ROWS) {
       if (rowDef.type === "split") {
-        board.appendChild(createSplitTierRow(rowDef.tiers, visibleState, showEmptyTierHint));
+        board.appendChild(createSplitTierRow(rowDef.tiers, visibleState, showEmptyTierHint, view));
       } else {
-        board.appendChild(createTierRow(rowDef.tier, visibleState[rowDef.tier], showEmptyTierHint));
+        board.appendChild(createTierRow(rowDef.tier, visibleState[rowDef.tier], showEmptyTierHint, view));
       }
     }
 
     const pool = document.createElement("section");
     pool.className = "pool-panel";
-    pool.appendChild(createPoolPanel(visibleState.pool));
+    pool.appendChild(createPoolPanel(visibleState.pool, view));
 
     const layout = document.createElement("section");
     layout.className = "board-layout";
@@ -286,7 +305,7 @@
     pool.style.height = `${board.offsetHeight}px`;
   }
 
-  function createTierRow(tier, cardIds, showEmptyHint) {
+  function createTierRow(tier, cardIds, showEmptyHint, view) {
     const row = document.createElement("div");
     row.className = "tier-row";
 
@@ -295,11 +314,11 @@
     badge.dataset.tier = tier;
     badge.textContent = tier;
 
-    row.append(badge, createTrack(tier, cardIds, { showEmptyHint }));
+    row.append(badge, createTrack(tier, cardIds, view, { showEmptyHint }));
     return row;
   }
 
-  function createSplitTierRow(tiers, bucketState, showEmptyHint) {
+  function createSplitTierRow(tiers, bucketState, showEmptyHint, view) {
     const row = document.createElement("div");
     row.className = "tier-row tier-row-split";
 
@@ -316,14 +335,14 @@
     const trackGroup = document.createElement("div");
     trackGroup.className = "split-track-group";
     for (const tier of tiers) {
-      trackGroup.appendChild(createTrack(tier, bucketState[tier], { showEmptyHint, className: "split-card-track" }));
+      trackGroup.appendChild(createTrack(tier, bucketState[tier], view, { showEmptyHint, className: "split-card-track" }));
     }
 
     row.append(badgeGroup, trackGroup);
     return row;
   }
 
-  function createPoolPanel(cardIds) {
+  function createPoolPanel(cardIds, view) {
     const wrapper = document.createElement("div");
     const header = document.createElement("div");
     const title = document.createElement("div");
@@ -336,11 +355,11 @@
     note.textContent = `${cardIds.length} card${cardIds.length === 1 ? "" : "s"} remaining`;
     header.append(title, note);
     wrapper.appendChild(header);
-    wrapper.appendChild(createTrack("pool", cardIds, { showEmptyHint: true }));
+    wrapper.appendChild(createTrack("pool", cardIds, view, { showEmptyHint: true }));
     return wrapper;
   }
 
-  function createTrack(zone, cardIds, options = {}) {
+  function createTrack(zone, cardIds, view, options = {}) {
     const { showEmptyHint = true } = options;
     const track = document.createElement("div");
     track.className = zone === "pool" ? "card-track pool-track" : "card-track";
@@ -350,7 +369,7 @@
     track.dataset.zone = zone;
 
     for (const cardId of cardIds) {
-      track.appendChild(createCard(cardId));
+      track.appendChild(createCard(cardId, view));
     }
 
     if (!cardIds.length && showEmptyHint) {
@@ -372,12 +391,15 @@
     return track;
   }
 
-  function createCard(cardId) {
+  function createCard(cardId, view) {
     const card = cardsById[cardId];
     const deltaLabel = formatParDelta(card.parDelta);
     const article = document.createElement("article");
     const image = document.createElement("img");
     article.className = "card";
+    if (isSubtypeMentionCard(view, card)) {
+      article.classList.add("is-subtype-mention");
+    }
     article.draggable = true;
     article.dataset.cardId = card.id;
     article.title = `${card.name}\nCost ${card.cost} • ${card.rarity}`;
@@ -702,6 +724,10 @@
 
   function cardMatchesView(view, card) {
     return view.type === "cost" ? card.costBucket === view.bucket : view.predicate(card);
+  }
+
+  function isSubtypeMentionCard(view, card) {
+    return Boolean(view?.subtype) && (card.mentionedSubtypes || []).includes(view.subtype);
   }
 
   function isRarityVisible(card) {

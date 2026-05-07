@@ -9,6 +9,7 @@ window.LORCANA_SET12_CARDS = [
       "Super",
       "Hero"
     ],
+    "mentionedSubtypes": [],
     "rarity": "Common",
     "story": "Darkwing Duck",
     "cost": 2,
@@ -26,6 +27,7 @@ window.LORCANA_SET12_CARDS = [
       "Storyborn",
       "Ally"
     ],
+    "mentionedSubtypes": [],
     "rarity": "Common",
     "story": "Chip 'n Dale: Rescue Rangers",
     "cost": 3,
@@ -44,6 +46,7 @@ window.LORCANA_SET12_CARDS = [
       "Hero",
       "Toy"
     ],
+    "mentionedSubtypes": [],
     "rarity": "Common",
     "story": "Toy Story",
     "cost": 1,
@@ -61,6 +64,7 @@ window.LORCANA_SET12_CARDS = [
       "Storyborn",
       "Hero"
     ],
+    "mentionedSubtypes": [],
     "rarity": "Common",
     "story": "Chip 'n Dale: Rescue Rangers",
     "cost": 3,
@@ -77,6 +81,9 @@ window.LORCANA_SET12_CARDS = [
     "subtypes": [
       "Storyborn",
       "Ally",
+      "Madrigal"
+    ],
+    "mentionedSubtypes": [
       "Madrigal"
     ],
     "rarity": "Uncommon",
@@ -97,6 +104,7 @@ window.LORCANA_SET12_CARDS = [
       "Mentor",
       "Madrigal"
     ],
+    "mentionedSubtypes": [],
     "rarity": "Common",
     "story": "Encanto",
     "cost": 4,
@@ -114,6 +122,7 @@ window.LORCANA_SET12_CARDS = [
       "Storyborn",
       "Ally"
     ],
+    "mentionedSubtypes": [],
     "rarity": "Common",
     "story": "Robin Hood",
     "cost": 2,
@@ -132,6 +141,7 @@ window.LORCANA_SET12_CARDS = [
       "Hero",
       "Prince"
     ],
+    "mentionedSubtypes": [],
     "rarity": "Common",
     "story": "The Little Mermaid",
     "cost": 5,
@@ -150,6 +160,7 @@ window.LORCANA_SET12_CARDS = [
       "Ally",
       "Madrigal"
     ],
+    "mentionedSubtypes": [],
     "rarity": "Common",
     "story": "Encanto",
     "cost": 5,
@@ -169,6 +180,7 @@ window.LORCANA_SET12_CARDS = [
       "Dinosaur",
       "Toy"
     ],
+    "mentionedSubtypes": [],
     "rarity": "Rare",
     "story": "Toy Story",
     "cost": 2,
@@ -187,6 +199,7 @@ window.LORCANA_SET12_CARDS = [
       "Ally",
       "Toy"
     ],
+    "mentionedSubtypes": [],
     "rarity": "Uncommon",
     "story": "Toy Story",
     "cost": 2,
@@ -204,6 +217,7 @@ window.LORCANA_SET12_CARDS = [
       "Storyborn",
       "Ally"
     ],
+    "mentionedSubtypes": [],
     "rarity": "Rare",
     "story": "Chip 'n Dale: Rescue Rangers",
     "cost": 2,
@@ -222,6 +236,7 @@ window.LORCANA_SET12_CARDS = [
       "Ally",
       "Toy"
     ],
+    "mentionedSubtypes": [],
     "rarity": "Uncommon",
     "story": "Toy Story",
     "cost": 3,
@@ -239,6 +254,7 @@ window.LORCANA_SET12_CARDS = [
       "Storyborn",
       "Hero"
     ],
+    "mentionedSubtypes": [],
     "rarity": "Uncommon",
     "story": "Chip 'n Dale: Rescue Rangers",
     "cost": 4,
@@ -255,6 +271,9 @@ window.LORCANA_SET12_CARDS = [
     "subtypes": [
       "Floodborn",
       "Hero",
+      "Toy"
+    ],
+    "mentionedSubtypes": [
       "Toy"
     ],
     "rarity": "Legendary",
@@ -275,6 +294,7 @@ window.LORCANA_SET12_CARDS = [
       "Ally",
       "Madrigal"
     ],
+    "mentionedSubtypes": [],
     "rarity": "Uncommon",
     "story": "Encanto",
     "cost": 3,
@@ -293,6 +313,7 @@ window.LORCANA_SET12_CARDS = [
       "Ally",
       "Toy"
     ],
+    "mentionedSubtypes": [],
     "rarity": "Common",
     "story": "Toy Story",
     "cost": 3,
@@ -311,6 +332,7 @@ window.LORCANA_SET12_CARDS = [
       "Hero",
       "Princess"
     ],
+    "mentionedSubtypes": [],
     "rarity": "Rare",
     "story": "The Little Mermaid",
     "cost": 4,
@@ -327,6 +349,9 @@ window.LORCANA_SET12_CARDS = [
     "subtypes": [
       "Floodborn",
       "Ally",
+      "Madrigal"
+    ],
+    "mentionedSubtypes": [
       "Madrigal"
     ],
     "rarity": "Rare",
@@ -347,6 +372,9 @@ window.LORCANA_SET12_CARDS = [
       "Hero",
       "Toy"
     ],
+    "mentionedSubtypes": [
+      "Toy"
+    ],
     "rarity": "Super Rare",
     "story": "Toy Story",
     "cost": 3,
@@ -363,6 +391,9 @@ window.LORCANA_SET12_CARDS = [
     "subtypes": [
       "Storyborn",
       "Hero",
+      "Toy"
+    ],
+    "mentionedSubtypes": [
       "Toy"
     ],
     "rarity": "Uncommon",
@@ -382,6 +413,7 @@ window.LORCANA_SET12_CARDS = [
       "Dreamborn",
       "Hero"
     ],
+    "mentionedSubtypes": [],
     "rarity": "Legendary",
     "story": "Chip 'n Dale: Rescue Rangers",
     "cost": 4,
@@ -400,6 +432,7 @@ window.LORCANA_SET12_CARDS = [
       "Hero",
       "Prince"
     ],
+    "mentionedSubtypes": [],
     "rarity": "Rare",
     "story": "Snow White and the Seven Dwarfs",
     "cost": 1,
@@ -418,6 +451,7 @@ window.LORCANA_SET12_CARDS = [
       "Mentor",
       "Madrigal"
     ],
+    "mentionedSubtypes": [],
     "rarity": "Common",
     "story": "Encanto",
     "cost": 1,
@@ -435,6 +469,7 @@ window.LORCANA_SET12_CARDS = [
       "Dreamborn",
       "Ally"
     ],
+    "mentionedSubtypes": [],
     "rarity": "Uncommon",
     "story": "Mickey Mouse & Friends",
     "cost": 2,
@@ -452,6 +487,7 @@ window.LORCANA_SET12_CARDS = [
       "Dreamborn",
       "Hero"
     ],
+    "mentionedSubtypes": [],
     "rarity": "Super Rare",
     "story": "Mickey Mouse & Friends",
     "cost": 4,
@@ -469,6 +505,7 @@ window.LORCANA_SET12_CARDS = [
       "Dreamborn",
       "Hero"
     ],
+    "mentionedSubtypes": [],
     "rarity": "Common",
     "story": "Chip 'n Dale: Rescue Rangers",
     "cost": 6,
@@ -483,6 +520,7 @@ window.LORCANA_SET12_CARDS = [
     "name": "Ranger Team-Up",
     "type": "Action",
     "subtypes": [],
+    "mentionedSubtypes": [],
     "rarity": "Uncommon",
     "story": "Chip 'n Dale: Rescue Rangers",
     "cost": 2,
@@ -499,6 +537,7 @@ window.LORCANA_SET12_CARDS = [
     "subtypes": [
       "Song"
     ],
+    "mentionedSubtypes": [],
     "rarity": "Common",
     "story": "Encanto",
     "cost": 3,
@@ -515,6 +554,9 @@ window.LORCANA_SET12_CARDS = [
     "subtypes": [
       "Song"
     ],
+    "mentionedSubtypes": [
+      "Toy"
+    ],
     "rarity": "Super Rare",
     "story": "Toy Story",
     "cost": 3,
@@ -529,6 +571,7 @@ window.LORCANA_SET12_CARDS = [
     "name": "Metamorphosis",
     "type": "Action",
     "subtypes": [],
+    "mentionedSubtypes": [],
     "rarity": "Rare",
     "story": "Encanto",
     "cost": 3,
@@ -545,6 +588,7 @@ window.LORCANA_SET12_CARDS = [
     "subtypes": [
       "Song"
     ],
+    "mentionedSubtypes": [],
     "rarity": "Rare",
     "story": "Chip 'n Dale: Rescue Rangers",
     "cost": 3,
@@ -559,6 +603,7 @@ window.LORCANA_SET12_CARDS = [
     "name": "Safety Rope",
     "type": "Item",
     "subtypes": [],
+    "mentionedSubtypes": [],
     "rarity": "Uncommon",
     "story": "Lorcana",
     "cost": 2,
@@ -573,6 +618,7 @@ window.LORCANA_SET12_CARDS = [
     "name": "Andy's Room - Home Base",
     "type": "Location",
     "subtypes": [],
+    "mentionedSubtypes": [],
     "rarity": "Rare",
     "story": "Toy Story",
     "cost": 3,
@@ -591,6 +637,7 @@ window.LORCANA_SET12_CARDS = [
       "Villain",
       "Prince"
     ],
+    "mentionedSubtypes": [],
     "rarity": "Common",
     "story": "Brave",
     "cost": 2,
@@ -607,6 +654,9 @@ window.LORCANA_SET12_CARDS = [
     "subtypes": [
       "Storyborn",
       "Mentor",
+      "Madrigal"
+    ],
+    "mentionedSubtypes": [
       "Madrigal"
     ],
     "rarity": "Uncommon",
@@ -627,6 +677,7 @@ window.LORCANA_SET12_CARDS = [
       "Hero",
       "Princess"
     ],
+    "mentionedSubtypes": [],
     "rarity": "Legendary",
     "story": "Snow White and the Seven Dwarfs",
     "cost": 3,
@@ -645,6 +696,7 @@ window.LORCANA_SET12_CARDS = [
       "Ally",
       "Seven Dwarfs"
     ],
+    "mentionedSubtypes": [],
     "rarity": "Uncommon",
     "story": "Snow White and the Seven Dwarfs",
     "cost": 6,
@@ -663,6 +715,7 @@ window.LORCANA_SET12_CARDS = [
       "Ally",
       "Seven Dwarfs"
     ],
+    "mentionedSubtypes": [],
     "rarity": "Common",
     "story": "Snow White and the Seven Dwarfs",
     "cost": 5,
@@ -680,6 +733,9 @@ window.LORCANA_SET12_CARDS = [
       "Storyborn",
       "Ally",
       "Seven Dwarfs"
+    ],
+    "mentionedSubtypes": [
+      "Princess"
     ],
     "rarity": "Uncommon",
     "story": "Snow White and the Seven Dwarfs",
@@ -699,6 +755,7 @@ window.LORCANA_SET12_CARDS = [
       "Ally",
       "Seven Dwarfs"
     ],
+    "mentionedSubtypes": [],
     "rarity": "Common",
     "story": "Snow White and the Seven Dwarfs",
     "cost": 7,
@@ -717,6 +774,7 @@ window.LORCANA_SET12_CARDS = [
       "Ally",
       "Seven Dwarfs"
     ],
+    "mentionedSubtypes": [],
     "rarity": "Common",
     "story": "Snow White and the Seven Dwarfs",
     "cost": 3,
@@ -735,6 +793,7 @@ window.LORCANA_SET12_CARDS = [
       "Ally",
       "Seven Dwarfs"
     ],
+    "mentionedSubtypes": [],
     "rarity": "Common",
     "story": "Snow White and the Seven Dwarfs",
     "cost": 2,
@@ -752,6 +811,9 @@ window.LORCANA_SET12_CARDS = [
       "Storyborn",
       "Ally",
       "Seven Dwarfs"
+    ],
+    "mentionedSubtypes": [
+      "Princess"
     ],
     "rarity": "Common",
     "story": "Snow White and the Seven Dwarfs",
@@ -771,6 +833,7 @@ window.LORCANA_SET12_CARDS = [
       "Mentor",
       "Madrigal"
     ],
+    "mentionedSubtypes": [],
     "rarity": "Common",
     "story": "Encanto",
     "cost": 3,
@@ -789,6 +852,7 @@ window.LORCANA_SET12_CARDS = [
       "Super",
       "Hero"
     ],
+    "mentionedSubtypes": [],
     "rarity": "Common",
     "story": "The Incredibles",
     "cost": 2,
@@ -805,6 +869,7 @@ window.LORCANA_SET12_CARDS = [
     "subtypes": [
       "Storyborn"
     ],
+    "mentionedSubtypes": [],
     "rarity": "Common",
     "story": "Brave",
     "cost": 1,
@@ -823,6 +888,7 @@ window.LORCANA_SET12_CARDS = [
       "Super",
       "Hero"
     ],
+    "mentionedSubtypes": [],
     "rarity": "Uncommon",
     "story": "The Incredibles",
     "cost": 3,
@@ -841,6 +907,7 @@ window.LORCANA_SET12_CARDS = [
       "Super",
       "Hero"
     ],
+    "mentionedSubtypes": [],
     "rarity": "Rare",
     "story": "The Incredibles",
     "cost": 5,
@@ -859,6 +926,7 @@ window.LORCANA_SET12_CARDS = [
       "Ally",
       "Prince"
     ],
+    "mentionedSubtypes": [],
     "rarity": "Uncommon",
     "story": "Brave",
     "cost": 3,
@@ -876,6 +944,7 @@ window.LORCANA_SET12_CARDS = [
       "Storyborn",
       "Queen"
     ],
+    "mentionedSubtypes": [],
     "rarity": "Uncommon",
     "story": "Brave",
     "cost": 4,
@@ -894,6 +963,7 @@ window.LORCANA_SET12_CARDS = [
       "Hero",
       "Sorcerer"
     ],
+    "mentionedSubtypes": [],
     "rarity": "Uncommon",
     "story": "Mickey Mouse & Friends",
     "cost": 3,
@@ -910,6 +980,10 @@ window.LORCANA_SET12_CARDS = [
     "subtypes": [
       "Storyborn",
       "Ally"
+    ],
+    "mentionedSubtypes": [
+      "Hero",
+      "Super"
     ],
     "rarity": "Common",
     "story": "The Incredibles",
@@ -929,6 +1003,9 @@ window.LORCANA_SET12_CARDS = [
       "Ally",
       "Inventor"
     ],
+    "mentionedSubtypes": [
+      "Super"
+    ],
     "rarity": "Rare",
     "story": "The Incredibles",
     "cost": 3,
@@ -947,6 +1024,7 @@ window.LORCANA_SET12_CARDS = [
       "Villain",
       "Sorcerer"
     ],
+    "mentionedSubtypes": [],
     "rarity": "Rare",
     "story": "Sleeping Beauty",
     "cost": 5,
@@ -965,6 +1043,7 @@ window.LORCANA_SET12_CARDS = [
       "Ally",
       "Madrigal"
     ],
+    "mentionedSubtypes": [],
     "rarity": "Super Rare",
     "story": "Encanto",
     "cost": 3,
@@ -983,6 +1062,7 @@ window.LORCANA_SET12_CARDS = [
       "Villain",
       "Prince"
     ],
+    "mentionedSubtypes": [],
     "rarity": "Super Rare",
     "story": "Brave",
     "cost": 5,
@@ -999,6 +1079,9 @@ window.LORCANA_SET12_CARDS = [
     "subtypes": [
       "Floodborn",
       "Mentor",
+      "Madrigal"
+    ],
+    "mentionedSubtypes": [
       "Madrigal"
     ],
     "rarity": "Rare",
@@ -1019,6 +1102,9 @@ window.LORCANA_SET12_CARDS = [
       "Super",
       "Hero"
     ],
+    "mentionedSubtypes": [
+      "Super"
+    ],
     "rarity": "Rare",
     "story": "The Incredibles",
     "cost": 6,
@@ -1035,6 +1121,9 @@ window.LORCANA_SET12_CARDS = [
     "subtypes": [
       "Floodborn",
       "Ally",
+      "Madrigal"
+    ],
+    "mentionedSubtypes": [
       "Madrigal"
     ],
     "rarity": "Legendary",
@@ -1055,6 +1144,7 @@ window.LORCANA_SET12_CARDS = [
       "Super",
       "Hero"
     ],
+    "mentionedSubtypes": [],
     "rarity": "Super Rare",
     "story": "The Incredibles",
     "cost": 4,
@@ -1073,6 +1163,7 @@ window.LORCANA_SET12_CARDS = [
       "Ally",
       "Madrigal"
     ],
+    "mentionedSubtypes": [],
     "rarity": "Common",
     "story": "Encanto",
     "cost": 1,
@@ -1087,6 +1178,9 @@ window.LORCANA_SET12_CARDS = [
     "name": "Super Relocation Program",
     "type": "Action",
     "subtypes": [],
+    "mentionedSubtypes": [
+      "Hero"
+    ],
     "rarity": "Common",
     "story": "The Incredibles",
     "cost": 4,
@@ -1101,6 +1195,9 @@ window.LORCANA_SET12_CARDS = [
     "name": "Right Behind You",
     "type": "Action",
     "subtypes": [],
+    "mentionedSubtypes": [
+      "Princess"
+    ],
     "rarity": "Uncommon",
     "story": "Snow White and the Seven Dwarfs",
     "cost": 3,
@@ -1115,6 +1212,9 @@ window.LORCANA_SET12_CARDS = [
     "name": "Don't Be Nervous",
     "type": "Action",
     "subtypes": [],
+    "mentionedSubtypes": [
+      "Princess"
+    ],
     "rarity": "Rare",
     "story": "Snow White and the Seven Dwarfs",
     "cost": 5,
@@ -1129,6 +1229,9 @@ window.LORCANA_SET12_CARDS = [
     "name": "Super Suit",
     "type": "Item",
     "subtypes": [],
+    "mentionedSubtypes": [
+      "Hero"
+    ],
     "rarity": "Uncommon",
     "story": "The Incredibles",
     "cost": 2,
@@ -1143,6 +1246,7 @@ window.LORCANA_SET12_CARDS = [
     "name": "DunBroch Family Tapestry",
     "type": "Item",
     "subtypes": [],
+    "mentionedSubtypes": [],
     "rarity": "Rare",
     "story": "Brave",
     "cost": 2,
@@ -1157,6 +1261,7 @@ window.LORCANA_SET12_CARDS = [
     "name": "Ring of Stones - Place of Legends",
     "type": "Location",
     "subtypes": [],
+    "mentionedSubtypes": [],
     "rarity": "Rare",
     "story": "Brave",
     "cost": 4,
@@ -1175,6 +1280,7 @@ window.LORCANA_SET12_CARDS = [
       "Hero",
       "Princess"
     ],
+    "mentionedSubtypes": [],
     "rarity": "Common",
     "story": "Brave",
     "cost": 2,
@@ -1193,6 +1299,7 @@ window.LORCANA_SET12_CARDS = [
       "Ally",
       "Prince"
     ],
+    "mentionedSubtypes": [],
     "rarity": "Common",
     "story": "Brave",
     "cost": 3,
@@ -1210,6 +1317,7 @@ window.LORCANA_SET12_CARDS = [
       "Storyborn",
       "Ally"
     ],
+    "mentionedSubtypes": [],
     "rarity": "Common",
     "story": "Brave",
     "cost": 1,
@@ -1227,6 +1335,7 @@ window.LORCANA_SET12_CARDS = [
       "Storyborn",
       "Hero"
     ],
+    "mentionedSubtypes": [],
     "rarity": "Common",
     "story": "The Fox and the Hound",
     "cost": 5,
@@ -1244,6 +1353,7 @@ window.LORCANA_SET12_CARDS = [
       "Storyborn",
       "Villain"
     ],
+    "mentionedSubtypes": [],
     "rarity": "Common",
     "story": "Atlantis: The Lost Empire",
     "cost": 4,
@@ -1261,6 +1371,7 @@ window.LORCANA_SET12_CARDS = [
       "Storyborn",
       "Sorcerer"
     ],
+    "mentionedSubtypes": [],
     "rarity": "Common",
     "story": "Brave",
     "cost": 5,
@@ -1280,6 +1391,7 @@ window.LORCANA_SET12_CARDS = [
       "Queen",
       "Sorcerer"
     ],
+    "mentionedSubtypes": [],
     "rarity": "Common",
     "story": "Snow White and the Seven Dwarfs",
     "cost": 1,
@@ -1299,6 +1411,7 @@ window.LORCANA_SET12_CARDS = [
       "Toy",
       "Captain"
     ],
+    "mentionedSubtypes": [],
     "rarity": "Common",
     "story": "Toy Story",
     "cost": 2,
@@ -1318,6 +1431,7 @@ window.LORCANA_SET12_CARDS = [
       "Toy",
       "Racer"
     ],
+    "mentionedSubtypes": [],
     "rarity": "Common",
     "story": "Toy Story",
     "cost": 1,
@@ -1335,6 +1449,7 @@ window.LORCANA_SET12_CARDS = [
       "Storyborn",
       "Ally"
     ],
+    "mentionedSubtypes": [],
     "rarity": "Uncommon",
     "story": "Brave",
     "cost": 5,
@@ -1353,6 +1468,7 @@ window.LORCANA_SET12_CARDS = [
       "Ally",
       "Toy"
     ],
+    "mentionedSubtypes": [],
     "rarity": "Rare",
     "story": "Toy Story",
     "cost": 3,
@@ -1370,6 +1486,7 @@ window.LORCANA_SET12_CARDS = [
       "Storyborn",
       "Ally"
     ],
+    "mentionedSubtypes": [],
     "rarity": "Uncommon",
     "story": "Atlantis: The Lost Empire",
     "cost": 4,
@@ -1387,6 +1504,7 @@ window.LORCANA_SET12_CARDS = [
       "Dreamborn",
       "Hero"
     ],
+    "mentionedSubtypes": [],
     "rarity": "Uncommon",
     "story": "Peter Pan",
     "cost": 3,
@@ -1404,6 +1522,7 @@ window.LORCANA_SET12_CARDS = [
       "Dreamborn",
       "Hero"
     ],
+    "mentionedSubtypes": [],
     "rarity": "Super Rare",
     "story": "Atlantis: The Lost Empire",
     "cost": 7,
@@ -1423,6 +1542,9 @@ window.LORCANA_SET12_CARDS = [
       "Alien",
       "Toy"
     ],
+    "mentionedSubtypes": [
+      "Toy"
+    ],
     "rarity": "Rare",
     "story": "Toy Story",
     "cost": 1,
@@ -1440,6 +1562,7 @@ window.LORCANA_SET12_CARDS = [
       "Dreamborn",
       "Ally"
     ],
+    "mentionedSubtypes": [],
     "rarity": "Uncommon",
     "story": "Mickey Mouse & Friends",
     "cost": 5,
@@ -1459,6 +1582,9 @@ window.LORCANA_SET12_CARDS = [
       "Toy",
       "Captain"
     ],
+    "mentionedSubtypes": [
+      "Toy"
+    ],
     "rarity": "Rare",
     "story": "Toy Story",
     "cost": 3,
@@ -1477,6 +1603,7 @@ window.LORCANA_SET12_CARDS = [
       "Mentor",
       "Queen"
     ],
+    "mentionedSubtypes": [],
     "rarity": "Super Rare",
     "story": "Brave",
     "cost": 4,
@@ -1494,6 +1621,7 @@ window.LORCANA_SET12_CARDS = [
       "Storyborn",
       "Villain"
     ],
+    "mentionedSubtypes": [],
     "rarity": "Uncommon",
     "story": "Atlantis: The Lost Empire",
     "cost": 2,
@@ -1511,6 +1639,7 @@ window.LORCANA_SET12_CARDS = [
       "Storyborn",
       "Ally"
     ],
+    "mentionedSubtypes": [],
     "rarity": "Common",
     "story": "Atlantis: The Lost Empire",
     "cost": 2,
@@ -1529,6 +1658,7 @@ window.LORCANA_SET12_CARDS = [
       "Hero",
       "Princess"
     ],
+    "mentionedSubtypes": [],
     "rarity": "Rare",
     "story": "Brave",
     "cost": 5,
@@ -1548,6 +1678,7 @@ window.LORCANA_SET12_CARDS = [
       "Queen",
       "Sorcerer"
     ],
+    "mentionedSubtypes": [],
     "rarity": "Legendary",
     "story": "Snow White and the Seven Dwarfs",
     "cost": 4,
@@ -1567,6 +1698,7 @@ window.LORCANA_SET12_CARDS = [
       "Toy",
       "Captain"
     ],
+    "mentionedSubtypes": [],
     "rarity": "Legendary",
     "story": "Toy Story",
     "cost": 7,
@@ -1584,6 +1716,7 @@ window.LORCANA_SET12_CARDS = [
       "Dreamborn",
       "Villain"
     ],
+    "mentionedSubtypes": [],
     "rarity": "Rare",
     "story": "101 Dalmatians",
     "cost": 6,
@@ -1601,6 +1734,7 @@ window.LORCANA_SET12_CARDS = [
       "Dreamborn",
       "Villain"
     ],
+    "mentionedSubtypes": [],
     "rarity": "Rare",
     "story": "Atlantis: The Lost Empire",
     "cost": 6,
@@ -1618,6 +1752,7 @@ window.LORCANA_SET12_CARDS = [
       "Storyborn",
       "Ally"
     ],
+    "mentionedSubtypes": [],
     "rarity": "Uncommon",
     "story": "Snow White and the Seven Dwarfs",
     "cost": 3,
@@ -1634,6 +1769,7 @@ window.LORCANA_SET12_CARDS = [
     "subtypes": [
       "Song"
     ],
+    "mentionedSubtypes": [],
     "rarity": "Uncommon",
     "story": "Toy Story",
     "cost": 4,
@@ -1648,6 +1784,7 @@ window.LORCANA_SET12_CARDS = [
     "name": "Sabotage",
     "type": "Action",
     "subtypes": [],
+    "mentionedSubtypes": [],
     "rarity": "Common",
     "story": "Atlantis: The Lost Empire",
     "cost": 3,
@@ -1662,6 +1799,7 @@ window.LORCANA_SET12_CARDS = [
     "name": "The Family Scattered",
     "type": "Action",
     "subtypes": [],
+    "mentionedSubtypes": [],
     "rarity": "Super Rare",
     "story": "Encanto",
     "cost": 8,
@@ -1676,6 +1814,7 @@ window.LORCANA_SET12_CARDS = [
     "name": "Buzz's Arm",
     "type": "Item",
     "subtypes": [],
+    "mentionedSubtypes": [],
     "rarity": "Uncommon",
     "story": "Toy Story",
     "cost": 2,
@@ -1690,6 +1829,7 @@ window.LORCANA_SET12_CARDS = [
     "name": "The Claw",
     "type": "Item",
     "subtypes": [],
+    "mentionedSubtypes": [],
     "rarity": "Rare",
     "story": "Toy Story",
     "cost": 4,
@@ -1704,6 +1844,7 @@ window.LORCANA_SET12_CARDS = [
     "name": "Gyro-Evac",
     "type": "Item",
     "subtypes": [],
+    "mentionedSubtypes": [],
     "rarity": "Uncommon",
     "story": "Atlantis: The Lost Empire",
     "cost": 3,
@@ -1718,6 +1859,7 @@ window.LORCANA_SET12_CARDS = [
     "name": "Merida's Bow",
     "type": "Item",
     "subtypes": [],
+    "mentionedSubtypes": [],
     "rarity": "Common",
     "story": "Brave",
     "cost": 2,
@@ -1732,6 +1874,9 @@ window.LORCANA_SET12_CARDS = [
     "name": "Pizza Planet - Spaceport",
     "type": "Location",
     "subtypes": [],
+    "mentionedSubtypes": [
+      "Toy"
+    ],
     "rarity": "Rare",
     "story": "Toy Story",
     "cost": 2,
@@ -1749,6 +1894,7 @@ window.LORCANA_SET12_CARDS = [
       "Floodborn",
       "Villain"
     ],
+    "mentionedSubtypes": [],
     "rarity": "Rare",
     "story": "Atlantis: The Lost Empire",
     "cost": 6,
@@ -1767,6 +1913,7 @@ window.LORCANA_SET12_CARDS = [
       "Super",
       "Hero"
     ],
+    "mentionedSubtypes": [],
     "rarity": "Common",
     "story": "The Incredibles",
     "cost": 1,
@@ -1784,6 +1931,7 @@ window.LORCANA_SET12_CARDS = [
       "Storyborn",
       "Villain"
     ],
+    "mentionedSubtypes": [],
     "rarity": "Common",
     "story": "Atlantis: The Lost Empire",
     "cost": 3,
@@ -1801,6 +1949,7 @@ window.LORCANA_SET12_CARDS = [
       "Dreamborn",
       "Ally"
     ],
+    "mentionedSubtypes": [],
     "rarity": "Common",
     "story": "Hercules",
     "cost": 6,
@@ -1818,6 +1967,7 @@ window.LORCANA_SET12_CARDS = [
       "Storyborn",
       "Ally"
     ],
+    "mentionedSubtypes": [],
     "rarity": "Common",
     "story": "Atlantis: The Lost Empire",
     "cost": 1,
@@ -1835,6 +1985,7 @@ window.LORCANA_SET12_CARDS = [
       "Dreamborn",
       "Hero"
     ],
+    "mentionedSubtypes": [],
     "rarity": "Common",
     "story": "Atlantis: The Lost Empire",
     "cost": 3,
@@ -1853,6 +2004,7 @@ window.LORCANA_SET12_CARDS = [
       "King",
       "Deity"
     ],
+    "mentionedSubtypes": [],
     "rarity": "Uncommon",
     "story": "Hercules",
     "cost": 5,
@@ -1870,6 +2022,7 @@ window.LORCANA_SET12_CARDS = [
       "Storyborn",
       "Ally"
     ],
+    "mentionedSubtypes": [],
     "rarity": "Common",
     "story": "Atlantis: The Lost Empire",
     "cost": 5,
@@ -1886,6 +2039,9 @@ window.LORCANA_SET12_CARDS = [
     "subtypes": [
       "Storyborn",
       "Ally",
+      "Toy"
+    ],
+    "mentionedSubtypes": [
       "Toy"
     ],
     "rarity": "Common",
@@ -1906,6 +2062,9 @@ window.LORCANA_SET12_CARDS = [
       "Ally",
       "Toy"
     ],
+    "mentionedSubtypes": [
+      "Toy"
+    ],
     "rarity": "Common",
     "story": "Toy Story",
     "cost": 2,
@@ -1924,6 +2083,7 @@ window.LORCANA_SET12_CARDS = [
       "Ally",
       "Toy"
     ],
+    "mentionedSubtypes": [],
     "rarity": "Uncommon",
     "story": "Toy Story",
     "cost": 3,
@@ -1940,6 +2100,9 @@ window.LORCANA_SET12_CARDS = [
     "subtypes": [
       "Storyborn",
       "Ally",
+      "Toy"
+    ],
+    "mentionedSubtypes": [
       "Toy"
     ],
     "rarity": "Uncommon",
@@ -1959,6 +2122,7 @@ window.LORCANA_SET12_CARDS = [
       "Dreamborn",
       "Ally"
     ],
+    "mentionedSubtypes": [],
     "rarity": "Uncommon",
     "story": "Mickey Mouse & Friends",
     "cost": 3,
@@ -1976,6 +2140,7 @@ window.LORCANA_SET12_CARDS = [
       "Storyborn",
       "Hero"
     ],
+    "mentionedSubtypes": [],
     "rarity": "Uncommon",
     "story": "The Fox and the Hound",
     "cost": 6,
@@ -1993,6 +2158,7 @@ window.LORCANA_SET12_CARDS = [
       "Dreamborn",
       "Ally"
     ],
+    "mentionedSubtypes": [],
     "rarity": "Uncommon",
     "story": "Atlantis: The Lost Empire",
     "cost": 2,
@@ -2011,6 +2177,7 @@ window.LORCANA_SET12_CARDS = [
       "Super",
       "Hero"
     ],
+    "mentionedSubtypes": [],
     "rarity": "Uncommon",
     "story": "The Incredibles",
     "cost": 5,
@@ -2029,6 +2196,7 @@ window.LORCANA_SET12_CARDS = [
       "Ally",
       "Toy"
     ],
+    "mentionedSubtypes": [],
     "rarity": "Rare",
     "story": "Toy Story",
     "cost": 4,
@@ -2045,6 +2213,9 @@ window.LORCANA_SET12_CARDS = [
     "subtypes": [
       "Storyborn",
       "Ally",
+      "Toy"
+    ],
+    "mentionedSubtypes": [
       "Toy"
     ],
     "rarity": "Rare",
@@ -2065,6 +2236,7 @@ window.LORCANA_SET12_CARDS = [
       "Super",
       "Hero"
     ],
+    "mentionedSubtypes": [],
     "rarity": "Super Rare",
     "story": "The Incredibles",
     "cost": 4,
@@ -2083,6 +2255,7 @@ window.LORCANA_SET12_CARDS = [
       "Villain",
       "Queen"
     ],
+    "mentionedSubtypes": [],
     "rarity": "Rare",
     "story": "Alice In Wonderland",
     "cost": 4,
@@ -2101,6 +2274,7 @@ window.LORCANA_SET12_CARDS = [
       "Hero",
       "Prince"
     ],
+    "mentionedSubtypes": [],
     "rarity": "Super Rare",
     "story": "Hercules",
     "cost": 2,
@@ -2118,6 +2292,7 @@ window.LORCANA_SET12_CARDS = [
       "Dreamborn",
       "Ally"
     ],
+    "mentionedSubtypes": [],
     "rarity": "Rare",
     "story": "Atlantis: The Lost Empire",
     "cost": 4,
@@ -2136,6 +2311,7 @@ window.LORCANA_SET12_CARDS = [
       "Monster",
       "Robot"
     ],
+    "mentionedSubtypes": [],
     "rarity": "Super Rare",
     "story": "Atlantis: The Lost Empire",
     "cost": 10,
@@ -2152,6 +2328,9 @@ window.LORCANA_SET12_CARDS = [
     "subtypes": [
       "Storyborn",
       "Villain"
+    ],
+    "mentionedSubtypes": [
+      "Toy"
     ],
     "rarity": "Legendary",
     "story": "Toy Story",
@@ -2171,6 +2350,9 @@ window.LORCANA_SET12_CARDS = [
       "Super",
       "Hero"
     ],
+    "mentionedSubtypes": [
+      "Super"
+    ],
     "rarity": "Legendary",
     "story": "The Incredibles",
     "cost": 5,
@@ -2189,6 +2371,7 @@ window.LORCANA_SET12_CARDS = [
       "Ally",
       "Toy"
     ],
+    "mentionedSubtypes": [],
     "rarity": "Common",
     "story": "Toy Story",
     "cost": 1,
@@ -2203,6 +2386,7 @@ window.LORCANA_SET12_CARDS = [
     "name": "Inner Strength",
     "type": "Action",
     "subtypes": [],
+    "mentionedSubtypes": [],
     "rarity": "Common",
     "story": "Atlantis: The Lost Empire",
     "cost": 1,
@@ -2217,6 +2401,7 @@ window.LORCANA_SET12_CARDS = [
     "name": "Firefly Swarm",
     "type": "Action",
     "subtypes": [],
+    "mentionedSubtypes": [],
     "rarity": "Uncommon",
     "story": "Atlantis: The Lost Empire",
     "cost": 3,
@@ -2233,6 +2418,7 @@ window.LORCANA_SET12_CARDS = [
     "subtypes": [
       "Song"
     ],
+    "mentionedSubtypes": [],
     "rarity": "Common",
     "story": "Toy Story",
     "cost": 2,
@@ -2247,6 +2433,9 @@ window.LORCANA_SET12_CARDS = [
     "name": "Hero Work",
     "type": "Action",
     "subtypes": [],
+    "mentionedSubtypes": [
+      "Hero"
+    ],
     "rarity": "Rare",
     "story": "The Incredibles",
     "cost": 2,
@@ -2261,6 +2450,7 @@ window.LORCANA_SET12_CARDS = [
     "name": "Dangerous Plan",
     "type": "Action",
     "subtypes": [],
+    "mentionedSubtypes": [],
     "rarity": "Common",
     "story": "Atlantis: The Lost Empire",
     "cost": 1,
@@ -2275,6 +2465,7 @@ window.LORCANA_SET12_CARDS = [
     "name": "Amazu's Inkcaster",
     "type": "Item",
     "subtypes": [],
+    "mentionedSubtypes": [],
     "rarity": "Uncommon",
     "story": "Lorcana",
     "cost": 2,
@@ -2289,6 +2480,7 @@ window.LORCANA_SET12_CARDS = [
     "name": "Remote Inklands - Desert Ruins",
     "type": "Location",
     "subtypes": [],
+    "mentionedSubtypes": [],
     "rarity": "Rare",
     "story": "Lorcana",
     "cost": 2,
@@ -2303,6 +2495,7 @@ window.LORCANA_SET12_CARDS = [
     "name": "Leviathan's Lair - Dangerous Ground",
     "type": "Location",
     "subtypes": [],
+    "mentionedSubtypes": [],
     "rarity": "Rare",
     "story": "Atlantis: The Lost Empire",
     "cost": 4,
@@ -2320,6 +2513,7 @@ window.LORCANA_SET12_CARDS = [
       "Dreamborn",
       "Hero"
     ],
+    "mentionedSubtypes": [],
     "rarity": "Common",
     "story": "Robin Hood",
     "cost": 1,
@@ -2338,6 +2532,7 @@ window.LORCANA_SET12_CARDS = [
       "Hero",
       "Prince"
     ],
+    "mentionedSubtypes": [],
     "rarity": "Common",
     "story": "Cinderella",
     "cost": 2,
@@ -2356,6 +2551,7 @@ window.LORCANA_SET12_CARDS = [
       "Ally",
       "Fairy"
     ],
+    "mentionedSubtypes": [],
     "rarity": "Uncommon",
     "story": "Sleeping Beauty",
     "cost": 4,
@@ -2374,6 +2570,7 @@ window.LORCANA_SET12_CARDS = [
       "Ally",
       "Fairy"
     ],
+    "mentionedSubtypes": [],
     "rarity": "Common",
     "story": "Sleeping Beauty",
     "cost": 1,
@@ -2392,6 +2589,7 @@ window.LORCANA_SET12_CARDS = [
       "Ally",
       "Fairy"
     ],
+    "mentionedSubtypes": [],
     "rarity": "Rare",
     "story": "Sleeping Beauty",
     "cost": 5,
@@ -2410,6 +2608,7 @@ window.LORCANA_SET12_CARDS = [
       "Hero",
       "Madrigal"
     ],
+    "mentionedSubtypes": [],
     "rarity": "Common",
     "story": "Encanto",
     "cost": 4,
@@ -2429,6 +2628,7 @@ window.LORCANA_SET12_CARDS = [
       "Villain",
       "Inventor"
     ],
+    "mentionedSubtypes": [],
     "rarity": "Common",
     "story": "The Incredibles",
     "cost": 3,
@@ -2447,6 +2647,7 @@ window.LORCANA_SET12_CARDS = [
       "Hero",
       "Princess"
     ],
+    "mentionedSubtypes": [],
     "rarity": "Common",
     "story": "Atlantis: The Lost Empire",
     "cost": 2,
@@ -2465,6 +2666,7 @@ window.LORCANA_SET12_CARDS = [
       "Ally",
       "Inventor"
     ],
+    "mentionedSubtypes": [],
     "rarity": "Super Rare",
     "story": "Chip 'n Dale: Rescue Rangers",
     "cost": 4,
@@ -2483,6 +2685,7 @@ window.LORCANA_SET12_CARDS = [
       "Villain",
       "Inventor"
     ],
+    "mentionedSubtypes": [],
     "rarity": "Uncommon",
     "story": "Chip 'n Dale: Rescue Rangers",
     "cost": 3,
@@ -2501,6 +2704,7 @@ window.LORCANA_SET12_CARDS = [
       "Ally",
       "Inventor"
     ],
+    "mentionedSubtypes": [],
     "rarity": "Common",
     "story": "Chip 'n Dale: Rescue Rangers",
     "cost": 2,
@@ -2518,6 +2722,7 @@ window.LORCANA_SET12_CARDS = [
       "Storyborn",
       "Ally"
     ],
+    "mentionedSubtypes": [],
     "rarity": "Uncommon",
     "story": "Chip 'n Dale: Rescue Rangers",
     "cost": 1,
@@ -2536,6 +2741,9 @@ window.LORCANA_SET12_CARDS = [
       "Ally",
       "Inventor"
     ],
+    "mentionedSubtypes": [
+      "Super"
+    ],
     "rarity": "Rare",
     "story": "The Incredibles",
     "cost": 2,
@@ -2553,6 +2761,7 @@ window.LORCANA_SET12_CARDS = [
       "Floodborn",
       "Ally"
     ],
+    "mentionedSubtypes": [],
     "rarity": "Super Rare",
     "story": "Chip 'n Dale: Rescue Rangers",
     "cost": 4,
@@ -2571,6 +2780,7 @@ window.LORCANA_SET12_CARDS = [
       "Ally",
       "Madrigal"
     ],
+    "mentionedSubtypes": [],
     "rarity": "Uncommon",
     "story": "Encanto",
     "cost": 7,
@@ -2589,6 +2799,7 @@ window.LORCANA_SET12_CARDS = [
       "Ally",
       "Inventor"
     ],
+    "mentionedSubtypes": [],
     "rarity": "Common",
     "story": "Darkwing Duck",
     "cost": 3,
@@ -2607,6 +2818,7 @@ window.LORCANA_SET12_CARDS = [
       "Ally",
       "Madrigal"
     ],
+    "mentionedSubtypes": [],
     "rarity": "Super Rare",
     "story": "Encanto",
     "cost": 6,
@@ -2625,6 +2837,7 @@ window.LORCANA_SET12_CARDS = [
       "Ally",
       "Madrigal"
     ],
+    "mentionedSubtypes": [],
     "rarity": "Rare",
     "story": "Encanto",
     "cost": 5,
@@ -2643,6 +2856,7 @@ window.LORCANA_SET12_CARDS = [
       "Hero",
       "Princess"
     ],
+    "mentionedSubtypes": [],
     "rarity": "Rare",
     "story": "Cinderella",
     "cost": 4,
@@ -2661,6 +2875,7 @@ window.LORCANA_SET12_CARDS = [
       "Ally",
       "Madrigal"
     ],
+    "mentionedSubtypes": [],
     "rarity": "Common",
     "story": "Encanto",
     "cost": 6,
@@ -2679,6 +2894,7 @@ window.LORCANA_SET12_CARDS = [
       "Hero",
       "Princess"
     ],
+    "mentionedSubtypes": [],
     "rarity": "Rare",
     "story": "Atlantis: The Lost Empire",
     "cost": 3,
@@ -2696,6 +2912,7 @@ window.LORCANA_SET12_CARDS = [
       "Storyborn",
       "King"
     ],
+    "mentionedSubtypes": [],
     "rarity": "Uncommon",
     "story": "Atlantis: The Lost Empire",
     "cost": 5,
@@ -2713,6 +2930,7 @@ window.LORCANA_SET12_CARDS = [
       "Dreamborn",
       "Hero"
     ],
+    "mentionedSubtypes": [],
     "rarity": "Uncommon",
     "story": "Mickey Mouse & Friends",
     "cost": 1,
@@ -2731,6 +2949,7 @@ window.LORCANA_SET12_CARDS = [
       "Hero",
       "Princess"
     ],
+    "mentionedSubtypes": [],
     "rarity": "Legendary",
     "story": "Atlantis: The Lost Empire",
     "cost": 8,
@@ -2749,6 +2968,7 @@ window.LORCANA_SET12_CARDS = [
       "Villain",
       "Sorcerer"
     ],
+    "mentionedSubtypes": [],
     "rarity": "Legendary",
     "story": "The Little Mermaid",
     "cost": 3,
@@ -2765,6 +2985,7 @@ window.LORCANA_SET12_CARDS = [
     "subtypes": [
       "Song"
     ],
+    "mentionedSubtypes": [],
     "rarity": "Common",
     "story": "Alice In Wonderland",
     "cost": 3,
@@ -2781,6 +3002,7 @@ window.LORCANA_SET12_CARDS = [
     "subtypes": [
       "Song"
     ],
+    "mentionedSubtypes": [],
     "rarity": "Rare",
     "story": "Encanto",
     "cost": 5,
@@ -2795,6 +3017,7 @@ window.LORCANA_SET12_CARDS = [
     "name": "Escape Plan",
     "type": "Action",
     "subtypes": [],
+    "mentionedSubtypes": [],
     "rarity": "Rare",
     "story": "Atlantis: The Lost Empire",
     "cost": 5,
@@ -2809,6 +3032,7 @@ window.LORCANA_SET12_CARDS = [
     "name": "Salvage Operation",
     "type": "Action",
     "subtypes": [],
+    "mentionedSubtypes": [],
     "rarity": "Uncommon",
     "story": "Chip 'n Dale: Rescue Rangers",
     "cost": 2,
@@ -2823,6 +3047,9 @@ window.LORCANA_SET12_CARDS = [
     "name": "Julieta's Arepas",
     "type": "Item",
     "subtypes": [],
+    "mentionedSubtypes": [
+      "Madrigal"
+    ],
     "rarity": "Common",
     "story": "Encanto",
     "cost": 1,
@@ -2837,6 +3064,7 @@ window.LORCANA_SET12_CARDS = [
     "name": "Ranger Plane",
     "type": "Item",
     "subtypes": [],
+    "mentionedSubtypes": [],
     "rarity": "Rare",
     "story": "Chip 'n Dale: Rescue Rangers",
     "cost": 3,
@@ -2851,6 +3079,7 @@ window.LORCANA_SET12_CARDS = [
     "name": "Gadget's Goggles",
     "type": "Item",
     "subtypes": [],
+    "mentionedSubtypes": [],
     "rarity": "Uncommon",
     "story": "Chip 'n Dale: Rescue Rangers",
     "cost": 2,
@@ -2865,6 +3094,7 @@ window.LORCANA_SET12_CARDS = [
     "name": "Shepherd's Journal",
     "type": "Item",
     "subtypes": [],
+    "mentionedSubtypes": [],
     "rarity": "Uncommon",
     "story": "Atlantis: The Lost Empire",
     "cost": 2,
@@ -2879,6 +3109,7 @@ window.LORCANA_SET12_CARDS = [
     "name": "Casa Madrigal - Courtyard",
     "type": "Location",
     "subtypes": [],
+    "mentionedSubtypes": [],
     "rarity": "Common",
     "story": "Encanto",
     "cost": 4,
@@ -2897,6 +3128,7 @@ window.LORCANA_SET12_CARDS = [
       "Hero",
       "Princess"
     ],
+    "mentionedSubtypes": [],
     "rarity": "Rare",
     "story": "Pocahontas",
     "cost": 4,
@@ -2916,6 +3148,7 @@ window.LORCANA_SET12_CARDS = [
       "Villain",
       "Inventor"
     ],
+    "mentionedSubtypes": [],
     "rarity": "Super Rare",
     "story": "The Incredibles",
     "cost": 6,
@@ -2933,6 +3166,7 @@ window.LORCANA_SET12_CARDS = [
       "Storyborn",
       "Robot"
     ],
+    "mentionedSubtypes": [],
     "rarity": "Common",
     "story": "The Incredibles",
     "cost": 1,
@@ -2950,6 +3184,7 @@ window.LORCANA_SET12_CARDS = [
       "Storyborn",
       "Ally"
     ],
+    "mentionedSubtypes": [],
     "rarity": "Common",
     "story": "Brave",
     "cost": 3,
@@ -2968,6 +3203,7 @@ window.LORCANA_SET12_CARDS = [
       "Mentor",
       "King"
     ],
+    "mentionedSubtypes": [],
     "rarity": "Common",
     "story": "Brave",
     "cost": 2,
@@ -2985,6 +3221,7 @@ window.LORCANA_SET12_CARDS = [
       "Storyborn",
       "Ally"
     ],
+    "mentionedSubtypes": [],
     "rarity": "Common",
     "story": "Brave",
     "cost": 3,
@@ -3001,6 +3238,9 @@ window.LORCANA_SET12_CARDS = [
     "subtypes": [
       "Storyborn",
       "Inventor"
+    ],
+    "mentionedSubtypes": [
+      "Hero"
     ],
     "rarity": "Common",
     "story": "The Incredibles",
@@ -3020,6 +3260,7 @@ window.LORCANA_SET12_CARDS = [
       "Super",
       "Hero"
     ],
+    "mentionedSubtypes": [],
     "rarity": "Common",
     "story": "The Incredibles",
     "cost": 1,
@@ -3038,6 +3279,7 @@ window.LORCANA_SET12_CARDS = [
       "Super",
       "Hero"
     ],
+    "mentionedSubtypes": [],
     "rarity": "Common",
     "story": "The Incredibles",
     "cost": 2,
@@ -3055,6 +3297,7 @@ window.LORCANA_SET12_CARDS = [
       "Storyborn",
       "Ally"
     ],
+    "mentionedSubtypes": [],
     "rarity": "Common",
     "story": "Brave",
     "cost": 3,
@@ -3072,6 +3315,7 @@ window.LORCANA_SET12_CARDS = [
       "Storyborn",
       "Ally"
     ],
+    "mentionedSubtypes": [],
     "rarity": "Uncommon",
     "story": "Brave",
     "cost": 4,
@@ -3089,6 +3333,7 @@ window.LORCANA_SET12_CARDS = [
       "Storyborn",
       "Villain"
     ],
+    "mentionedSubtypes": [],
     "rarity": "Common",
     "story": "Chip 'n Dale: Rescue Rangers",
     "cost": 6,
@@ -3106,6 +3351,7 @@ window.LORCANA_SET12_CARDS = [
       "Storyborn",
       "Villain"
     ],
+    "mentionedSubtypes": [],
     "rarity": "Common",
     "story": "Chip 'n Dale: Rescue Rangers",
     "cost": 4,
@@ -3123,6 +3369,7 @@ window.LORCANA_SET12_CARDS = [
       "Storyborn",
       "Robot"
     ],
+    "mentionedSubtypes": [],
     "rarity": "Uncommon",
     "story": "The Incredibles",
     "cost": 4,
@@ -3141,6 +3388,9 @@ window.LORCANA_SET12_CARDS = [
       "Super",
       "Hero"
     ],
+    "mentionedSubtypes": [
+      "Villain"
+    ],
     "rarity": "Uncommon",
     "story": "The Incredibles",
     "cost": 4,
@@ -3158,6 +3408,7 @@ window.LORCANA_SET12_CARDS = [
       "Storyborn",
       "Ally"
     ],
+    "mentionedSubtypes": [],
     "rarity": "Uncommon",
     "story": "Brave",
     "cost": 5,
@@ -3175,6 +3426,7 @@ window.LORCANA_SET12_CARDS = [
       "Dreamborn",
       "Villain"
     ],
+    "mentionedSubtypes": [],
     "rarity": "Rare",
     "story": "Chip 'n Dale: Rescue Rangers",
     "cost": 4,
@@ -3191,6 +3443,7 @@ window.LORCANA_SET12_CARDS = [
     "subtypes": [
       "Storyborn"
     ],
+    "mentionedSubtypes": [],
     "rarity": "Uncommon",
     "story": "Brave",
     "cost": 3,
@@ -3208,6 +3461,7 @@ window.LORCANA_SET12_CARDS = [
       "Dreamborn",
       "Hero"
     ],
+    "mentionedSubtypes": [],
     "rarity": "Uncommon",
     "story": "Mickey Mouse & Friends",
     "cost": 2,
@@ -3225,6 +3479,7 @@ window.LORCANA_SET12_CARDS = [
       "Storyborn",
       "Robot"
     ],
+    "mentionedSubtypes": [],
     "rarity": "Rare",
     "story": "The Incredibles",
     "cost": 6,
@@ -3243,6 +3498,7 @@ window.LORCANA_SET12_CARDS = [
       "Hero",
       "Princess"
     ],
+    "mentionedSubtypes": [],
     "rarity": "Legendary",
     "story": "Brave",
     "cost": 5,
@@ -3260,6 +3516,7 @@ window.LORCANA_SET12_CARDS = [
       "Storyborn",
       "Hero"
     ],
+    "mentionedSubtypes": [],
     "rarity": "Rare",
     "story": "Pocahontas",
     "cost": 1,
@@ -3279,6 +3536,7 @@ window.LORCANA_SET12_CARDS = [
       "Hero",
       "Inventor"
     ],
+    "mentionedSubtypes": [],
     "rarity": "Rare",
     "story": "DuckTales",
     "cost": 5,
@@ -3297,6 +3555,7 @@ window.LORCANA_SET12_CARDS = [
       "Mentor",
       "King"
     ],
+    "mentionedSubtypes": [],
     "rarity": "Super Rare",
     "story": "Brave",
     "cost": 6,
@@ -3315,6 +3574,9 @@ window.LORCANA_SET12_CARDS = [
       "Super",
       "Hero"
     ],
+    "mentionedSubtypes": [
+      "Super"
+    ],
     "rarity": "Legendary",
     "story": "The Incredibles",
     "cost": 7,
@@ -3332,6 +3594,9 @@ window.LORCANA_SET12_CARDS = [
       "Dreamborn",
       "Ally"
     ],
+    "mentionedSubtypes": [
+      "Villain"
+    ],
     "rarity": "Super Rare",
     "story": "Sleeping Beauty",
     "cost": 2,
@@ -3346,6 +3611,7 @@ window.LORCANA_SET12_CARDS = [
     "name": "Three Arrows",
     "type": "Action",
     "subtypes": [],
+    "mentionedSubtypes": [],
     "rarity": "Uncommon",
     "story": "Brave",
     "cost": 3,
@@ -3360,6 +3626,7 @@ window.LORCANA_SET12_CARDS = [
     "name": "Card Advantage",
     "type": "Action",
     "subtypes": [],
+    "mentionedSubtypes": [],
     "rarity": "Uncommon",
     "story": "Alice In Wonderland",
     "cost": 2,
@@ -3376,6 +3643,7 @@ window.LORCANA_SET12_CARDS = [
     "subtypes": [
       "Song"
     ],
+    "mentionedSubtypes": [],
     "rarity": "Rare",
     "story": "Brave",
     "cost": 2,
@@ -3390,6 +3658,7 @@ window.LORCANA_SET12_CARDS = [
     "name": "Plunger Crossbow",
     "type": "Item",
     "subtypes": [],
+    "mentionedSubtypes": [],
     "rarity": "Common",
     "story": "Chip 'n Dale: Rescue Rangers",
     "cost": 1,
@@ -3404,6 +3673,7 @@ window.LORCANA_SET12_CARDS = [
     "name": "Syndrome's Remote",
     "type": "Item",
     "subtypes": [],
+    "mentionedSubtypes": [],
     "rarity": "Rare",
     "story": "The Incredibles",
     "cost": 2,
@@ -3418,6 +3688,7 @@ window.LORCANA_SET12_CARDS = [
     "name": "Club Door",
     "type": "Item",
     "subtypes": [],
+    "mentionedSubtypes": [],
     "rarity": "Uncommon",
     "story": "Chip 'n Dale: Rescue Rangers",
     "cost": 3,
@@ -3432,6 +3703,7 @@ window.LORCANA_SET12_CARDS = [
     "name": "Fat Cat's Club - Seedy Headquarters",
     "type": "Location",
     "subtypes": [],
+    "mentionedSubtypes": [],
     "rarity": "Common",
     "story": "Chip 'n Dale: Rescue Rangers",
     "cost": 3,
@@ -3446,6 +3718,7 @@ window.LORCANA_SET12_CARDS = [
     "name": "The Island of Nomanisan - Syndrome's Headquarters",
     "type": "Location",
     "subtypes": [],
+    "mentionedSubtypes": [],
     "rarity": "Rare",
     "story": "The Incredibles",
     "cost": 3,
@@ -3453,5 +3726,49 @@ window.LORCANA_SET12_CARDS = [
     "inkwell": true,
     "parDelta": null,
     "thumbnail": "../images/set.12.thumbs/2919.jpg"
+  }
+];
+window.LORCANA_SET12_SUBTYPE_VIEWS = [
+  {
+    "key": "filter:subtype:hero",
+    "label": "Hero",
+    "subtype": "Hero",
+    "type": "filter",
+    "cardCount": 75
+  },
+  {
+    "key": "filter:subtype:madrigal",
+    "label": "Madrigal",
+    "subtype": "Madrigal",
+    "type": "filter",
+    "cardCount": 21
+  },
+  {
+    "key": "filter:subtype:princess",
+    "label": "Princess",
+    "subtype": "Princess",
+    "type": "filter",
+    "cardCount": 18
+  },
+  {
+    "key": "filter:subtype:super",
+    "label": "Super",
+    "subtype": "Super",
+    "type": "filter",
+    "cardCount": 25
+  },
+  {
+    "key": "filter:subtype:toy",
+    "label": "Toy",
+    "subtype": "Toy",
+    "type": "filter",
+    "cardCount": 30
+  },
+  {
+    "key": "filter:subtype:villain",
+    "label": "Villain",
+    "subtype": "Villain",
+    "type": "filter",
+    "cardCount": 25
   }
 ];

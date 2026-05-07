@@ -76,12 +76,13 @@ Also skip any card whose local thumbnail file is missing.
 
 The runtime site consumes a generated JS file:
 
-- `tiersite/cards.js`
+- `docs/tiersite/cards.js`
 
-This file assigns a global:
+This file assigns globals:
 
 ```js
 window.LORCANA_SET12_CARDS = [...]
+window.LORCANA_SET12_SUBTYPE_VIEWS = [...]
 ```
 
 Each card entry should contain:
@@ -93,6 +94,7 @@ Each card entry should contain:
   "name": "Woody - Waiting for a Friend",
   "type": "Character",
   "subtypes": ["Storyborn", "Hero", "Toy"],
+  "mentionedSubtypes": ["Toy"],
   "rarity": "Common",
   "story": "Toy Story",
   "cost": 1,
@@ -100,6 +102,18 @@ Each card entry should contain:
   "inkwell": true,
   "parDelta": 0,
   "thumbnail": "../images/set.12.thumbs/2718.jpg"
+}
+```
+
+Generated subtype-view definitions should contain:
+
+```json
+{
+  "key": "filter:subtype:hero",
+  "label": "Hero",
+  "subtype": "Hero",
+  "type": "filter",
+  "cardCount": 75
 }
 ```
 
@@ -160,6 +174,20 @@ The generated card data must also preserve enough metadata to build filter views
 - `type`
 - `subtypes`
 - `inkwell`
+- `mentionedSubtypes`
+
+### Generated subtype analysis
+
+As part of generating `cards.js`, analyze the set's subtypes against the ability text on all cards in the set.
+
+Rules:
+
+- inspect subtype names from the set data
+- inspect ability text across the whole set
+- if a subtype appears in at least one ability and there are more than 10 cards of that subtype in the set, generate a subtype filter view for it
+- explicitly exclude `Song` from generated subtype views because the site already has a built-in `Songs` filter
+- each card entry should include `mentionedSubtypes` for qualifying subtype names mentioned on that card
+- subtype analysis is generator-time work, not browser-time work
 
 ## Support Scripts
 
@@ -189,9 +217,10 @@ Purpose:
 
 - take a `setdata.N.json` file
 - read local thumbnails from `images/set.N.thumbs/`
-- generate `tiersite/cards.js`
+- generate `docs/tiersite/cards.js`
 - skip any filtered card whose local thumbnail is missing
 - sort output by `number`, then `id`
+- generate subtype-based filter-view definitions from set-wide subtype/ability analysis
 
 Typical use:
 
@@ -202,7 +231,7 @@ python3 generate_cards_js.py setdata.12.json
 Optional explicit output:
 
 ```bash
-python3 generate_cards_js.py setdata.12.json tiersite/cards.js
+python3 generate_cards_js.py setdata.12.json docs/tiersite/cards.js
 ```
 
 ## Site File Layout
@@ -296,16 +325,20 @@ Additional filter-view tabs:
 - `Actions`
 - `Locations`
 - `Uninkable`
+- generated subtype views for qualifying subtypes
 
 Rules:
 
 - render cost-view tabs on the first line
 - start the filter-view tabs on a new line after `7+`
-- place the rarity filter checkboxes on the right side of the two tab rows
+- start generated subtype tabs on a new line after `Uninkable`
+- place the rarity filter checkboxes on the right side of the tab rows
 - each tab label should include the number of cards in that view
 - `Songs` means `type == "Action"` and `subtypes` contains `"Song"`
 - `Actions` means `type == "Action"` and not a song
 - `Uninkable` means `inkwell == false`
+- generated subtype views show cards that either have that subtype or mention that subtype in their ability text
+- in a generated subtype view, cards that mention the subtype in their ability text should be outlined in gold
 - filter tabs are **views over the same underlying cost-bucket state**, not a separate second state store
 - dragging a card in a filter tab must update the same placement that appears in its cost tab
 - the right-side untiered pool must also be filtered to the active view

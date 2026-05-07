@@ -376,6 +376,12 @@ h1 {
   transition: box-shadow 140ms ease, opacity 120ms ease;
 }
 
+.card.is-subtype-mention img {
+  box-shadow:
+    0 0 0 2px rgba(224, 191, 92, 0.95),
+    0 10px 24px rgba(0, 0, 0, 0.35);
+}
+
 body.is-dragging .card img,
 .card.dragging img {
   box-shadow: 0 10px 24px rgba(0, 0, 0, 0.35);
