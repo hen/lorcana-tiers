@@ -41,7 +41,7 @@ def compute_par_delta(card: dict) -> int | None:
         return None
 
     cost = int(card["cost"])
-    baseline = PAR_BY_COST.get(min(cost, 7))
+    baseline = PAR_BY_COST.get(cost)
     if baseline is None:
         return None
 

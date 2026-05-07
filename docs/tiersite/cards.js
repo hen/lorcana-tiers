@@ -2317,7 +2317,7 @@ window.LORCANA_SET12_CARDS = [
     "cost": 10,
     "costBucket": "7+",
     "inkwell": false,
-    "parDelta": 6,
+    "parDelta": null,
     "thumbnail": "../images/set.12.thumbs/2840.jpg"
   },
   {
@@ -2955,7 +2955,7 @@ window.LORCANA_SET12_CARDS = [
     "cost": 8,
     "costBucket": "7+",
     "inkwell": true,
-    "parDelta": -2,
+    "parDelta": null,
     "thumbnail": "../images/set.12.thumbs/2875.jpg"
   },
   {

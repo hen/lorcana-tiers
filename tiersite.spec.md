@@ -139,7 +139,8 @@ Compare that against the cost par table:
 
 Final decision:
 
-- any cost `7` or greater uses the `7` baseline (`19`)
+- costs `1` through `7` use the matching baseline above
+- costs `8` or greater have no vanilla baseline for this badge and should use `parDelta = null`
 - store the difference as `parDelta`
 - for cards without the needed stats (for example `Action`, `Item`, or `Location`), set `parDelta` to `null`
 - explain on the page that the bottom-right number on a character card is its delta from that cost's vanilla stat line
