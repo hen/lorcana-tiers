@@ -12,9 +12,12 @@
   const TAB_ORDER = ["1", "2", "3", "4", "5", "6", "7+"];
   const CU_RARITIES = new Set(["Common", "Uncommon"]);
   const RSRL_RARITIES = new Set(["Rare", "Super Rare", "Legendary"]);
-  const STORAGE_VERSION = 5;
-  const EXPORT_VERSION = 2;
+  const STORAGE_KEY_VERSION = 5;
+  const STORAGE_ENTRY_VERSION = 2;
+  const EXPORT_VERSION = 3;
   const SELECTED_SET_STORAGE_KEY = "lorcana-tier-site-selected-set-v1";
+  const LEGACY_DEFAULT_SET_ID = "12";
+  const ALL_SETS_EXPORT_FILENAME = "lorcana-tier-lists-all-sets.json";
   const BUILTIN_FILTER_VIEWS = [
     { key: "filter:items", label: "Items", type: "filter", predicate: (card) => card.type === "Item" },
     { key: "filter:songs", label: "Songs", type: "filter", predicate: (card) => card.type === "Action" && card.subtypes.includes("Song") },
@@ -26,7 +29,8 @@
   const manifest = window.LORCANA_TIER_SITE_MANIFEST;
   const tabsRoot = document.getElementById("tabs");
   const appRoot = document.getElementById("app");
-  const resetButton = document.getElementById("reset-all");
+  const resetButton = document.getElementById("reset-tier");
+  const resetAllButton = document.getElementById("reset-all-tiers");
   const exportButton = document.getElementById("export-json");
   const importButton = document.getElementById("import-json");
   const importFileInput = document.getElementById("import-file");
@@ -40,6 +44,7 @@
   const hoverPreview = createHoverPreview();
 
   let currentSetMeta = null;
+  let currentRuntime = null;
   let cards = [];
   let generatedSubtypeViews = [];
   let cardsById = {};
@@ -72,9 +77,14 @@
       state = createDefaultState();
       saveState();
       render();
-      setStatus(`Reset all tier lists for ${currentSetMeta.name}.`, "success");
+      setStatus(`Reset tier placements for ${currentSetMeta.name}.`, "success");
     });
-    exportButton.addEventListener("click", exportStateToJson);
+    resetAllButton.addEventListener("click", () => {
+      resetAllTierPlacements();
+    });
+    exportButton.addEventListener("click", () => {
+      void exportStateToJson();
+    });
     importButton.addEventListener("click", () => importFileInput.click());
     importFileInput.addEventListener("change", handleImportFile);
     cuOnlyToggle.addEventListener("change", () => {
@@ -101,12 +111,12 @@
 
   function resolveInitialSetId() {
     const requestedSetId = new URLSearchParams(window.location.search).get("set");
-    if (requestedSetId && manifest.sets.some((setMeta) => setMeta.id === requestedSetId)) {
+    if (requestedSetId && getSetMetaById(requestedSetId)) {
       return requestedSetId;
     }
 
     const persistedSetId = localStorage.getItem(SELECTED_SET_STORAGE_KEY);
-    if (persistedSetId && manifest.sets.some((setMeta) => setMeta.id === persistedSetId)) {
+    if (persistedSetId && getSetMetaById(persistedSetId)) {
       return persistedSetId;
     }
 
@@ -114,7 +124,7 @@
   }
 
   async function switchSet(requestedSetId, options = {}) {
-    const setMeta = manifest.sets.find((candidate) => candidate.id === requestedSetId) || manifest.sets[0];
+    const setMeta = getSetMetaById(requestedSetId) || manifest.sets[0];
     const requestToken = ++loadRequestToken;
     disableControls(true);
     hideHoverPreview();
@@ -122,13 +132,13 @@
     renderAppMessage(`Loading ${setMeta.name}…`);
 
     try {
-      const payload = await loadSetPayload(setMeta);
+      const runtime = await getRuntimeForSet(setMeta.id);
       if (requestToken !== loadRequestToken) {
         return;
       }
 
-      currentSetMeta = payload.meta || setMeta;
-      initializeRuntime(payload);
+      currentSetMeta = runtime.meta;
+      initializeRuntime(runtime);
       updatePageCopy();
       updateSelectedSetState(options.replaceHistory !== false);
       render();
@@ -145,6 +155,7 @@
 
   function disableControls(disabled) {
     resetButton.disabled = disabled;
+    resetAllButton.disabled = disabled;
     exportButton.disabled = disabled;
     importButton.disabled = disabled;
     importFileInput.disabled = disabled;
@@ -172,6 +183,22 @@
     }
   }
 
+  function getSetMetaById(setId) {
+    return manifest.sets.find((candidate) => candidate.id === setId) || null;
+  }
+
+  function getSetIdByNumber(setNumber) {
+    const numericValue = typeof setNumber === "number" ? setNumber : Number(setNumber);
+    if (!Number.isInteger(numericValue)) {
+      return null;
+    }
+    return manifest.sets.find((candidate) => candidate.number === numericValue)?.id || null;
+  }
+
+  function getLegacyDefaultSetId() {
+    return getSetMetaById(LEGACY_DEFAULT_SET_ID)?.id || manifest.defaultSetId || manifest.sets.at(-1)?.id || manifest.sets[0].id;
+  }
+
   function loadSetPayload(setMeta) {
     const existingPayload = window.LORCANA_TIER_SITE_SETS?.[setMeta.id];
     if (existingPayload) {
@@ -193,9 +220,11 @@
           resolve(payload);
           return;
         }
+        setAssetPromises.delete(setMeta.id);
         reject(new Error(`Loaded ${setMeta.asset} but no set payload was registered.`));
       };
       script.onerror = () => {
+        setAssetPromises.delete(setMeta.id);
         reject(new Error(`Failed to load ${setMeta.asset}.`));
       };
       document.body.appendChild(script);
@@ -205,44 +234,76 @@
     return promise;
   }
 
-  function initializeRuntime(payload) {
-    cards = Array.isArray(payload.cards) ? payload.cards.slice() : [];
-    generatedSubtypeViews = Array.isArray(payload.subtypeViews) ? payload.subtypeViews.slice() : [];
-    cardsById = Object.fromEntries(cards.map((card) => [card.id, card]));
-    cardsByBucket = cards.reduce((acc, card) => {
+  async function getRuntimeForSet(setId) {
+    const setMeta = getSetMetaById(setId);
+    if (!setMeta) {
+      throw new Error(`Unknown set ${setId}.`);
+    }
+    const payload = await loadSetPayload(setMeta);
+    return buildSetRuntime(payload, setMeta);
+  }
+
+  function buildSetRuntime(payload, fallbackMeta) {
+    const meta = payload?.meta || fallbackMeta;
+    const runtimeCards = Array.isArray(payload?.cards) ? payload.cards.slice() : [];
+    const runtimeSubtypeViews = Array.isArray(payload?.subtypeViews) ? payload.subtypeViews.slice() : [];
+    const runtimeCardsById = Object.fromEntries(runtimeCards.map((card) => [card.id, card]));
+    const runtimeCardsByBucket = runtimeCards.reduce((acc, card) => {
       (acc[card.costBucket] ||= []).push(card);
       return acc;
     }, {});
-    costBuckets = TAB_ORDER.filter((bucket) => cardsByBucket[bucket]?.length);
-    const subtypeFilterViews = generatedSubtypeViews.map((view) => ({
+    const runtimeCostBuckets = TAB_ORDER.filter((bucket) => runtimeCardsByBucket[bucket]?.length);
+    const subtypeFilterViews = runtimeSubtypeViews.map((view) => ({
       ...view,
       predicate: (card) => card.subtypes.includes(view.subtype) || (card.mentionedSubtypes || []).includes(view.subtype),
     }));
-    FILTER_VIEWS = [...BUILTIN_FILTER_VIEWS, ...subtypeFilterViews];
-    VIEW_DEFS = [
-      ...costBuckets.map((bucket) => ({ key: `cost:${bucket}`, label: bucket, type: "cost", bucket })),
-      ...FILTER_VIEWS.filter((view) => cards.some(view.predicate)),
+    const filterViews = [...BUILTIN_FILTER_VIEWS, ...subtypeFilterViews];
+    const viewDefs = [
+      ...runtimeCostBuckets.map((bucket) => ({ key: `cost:${bucket}`, label: bucket, type: "cost", bucket })),
+      ...filterViews.filter((view) => runtimeCards.some(view.predicate)),
     ];
 
-    const persisted = loadPersistedState();
-    activeViewKey = isValidViewKey(persisted.activeViewKey) ? persisted.activeViewKey : VIEW_DEFS[0]?.key || "cost:1";
-    state = normalizeState(persisted.state);
+    return {
+      meta,
+      cards: runtimeCards,
+      generatedSubtypeViews: runtimeSubtypeViews,
+      cardsById: runtimeCardsById,
+      cardsByBucket: runtimeCardsByBucket,
+      costBuckets: runtimeCostBuckets,
+      filterViews,
+      viewDefs,
+    };
+  }
+
+  function initializeRuntime(runtime) {
+    currentRuntime = runtime;
+    cards = runtime.cards;
+    generatedSubtypeViews = runtime.generatedSubtypeViews;
+    cardsById = runtime.cardsById;
+    cardsByBucket = runtime.cardsByBucket;
+    costBuckets = runtime.costBuckets;
+    FILTER_VIEWS = runtime.filterViews;
+    VIEW_DEFS = runtime.viewDefs;
+
+    const persisted = loadPersistedState(runtime.meta.id);
+    activeViewKey = isValidViewKeyFor(runtime, persisted.activeViewKey) ? persisted.activeViewKey : runtime.viewDefs[0]?.key || "cost:1";
+    state = normalizeStateFor(runtime, persisted.state);
     rarityFilterMode = "all";
     cuOnlyToggle.checked = false;
     rsrlOnlyToggle.checked = false;
   }
 
+  function getStorageKeyFor(setId) {
+    return `lorcana-tier-site-set${setId}-v${STORAGE_KEY_VERSION}`;
+  }
+
   function getStorageKey() {
-    return `lorcana-tier-site-set${currentSetMeta.id}-v${STORAGE_VERSION}`;
+    return getStorageKeyFor(currentSetMeta.id);
   }
 
-  function getExportFilename() {
-    return `lorcana-set${currentSetMeta.id}-tier-list.json`;
-  }
-
-  function loadPersistedState() {
+  function loadPersistedState(setId) {
     try {
-      const raw = localStorage.getItem(getStorageKey());
+      const raw = localStorage.getItem(getStorageKeyFor(setId));
       if (!raw) {
         return { state: null, activeViewKey: null };
       }
@@ -261,23 +322,45 @@
     }
   }
 
-  function saveState() {
+  function saveSetState(setId, nextActiveViewKey, nextState) {
     localStorage.setItem(
-      getStorageKey(),
+      getStorageKeyFor(setId),
       JSON.stringify({
-        version: EXPORT_VERSION,
-        setId: currentSetMeta.id,
-        activeViewKey,
-        state,
+        version: STORAGE_ENTRY_VERSION,
+        setId,
+        activeViewKey: nextActiveViewKey,
+        state: nextState,
       })
     );
   }
 
-  function createDefaultState() {
+  function saveState() {
+    saveSetState(currentSetMeta.id, activeViewKey, state);
+  }
+
+  function resetAllTierPlacements() {
+    disableControls(true);
+    try {
+      for (const setMeta of manifest.sets) {
+        localStorage.removeItem(getStorageKeyFor(setMeta.id));
+      }
+
+      state = createDefaultState();
+      saveState();
+      render();
+      setStatus("Reset tier placements for all sets.", "success");
+    } catch (error) {
+      setStatus(error instanceof Error ? error.message : "Failed to reset tier placements for all sets.", "error");
+    } finally {
+      disableControls(false);
+    }
+  }
+
+  function createDefaultStateFor(runtime) {
     const nextState = {};
-    for (const bucket of costBuckets) {
+    for (const bucket of runtime.costBuckets) {
       nextState[bucket] = emptyBucketState();
-      nextState[bucket].pool = cardsByBucket[bucket]
+      nextState[bucket].pool = runtime.cardsByBucket[bucket]
         .slice()
         .sort((a, b) => a.number - b.number)
         .map((card) => card.id);
@@ -285,31 +368,89 @@
     return nextState;
   }
 
+  function createDefaultState() {
+    return createDefaultStateFor(currentRuntime);
+  }
+
   function emptyBucketState() {
     return Object.fromEntries(ZONES.map((zone) => [zone, []]));
   }
 
-  function exportStateToJson() {
-    const payload = {
-      version: EXPORT_VERSION,
-      exportedAt: new Date().toISOString(),
-      storageKey: getStorageKey(),
-      setId: currentSetMeta.id,
-      setNumber: currentSetMeta.number,
-      setName: currentSetMeta.name,
-      activeViewKey,
-      state,
-    };
-    const blob = new Blob([JSON.stringify(payload, null, 2)], { type: "application/json" });
-    const url = URL.createObjectURL(blob);
-    const link = document.createElement("a");
-    link.href = url;
-    link.download = getExportFilename();
-    document.body.appendChild(link);
-    link.click();
-    link.remove();
-    URL.revokeObjectURL(url);
-    setStatus(`Exported ${currentSetMeta.name} tier list JSON.`, "success");
+  function normalizeStateFor(runtime, rawState) {
+    const normalized = {};
+    const defaultState = createDefaultStateFor(runtime);
+
+    for (const bucket of runtime.costBuckets) {
+      const validIds = new Set(runtime.cardsByBucket[bucket].map((card) => card.id));
+      const seen = new Set();
+      const bucketState = emptyBucketState();
+      const sourceBucket = rawState?.[bucket] || defaultState[bucket];
+
+      for (const zone of ZONES) {
+        const sourceIds = Array.isArray(sourceBucket?.[zone]) ? sourceBucket[zone] : [];
+        bucketState[zone] = sourceIds.filter((id) => {
+          if (!validIds.has(id) || seen.has(id)) {
+            return false;
+          }
+          seen.add(id);
+          return true;
+        });
+      }
+
+      const missing = runtime.cardsByBucket[bucket]
+        .map((card) => card.id)
+        .filter((id) => !seen.has(id))
+        .sort((left, right) => runtime.cardsById[left].number - runtime.cardsById[right].number);
+
+      bucketState.pool.push(...missing);
+      normalized[bucket] = bucketState;
+    }
+
+    return normalized;
+  }
+
+  function normalizeState(rawState) {
+    return normalizeStateFor(currentRuntime, rawState);
+  }
+
+  async function exportStateToJson() {
+    disableControls(true);
+    try {
+      const payload = {
+        version: EXPORT_VERSION,
+        exportedAt: new Date().toISOString(),
+        selectedSetId: currentSetMeta.id,
+        sets: {},
+      };
+
+      for (const setMeta of manifest.sets) {
+        const runtime = await getRuntimeForSet(setMeta.id);
+        const persisted = loadPersistedState(setMeta.id);
+        const nextActiveViewKey = isValidViewKeyFor(runtime, persisted.activeViewKey) ? persisted.activeViewKey : runtime.viewDefs[0]?.key || "cost:1";
+        payload.sets[setMeta.id] = {
+          setId: setMeta.id,
+          setNumber: runtime.meta.number,
+          setName: runtime.meta.name,
+          activeViewKey: nextActiveViewKey,
+          state: normalizeStateFor(runtime, persisted.state),
+        };
+      }
+
+      const blob = new Blob([JSON.stringify(payload, null, 2)], { type: "application/json" });
+      const url = URL.createObjectURL(blob);
+      const link = document.createElement("a");
+      link.href = url;
+      link.download = ALL_SETS_EXPORT_FILENAME;
+      document.body.appendChild(link);
+      link.click();
+      link.remove();
+      URL.revokeObjectURL(url);
+      setStatus("Exported tier lists for all sets.", "success");
+    } catch (error) {
+      setStatus(error instanceof Error ? error.message : "Failed to export tier list JSON.", "error");
+    } finally {
+      disableControls(false);
+    }
   }
 
   async function handleImportFile(event) {
@@ -318,42 +459,112 @@
       return;
     }
 
+    disableControls(true);
     try {
       const text = await file.text();
       const payload = JSON.parse(text);
-      const importedState = payload && typeof payload === "object" && payload.state ? payload.state : payload;
-      if (!importedState || typeof importedState !== "object") {
+      let restoredSetId = currentSetMeta.id;
+      let successMessage = `Imported tier list from ${file.name}.`;
+
+      if (isAllSetsExportPayload(payload)) {
+        const importedSetIds = await importAllSetsPayload(payload);
+        if (!importedSetIds.length) {
+          throw new Error("File does not contain any recognized set tier data.");
+        }
+
+        restoredSetId = resolveImportedSelectedSetId(payload.selectedSetId, importedSetIds);
+        successMessage = `Imported tier lists for ${importedSetIds.length} set${importedSetIds.length === 1 ? "" : "s"} from ${file.name}.`;
+      } else if (isSingleSetExportPayload(payload)) {
+        restoredSetId = await importSingleSetPayload(payload);
+        successMessage = `Imported tier list into ${getSetMetaById(restoredSetId)?.name || `set ${restoredSetId}`} from ${file.name}.`;
+      } else if (isPlainObject(payload)) {
+        restoredSetId = await importSingleSetPayload({ state: payload });
+        successMessage = `Imported legacy tier list into ${getSetMetaById(restoredSetId)?.name || `set ${restoredSetId}`} from ${file.name}.`;
+      } else {
         throw new Error("File does not contain tier list state.");
       }
 
-      validateImportedSet(payload);
-      state = normalizeState(importedState);
-      if (typeof payload?.activeViewKey === "string" && isValidViewKey(payload.activeViewKey)) {
-        activeViewKey = payload.activeViewKey;
-      }
-      saveState();
-      render();
-      setStatus(`Imported tier list from ${file.name}.`, "success");
+      await switchSet(restoredSetId, { replaceHistory: true, showStatus: false });
+      setStatus(successMessage, "success");
     } catch (error) {
       setStatus(error instanceof Error ? error.message : "Failed to import tier list JSON.", "error");
     } finally {
       importFileInput.value = "";
+      disableControls(false);
     }
   }
 
-  function validateImportedSet(payload) {
-    if (!payload || typeof payload !== "object" || !("state" in payload)) {
-      return;
+  function isAllSetsExportPayload(payload) {
+    return isPlainObject(payload) && isPlainObject(payload.sets);
+  }
+
+  function isSingleSetExportPayload(payload) {
+    return isPlainObject(payload) && isPlainObject(payload.state) && !("sets" in payload);
+  }
+
+  function isPlainObject(value) {
+    return Boolean(value) && typeof value === "object" && !Array.isArray(value);
+  }
+
+  async function importAllSetsPayload(payload) {
+    const importedSetIds = [];
+
+    for (const [setId, entry] of Object.entries(payload.sets)) {
+      if (!isPlainObject(entry) || !isPlainObject(entry.state)) {
+        continue;
+      }
+
+      const setMeta = getSetMetaById(setId);
+      if (!setMeta) {
+        continue;
+      }
+
+      const runtime = await getRuntimeForSet(setId);
+      const nextActiveViewKey = isValidViewKeyFor(runtime, entry.activeViewKey) ? entry.activeViewKey : runtime.viewDefs[0]?.key || "cost:1";
+      const nextState = normalizeStateFor(runtime, entry.state);
+      saveSetState(setId, nextActiveViewKey, nextState);
+      importedSetIds.push(setId);
     }
 
-    const setId = payload.setId;
-    const setNumber = payload.setNumber;
-    if (typeof setId === "string" && setId !== currentSetMeta.id) {
-      throw new Error(`That export is for set ${setId}, but ${currentSetMeta.name} is currently active.`);
+    return importedSetIds;
+  }
+
+  async function importSingleSetPayload(payload) {
+    const targetSetId = resolveSingleSetImportTarget(payload);
+    const runtime = await getRuntimeForSet(targetSetId);
+    const nextActiveViewKey = isValidViewKeyFor(runtime, payload.activeViewKey) ? payload.activeViewKey : runtime.viewDefs[0]?.key || "cost:1";
+    const nextState = normalizeStateFor(runtime, payload.state);
+    saveSetState(targetSetId, nextActiveViewKey, nextState);
+    return targetSetId;
+  }
+
+  function resolveSingleSetImportTarget(payload) {
+    if (typeof payload.setId === "string") {
+      if (!getSetMetaById(payload.setId)) {
+        throw new Error(`Import references unknown set ${payload.setId}.`);
+      }
+      return payload.setId;
     }
-    if (typeof setNumber === "number" && setNumber !== currentSetMeta.number) {
-      throw new Error(`That export is for set ${setNumber}, but ${currentSetMeta.name} is currently active.`);
+
+    if (payload.setNumber !== undefined) {
+      const setId = getSetIdByNumber(payload.setNumber);
+      if (!setId) {
+        throw new Error(`Import references unknown set ${payload.setNumber}.`);
+      }
+      return setId;
     }
+
+    return getLegacyDefaultSetId();
+  }
+
+  function resolveImportedSelectedSetId(selectedSetId, importedSetIds) {
+    if (typeof selectedSetId === "string" && importedSetIds.includes(selectedSetId) && getSetMetaById(selectedSetId)) {
+      return selectedSetId;
+    }
+    if (importedSetIds.includes(currentSetMeta.id)) {
+      return currentSetMeta.id;
+    }
+    return importedSetIds[0];
   }
 
   function setStatus(message, tone = "info") {
@@ -372,39 +583,6 @@
       statusMessage.textContent = "";
       statusMessage.className = "status-message";
     }, 3500);
-  }
-
-  function normalizeState(rawState) {
-    const normalized = {};
-    const defaultState = createDefaultState();
-
-    for (const bucket of costBuckets) {
-      const validIds = new Set(cardsByBucket[bucket].map((card) => card.id));
-      const seen = new Set();
-      const bucketState = emptyBucketState();
-      const sourceBucket = rawState?.[bucket] || defaultState[bucket];
-
-      for (const zone of ZONES) {
-        const sourceIds = Array.isArray(sourceBucket?.[zone]) ? sourceBucket[zone] : [];
-        bucketState[zone] = sourceIds.filter((id) => {
-          if (!validIds.has(id) || seen.has(id)) {
-            return false;
-          }
-          seen.add(id);
-          return true;
-        });
-      }
-
-      const missing = cardsByBucket[bucket]
-        .map((card) => card.id)
-        .filter((id) => !seen.has(id))
-        .sort((left, right) => cardsById[left].number - cardsById[right].number);
-
-      bucketState.pool.push(...missing);
-      normalized[bucket] = bucketState;
-    }
-
-    return normalized;
   }
 
   function render() {
@@ -998,7 +1176,7 @@
     render();
   }
 
-  function isValidViewKey(viewKey) {
-    return typeof viewKey === "string" && VIEW_DEFS.some((view) => view.key === viewKey);
+  function isValidViewKeyFor(runtime, viewKey) {
+    return typeof viewKey === "string" && runtime.viewDefs.some((view) => view.key === viewKey);
   }
 })();

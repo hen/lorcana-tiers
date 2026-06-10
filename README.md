@@ -7,6 +7,15 @@ The site now supports all generated expansion sets through a set picker. Its run
 - `docs/tiersite/data/manifest.js`
 - `docs/tiersite/data/set.<N>.js`
 
+Tier placement persistence stays per set in browser storage, but JSON transfer is now cross-set:
+
+- **Export JSON** writes one file containing all supported sets.
+- **Import JSON** accepts that all-set format.
+- **Reset tier** clears only the active set.
+- **Reset all tiers** clears saved placements for every supported set.
+- Older single-set exports still import correctly.
+- Raw legacy state with no set metadata is assumed to belong to **set 12**.
+
 ## Regenerating site data
 
 From the repository root, point the generator at one or more raw `setdata.N.json` files or at a directory that contains them:

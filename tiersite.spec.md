@@ -284,6 +284,7 @@ Show:
 - controls:
   - `Export JSON`
   - `Import JSON`
+  - `Reset tier`
   - `Reset all tiers`
 
 Also include a short status/message area for import/export/reset feedback.
@@ -539,7 +540,7 @@ Persist the current tier state in `localStorage`.
 
 Current storage key convention:
 
-- `lorcana-tier-site-set12-v5`
+- `lorcana-tier-site-set<N>-v5`
 
 The storage key is versioned so incompatible tier-schema changes can invalidate older saved layouts.
 
@@ -549,17 +550,21 @@ Users must be able to save/load tier lists outside browser storage.
 
 #### Export
 
-Export current state to a JSON file containing:
+Export current state to a JSON file containing all supported sets:
 
 ```json
 {
-  "version": 2,
+  "version": 3,
   "exportedAt": "ISO timestamp",
-  "storageKey": "lorcana-tier-site-set12-v5",
-  "setId": "12",
-  "setNumber": 12,
-  "activeViewKey": "cost:3",
-  "state": { ... }
+  "selectedSetId": "12",
+  "sets": {
+    "12": {
+      "setId": "12",
+      "setNumber": 12,
+      "activeViewKey": "cost:3",
+      "state": { ... }
+    }
+  }
 }
 ```
 
@@ -571,15 +576,17 @@ Allow selecting a JSON file from disk.
 
 Importer should accept either:
 
-1. the full exported object with a `state` field, or
-2. a raw state object
+1. the new full all-set exported object with a `sets` field,
+2. the older single-set exported object with a `state` field, or
+3. a raw state object
 
 After import:
 
-- reject exports for a different set if `setId` or `setNumber` is present and does not match
-- normalize the imported state
-- restore `activeViewKey` if valid
-- save to localStorage
+- for the new all-set format, normalize and save each explicitly provided known set without overwriting omitted sets
+- restore `selectedSetId` if valid for the new all-set format
+- for older single-set exports, import into the provided `setId` or `setNumber`
+- if an older import has no set metadata, assume it is for set 12
+- normalize imported state against the destination set before saving
 - re-render the UI
 
 Show success/error feedback in the status message area.
@@ -614,40 +621,45 @@ Exact colors can differ if rebuilt, but the information hierarchy should remain 
 2. **Do not use `number` as the internal ID**
    - duplicate card numbers caused collisions and hidden cards
 
-3. **Still display `number` on the card**
+3. **Reset controls cover both scopes**
+   - `Reset tier` only affects the active set
+   - `Reset all tiers` clears saved placements for every supported set
+   - JSON export/import still handle cross-set transfer
+
+4. **Still display `number` on the card**
    - superseded by final badge behavior below
 
-4. **Card badge shows par delta, not set number**
+5. **Card badge shows par delta, not set number**
    - bottom-right badge shows the difference from cost par
    - examples: `+1`, `-1`, `0`
    - negative deltas use a blue badge rather than red
    - cards with `parDelta = null` show no badge
 
-5. **Basic value formula**
+6. **Basic value formula**
    - `strength + willpower + (2 * lore - 1)`
    - compare against the cost par table above
 
-6. **Generate per-set site assets from raw setdata**
+7. **Generate per-set site assets from raw setdata**
    - prefer local thumbnails when present
    - otherwise use the raw JSON thumbnail URL
 
-7. **Sort generated cards by `number`**
+8. **Sort generated cards by `number`**
    - not by original setdata order
 
-8. **Split mixed C rows under the hood**
+9. **Split mixed C rows under the hood**
    - use `A`, `B`, `C+`, `C`, `C-`, `D+`, `D`, `F`
    - render `C+` and `C` on one shared visual row
    - render `C-` and `D+` on one shared visual row
 
-9. **Pool is a sidebar**
+10. **Pool is a sidebar**
    - 3 columns wide
    - same height as tier board
    - internal scroll for overflow
 
-10. **Tier rows stay compact**
+11. **Tier rows stay compact**
    - do not stretch vertically to match pool overflow
 
-11. **Hover preview must be an overlay**
+12. **Hover preview must be an overlay**
    - not an inline scaled thumbnail
 
 ## Rebuild Checklist
