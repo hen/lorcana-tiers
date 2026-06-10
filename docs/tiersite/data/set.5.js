@@ -1,0 +1,3673 @@
+window.LORCANA_TIER_SITE_SETS = window.LORCANA_TIER_SITE_SETS || {};
+window.LORCANA_TIER_SITE_SETS["5"] = {
+  "meta": {
+    "id": "5",
+    "number": 5,
+    "code": "5",
+    "name": "Shimmering Skies",
+    "releaseDate": "2024-08-23",
+    "prereleaseDate": "2024-08-09",
+    "cardCount": 205,
+    "asset": "data/set.5.js"
+  },
+  "cards": [
+    {
+      "id": "957",
+      "number": 1,
+      "name": "Koda - Talkative Cub",
+      "type": "Character",
+      "subtypes": [
+        "Storyborn",
+        "Ally"
+      ],
+      "mentionedSubtypes": [],
+      "rarity": "Rare",
+      "story": "Brother Bear",
+      "cost": 2,
+      "costBucket": "2",
+      "inkwell": true,
+      "parDelta": -1,
+      "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set5/1_846e74e7ff291c50c1f2b87889dd9f332b463ab4.jpg"
+    },
+    {
+      "id": "958",
+      "number": 2,
+      "name": "Nala - Mischievous Cub",
+      "type": "Character",
+      "subtypes": [
+        "Storyborn",
+        "Ally"
+      ],
+      "mentionedSubtypes": [],
+      "rarity": "Uncommon",
+      "story": "The Lion King",
+      "cost": 1,
+      "costBucket": "1",
+      "inkwell": true,
+      "parDelta": 0,
+      "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set5/2_2dfbae24a5cb19d2c3d400c5900617838ab10ec9.jpg"
+    },
+    {
+      "id": "959",
+      "number": 3,
+      "name": "Prince Naveen - Ukulele Player",
+      "type": "Character",
+      "subtypes": [
+        "Storyborn",
+        "Hero",
+        "Prince"
+      ],
+      "mentionedSubtypes": [],
+      "rarity": "Legendary",
+      "story": "The Princess And The Frog",
+      "cost": 4,
+      "costBucket": "4",
+      "inkwell": false,
+      "parDelta": -2,
+      "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set5/3_fb7fe818b195432cd2a6ebad302b9bf60dd70a56.jpg"
+    },
+    {
+      "id": "960",
+      "number": 4,
+      "name": "Rutt - Northern Moose",
+      "type": "Character",
+      "subtypes": [
+        "Storyborn",
+        "Ally"
+      ],
+      "mentionedSubtypes": [],
+      "rarity": "Common",
+      "story": "Brother Bear",
+      "cost": 4,
+      "costBucket": "4",
+      "inkwell": true,
+      "parDelta": -3,
+      "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set5/4_0e1dd8668c7c964c55da168661651bb3febe8fca.jpg"
+    },
+    {
+      "id": "961",
+      "number": 5,
+      "name": "Kenai - Big Brother",
+      "type": "Character",
+      "subtypes": [
+        "Storyborn",
+        "Hero"
+      ],
+      "mentionedSubtypes": [],
+      "rarity": "Common",
+      "story": "Brother Bear",
+      "cost": 2,
+      "costBucket": "2",
+      "inkwell": true,
+      "parDelta": -1,
+      "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set5/5_496fd2688c203c6e8bee710381a68b627ad0b127.jpg"
+    },
+    {
+      "id": "962",
+      "number": 6,
+      "name": "Vanellope von Schweetz - Sugar Rush Champ",
+      "type": "Character",
+      "subtypes": [
+        "Storyborn",
+        "Hero",
+        "Princess",
+        "Racer"
+      ],
+      "mentionedSubtypes": [],
+      "rarity": "Common",
+      "story": "Wreck-It Ralph",
+      "cost": 1,
+      "costBucket": "1",
+      "inkwell": true,
+      "parDelta": 0,
+      "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set5/6_5dec0bd28f049652908f60bbc992970ee0d94317.jpg"
+    },
+    {
+      "id": "963",
+      "number": 7,
+      "name": "Tuke - Northern Moose",
+      "type": "Character",
+      "subtypes": [
+        "Storyborn",
+        "Ally"
+      ],
+      "mentionedSubtypes": [],
+      "rarity": "Common",
+      "story": "Brother Bear",
+      "cost": 4,
+      "costBucket": "4",
+      "inkwell": true,
+      "parDelta": -2,
+      "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set5/7_614769d2dd31a7e743e3ff944b69be73ff50018e.jpg"
+    },
+    {
+      "id": "964",
+      "number": 8,
+      "name": "Lilo - Junior Cake Decorator",
+      "type": "Character",
+      "subtypes": [
+        "Storyborn",
+        "Hero"
+      ],
+      "mentionedSubtypes": [],
+      "rarity": "Common",
+      "story": "Lilo & Stitch",
+      "cost": 2,
+      "costBucket": "2",
+      "inkwell": true,
+      "parDelta": -2,
+      "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set5/8_02e04b594a92295f879aeb611411e827cfeb2be0.jpg"
+    },
+    {
+      "id": "965",
+      "number": 9,
+      "name": "Vanellope von Schweetz - Candy Mechanic",
+      "type": "Character",
+      "subtypes": [
+        "Dreamborn",
+        "Hero",
+        "Princess",
+        "Racer"
+      ],
+      "mentionedSubtypes": [],
+      "rarity": "Common",
+      "story": "Wreck-It Ralph",
+      "cost": 2,
+      "costBucket": "2",
+      "inkwell": true,
+      "parDelta": -2,
+      "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set5/9_02492b50a26a90b2e0ab7e40fc6ffecb01f27533.jpg"
+    },
+    {
+      "id": "966",
+      "number": 10,
+      "name": "Fix-It Felix, Jr. - Trusty Builder",
+      "type": "Character",
+      "subtypes": [
+        "Storyborn",
+        "Hero"
+      ],
+      "mentionedSubtypes": [],
+      "rarity": "Common",
+      "story": "Wreck-It Ralph",
+      "cost": 3,
+      "costBucket": "3",
+      "inkwell": true,
+      "parDelta": -2,
+      "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set5/10_52b47237cf96441e42deac3a80167b2d916cb7f6.jpg"
+    },
+    {
+      "id": "967",
+      "number": 11,
+      "name": "Gazelle - Pop Star",
+      "type": "Character",
+      "subtypes": [
+        "Storyborn",
+        "Ally"
+      ],
+      "mentionedSubtypes": [],
+      "rarity": "Common",
+      "story": "Zootopia",
+      "cost": 3,
+      "costBucket": "3",
+      "inkwell": true,
+      "parDelta": -1,
+      "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set5/11_a56c89fdad7112a7817d7258d1009bf1fad4ad5f.jpg"
+    },
+    {
+      "id": "968",
+      "number": 12,
+      "name": "Fix-It Felix, Jr. - Niceland Steward",
+      "type": "Character",
+      "subtypes": [
+        "Floodborn",
+        "Hero"
+      ],
+      "mentionedSubtypes": [],
+      "rarity": "Uncommon",
+      "story": "Wreck-It Ralph",
+      "cost": 5,
+      "costBucket": "5",
+      "inkwell": true,
+      "parDelta": -4,
+      "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set5/12_b4f3630d62cfa2c8b1d3c7fc41449757d7681489.jpg"
+    },
+    {
+      "id": "969",
+      "number": 13,
+      "name": "Kristoff - Reindeer Keeper",
+      "type": "Character",
+      "subtypes": [
+        "Dreamborn",
+        "Ally"
+      ],
+      "mentionedSubtypes": [],
+      "rarity": "Rare",
+      "story": "Frozen",
+      "cost": 9,
+      "costBucket": "7+",
+      "inkwell": false,
+      "parDelta": null,
+      "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set5/13_48e160f93135378df553a3e9c0634967e90daf03.jpg"
+    },
+    {
+      "id": "970",
+      "number": 14,
+      "name": "Mirabel Madrigal - Family Gatherer",
+      "type": "Character",
+      "subtypes": [
+        "Storyborn",
+        "Hero",
+        "Madrigal"
+      ],
+      "mentionedSubtypes": [],
+      "rarity": "Legendary",
+      "story": "Encanto",
+      "cost": 5,
+      "costBucket": "5",
+      "inkwell": true,
+      "parDelta": 5,
+      "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set5/14_65945241538ddcda2aa3dc6939353cc82546ff56.jpg"
+    },
+    {
+      "id": "971",
+      "number": 15,
+      "name": "Minnie Mouse - Drum Major",
+      "type": "Character",
+      "subtypes": [
+        "Floodborn",
+        "Hero"
+      ],
+      "mentionedSubtypes": [],
+      "rarity": "Super Rare",
+      "story": "Mickey Mouse & Friends",
+      "cost": 5,
+      "costBucket": "5",
+      "inkwell": true,
+      "parDelta": -3,
+      "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set5/15_32c21cfc07ad90540c6b580b33fcc24f05e6932d.jpg"
+    },
+    {
+      "id": "972",
+      "number": 16,
+      "name": "Daisy Duck - Donald's Date",
+      "type": "Character",
+      "subtypes": [
+        "Storyborn",
+        "Ally"
+      ],
+      "mentionedSubtypes": [],
+      "rarity": "Super Rare",
+      "story": "Mickey Mouse & Friends",
+      "cost": 1,
+      "costBucket": "1",
+      "inkwell": false,
+      "parDelta": 3,
+      "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set5/16_423eb5ce53d60aaabf2cdfbe9f075957380d14b3.jpg"
+    },
+    {
+      "id": "973",
+      "number": 17,
+      "name": "Fix-It Felix, Jr. - Delighted Sightseer",
+      "type": "Character",
+      "subtypes": [
+        "Storyborn",
+        "Hero"
+      ],
+      "mentionedSubtypes": [],
+      "rarity": "Common",
+      "story": "Wreck-It Ralph",
+      "cost": 2,
+      "costBucket": "2",
+      "inkwell": true,
+      "parDelta": -2,
+      "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set5/17_ddeed71f4dda35d719ac840da0c7ca6acda52796.jpg"
+    },
+    {
+      "id": "974",
+      "number": 18,
+      "name": "Moana - Determined Explorer",
+      "type": "Character",
+      "subtypes": [
+        "Storyborn",
+        "Hero",
+        "Princess"
+      ],
+      "mentionedSubtypes": [],
+      "rarity": "Rare",
+      "story": "Moana",
+      "cost": 3,
+      "costBucket": "3",
+      "inkwell": false,
+      "parDelta": 1,
+      "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set5/18_15ec9c5972bfb9ca00e77680bac7484f3b09d716.jpg"
+    },
+    {
+      "id": "975",
+      "number": 19,
+      "name": "Vanellope von Schweetz - Sugar Rush Princess",
+      "type": "Character",
+      "subtypes": [
+        "Floodborn",
+        "Hero",
+        "Princess",
+        "Racer"
+      ],
+      "mentionedSubtypes": [
+        "Princess"
+      ],
+      "rarity": "Rare",
+      "story": "Wreck-It Ralph",
+      "cost": 4,
+      "costBucket": "4",
+      "inkwell": true,
+      "parDelta": -2,
+      "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set5/19_0533c1e618f0fc4397acf5bdbddc41c61a61462d.jpg"
+    },
+    {
+      "id": "976",
+      "number": 20,
+      "name": "Alan-a-Dale - Rockin' Rooster",
+      "type": "Character",
+      "subtypes": [
+        "Storyborn",
+        "Ally"
+      ],
+      "mentionedSubtypes": [],
+      "rarity": "Uncommon",
+      "story": "Robin Hood",
+      "cost": 4,
+      "costBucket": "4",
+      "inkwell": true,
+      "parDelta": -3,
+      "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set5/20_5616d40e29c85abd958fb306074798b5d169231d.jpg"
+    },
+    {
+      "id": "977",
+      "number": 21,
+      "name": "Wreck-It Ralph - Admiral Underpants",
+      "type": "Character",
+      "subtypes": [
+        "Storyborn",
+        "Hero"
+      ],
+      "mentionedSubtypes": [
+        "Princess"
+      ],
+      "rarity": "Rare",
+      "story": "Wreck-It Ralph",
+      "cost": 7,
+      "costBucket": "7+",
+      "inkwell": false,
+      "parDelta": -3,
+      "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set5/21_a3f1b6eac2c3b580288fead1294c7f2527c66749.jpg"
+    },
+    {
+      "id": "978",
+      "number": 22,
+      "name": "Maid Marian - Lady of the Lists",
+      "type": "Character",
+      "subtypes": [
+        "Dreamborn",
+        "Princess"
+      ],
+      "mentionedSubtypes": [],
+      "rarity": "Uncommon",
+      "story": "Robin Hood",
+      "cost": 6,
+      "costBucket": "6",
+      "inkwell": true,
+      "parDelta": -4,
+      "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set5/22_afcf7cc405117d711f61567d4deaeabaad5aecc8.jpg"
+    },
+    {
+      "id": "979",
+      "number": 23,
+      "name": "Sven - Reindeer Steed",
+      "type": "Character",
+      "subtypes": [
+        "Storyborn",
+        "Ally"
+      ],
+      "mentionedSubtypes": [],
+      "rarity": "Uncommon",
+      "story": "Frozen",
+      "cost": 4,
+      "costBucket": "4",
+      "inkwell": true,
+      "parDelta": -2,
+      "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set5/23_78e1edbc4a5db9e8307c4db932c62ffe17f49e34.jpg"
+    },
+    {
+      "id": "980",
+      "number": 24,
+      "name": "Minnie Mouse - Compassionate Friend",
+      "type": "Character",
+      "subtypes": [
+        "Storyborn",
+        "Hero"
+      ],
+      "mentionedSubtypes": [],
+      "rarity": "Common",
+      "story": "Mickey Mouse & Friends",
+      "cost": 4,
+      "costBucket": "4",
+      "inkwell": true,
+      "parDelta": -2,
+      "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set5/24_f04722783dc689a24f395d0f58a2280a97a3745c.jpg"
+    },
+    {
+      "id": "981",
+      "number": 25,
+      "name": "Try Everything",
+      "type": "Action",
+      "subtypes": [
+        "Song"
+      ],
+      "mentionedSubtypes": [],
+      "rarity": "Uncommon",
+      "story": "Zootopia",
+      "cost": 4,
+      "costBucket": "4",
+      "inkwell": true,
+      "parDelta": null,
+      "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set5/25_a173f600d5ca6323a1fe1e53d99b682056615e23.jpg"
+    },
+    {
+      "id": "982",
+      "number": 26,
+      "name": "Healing Touch",
+      "type": "Action",
+      "subtypes": [],
+      "mentionedSubtypes": [],
+      "rarity": "Common",
+      "story": "Frozen",
+      "cost": 3,
+      "costBucket": "3",
+      "inkwell": true,
+      "parDelta": null,
+      "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set5/26_a7ddc5fe64848fd565af071a524ee00ad69518cf.jpg"
+    },
+    {
+      "id": "983",
+      "number": 27,
+      "name": "Revive",
+      "type": "Action",
+      "subtypes": [],
+      "mentionedSubtypes": [],
+      "rarity": "Rare",
+      "story": "Tangled",
+      "cost": 5,
+      "costBucket": "5",
+      "inkwell": false,
+      "parDelta": null,
+      "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set5/27_010a82468486b2630d20afc53ef61c20d13197ac.jpg"
+    },
+    {
+      "id": "984",
+      "number": 28,
+      "name": "Blast from Your Past",
+      "type": "Action",
+      "subtypes": [
+        "Song"
+      ],
+      "mentionedSubtypes": [],
+      "rarity": "Super Rare",
+      "story": "Aladdin",
+      "cost": 6,
+      "costBucket": "6",
+      "inkwell": false,
+      "parDelta": null,
+      "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set5/28_abbb9e44d2fa8765ce3e9dd53d27c9a3c4ba19ea.jpg"
+    },
+    {
+      "id": "985",
+      "number": 29,
+      "name": "Invited to the Ball",
+      "type": "Action",
+      "subtypes": [],
+      "mentionedSubtypes": [],
+      "rarity": "Uncommon",
+      "story": "Cinderella",
+      "cost": 2,
+      "costBucket": "2",
+      "inkwell": false,
+      "parDelta": null,
+      "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set5/29_2fcd51531414f9765c50922a7f4c21e9dd6d1bbc.jpg"
+    },
+    {
+      "id": "986",
+      "number": 30,
+      "name": "Healing Decanter",
+      "type": "Item",
+      "subtypes": [],
+      "mentionedSubtypes": [],
+      "rarity": "Common",
+      "story": "Lorcana",
+      "cost": 2,
+      "costBucket": "2",
+      "inkwell": true,
+      "parDelta": null,
+      "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set5/30_5e8a08c7f014576e528b06da1f953a36c653f82c.jpg"
+    },
+    {
+      "id": "987",
+      "number": 31,
+      "name": "Queen's Sensor Core",
+      "type": "Item",
+      "subtypes": [],
+      "mentionedSubtypes": [
+        "Princess"
+      ],
+      "rarity": "Rare",
+      "story": "Lorcana",
+      "cost": 2,
+      "costBucket": "2",
+      "inkwell": true,
+      "parDelta": null,
+      "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set5/31_45d3e652d0e6a617a9507546772c76fc8134ff1d.jpg"
+    },
+    {
+      "id": "988",
+      "number": 32,
+      "name": "Amber Chromicon",
+      "type": "Item",
+      "subtypes": [],
+      "mentionedSubtypes": [],
+      "rarity": "Uncommon",
+      "story": "Lorcana",
+      "cost": 2,
+      "costBucket": "2",
+      "inkwell": true,
+      "parDelta": null,
+      "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set5/32_ff4852e30353eebc8c4029c3a20c92758f3e80b0.jpg"
+    },
+    {
+      "id": "989",
+      "number": 33,
+      "name": "Rapunzel's Tower - Secluded Prison",
+      "type": "Location",
+      "subtypes": [],
+      "mentionedSubtypes": [],
+      "rarity": "Uncommon",
+      "story": "Tangled",
+      "cost": 2,
+      "costBucket": "2",
+      "inkwell": true,
+      "parDelta": null,
+      "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set5/33_82bc9fe1108304d73333bd9abbdff5bba477dfc0.jpg"
+    },
+    {
+      "id": "990",
+      "number": 34,
+      "name": "Pride Lands - Jungle Oasis",
+      "type": "Location",
+      "subtypes": [],
+      "mentionedSubtypes": [],
+      "rarity": "Rare",
+      "story": "The Lion King",
+      "cost": 3,
+      "costBucket": "3",
+      "inkwell": true,
+      "parDelta": null,
+      "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set5/34_24af23d0affa7a98088a087652907563ccea3ce8.jpg"
+    },
+    {
+      "id": "991",
+      "number": 35,
+      "name": "Maleficent - Formidable Queen",
+      "type": "Character",
+      "subtypes": [
+        "Floodborn",
+        "Villain",
+        "Queen",
+        "Sorcerer"
+      ],
+      "mentionedSubtypes": [],
+      "rarity": "Super Rare",
+      "story": "Sleeping Beauty",
+      "cost": 8,
+      "costBucket": "7+",
+      "inkwell": false,
+      "parDelta": null,
+      "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set5/35_a0ce34b6172ac9df0791808593afc3493a95f9d2.jpg"
+    },
+    {
+      "id": "992",
+      "number": 36,
+      "name": "The Nokk - Mythical Spirit",
+      "type": "Character",
+      "subtypes": [
+        "Storyborn",
+        "Ally"
+      ],
+      "mentionedSubtypes": [],
+      "rarity": "Common",
+      "story": "Frozen",
+      "cost": 6,
+      "costBucket": "6",
+      "inkwell": true,
+      "parDelta": -5,
+      "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set5/36_60cd94f11c3399719668b746ea0b763a8f0086f7.jpg"
+    },
+    {
+      "id": "993",
+      "number": 37,
+      "name": "Cogsworth - Illuminary Watchman",
+      "type": "Character",
+      "subtypes": [
+        "Dreamborn",
+        "Ally"
+      ],
+      "mentionedSubtypes": [],
+      "rarity": "Common",
+      "story": "Beauty and the Beast",
+      "cost": 1,
+      "costBucket": "1",
+      "inkwell": true,
+      "parDelta": -2,
+      "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set5/37_3dd587089e73481ac91db741c495ecdd510733b9.jpg"
+    },
+    {
+      "id": "994",
+      "number": 38,
+      "name": "Merlin - Turtle",
+      "type": "Character",
+      "subtypes": [
+        "Storyborn",
+        "Mentor",
+        "Sorcerer"
+      ],
+      "mentionedSubtypes": [],
+      "rarity": "Common",
+      "story": "The Sword in the Stone",
+      "cost": 4,
+      "costBucket": "4",
+      "inkwell": true,
+      "parDelta": -2,
+      "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set5/38_952a807118442538e306e1db84585a8d5c9a646c.jpg"
+    },
+    {
+      "id": "995",
+      "number": 39,
+      "name": "Archimedes - Exasperated Owl",
+      "type": "Character",
+      "subtypes": [
+        "Storyborn",
+        "Ally"
+      ],
+      "mentionedSubtypes": [],
+      "rarity": "Common",
+      "story": "The Sword in the Stone",
+      "cost": 3,
+      "costBucket": "3",
+      "inkwell": true,
+      "parDelta": -2,
+      "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set5/39_8ae876c5a1d8b9173c4cf22e703d18efe344a84f.jpg"
+    },
+    {
+      "id": "996",
+      "number": 40,
+      "name": "Bruni - Fire Salamander",
+      "type": "Character",
+      "subtypes": [
+        "Storyborn",
+        "Ally"
+      ],
+      "mentionedSubtypes": [],
+      "rarity": "Uncommon",
+      "story": "Frozen",
+      "cost": 4,
+      "costBucket": "4",
+      "inkwell": true,
+      "parDelta": -4,
+      "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set5/40_d966b9b07151290442d0cab37fa1681aad22b484.jpg"
+    },
+    {
+      "id": "997",
+      "number": 41,
+      "name": "Earth Giant - Living Mountain",
+      "type": "Character",
+      "subtypes": [
+        "Storyborn",
+        "Ally"
+      ],
+      "mentionedSubtypes": [],
+      "rarity": "Common",
+      "story": "Frozen",
+      "cost": 4,
+      "costBucket": "4",
+      "inkwell": true,
+      "parDelta": 1,
+      "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set5/41_37758ff8ec3c54638b50f6053139e74e9b2f4fb2.jpg"
+    },
+    {
+      "id": "998",
+      "number": 42,
+      "name": "Gale - Wind Spirit",
+      "type": "Character",
+      "subtypes": [
+        "Storyborn",
+        "Ally"
+      ],
+      "mentionedSubtypes": [],
+      "rarity": "Common",
+      "story": "Frozen",
+      "cost": 3,
+      "costBucket": "3",
+      "inkwell": true,
+      "parDelta": -3,
+      "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set5/42_13402f0090043e343124cf9719c51965714505ea.jpg"
+    },
+    {
+      "id": "999",
+      "number": 43,
+      "name": "White Rabbit - Royal Herald",
+      "type": "Character",
+      "subtypes": [
+        "Storyborn",
+        "Ally"
+      ],
+      "mentionedSubtypes": [],
+      "rarity": "Common",
+      "story": "Alice In Wonderland",
+      "cost": 3,
+      "costBucket": "3",
+      "inkwell": true,
+      "parDelta": -1,
+      "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set5/43_e0cf6fcd0b13fcaf8c12cc302e1909d0053ff7a3.jpg"
+    },
+    {
+      "id": "1000",
+      "number": 44,
+      "name": "Madam Mim - Elephant",
+      "type": "Character",
+      "subtypes": [
+        "Storyborn",
+        "Villain",
+        "Sorcerer"
+      ],
+      "mentionedSubtypes": [],
+      "rarity": "Super Rare",
+      "story": "The Sword in the Stone",
+      "cost": 4,
+      "costBucket": "4",
+      "inkwell": true,
+      "parDelta": 0,
+      "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set5/44_d5b3e3ff5a8bb6e4f768a412feef31c92e104e05.jpg"
+    },
+    {
+      "id": "1001",
+      "number": 45,
+      "name": "Luisa Madrigal - Entertaining Muscle",
+      "type": "Character",
+      "subtypes": [
+        "Storyborn",
+        "Ally",
+        "Madrigal"
+      ],
+      "mentionedSubtypes": [],
+      "rarity": "Rare",
+      "story": "Encanto",
+      "cost": 6,
+      "costBucket": "6",
+      "inkwell": false,
+      "parDelta": 1,
+      "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set5/45_6b398b3d757fbfe2358039c8acfd053286d474c5.jpg"
+    },
+    {
+      "id": "1002",
+      "number": 46,
+      "name": "Anna - Mystical Majesty",
+      "type": "Character",
+      "subtypes": [
+        "Floodborn",
+        "Hero",
+        "Queen",
+        "Sorcerer"
+      ],
+      "mentionedSubtypes": [],
+      "rarity": "Rare",
+      "story": "Frozen",
+      "cost": 7,
+      "costBucket": "7+",
+      "inkwell": false,
+      "parDelta": -7,
+      "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set5/46_3c14e2d26b23a091317c4f5e897412778733bf93.jpg"
+    },
+    {
+      "id": "1003",
+      "number": 47,
+      "name": "Archimedes - Electrified Owl",
+      "type": "Character",
+      "subtypes": [
+        "Floodborn",
+        "Ally"
+      ],
+      "mentionedSubtypes": [],
+      "rarity": "Uncommon",
+      "story": "The Sword in the Stone",
+      "cost": 5,
+      "costBucket": "5",
+      "inkwell": true,
+      "parDelta": -6,
+      "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set5/47_4dc3db6f6f39a14674196fb534077f5af6c4dc38.jpg"
+    },
+    {
+      "id": "1004",
+      "number": 48,
+      "name": "Elsa - The Fifth Spirit",
+      "type": "Character",
+      "subtypes": [
+        "Dreamborn",
+        "Hero",
+        "Queen",
+        "Sorcerer"
+      ],
+      "mentionedSubtypes": [],
+      "rarity": "Super Rare",
+      "story": "Frozen",
+      "cost": 5,
+      "costBucket": "5",
+      "inkwell": true,
+      "parDelta": -6,
+      "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set5/48_edd4f9b4983f2554a8c4f2537cd850a511401294.jpg"
+    },
+    {
+      "id": "1005",
+      "number": 49,
+      "name": "Genie - Main Attraction",
+      "type": "Character",
+      "subtypes": [
+        "Storyborn",
+        "Ally"
+      ],
+      "mentionedSubtypes": [],
+      "rarity": "Legendary",
+      "story": "Aladdin",
+      "cost": 7,
+      "costBucket": "7+",
+      "inkwell": false,
+      "parDelta": -6,
+      "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set5/49_037e0ba828adfc929150639a308c981283e1f789.jpg"
+    },
+    {
+      "id": "1006",
+      "number": 50,
+      "name": "Olaf - Happy Passenger",
+      "type": "Character",
+      "subtypes": [
+        "Storyborn",
+        "Ally"
+      ],
+      "mentionedSubtypes": [],
+      "rarity": "Rare",
+      "story": "Frozen",
+      "cost": 9,
+      "costBucket": "7+",
+      "inkwell": false,
+      "parDelta": null,
+      "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set5/50_f569951128adde2732773698e0376b1f32950f39.jpg"
+    },
+    {
+      "id": "1007",
+      "number": 51,
+      "name": "Maleficent - Vexed Partygoer",
+      "type": "Character",
+      "subtypes": [
+        "Storyborn",
+        "Villain",
+        "Sorcerer"
+      ],
+      "mentionedSubtypes": [],
+      "rarity": "Uncommon",
+      "story": "Sleeping Beauty",
+      "cost": 3,
+      "costBucket": "3",
+      "inkwell": true,
+      "parDelta": -2,
+      "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set5/51_454476784c8d425249acfa4f58b18f64103e3fe4.jpg"
+    },
+    {
+      "id": "1008",
+      "number": 52,
+      "name": "Monstro - Whale of a Whale",
+      "type": "Character",
+      "subtypes": [
+        "Storyborn"
+      ],
+      "mentionedSubtypes": [],
+      "rarity": "Uncommon",
+      "story": "Pinocchio",
+      "cost": 5,
+      "costBucket": "5",
+      "inkwell": true,
+      "parDelta": -2,
+      "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set5/52_65252a78b4cbecfbe9a2c54d920367b3fad83eed.jpg"
+    },
+    {
+      "id": "1009",
+      "number": 53,
+      "name": "Magica De Spell - Cruel Sorceress",
+      "type": "Character",
+      "subtypes": [
+        "Storyborn",
+        "Villain",
+        "Sorcerer"
+      ],
+      "mentionedSubtypes": [],
+      "rarity": "Rare",
+      "story": "DuckTales",
+      "cost": 4,
+      "costBucket": "4",
+      "inkwell": true,
+      "parDelta": -3,
+      "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set5/53_ead6b65ed55adc3e3ea12afe7b8738f0e4e24f95.jpg"
+    },
+    {
+      "id": "1010",
+      "number": 54,
+      "name": "Maleficent - Vengeful Sorceress",
+      "type": "Character",
+      "subtypes": [
+        "Storyborn",
+        "Villain",
+        "Sorcerer"
+      ],
+      "mentionedSubtypes": [],
+      "rarity": "Common",
+      "story": "Sleeping Beauty",
+      "cost": 2,
+      "costBucket": "2",
+      "inkwell": true,
+      "parDelta": 0,
+      "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set5/54_b8b563eb6d69ac62be5ac9d833d5904a05e110f5.jpg"
+    },
+    {
+      "id": "1011",
+      "number": 55,
+      "name": "Rafiki - Shaman Duelist",
+      "type": "Character",
+      "subtypes": [
+        "Storyborn",
+        "Mentor",
+        "Sorcerer"
+      ],
+      "mentionedSubtypes": [],
+      "rarity": "Rare",
+      "story": "The Lion King",
+      "cost": 4,
+      "costBucket": "4",
+      "inkwell": false,
+      "parDelta": -3,
+      "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set5/55_54aeee46e816f6adeed57f22e9cdd49823b14f13.jpg"
+    },
+    {
+      "id": "1012",
+      "number": 56,
+      "name": "Anna - Eager Acolyte",
+      "type": "Character",
+      "subtypes": [
+        "Dreamborn",
+        "Hero",
+        "Queen"
+      ],
+      "mentionedSubtypes": [],
+      "rarity": "Common",
+      "story": "Frozen",
+      "cost": 3,
+      "costBucket": "3",
+      "inkwell": false,
+      "parDelta": -4,
+      "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set5/56_acb713f8d2dd84898a5846c61889a9000f0dea2c.jpg"
+    },
+    {
+      "id": "1013",
+      "number": 57,
+      "name": "King of Hearts - Monarch of Wonderland",
+      "type": "Character",
+      "subtypes": [
+        "Storyborn",
+        "Ally",
+        "King"
+      ],
+      "mentionedSubtypes": [],
+      "rarity": "Uncommon",
+      "story": "Alice In Wonderland",
+      "cost": 4,
+      "costBucket": "4",
+      "inkwell": true,
+      "parDelta": -3,
+      "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set5/57_f029d2ec7cc336f3e7c804bc8e41763e43f8c4f0.jpg"
+    },
+    {
+      "id": "1014",
+      "number": 58,
+      "name": "Camilo Madrigal - Family Copycat",
+      "type": "Character",
+      "subtypes": [
+        "Storyborn",
+        "Ally",
+        "Madrigal"
+      ],
+      "mentionedSubtypes": [],
+      "rarity": "Legendary",
+      "story": "Encanto",
+      "cost": 6,
+      "costBucket": "6",
+      "inkwell": true,
+      "parDelta": -5,
+      "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set5/58_4d2b5265fdf3b5859a3b92aa2da015f6b4210501.jpg"
+    },
+    {
+      "id": "1015",
+      "number": 59,
+      "name": "Hypnotic Strength",
+      "type": "Action",
+      "subtypes": [],
+      "mentionedSubtypes": [],
+      "rarity": "Common",
+      "story": "Aladdin",
+      "cost": 2,
+      "costBucket": "2",
+      "inkwell": true,
+      "parDelta": null,
+      "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set5/59_0d3e8b31eb3157387609c107fffd659d9ea43064.jpg"
+    },
+    {
+      "id": "1016",
+      "number": 60,
+      "name": "Finders Keepers",
+      "type": "Action",
+      "subtypes": [],
+      "mentionedSubtypes": [],
+      "rarity": "Uncommon",
+      "story": "Aladdin",
+      "cost": 5,
+      "costBucket": "5",
+      "inkwell": true,
+      "parDelta": null,
+      "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set5/60_765caae45e42c5eb4a01fe540dff387bdb3e05bb.jpg"
+    },
+    {
+      "id": "1017",
+      "number": 61,
+      "name": "We Know the Way",
+      "type": "Action",
+      "subtypes": [
+        "Song"
+      ],
+      "mentionedSubtypes": [],
+      "rarity": "Rare",
+      "story": "Moana",
+      "cost": 3,
+      "costBucket": "3",
+      "inkwell": true,
+      "parDelta": null,
+      "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set5/61_47ad741c89cc93fb747424b00bdb61cbc28d9824.jpg"
+    },
+    {
+      "id": "1018",
+      "number": 62,
+      "name": "Gathering Knowledge and Wisdom",
+      "type": "Action",
+      "subtypes": [],
+      "mentionedSubtypes": [],
+      "rarity": "Common",
+      "story": "The Sword in the Stone",
+      "cost": 2,
+      "costBucket": "2",
+      "inkwell": false,
+      "parDelta": null,
+      "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set5/62_3c08070d88d6f00400af5557ce9701d257320f46.jpg"
+    },
+    {
+      "id": "1019",
+      "number": 63,
+      "name": "Magical Aid",
+      "type": "Action",
+      "subtypes": [],
+      "mentionedSubtypes": [],
+      "rarity": "Uncommon",
+      "story": "Aladdin",
+      "cost": 3,
+      "costBucket": "3",
+      "inkwell": true,
+      "parDelta": null,
+      "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set5/63_e04ae9fd7e6a7cb9aa1376a21cd828218180a268.jpg"
+    },
+    {
+      "id": "1020",
+      "number": 64,
+      "name": "Retrosphere",
+      "type": "Item",
+      "subtypes": [],
+      "mentionedSubtypes": [],
+      "rarity": "Common",
+      "story": "Lorcana",
+      "cost": 1,
+      "costBucket": "1",
+      "inkwell": true,
+      "parDelta": null,
+      "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set5/64_73f82afd89d975518bf5a63fd3c025cfca8f8d2d.jpg"
+    },
+    {
+      "id": "1021",
+      "number": 65,
+      "name": "Half Hexwell Crown",
+      "type": "Item",
+      "subtypes": [],
+      "mentionedSubtypes": [],
+      "rarity": "Rare",
+      "story": "Lorcana",
+      "cost": 6,
+      "costBucket": "6",
+      "inkwell": false,
+      "parDelta": null,
+      "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set5/65_229298729b372b2547af6d975f43b1808aa0f5ce.jpg"
+    },
+    {
+      "id": "1022",
+      "number": 66,
+      "name": "Amethyst Chromicon",
+      "type": "Item",
+      "subtypes": [],
+      "mentionedSubtypes": [],
+      "rarity": "Uncommon",
+      "story": "Lorcana",
+      "cost": 2,
+      "costBucket": "2",
+      "inkwell": true,
+      "parDelta": null,
+      "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set5/66_2b7bd639d902524932e1eb38959f929a0415f0a1.jpg"
+    },
+    {
+      "id": "1023",
+      "number": 67,
+      "name": "Elsa's Ice Palace - Place of Solitude",
+      "type": "Location",
+      "subtypes": [],
+      "mentionedSubtypes": [],
+      "rarity": "Rare",
+      "story": "Frozen",
+      "cost": 3,
+      "costBucket": "3",
+      "inkwell": false,
+      "parDelta": null,
+      "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set5/67_ad791d04c8bc09f7282d7d3479d401197c4cab1d.jpg"
+    },
+    {
+      "id": "1024",
+      "number": 68,
+      "name": "The Library - A Gift for Belle",
+      "type": "Location",
+      "subtypes": [],
+      "mentionedSubtypes": [],
+      "rarity": "Uncommon",
+      "story": "Beauty and the Beast",
+      "cost": 3,
+      "costBucket": "3",
+      "inkwell": true,
+      "parDelta": null,
+      "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set5/68_c9257a9fba42677e2ea75e08ea2dff1b837b9da6.jpg"
+    },
+    {
+      "id": "1025",
+      "number": 69,
+      "name": "Robin Hood - Timely Contestant",
+      "type": "Character",
+      "subtypes": [
+        "Storyborn",
+        "Hero"
+      ],
+      "mentionedSubtypes": [],
+      "rarity": "Rare",
+      "story": "Robin Hood",
+      "cost": 9,
+      "costBucket": "7+",
+      "inkwell": false,
+      "parDelta": null,
+      "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set5/69_3e946db2c985df3e697059d27c088c85622989fe.jpg"
+    },
+    {
+      "id": "1026",
+      "number": 70,
+      "name": "Shenzi - Scar's Accomplice",
+      "type": "Character",
+      "subtypes": [
+        "Storyborn",
+        "Ally",
+        "Hyena"
+      ],
+      "mentionedSubtypes": [],
+      "rarity": "Uncommon",
+      "story": "The Lion King",
+      "cost": 3,
+      "costBucket": "3",
+      "inkwell": true,
+      "parDelta": -3,
+      "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set5/70_37cb2074e3bab8d67ae3573b58eed7d471c68389.jpg"
+    },
+    {
+      "id": "1027",
+      "number": 71,
+      "name": "Little John - Camp Cook",
+      "type": "Character",
+      "subtypes": [
+        "Storyborn",
+        "Ally"
+      ],
+      "mentionedSubtypes": [],
+      "rarity": "Uncommon",
+      "story": "Robin Hood",
+      "cost": 1,
+      "costBucket": "1",
+      "inkwell": true,
+      "parDelta": 0,
+      "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set5/71_6aae354470e92dc59ef90eac4d1b11b3d345d470.jpg"
+    },
+    {
+      "id": "1028",
+      "number": 72,
+      "name": "Zazu - Advisor to Mufasa",
+      "type": "Character",
+      "subtypes": [
+        "Storyborn",
+        "Ally"
+      ],
+      "mentionedSubtypes": [],
+      "rarity": "Common",
+      "story": "The Lion King",
+      "cost": 5,
+      "costBucket": "5",
+      "inkwell": true,
+      "parDelta": -3,
+      "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set5/72_31a2495c80e560ad038c601e4a0d7f23565b26bb.jpg"
+    },
+    {
+      "id": "1029",
+      "number": 73,
+      "name": "Ulf - Mime",
+      "type": "Character",
+      "subtypes": [
+        "Storyborn",
+        "Ally"
+      ],
+      "mentionedSubtypes": [],
+      "rarity": "Common",
+      "story": "Tangled",
+      "cost": 4,
+      "costBucket": "4",
+      "inkwell": true,
+      "parDelta": -1,
+      "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set5/73_728228e646152b1cc42517545c880df1fd47dfa7.jpg"
+    },
+    {
+      "id": "1030",
+      "number": 74,
+      "name": "Ed - Laughing Hyena",
+      "type": "Character",
+      "subtypes": [
+        "Storyborn",
+        "Ally",
+        "Hyena"
+      ],
+      "mentionedSubtypes": [],
+      "rarity": "Common",
+      "story": "The Lion King",
+      "cost": 3,
+      "costBucket": "3",
+      "inkwell": false,
+      "parDelta": -3,
+      "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set5/74_849c49629756a01a01c5ffdb89ea25136813f206.jpg"
+    },
+    {
+      "id": "1031",
+      "number": 75,
+      "name": "Flora - Good Fairy",
+      "type": "Character",
+      "subtypes": [
+        "Storyborn",
+        "Ally",
+        "Fairy"
+      ],
+      "mentionedSubtypes": [],
+      "rarity": "Common",
+      "story": "Sleeping Beauty",
+      "cost": 3,
+      "costBucket": "3",
+      "inkwell": true,
+      "parDelta": -2,
+      "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set5/75_7060c23baef2e6b5517586133bd06a510ee6aefd.jpg"
+    },
+    {
+      "id": "1032",
+      "number": 76,
+      "name": "Merryweather - Good Fairy",
+      "type": "Character",
+      "subtypes": [
+        "Storyborn",
+        "Ally",
+        "Fairy"
+      ],
+      "mentionedSubtypes": [],
+      "rarity": "Common",
+      "story": "Sleeping Beauty",
+      "cost": 1,
+      "costBucket": "1",
+      "inkwell": true,
+      "parDelta": -1,
+      "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set5/76_be60aaa5271e59d33d5027e782edea21780ce41b.jpg"
+    },
+    {
+      "id": "1033",
+      "number": 77,
+      "name": "Robin Hood - Archery Contestant",
+      "type": "Character",
+      "subtypes": [
+        "Storyborn",
+        "Hero"
+      ],
+      "mentionedSubtypes": [],
+      "rarity": "Common",
+      "story": "Robin Hood",
+      "cost": 2,
+      "costBucket": "2",
+      "inkwell": true,
+      "parDelta": -2,
+      "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set5/77_dd3190b059283abdf02555df274a97483930c4c0.jpg"
+    },
+    {
+      "id": "1034",
+      "number": 78,
+      "name": "Fauna - Good Fairy",
+      "type": "Character",
+      "subtypes": [
+        "Storyborn",
+        "Ally",
+        "Fairy"
+      ],
+      "mentionedSubtypes": [],
+      "rarity": "Common",
+      "story": "Sleeping Beauty",
+      "cost": 5,
+      "costBucket": "5",
+      "inkwell": true,
+      "parDelta": -1,
+      "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set5/78_05f7c9f063ba561fd00b4432040984bd14f2e1ff.jpg"
+    },
+    {
+      "id": "1035",
+      "number": 79,
+      "name": "Iago - Fake Flamingo",
+      "type": "Character",
+      "subtypes": [
+        "Storyborn",
+        "Ally"
+      ],
+      "mentionedSubtypes": [],
+      "rarity": "Rare",
+      "story": "Aladdin",
+      "cost": 4,
+      "costBucket": "4",
+      "inkwell": true,
+      "parDelta": -4,
+      "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set5/79_24ffa864729eaeddcbecf24149aae1f9b3a1a318.jpg"
+    },
+    {
+      "id": "1036",
+      "number": 80,
+      "name": "Banzai - Gluttonous Predator",
+      "type": "Character",
+      "subtypes": [
+        "Storyborn",
+        "Ally",
+        "Hyena"
+      ],
+      "mentionedSubtypes": [],
+      "rarity": "Rare",
+      "story": "The Lion King",
+      "cost": 2,
+      "costBucket": "2",
+      "inkwell": false,
+      "parDelta": 1,
+      "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set5/80_9687ad277b667e20eb22b245c9b0a9c352fd8ab5.jpg"
+    },
+    {
+      "id": "1037",
+      "number": 81,
+      "name": "Ed - Hysterical Partygoer",
+      "type": "Character",
+      "subtypes": [
+        "Storyborn",
+        "Ally",
+        "Hyena"
+      ],
+      "mentionedSubtypes": [],
+      "rarity": "Uncommon",
+      "story": "The Lion King",
+      "cost": 4,
+      "costBucket": "4",
+      "inkwell": false,
+      "parDelta": 0,
+      "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set5/81_975d26d6e10ff5b75f2853eebc68bfc3ecb930f2.jpg"
+    },
+    {
+      "id": "1038",
+      "number": 82,
+      "name": "Scroop - Odious Mutineer",
+      "type": "Character",
+      "subtypes": [
+        "Storyborn",
+        "Villain",
+        "Alien",
+        "Pirate"
+      ],
+      "mentionedSubtypes": [],
+      "rarity": "Super Rare",
+      "story": "Treasure Planet",
+      "cost": 3,
+      "costBucket": "3",
+      "inkwell": false,
+      "parDelta": -3,
+      "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set5/82_dd6e6a0324fb06e0fe6ab5e66431216d0f7db552.jpg"
+    },
+    {
+      "id": "1039",
+      "number": 83,
+      "name": "Prince Phillip - Swordsman of the Realm",
+      "type": "Character",
+      "subtypes": [
+        "Storyborn",
+        "Hero",
+        "Prince"
+      ],
+      "mentionedSubtypes": [],
+      "rarity": "Super Rare",
+      "story": "Sleeping Beauty",
+      "cost": 7,
+      "costBucket": "7+",
+      "inkwell": true,
+      "parDelta": -2,
+      "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set5/83_fd3057e8a722875495969fa9bcffd8ff6f79b55a.jpg"
+    },
+    {
+      "id": "1040",
+      "number": 84,
+      "name": "Clarabelle - Light on Her Hooves",
+      "type": "Character",
+      "subtypes": [
+        "Floodborn",
+        "Ally"
+      ],
+      "mentionedSubtypes": [],
+      "rarity": "Legendary",
+      "story": "Mickey Mouse & Friends",
+      "cost": 7,
+      "costBucket": "7+",
+      "inkwell": true,
+      "parDelta": -5,
+      "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set5/84_147cc2817842e0b084d4e36ed062d5729ca678ec.jpg"
+    },
+    {
+      "id": "1041",
+      "number": 85,
+      "name": "Anna - Diplomatic Queen",
+      "type": "Character",
+      "subtypes": [
+        "Storyborn",
+        "Hero",
+        "Queen"
+      ],
+      "mentionedSubtypes": [],
+      "rarity": "Legendary",
+      "story": "Frozen",
+      "cost": 3,
+      "costBucket": "3",
+      "inkwell": false,
+      "parDelta": -1,
+      "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set5/85_025f18eefc46a305c4813d45e992d1729516959b.jpg"
+    },
+    {
+      "id": "1042",
+      "number": 86,
+      "name": "Clarabelle - Clumsy Guest",
+      "type": "Character",
+      "subtypes": [
+        "Storyborn",
+        "Ally"
+      ],
+      "mentionedSubtypes": [],
+      "rarity": "Common",
+      "story": "Mickey Mouse & Friends",
+      "cost": 1,
+      "costBucket": "1",
+      "inkwell": true,
+      "parDelta": -1,
+      "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set5/86_53eddf98892fd6bf0d729cb12ae8df0af774398f.jpg"
+    },
+    {
+      "id": "1043",
+      "number": 87,
+      "name": "Banzai - Taunting Hyena",
+      "type": "Character",
+      "subtypes": [
+        "Storyborn",
+        "Ally",
+        "Hyena"
+      ],
+      "mentionedSubtypes": [],
+      "rarity": "Common",
+      "story": "The Lion King",
+      "cost": 2,
+      "costBucket": "2",
+      "inkwell": true,
+      "parDelta": -2,
+      "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set5/87_3623d8c1c26999525ade67df051d07378d88a559.jpg"
+    },
+    {
+      "id": "1044",
+      "number": 88,
+      "name": "Robin Hood - Sneaky Sleuth",
+      "type": "Character",
+      "subtypes": [
+        "Floodborn",
+        "Hero"
+      ],
+      "mentionedSubtypes": [],
+      "rarity": "Uncommon",
+      "story": "Robin Hood",
+      "cost": 5,
+      "costBucket": "5",
+      "inkwell": true,
+      "parDelta": -5,
+      "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set5/88_eac0aa976de17d199ae3b80516820ebd5b198254.jpg"
+    },
+    {
+      "id": "1045",
+      "number": 89,
+      "name": "Mother Gothel - Conceited Manipulator",
+      "type": "Character",
+      "subtypes": [
+        "Storyborn",
+        "Villain"
+      ],
+      "mentionedSubtypes": [],
+      "rarity": "Uncommon",
+      "story": "Tangled",
+      "cost": 2,
+      "costBucket": "2",
+      "inkwell": true,
+      "parDelta": -2,
+      "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set5/89_9d79e86e521b0ca421b47d43f1abe3b1bbf4069b.jpg"
+    },
+    {
+      "id": "1046",
+      "number": 90,
+      "name": "Clarabelle - Contented Wallflower",
+      "type": "Character",
+      "subtypes": [
+        "Storyborn",
+        "Ally"
+      ],
+      "mentionedSubtypes": [],
+      "rarity": "Uncommon",
+      "story": "Mickey Mouse & Friends",
+      "cost": 3,
+      "costBucket": "3",
+      "inkwell": true,
+      "parDelta": -3,
+      "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set5/90_3c77740107868a40c8efe745002ef071a5d6d5f1.jpg"
+    },
+    {
+      "id": "1047",
+      "number": 91,
+      "name": "Shenzi - Head Hyena",
+      "type": "Character",
+      "subtypes": [
+        "Storyborn",
+        "Ally",
+        "Hyena"
+      ],
+      "mentionedSubtypes": [],
+      "rarity": "Rare",
+      "story": "The Lion King",
+      "cost": 5,
+      "costBucket": "5",
+      "inkwell": true,
+      "parDelta": -4,
+      "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set5/91_81d4ab7239092a59a4e5345d6f917ffada295d3e.jpg"
+    },
+    {
+      "id": "1048",
+      "number": 92,
+      "name": "Mother Gothel - Unwavering Schemer",
+      "type": "Character",
+      "subtypes": [
+        "Floodborn",
+        "Villain"
+      ],
+      "mentionedSubtypes": [],
+      "rarity": "Super Rare",
+      "story": "Tangled",
+      "cost": 6,
+      "costBucket": "6",
+      "inkwell": true,
+      "parDelta": -3,
+      "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set5/92_92bb38db9577b514916ca847cb5a2f19c755fec8.jpg"
+    },
+    {
+      "id": "1049",
+      "number": 93,
+      "name": "Scar - Vengeful Lion",
+      "type": "Character",
+      "subtypes": [
+        "Storyborn",
+        "Villain"
+      ],
+      "mentionedSubtypes": [],
+      "rarity": "Rare",
+      "story": "The Lion King",
+      "cost": 4,
+      "costBucket": "4",
+      "inkwell": true,
+      "parDelta": -4,
+      "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set5/93_f34cb7a572c5246980eef5dd34cc02d2246d2b87.jpg"
+    },
+    {
+      "id": "1050",
+      "number": 94,
+      "name": "Hypnotic Deduction",
+      "type": "Action",
+      "subtypes": [],
+      "mentionedSubtypes": [],
+      "rarity": "Common",
+      "story": "The Great Mouse Detective",
+      "cost": 2,
+      "costBucket": "2",
+      "inkwell": true,
+      "parDelta": null,
+      "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set5/94_fc7ca7cd214c4f99b99621ee4da2a3ba6df8e68a.jpg"
+    },
+    {
+      "id": "1051",
+      "number": 95,
+      "name": "Night Howler Rage",
+      "type": "Action",
+      "subtypes": [],
+      "mentionedSubtypes": [],
+      "rarity": "Common",
+      "story": "Zootopia",
+      "cost": 3,
+      "costBucket": "3",
+      "inkwell": true,
+      "parDelta": null,
+      "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set5/95_511f38d9a345add3fa2198cc615af2296b644576.jpg"
+    },
+    {
+      "id": "1052",
+      "number": 96,
+      "name": "You're Welcome",
+      "type": "Action",
+      "subtypes": [
+        "Song"
+      ],
+      "mentionedSubtypes": [],
+      "rarity": "Uncommon",
+      "story": "Moana",
+      "cost": 4,
+      "costBucket": "4",
+      "inkwell": true,
+      "parDelta": null,
+      "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set5/96_b19f1a735260fd45f2cb2f55084f30a061f08726.jpg"
+    },
+    {
+      "id": "1053",
+      "number": 97,
+      "name": "Remember Who You Are",
+      "type": "Action",
+      "subtypes": [],
+      "mentionedSubtypes": [],
+      "rarity": "Rare",
+      "story": "The Lion King",
+      "cost": 4,
+      "costBucket": "4",
+      "inkwell": false,
+      "parDelta": null,
+      "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set5/97_7bbcdceeb0e768e3e46bf53d6b64eda779093a8a.jpg"
+    },
+    {
+      "id": "1054",
+      "number": 98,
+      "name": "Prince John's Mirror",
+      "type": "Item",
+      "subtypes": [],
+      "mentionedSubtypes": [],
+      "rarity": "Rare",
+      "story": "Robin Hood",
+      "cost": 3,
+      "costBucket": "3",
+      "inkwell": true,
+      "parDelta": null,
+      "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set5/98_d20592ff1c839b8163a112af35e2399063dda6b4.jpg"
+    },
+    {
+      "id": "1055",
+      "number": 99,
+      "name": "Obscurosphere",
+      "type": "Item",
+      "subtypes": [],
+      "mentionedSubtypes": [],
+      "rarity": "Common",
+      "story": "Lorcana",
+      "cost": 1,
+      "costBucket": "1",
+      "inkwell": true,
+      "parDelta": null,
+      "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set5/99_85c755de3cb01a86e3b8f91fa0782bfe32b5b9c6.jpg"
+    },
+    {
+      "id": "1056",
+      "number": 100,
+      "name": "Emerald Chromicon",
+      "type": "Item",
+      "subtypes": [],
+      "mentionedSubtypes": [],
+      "rarity": "Uncommon",
+      "story": "Lorcana",
+      "cost": 3,
+      "costBucket": "3",
+      "inkwell": false,
+      "parDelta": null,
+      "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set5/100_7c2adf073fff8bdc8cd2808890d4b73fb09c9810.jpg"
+    },
+    {
+      "id": "1057",
+      "number": 101,
+      "name": "Sherwood Forest - Outlaw Hideaway",
+      "type": "Location",
+      "subtypes": [],
+      "mentionedSubtypes": [],
+      "rarity": "Rare",
+      "story": "Robin Hood",
+      "cost": 2,
+      "costBucket": "2",
+      "inkwell": true,
+      "parDelta": null,
+      "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set5/101_9b8c0fcc232daf128172a1c2ba87107b2b3ca712.jpg"
+    },
+    {
+      "id": "1058",
+      "number": 102,
+      "name": "Tropical Rainforest - Jaguar Lair",
+      "type": "Location",
+      "subtypes": [],
+      "mentionedSubtypes": [],
+      "rarity": "Uncommon",
+      "story": "The Emperor's New Groove",
+      "cost": 3,
+      "costBucket": "3",
+      "inkwell": true,
+      "parDelta": null,
+      "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set5/102_da6c9286dcb2883897b375005e4910012fdec350.jpg"
+    },
+    {
+      "id": "1059",
+      "number": 103,
+      "name": "Taffyta Muttonfudge - Ruthless Rival",
+      "type": "Character",
+      "subtypes": [
+        "Storyborn",
+        "Ally",
+        "Racer"
+      ],
+      "mentionedSubtypes": [],
+      "rarity": "Uncommon",
+      "story": "Wreck-It Ralph",
+      "cost": 2,
+      "costBucket": "2",
+      "inkwell": true,
+      "parDelta": 0,
+      "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set5/103_ce170f49eb76a7a047d93c20d8dd8ef8721e05e5.jpg"
+    },
+    {
+      "id": "1060",
+      "number": 104,
+      "name": "Wreck-It Ralph - Demolition Dude",
+      "type": "Character",
+      "subtypes": [
+        "Storyborn",
+        "Hero"
+      ],
+      "mentionedSubtypes": [],
+      "rarity": "Rare",
+      "story": "Wreck-It Ralph",
+      "cost": 3,
+      "costBucket": "3",
+      "inkwell": true,
+      "parDelta": -3,
+      "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set5/104_866a9625b376fadedd47c84bcea7bc08027e7c8c.jpg"
+    },
+    {
+      "id": "1061",
+      "number": 105,
+      "name": "Maximus - Team Champion",
+      "type": "Character",
+      "subtypes": [
+        "Storyborn",
+        "Ally"
+      ],
+      "mentionedSubtypes": [],
+      "rarity": "Super Rare",
+      "story": "Tangled",
+      "cost": 6,
+      "costBucket": "6",
+      "inkwell": true,
+      "parDelta": -5,
+      "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set5/105_e70367bd2dbf8b1de9c08401141112758b5f969a.jpg"
+    },
+    {
+      "id": "1062",
+      "number": 106,
+      "name": "Turbo - Royal Hack",
+      "type": "Character",
+      "subtypes": [
+        "Storyborn",
+        "Villain",
+        "Racer"
+      ],
+      "mentionedSubtypes": [],
+      "rarity": "Uncommon",
+      "story": "Wreck-It Ralph",
+      "cost": 2,
+      "costBucket": "2",
+      "inkwell": false,
+      "parDelta": -1,
+      "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set5/106_385a6b1c37e5fd2e05b362c933bd2d8cbc09e6e2.jpg"
+    },
+    {
+      "id": "1063",
+      "number": 107,
+      "name": "Donald Duck - Pie Slinger",
+      "type": "Character",
+      "subtypes": [
+        "Floodborn",
+        "Hero",
+        "Knight"
+      ],
+      "mentionedSubtypes": [],
+      "rarity": "Legendary",
+      "story": "Mickey Mouse & Friends",
+      "cost": 5,
+      "costBucket": "5",
+      "inkwell": true,
+      "parDelta": -4,
+      "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set5/107_c139183c96689d9b31aaafce9927a09a0315ef2c.jpg"
+    },
+    {
+      "id": "1064",
+      "number": 108,
+      "name": "Rancis Fluggerbutter - Chocolate Charger",
+      "type": "Character",
+      "subtypes": [
+        "Storyborn",
+        "Ally",
+        "Racer"
+      ],
+      "mentionedSubtypes": [],
+      "rarity": "Common",
+      "story": "Wreck-It Ralph",
+      "cost": 4,
+      "costBucket": "4",
+      "inkwell": true,
+      "parDelta": -2,
+      "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set5/108_c442cee19081c337618b219e151d5a2b9e689a54.jpg"
+    },
+    {
+      "id": "1065",
+      "number": 109,
+      "name": "Scar - Betrayer",
+      "type": "Character",
+      "subtypes": [
+        "Storyborn",
+        "Villain"
+      ],
+      "mentionedSubtypes": [],
+      "rarity": "Uncommon",
+      "story": "The Lion King",
+      "cost": 5,
+      "costBucket": "5",
+      "inkwell": true,
+      "parDelta": -2,
+      "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set5/109_22bec38b2df4bb844a96b8cff891496705b029ed.jpg"
+    },
+    {
+      "id": "1066",
+      "number": 110,
+      "name": "Snowanna Rainbeau - Cool Competitor",
+      "type": "Character",
+      "subtypes": [
+        "Storyborn",
+        "Ally",
+        "Racer"
+      ],
+      "mentionedSubtypes": [],
+      "rarity": "Common",
+      "story": "Wreck-It Ralph",
+      "cost": 3,
+      "costBucket": "3",
+      "inkwell": false,
+      "parDelta": -2,
+      "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set5/110_39b868942692b49a2aefd28f30717a98a4d3004b.jpg"
+    },
+    {
+      "id": "1067",
+      "number": 111,
+      "name": "Daisy Duck - Spotless Food-Fighter",
+      "type": "Character",
+      "subtypes": [
+        "Storyborn",
+        "Hero"
+      ],
+      "mentionedSubtypes": [],
+      "rarity": "Common",
+      "story": "Mickey Mouse & Friends",
+      "cost": 2,
+      "costBucket": "2",
+      "inkwell": true,
+      "parDelta": -2,
+      "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set5/111_86c70e0928982c06f1dc64a561d2713f482e650d.jpg"
+    },
+    {
+      "id": "1068",
+      "number": 112,
+      "name": "Mickey Mouse - Enthusiastic Dancer",
+      "type": "Character",
+      "subtypes": [
+        "Dreamborn",
+        "Hero"
+      ],
+      "mentionedSubtypes": [],
+      "rarity": "Common",
+      "story": "Mickey Mouse & Friends",
+      "cost": 4,
+      "costBucket": "4",
+      "inkwell": true,
+      "parDelta": -2,
+      "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set5/112_a96350cd00f25e7e7983f7f5c21335ca127d4dba.jpg"
+    },
+    {
+      "id": "1069",
+      "number": 113,
+      "name": "Ratigan - Raging Rat",
+      "type": "Character",
+      "subtypes": [
+        "Dreamborn",
+        "Villain"
+      ],
+      "mentionedSubtypes": [],
+      "rarity": "Common",
+      "story": "The Great Mouse Detective",
+      "cost": 3,
+      "costBucket": "3",
+      "inkwell": true,
+      "parDelta": -2,
+      "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set5/113_3c5dc8b56a85855c745c1282a0b7f02f6ad1651f.jpg"
+    },
+    {
+      "id": "1070",
+      "number": 114,
+      "name": "Taffyta Muttonfudge - Crowd Favorite",
+      "type": "Character",
+      "subtypes": [
+        "Storyborn",
+        "Ally",
+        "Racer"
+      ],
+      "mentionedSubtypes": [],
+      "rarity": "Common",
+      "story": "Wreck-It Ralph",
+      "cost": 1,
+      "costBucket": "1",
+      "inkwell": true,
+      "parDelta": -1,
+      "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set5/114_f73d7e07516c17b56ce8cd5372db3636de211bfc.jpg"
+    },
+    {
+      "id": "1071",
+      "number": 115,
+      "name": "Denahi - Avenging Brother",
+      "type": "Character",
+      "subtypes": [
+        "Storyborn"
+      ],
+      "mentionedSubtypes": [],
+      "rarity": "Rare",
+      "story": "Brother Bear",
+      "cost": 5,
+      "costBucket": "5",
+      "inkwell": false,
+      "parDelta": 1,
+      "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set5/115_efcd6bf0f6a6f693900941942c45f95478025965.jpg"
+    },
+    {
+      "id": "1072",
+      "number": 116,
+      "name": "Pete - Steamboat Rival",
+      "type": "Character",
+      "subtypes": [
+        "Storyborn",
+        "Villain"
+      ],
+      "mentionedSubtypes": [],
+      "rarity": "Super Rare",
+      "story": "Mickey Mouse & Friends",
+      "cost": 7,
+      "costBucket": "7+",
+      "inkwell": true,
+      "parDelta": -4,
+      "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set5/116_228e5108dfe13ef72bf7428871759f2493f8eb2c.jpg"
+    },
+    {
+      "id": "1073",
+      "number": 117,
+      "name": "Taffyta Muttonfudge - Sour Speedster",
+      "type": "Character",
+      "subtypes": [
+        "Floodborn",
+        "Ally",
+        "Racer"
+      ],
+      "mentionedSubtypes": [],
+      "rarity": "Uncommon",
+      "story": "Wreck-It Ralph",
+      "cost": 4,
+      "costBucket": "4",
+      "inkwell": true,
+      "parDelta": -4,
+      "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set5/117_9564676bbdc83dd4455aa026773d75a55fd0002f.jpg"
+    },
+    {
+      "id": "1074",
+      "number": 118,
+      "name": "Robin Hood - Sharpshooter",
+      "type": "Character",
+      "subtypes": [
+        "Storyborn",
+        "Hero"
+      ],
+      "mentionedSubtypes": [],
+      "rarity": "Legendary",
+      "story": "Robin Hood",
+      "cost": 4,
+      "costBucket": "4",
+      "inkwell": false,
+      "parDelta": -3,
+      "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set5/118_c928e9c42c9b27025a11abd6b748dd98b484dd17.jpg"
+    },
+    {
+      "id": "1075",
+      "number": 119,
+      "name": "Gaston - Pure Paragon",
+      "type": "Character",
+      "subtypes": [
+        "Dreamborn",
+        "Villain"
+      ],
+      "mentionedSubtypes": [],
+      "rarity": "Rare",
+      "story": "Beauty and the Beast",
+      "cost": 9,
+      "costBucket": "7+",
+      "inkwell": false,
+      "parDelta": null,
+      "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set5/119_cd7b561f1c72e1656296411e54d68aa77c42e57b.jpg"
+    },
+    {
+      "id": "1076",
+      "number": 120,
+      "name": "Pete - Pastry Chomper",
+      "type": "Character",
+      "subtypes": [
+        "Storyborn",
+        "Villain"
+      ],
+      "mentionedSubtypes": [],
+      "rarity": "Common",
+      "story": "Mickey Mouse & Friends",
+      "cost": 3,
+      "costBucket": "3",
+      "inkwell": true,
+      "parDelta": -1,
+      "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set5/120_4512972c4c04b461c9077ddcb9142a67a515e2d7.jpg"
+    },
+    {
+      "id": "1077",
+      "number": 121,
+      "name": "Arthur - Novice Sparrow",
+      "type": "Character",
+      "subtypes": [
+        "Storyborn",
+        "Hero"
+      ],
+      "mentionedSubtypes": [],
+      "rarity": "Uncommon",
+      "story": "The Sword in the Stone",
+      "cost": 1,
+      "costBucket": "1",
+      "inkwell": false,
+      "parDelta": -1,
+      "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set5/121_c78cfa7f28ca5601dee77dd5c591400d3e83ab18.jpg"
+    },
+    {
+      "id": "1078",
+      "number": 122,
+      "name": "Donald Duck - Daisy's Date",
+      "type": "Character",
+      "subtypes": [
+        "Storyborn",
+        "Ally"
+      ],
+      "mentionedSubtypes": [],
+      "rarity": "Common",
+      "story": "Mickey Mouse & Friends",
+      "cost": 3,
+      "costBucket": "3",
+      "inkwell": true,
+      "parDelta": -2,
+      "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set5/122_8b1c730be79760dabf5f2af6b4bd4f1ed9b36e54.jpg"
+    },
+    {
+      "id": "1079",
+      "number": 123,
+      "name": "Ratigan - Party Crasher",
+      "type": "Character",
+      "subtypes": [
+        "Floodborn",
+        "Villain"
+      ],
+      "mentionedSubtypes": [],
+      "rarity": "Rare",
+      "story": "The Great Mouse Detective",
+      "cost": 7,
+      "costBucket": "7+",
+      "inkwell": false,
+      "parDelta": -4,
+      "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set5/123_a6fc62907cc023b6617333087beece341707d09a.jpg"
+    },
+    {
+      "id": "1080",
+      "number": 124,
+      "name": "Vanellope von Schweetz - Random Roster Racer",
+      "type": "Character",
+      "subtypes": [
+        "Storyborn",
+        "Hero",
+        "Princess",
+        "Racer"
+      ],
+      "mentionedSubtypes": [],
+      "rarity": "Rare",
+      "story": "Wreck-It Ralph",
+      "cost": 4,
+      "costBucket": "4",
+      "inkwell": false,
+      "parDelta": -2,
+      "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set5/124_19ea32731a9a06b7a770e78b11a8941ae2079397.jpg"
+    },
+    {
+      "id": "1081",
+      "number": 125,
+      "name": "Simba - Adventurous Successor",
+      "type": "Character",
+      "subtypes": [
+        "Storyborn",
+        "Hero",
+        "Prince"
+      ],
+      "mentionedSubtypes": [],
+      "rarity": "Common",
+      "story": "The Lion King",
+      "cost": 1,
+      "costBucket": "1",
+      "inkwell": false,
+      "parDelta": -1,
+      "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set5/125_4637b340cd698a26c94a941d7943425833192057.jpg"
+    },
+    {
+      "id": "1082",
+      "number": 126,
+      "name": "Minnie Mouse - Dazzling Dancer",
+      "type": "Character",
+      "subtypes": [
+        "Dreamborn",
+        "Hero"
+      ],
+      "mentionedSubtypes": [],
+      "rarity": "Uncommon",
+      "story": "Mickey Mouse & Friends",
+      "cost": 3,
+      "costBucket": "3",
+      "inkwell": true,
+      "parDelta": -2,
+      "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set5/126_4a74119ce637937525fd93c4431e8256b162cca2.jpg"
+    },
+    {
+      "id": "1083",
+      "number": 127,
+      "name": "Break Free",
+      "type": "Action",
+      "subtypes": [],
+      "mentionedSubtypes": [],
+      "rarity": "Common",
+      "story": "Peter Pan",
+      "cost": 1,
+      "costBucket": "1",
+      "inkwell": true,
+      "parDelta": null,
+      "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set5/127_30f9f7d4d1f1b3929caa84af9e84e11feb61abd7.jpg"
+    },
+    {
+      "id": "1084",
+      "number": 128,
+      "name": "Evil Comes Prepared",
+      "type": "Action",
+      "subtypes": [],
+      "mentionedSubtypes": [
+        "Villain"
+      ],
+      "rarity": "Common",
+      "story": "The Lion King",
+      "cost": 2,
+      "costBucket": "2",
+      "inkwell": true,
+      "parDelta": null,
+      "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set5/128_de23ced6699fb361b95948083acddb424412f8c0.jpg"
+    },
+    {
+      "id": "1085",
+      "number": 129,
+      "name": "Don't Let the Frostbite Bite",
+      "type": "Action",
+      "subtypes": [
+        "Song"
+      ],
+      "mentionedSubtypes": [],
+      "rarity": "Rare",
+      "story": "Frozen",
+      "cost": 7,
+      "costBucket": "7+",
+      "inkwell": true,
+      "parDelta": null,
+      "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set5/129_56bdfcc19e67e9b83c76352d00a5032108e367db.jpg"
+    },
+    {
+      "id": "1086",
+      "number": 130,
+      "name": "Glimmer vs Glimmer",
+      "type": "Action",
+      "subtypes": [],
+      "mentionedSubtypes": [],
+      "rarity": "Uncommon",
+      "story": "Hercules",
+      "cost": 4,
+      "costBucket": "4",
+      "inkwell": false,
+      "parDelta": null,
+      "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set5/130_9cf2f0868e801c59c7df8557dd148ac4cc417f14.jpg"
+    },
+    {
+      "id": "1087",
+      "number": 131,
+      "name": "Who's With Me?",
+      "type": "Action",
+      "subtypes": [],
+      "mentionedSubtypes": [],
+      "rarity": "Super Rare",
+      "story": "Beauty and the Beast",
+      "cost": 3,
+      "costBucket": "3",
+      "inkwell": true,
+      "parDelta": null,
+      "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set5/131_cb6188a980abc2792f83aad6dc6b688f9f111013.jpg"
+    },
+    {
+      "id": "1088",
+      "number": 132,
+      "name": "Potion of Might",
+      "type": "Item",
+      "subtypes": [],
+      "mentionedSubtypes": [
+        "Villain"
+      ],
+      "rarity": "Common",
+      "story": "Snow White and the Seven Dwarfs",
+      "cost": 1,
+      "costBucket": "1",
+      "inkwell": true,
+      "parDelta": null,
+      "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set5/132_cc2469ab352227eb54e17b3fae68be83324ab37d.jpg"
+    },
+    {
+      "id": "1089",
+      "number": 133,
+      "name": "The Sword Released",
+      "type": "Item",
+      "subtypes": [],
+      "mentionedSubtypes": [],
+      "rarity": "Rare",
+      "story": "The Sword in the Stone",
+      "cost": 3,
+      "costBucket": "3",
+      "inkwell": false,
+      "parDelta": null,
+      "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set5/133_405162280bdef93f1a654e58d55f809f11baba00.jpg"
+    },
+    {
+      "id": "1090",
+      "number": 134,
+      "name": "Ruby Chromicon",
+      "type": "Item",
+      "subtypes": [],
+      "mentionedSubtypes": [],
+      "rarity": "Uncommon",
+      "story": "Lorcana",
+      "cost": 1,
+      "costBucket": "1",
+      "inkwell": true,
+      "parDelta": null,
+      "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set5/134_388a43c0f105082298b23fcabcf7421c101fc9fc.jpg"
+    },
+    {
+      "id": "1091",
+      "number": 135,
+      "name": "Sugar Rush Speedway - Starting Line",
+      "type": "Location",
+      "subtypes": [],
+      "mentionedSubtypes": [],
+      "rarity": "Rare",
+      "story": "Wreck-It Ralph",
+      "cost": 1,
+      "costBucket": "1",
+      "inkwell": false,
+      "parDelta": null,
+      "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set5/135_85f35bbc09bcf0746e4300b9d786b9d9e4992ce8.jpg"
+    },
+    {
+      "id": "1092",
+      "number": 136,
+      "name": "Ratigan's Party - Seedy Back Room",
+      "type": "Location",
+      "subtypes": [],
+      "mentionedSubtypes": [],
+      "rarity": "Uncommon",
+      "story": "The Great Mouse Detective",
+      "cost": 2,
+      "costBucket": "2",
+      "inkwell": true,
+      "parDelta": null,
+      "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set5/136_10efd2fda9e90a57d80120958ea59bac45591dfa.jpg"
+    },
+    {
+      "id": "1093",
+      "number": 137,
+      "name": "King Candy - Sovereign of Sugar",
+      "type": "Character",
+      "subtypes": [
+        "Storyborn",
+        "Villain",
+        "King",
+        "Racer"
+      ],
+      "mentionedSubtypes": [],
+      "rarity": "Common",
+      "story": "Wreck-It Ralph",
+      "cost": 1,
+      "costBucket": "1",
+      "inkwell": true,
+      "parDelta": 0,
+      "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set5/137_1b4de35d3f76ffcfd28391d93ca6553f6cc83f86.jpg"
+    },
+    {
+      "id": "1094",
+      "number": 138,
+      "name": "Chaca - Impressive Daughter",
+      "type": "Character",
+      "subtypes": [
+        "Storyborn",
+        "Ally"
+      ],
+      "mentionedSubtypes": [],
+      "rarity": "Common",
+      "story": "The Emperor's New Groove",
+      "cost": 4,
+      "costBucket": "4",
+      "inkwell": true,
+      "parDelta": -1,
+      "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set5/138_b312fdfa7b23dbd76859340495a738475f89597a.jpg"
+    },
+    {
+      "id": "1095",
+      "number": 139,
+      "name": "The Queen - Cruelest of All",
+      "type": "Character",
+      "subtypes": [
+        "Storyborn",
+        "Villain",
+        "Queen",
+        "Sorcerer"
+      ],
+      "mentionedSubtypes": [],
+      "rarity": "Common",
+      "story": "Snow White and the Seven Dwarfs",
+      "cost": 2,
+      "costBucket": "2",
+      "inkwell": true,
+      "parDelta": -2,
+      "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set5/139_091704342592a890bcae2e96ea2cee3701d1464d.jpg"
+    },
+    {
+      "id": "1096",
+      "number": 140,
+      "name": "Scrooge McDuck - Afficionado of Antiquities",
+      "type": "Character",
+      "subtypes": [
+        "Storyborn",
+        "Hero"
+      ],
+      "mentionedSubtypes": [],
+      "rarity": "Rare",
+      "story": "DuckTales",
+      "cost": 4,
+      "costBucket": "4",
+      "inkwell": false,
+      "parDelta": 2,
+      "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set5/140_f3d4ef9fdb17f0b0aec6a0b06f2e5b4fd51f7b6b.jpg"
+    },
+    {
+      "id": "1097",
+      "number": 141,
+      "name": "Prince John - Opportunistic Briber",
+      "type": "Character",
+      "subtypes": [
+        "Dreamborn",
+        "Villain",
+        "Prince"
+      ],
+      "mentionedSubtypes": [],
+      "rarity": "Common",
+      "story": "Robin Hood",
+      "cost": 3,
+      "costBucket": "3",
+      "inkwell": true,
+      "parDelta": -2,
+      "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set5/141_3633ae235404bb5a863ecfefb3854ba1c0d2f3b4.jpg"
+    },
+    {
+      "id": "1098",
+      "number": 142,
+      "name": "Merlin - Back from Bermuda",
+      "type": "Character",
+      "subtypes": [
+        "Storyborn",
+        "Mentor",
+        "Sorcerer"
+      ],
+      "mentionedSubtypes": [],
+      "rarity": "Common",
+      "story": "The Sword in the Stone",
+      "cost": 4,
+      "costBucket": "4",
+      "inkwell": true,
+      "parDelta": -3,
+      "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set5/142_b7fa45c3ed43abbbf237444d03193cfa52c67573.jpg"
+    },
+    {
+      "id": "1099",
+      "number": 143,
+      "name": "Pacha - Emperor's Guide",
+      "type": "Character",
+      "subtypes": [
+        "Storyborn",
+        "Hero"
+      ],
+      "mentionedSubtypes": [],
+      "rarity": "Uncommon",
+      "story": "The Emperor's New Groove",
+      "cost": 3,
+      "costBucket": "3",
+      "inkwell": true,
+      "parDelta": -2,
+      "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set5/143_e01c1ecb12e2d945fe1abec367bd62988a996002.jpg"
+    },
+    {
+      "id": "1100",
+      "number": 144,
+      "name": "The Queen - Fairest of All",
+      "type": "Character",
+      "subtypes": [
+        "Floodborn",
+        "Villain",
+        "Queen",
+        "Sorcerer"
+      ],
+      "mentionedSubtypes": [],
+      "rarity": "Super Rare",
+      "story": "Snow White and the Seven Dwarfs",
+      "cost": 5,
+      "costBucket": "5",
+      "inkwell": true,
+      "parDelta": -5,
+      "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set5/144_837691499f046640373a133a4a37230c39b09a7c.jpg"
+    },
+    {
+      "id": "1101",
+      "number": 145,
+      "name": "Sheriff of Nottingham - Bushel Britches",
+      "type": "Character",
+      "subtypes": [
+        "Storyborn",
+        "Villain"
+      ],
+      "mentionedSubtypes": [],
+      "rarity": "Rare",
+      "story": "Robin Hood",
+      "cost": 9,
+      "costBucket": "7+",
+      "inkwell": false,
+      "parDelta": null,
+      "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set5/145_36bc9abc87e58bf3ac74f6bb5ed29fda6c142a2f.jpg"
+    },
+    {
+      "id": "1102",
+      "number": 146,
+      "name": "Chicha - Dedicated Mother",
+      "type": "Character",
+      "subtypes": [
+        "Storyborn",
+        "Ally"
+      ],
+      "mentionedSubtypes": [],
+      "rarity": "Rare",
+      "story": "The Emperor's New Groove",
+      "cost": 2,
+      "costBucket": "2",
+      "inkwell": false,
+      "parDelta": -3,
+      "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set5/146_f5ce21c4736e34cb506e216061609a2f55cb40de.jpg"
+    },
+    {
+      "id": "1103",
+      "number": 147,
+      "name": "Prince John - Gold Lover",
+      "type": "Character",
+      "subtypes": [
+        "Storyborn",
+        "Villain",
+        "Prince"
+      ],
+      "mentionedSubtypes": [],
+      "rarity": "Super Rare",
+      "story": "Robin Hood",
+      "cost": 4,
+      "costBucket": "4",
+      "inkwell": true,
+      "parDelta": -3,
+      "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set5/147_119635b43373ed970b024602c3946b022c2a041b.jpg"
+    },
+    {
+      "id": "1104",
+      "number": 148,
+      "name": "The Queen - Crown of the Council",
+      "type": "Character",
+      "subtypes": [
+        "Storyborn",
+        "Villain",
+        "Queen",
+        "Sorcerer"
+      ],
+      "mentionedSubtypes": [],
+      "rarity": "Rare",
+      "story": "Snow White and the Seven Dwarfs",
+      "cost": 4,
+      "costBucket": "4",
+      "inkwell": false,
+      "parDelta": -3,
+      "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set5/148_30c8ea65fd7543c27b327c642efbb6cf08b4b1de.jpg"
+    },
+    {
+      "id": "1105",
+      "number": 149,
+      "name": "Kuzco - Selfish Emperor",
+      "type": "Character",
+      "subtypes": [
+        "Storyborn",
+        "King"
+      ],
+      "mentionedSubtypes": [],
+      "rarity": "Super Rare",
+      "story": "The Emperor's New Groove",
+      "cost": 6,
+      "costBucket": "6",
+      "inkwell": true,
+      "parDelta": -5,
+      "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set5/149_39bcbba9ed54c9ba25f32b32a7e49037811719e7.jpg"
+    },
+    {
+      "id": "1106",
+      "number": 150,
+      "name": "Mufasa - Ruler of Pride Rock",
+      "type": "Character",
+      "subtypes": [
+        "Storyborn",
+        "Mentor",
+        "King"
+      ],
+      "mentionedSubtypes": [],
+      "rarity": "Legendary",
+      "story": "The Lion King",
+      "cost": 8,
+      "costBucket": "7+",
+      "inkwell": false,
+      "parDelta": null,
+      "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set5/150_eadbc76bfe6ad69b9fa5e8a760e8ddaa2291c2bd.jpg"
+    },
+    {
+      "id": "1107",
+      "number": 151,
+      "name": "Ludwig Von Drake - Self-Proclaimed Genius",
+      "type": "Character",
+      "subtypes": [
+        "Storyborn",
+        "Ally"
+      ],
+      "mentionedSubtypes": [],
+      "rarity": "Uncommon",
+      "story": "Mickey Mouse & Friends",
+      "cost": 5,
+      "costBucket": "5",
+      "inkwell": true,
+      "parDelta": -1,
+      "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set5/151_e16b392e9b663e675da26eb261f1b2c557b215ac.jpg"
+    },
+    {
+      "id": "1108",
+      "number": 152,
+      "name": "Minnie Mouse - Quick-Thinking Inventor",
+      "type": "Character",
+      "subtypes": [
+        "Dreamborn",
+        "Hero",
+        "Inventor"
+      ],
+      "mentionedSubtypes": [],
+      "rarity": "Common",
+      "story": "Mickey Mouse & Friends",
+      "cost": 1,
+      "costBucket": "1",
+      "inkwell": false,
+      "parDelta": -1,
+      "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set5/152_6c9f200d924c5e0a2ec6f4ac1dafe652da22d446.jpg"
+    },
+    {
+      "id": "1109",
+      "number": 153,
+      "name": "Basil - Practiced Detective",
+      "type": "Character",
+      "subtypes": [
+        "Storyborn",
+        "Hero",
+        "Detective"
+      ],
+      "mentionedSubtypes": [],
+      "rarity": "Common",
+      "story": "The Great Mouse Detective",
+      "cost": 1,
+      "costBucket": "1",
+      "inkwell": true,
+      "parDelta": -1,
+      "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set5/153_6e4a879171877a05b36801db0509990c9de553f3.jpg"
+    },
+    {
+      "id": "1110",
+      "number": 154,
+      "name": "King Candy - Sweet Abomination",
+      "type": "Character",
+      "subtypes": [
+        "Floodborn",
+        "Villain",
+        "King",
+        "Racer"
+      ],
+      "mentionedSubtypes": [],
+      "rarity": "Uncommon",
+      "story": "Wreck-It Ralph",
+      "cost": 5,
+      "costBucket": "5",
+      "inkwell": false,
+      "parDelta": -5,
+      "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set5/154_635c6c79624ec35ebe2b2fc285711e348036aaa6.jpg"
+    },
+    {
+      "id": "1111",
+      "number": 155,
+      "name": "Donald Duck - Focused Flatfoot",
+      "type": "Character",
+      "subtypes": [
+        "Dreamborn",
+        "Hero",
+        "Detective"
+      ],
+      "mentionedSubtypes": [],
+      "rarity": "Common",
+      "story": "Mickey Mouse & Friends",
+      "cost": 5,
+      "costBucket": "5",
+      "inkwell": true,
+      "parDelta": -4,
+      "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set5/155_ce2280dd52fe36dbdad4a5ec4919edd5e621f510.jpg"
+    },
+    {
+      "id": "1112",
+      "number": 156,
+      "name": "Tanana - Wise Woman",
+      "type": "Character",
+      "subtypes": [
+        "Storyborn",
+        "Ally"
+      ],
+      "mentionedSubtypes": [],
+      "rarity": "Common",
+      "story": "Brother Bear",
+      "cost": 2,
+      "costBucket": "2",
+      "inkwell": true,
+      "parDelta": -2,
+      "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set5/156_11a9530f7704ea7c832c81111adf9e54823e3c51.jpg"
+    },
+    {
+      "id": "1113",
+      "number": 157,
+      "name": "Tipo - Growing Son",
+      "type": "Character",
+      "subtypes": [
+        "Storyborn",
+        "Ally"
+      ],
+      "mentionedSubtypes": [],
+      "rarity": "Uncommon",
+      "story": "The Emperor's New Groove",
+      "cost": 2,
+      "costBucket": "2",
+      "inkwell": true,
+      "parDelta": -3,
+      "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set5/157_ade0244b87db43956c78d023fea9de1f7e0735b2.jpg"
+    },
+    {
+      "id": "1114",
+      "number": 158,
+      "name": "Belle - Of the Ball",
+      "type": "Character",
+      "subtypes": [
+        "Dreamborn",
+        "Hero",
+        "Princess"
+      ],
+      "mentionedSubtypes": [],
+      "rarity": "Rare",
+      "story": "Beauty and the Beast",
+      "cost": 4,
+      "costBucket": "4",
+      "inkwell": false,
+      "parDelta": -3,
+      "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set5/158_d060efbe54a821c329065aad3bc643232d0b8140.jpg"
+    },
+    {
+      "id": "1115",
+      "number": 159,
+      "name": "Merlin - Intellectual Visionary",
+      "type": "Character",
+      "subtypes": [
+        "Floodborn",
+        "Mentor",
+        "Sorcerer"
+      ],
+      "mentionedSubtypes": [],
+      "rarity": "Legendary",
+      "story": "The Sword in the Stone",
+      "cost": 6,
+      "costBucket": "6",
+      "inkwell": false,
+      "parDelta": -3,
+      "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set5/159_d2334c646940494e5e01a89bc18d3bea5fefc42a.jpg"
+    },
+    {
+      "id": "1116",
+      "number": 160,
+      "name": "Vision of the Future",
+      "type": "Action",
+      "subtypes": [],
+      "mentionedSubtypes": [],
+      "rarity": "Common",
+      "story": "The Sword in the Stone",
+      "cost": 2,
+      "costBucket": "2",
+      "inkwell": true,
+      "parDelta": null,
+      "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set5/160_918c00bb297564f3d4742877f3379fa281e26f9e.jpg"
+    },
+    {
+      "id": "1117",
+      "number": 161,
+      "name": "Royal Tantrum",
+      "type": "Action",
+      "subtypes": [],
+      "mentionedSubtypes": [],
+      "rarity": "Rare",
+      "story": "Robin Hood",
+      "cost": 4,
+      "costBucket": "4",
+      "inkwell": false,
+      "parDelta": null,
+      "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set5/161_130a9d6f3825b01b2d2bb00c8873f31924f21108.jpg"
+    },
+    {
+      "id": "1118",
+      "number": 162,
+      "name": "Ever as Before",
+      "type": "Action",
+      "subtypes": [
+        "Song"
+      ],
+      "mentionedSubtypes": [],
+      "rarity": "Common",
+      "story": "Beauty and the Beast",
+      "cost": 2,
+      "costBucket": "2",
+      "inkwell": true,
+      "parDelta": null,
+      "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set5/162_9ed777e057fed9ea5ad04e77ccce8bd8691755e2.jpg"
+    },
+    {
+      "id": "1119",
+      "number": 163,
+      "name": "Hide Away",
+      "type": "Action",
+      "subtypes": [],
+      "mentionedSubtypes": [],
+      "rarity": "Uncommon",
+      "story": "Sleeping Beauty",
+      "cost": 2,
+      "costBucket": "2",
+      "inkwell": true,
+      "parDelta": null,
+      "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set5/163_8d94a21dab11e8ad7f4d1727cf5a064212d9fc05.jpg"
+    },
+    {
+      "id": "1120",
+      "number": 164,
+      "name": "All Funned Out",
+      "type": "Action",
+      "subtypes": [],
+      "mentionedSubtypes": [],
+      "rarity": "Uncommon",
+      "story": "The Emperor's New Groove",
+      "cost": 1,
+      "costBucket": "1",
+      "inkwell": true,
+      "parDelta": null,
+      "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set5/164_dddf49f5c2d191d177e96867804759bb00d263e4.jpg"
+    },
+    {
+      "id": "1121",
+      "number": 165,
+      "name": "Medal of Heroes",
+      "type": "Item",
+      "subtypes": [],
+      "mentionedSubtypes": [],
+      "rarity": "Common",
+      "story": "Wreck-It Ralph",
+      "cost": 2,
+      "costBucket": "2",
+      "inkwell": true,
+      "parDelta": null,
+      "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set5/165_40c2702907593be4f1ba4191e900ed731be81915.jpg"
+    },
+    {
+      "id": "1122",
+      "number": 166,
+      "name": "Basil's Magnifying Glass",
+      "type": "Item",
+      "subtypes": [],
+      "mentionedSubtypes": [],
+      "rarity": "Rare",
+      "story": "The Great Mouse Detective",
+      "cost": 2,
+      "costBucket": "2",
+      "inkwell": true,
+      "parDelta": null,
+      "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set5/166_6b2bb3aa8b796658381fa52eb54b393dac45b8eb.jpg"
+    },
+    {
+      "id": "1123",
+      "number": 167,
+      "name": "Merlin's Carpetbag",
+      "type": "Item",
+      "subtypes": [],
+      "mentionedSubtypes": [],
+      "rarity": "Uncommon",
+      "story": "The Sword in the Stone",
+      "cost": 5,
+      "costBucket": "5",
+      "inkwell": false,
+      "parDelta": null,
+      "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set5/167_9edf42b1533610d2db1fdd6066ceba074861ba2c.jpg"
+    },
+    {
+      "id": "1124",
+      "number": 168,
+      "name": "Sapphire Chromicon",
+      "type": "Item",
+      "subtypes": [],
+      "mentionedSubtypes": [],
+      "rarity": "Uncommon",
+      "story": "Lorcana",
+      "cost": 4,
+      "costBucket": "4",
+      "inkwell": false,
+      "parDelta": null,
+      "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set5/168_1a6bce8143ab590fa8c1de42676022f16b72a169.jpg"
+    },
+    {
+      "id": "1125",
+      "number": 169,
+      "name": "The Great Illuminary - Radiant Ballroom",
+      "type": "Location",
+      "subtypes": [],
+      "mentionedSubtypes": [],
+      "rarity": "Rare",
+      "story": "Lorcana",
+      "cost": 3,
+      "costBucket": "3",
+      "inkwell": true,
+      "parDelta": null,
+      "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set5/169_a5853f0f85a9d732755b4023b95ab8f9adf58809.jpg"
+    },
+    {
+      "id": "1126",
+      "number": 170,
+      "name": "Merlin's Cottage - The Wizard's Home",
+      "type": "Location",
+      "subtypes": [],
+      "mentionedSubtypes": [],
+      "rarity": "Uncommon",
+      "story": "The Sword in the Stone",
+      "cost": 1,
+      "costBucket": "1",
+      "inkwell": true,
+      "parDelta": null,
+      "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set5/170_93c93243b854c0f8442390b9f0d37d109b516a73.jpg"
+    },
+    {
+      "id": "1127",
+      "number": 171,
+      "name": "Stitch - Team Underdog",
+      "type": "Character",
+      "subtypes": [
+        "Storyborn",
+        "Hero",
+        "Alien"
+      ],
+      "mentionedSubtypes": [],
+      "rarity": "Uncommon",
+      "story": "Lilo & Stitch",
+      "cost": 4,
+      "costBucket": "4",
+      "inkwell": false,
+      "parDelta": -5,
+      "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set5/171_82cdf9eed09e90fae394bd1aae80fcdcd25c65d8.jpg"
+    },
+    {
+      "id": "1128",
+      "number": 172,
+      "name": "Jafar - Tyrannical Hypnotist",
+      "type": "Character",
+      "subtypes": [
+        "Dreamborn",
+        "Villain",
+        "Sorcerer"
+      ],
+      "mentionedSubtypes": [],
+      "rarity": "Legendary",
+      "story": "Aladdin",
+      "cost": 6,
+      "costBucket": "6",
+      "inkwell": true,
+      "parDelta": -6,
+      "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set5/172_7abe33f9beed67b1b91b47ab77c46533929c4471.jpg"
+    },
+    {
+      "id": "1129",
+      "number": 173,
+      "name": "Simba - Lost Prince",
+      "type": "Character",
+      "subtypes": [
+        "Storyborn",
+        "Hero",
+        "Prince"
+      ],
+      "mentionedSubtypes": [],
+      "rarity": "Common",
+      "story": "The Lion King",
+      "cost": 3,
+      "costBucket": "3",
+      "inkwell": true,
+      "parDelta": -2,
+      "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set5/173_462d3c987c169a5219ac806c69a4d7d6a540c99d.jpg"
+    },
+    {
+      "id": "1130",
+      "number": 174,
+      "name": "Rudy - Groove Disrupter",
+      "type": "Character",
+      "subtypes": [
+        "Storyborn"
+      ],
+      "mentionedSubtypes": [],
+      "rarity": "Common",
+      "story": "The Emperor's New Groove",
+      "cost": 1,
+      "costBucket": "1",
+      "inkwell": true,
+      "parDelta": 0,
+      "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set5/174_5bfc1bc253e8cb183d0ceba77cbfd69dea8d1971.jpg"
+    },
+    {
+      "id": "1131",
+      "number": 175,
+      "name": "Royal Guard - Bovine Protector",
+      "type": "Character",
+      "subtypes": [
+        "Storyborn"
+      ],
+      "mentionedSubtypes": [],
+      "rarity": "Common",
+      "story": "The Emperor's New Groove",
+      "cost": 4,
+      "costBucket": "4",
+      "inkwell": true,
+      "parDelta": -2,
+      "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set5/175_98c1d1b888c6d34b88c2b61e590075ece3657009.jpg"
+    },
+    {
+      "id": "1132",
+      "number": 176,
+      "name": "Mickey Mouse - Food Fight Defender",
+      "type": "Character",
+      "subtypes": [
+        "Storyborn",
+        "Hero"
+      ],
+      "mentionedSubtypes": [],
+      "rarity": "Common",
+      "story": "Mickey Mouse & Friends",
+      "cost": 1,
+      "costBucket": "1",
+      "inkwell": true,
+      "parDelta": -1,
+      "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set5/176_956f54fdd41cc489955423f3de4552a52a6752a9.jpg"
+    },
+    {
+      "id": "1133",
+      "number": 177,
+      "name": "Sleepy - Sluggish Knight",
+      "type": "Character",
+      "subtypes": [
+        "Dreamborn",
+        "Ally",
+        "Knight",
+        "Seven Dwarfs"
+      ],
+      "mentionedSubtypes": [],
+      "rarity": "Uncommon",
+      "story": "Snow White and the Seven Dwarfs",
+      "cost": 2,
+      "costBucket": "2",
+      "inkwell": true,
+      "parDelta": -2,
+      "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set5/177_ea733bfd40f68af2c093bb31c35db7d7404318c8.jpg"
+    },
+    {
+      "id": "1134",
+      "number": 178,
+      "name": "Kronk - Unlicensed Investigator",
+      "type": "Character",
+      "subtypes": [
+        "Dreamborn",
+        "Ally"
+      ],
+      "mentionedSubtypes": [],
+      "rarity": "Common",
+      "story": "The Emperor's New Groove",
+      "cost": 2,
+      "costBucket": "2",
+      "inkwell": true,
+      "parDelta": -1,
+      "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set5/178_5c3211832bd0a0b49ceb9d91e8670601e305c4f3.jpg"
+    },
+    {
+      "id": "1135",
+      "number": 179,
+      "name": "HeiHei - Protective Rooster",
+      "type": "Character",
+      "subtypes": [
+        "Dreamborn",
+        "Ally"
+      ],
+      "mentionedSubtypes": [],
+      "rarity": "Common",
+      "story": "Moana",
+      "cost": 5,
+      "costBucket": "5",
+      "inkwell": true,
+      "parDelta": -2,
+      "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set5/179_2606e8dd31d0a0a6771bc485dfc50fb8b8e49b63.jpg"
+    },
+    {
+      "id": "1136",
+      "number": 180,
+      "name": "Sneezy - Noisy Knight",
+      "type": "Character",
+      "subtypes": [
+        "Dreamborn",
+        "Ally",
+        "Knight",
+        "Seven Dwarfs"
+      ],
+      "mentionedSubtypes": [
+        "Knight"
+      ],
+      "rarity": "Common",
+      "story": "Snow White and the Seven Dwarfs",
+      "cost": 4,
+      "costBucket": "4",
+      "inkwell": true,
+      "parDelta": -3,
+      "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set5/180_69abeefcddfe5d1589aa021314afea30cab3c544.jpg"
+    },
+    {
+      "id": "1137",
+      "number": 181,
+      "name": "Dopey - Knight Apprentice",
+      "type": "Character",
+      "subtypes": [
+        "Dreamborn",
+        "Ally",
+        "Knight",
+        "Seven Dwarfs"
+      ],
+      "mentionedSubtypes": [
+        "Knight"
+      ],
+      "rarity": "Common",
+      "story": "Snow White and the Seven Dwarfs",
+      "cost": 3,
+      "costBucket": "3",
+      "inkwell": true,
+      "parDelta": -4,
+      "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set5/181_cdd0d2f8f5fa3d9a35e603899281df1a0ad9df6c.jpg"
+    },
+    {
+      "id": "1138",
+      "number": 182,
+      "name": "Namaari - Resolute Daughter",
+      "type": "Character",
+      "subtypes": [
+        "Storyborn",
+        "Villain",
+        "Princess"
+      ],
+      "mentionedSubtypes": [],
+      "rarity": "Rare",
+      "story": "Raya and the Last Dragon",
+      "cost": 9,
+      "costBucket": "7+",
+      "inkwell": false,
+      "parDelta": null,
+      "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set5/182_bdedb639bd9cc9786b41640c51fb99d568aae335.jpg"
+    },
+    {
+      "id": "1139",
+      "number": 183,
+      "name": "Snow White - Fair-Hearted",
+      "type": "Character",
+      "subtypes": [
+        "Dreamborn",
+        "Hero",
+        "Princess",
+        "Knight"
+      ],
+      "mentionedSubtypes": [
+        "Knight"
+      ],
+      "rarity": "Super Rare",
+      "story": "Snow White and the Seven Dwarfs",
+      "cost": 5,
+      "costBucket": "5",
+      "inkwell": false,
+      "parDelta": -1,
+      "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set5/183_66089e56ac2c8112144bb5736193eee086df7118.jpg"
+    },
+    {
+      "id": "1140",
+      "number": 184,
+      "name": "Yzma - Unjustly Treated",
+      "type": "Character",
+      "subtypes": [
+        "Dreamborn",
+        "Villain",
+        "Sorcerer"
+      ],
+      "mentionedSubtypes": [],
+      "rarity": "Rare",
+      "story": "The Emperor's New Groove",
+      "cost": 4,
+      "costBucket": "4",
+      "inkwell": false,
+      "parDelta": -3,
+      "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set5/184_1d13a30a04555a7325d79a343fb021836085cfd9.jpg"
+    },
+    {
+      "id": "1141",
+      "number": 185,
+      "name": "Kronk - Head of Security",
+      "type": "Character",
+      "subtypes": [
+        "Floodborn",
+        "Ally",
+        "Captain"
+      ],
+      "mentionedSubtypes": [],
+      "rarity": "Super Rare",
+      "story": "The Emperor's New Groove",
+      "cost": 7,
+      "costBucket": "7+",
+      "inkwell": false,
+      "parDelta": -6,
+      "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set5/185_9d7f683b567d708e2f090cd74dd11abdbc38e50e.jpg"
+    },
+    {
+      "id": "1142",
+      "number": 186,
+      "name": "Grumpy - Skeptical Knight",
+      "type": "Character",
+      "subtypes": [
+        "Dreamborn",
+        "Ally",
+        "Knight",
+        "Seven Dwarfs"
+      ],
+      "mentionedSubtypes": [
+        "Knight"
+      ],
+      "rarity": "Super Rare",
+      "story": "Snow White and the Seven Dwarfs",
+      "cost": 3,
+      "costBucket": "3",
+      "inkwell": true,
+      "parDelta": -4,
+      "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set5/186_6f9886358c1374607c1af0715018212cceed4419.jpg"
+    },
+    {
+      "id": "1143",
+      "number": 187,
+      "name": "Pete - Wrestling Champ",
+      "type": "Character",
+      "subtypes": [
+        "Dreamborn",
+        "Villain"
+      ],
+      "mentionedSubtypes": [],
+      "rarity": "Rare",
+      "story": "Mickey Mouse & Friends",
+      "cost": 3,
+      "costBucket": "3",
+      "inkwell": false,
+      "parDelta": -4,
+      "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set5/187_bfbad11bb4476a19d5a3284479c7dc6ded886a4a.jpg"
+    },
+    {
+      "id": "1144",
+      "number": 188,
+      "name": "Sir Ector - Castle Lord",
+      "type": "Character",
+      "subtypes": [
+        "Storyborn",
+        "Knight"
+      ],
+      "mentionedSubtypes": [],
+      "rarity": "Rare",
+      "story": "The Sword in the Stone",
+      "cost": 7,
+      "costBucket": "7+",
+      "inkwell": false,
+      "parDelta": 3,
+      "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set5/188_2a26d9ec65c9eea732263a290100e3de6d763289.jpg"
+    },
+    {
+      "id": "1145",
+      "number": 189,
+      "name": "Bashful - Adoring Knight",
+      "type": "Character",
+      "subtypes": [
+        "Dreamborn",
+        "Ally",
+        "Knight",
+        "Seven Dwarfs"
+      ],
+      "mentionedSubtypes": [
+        "Princess"
+      ],
+      "rarity": "Uncommon",
+      "story": "Snow White and the Seven Dwarfs",
+      "cost": 4,
+      "costBucket": "4",
+      "inkwell": true,
+      "parDelta": -3,
+      "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set5/189_e6c8d4603719004d9b76b1ad462a1322011078f7.jpg"
+    },
+    {
+      "id": "1146",
+      "number": 190,
+      "name": "Arthur - Wart",
+      "type": "Character",
+      "subtypes": [
+        "Storyborn",
+        "Hero"
+      ],
+      "mentionedSubtypes": [],
+      "rarity": "Uncommon",
+      "story": "The Sword in the Stone",
+      "cost": 2,
+      "costBucket": "2",
+      "inkwell": true,
+      "parDelta": 0,
+      "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set5/190_52b71a02b8515ad518b44ffaf7d4238e2c5f15cc.jpg"
+    },
+    {
+      "id": "1147",
+      "number": 191,
+      "name": "Happy - Lively Knight",
+      "type": "Character",
+      "subtypes": [
+        "Dreamborn",
+        "Ally",
+        "Knight",
+        "Seven Dwarfs"
+      ],
+      "mentionedSubtypes": [],
+      "rarity": "Common",
+      "story": "Snow White and the Seven Dwarfs",
+      "cost": 1,
+      "costBucket": "1",
+      "inkwell": true,
+      "parDelta": -1,
+      "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set5/191_0cc7b9f19409331335ceb361ae9e867c82c3732d.jpg"
+    },
+    {
+      "id": "1148",
+      "number": 192,
+      "name": "Simba - Son of Mufasa",
+      "type": "Character",
+      "subtypes": [
+        "Floodborn",
+        "Hero",
+        "King"
+      ],
+      "mentionedSubtypes": [],
+      "rarity": "Uncommon",
+      "story": "The Lion King",
+      "cost": 6,
+      "costBucket": "6",
+      "inkwell": true,
+      "parDelta": -7,
+      "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set5/192_ac29a429d7976e69778c5dd364899dc2fd6a6068.jpg"
+    },
+    {
+      "id": "1149",
+      "number": 193,
+      "name": "Doc - Bold Knight",
+      "type": "Character",
+      "subtypes": [
+        "Dreamborn",
+        "Ally",
+        "Knight",
+        "Seven Dwarfs"
+      ],
+      "mentionedSubtypes": [],
+      "rarity": "Rare",
+      "story": "Snow White and the Seven Dwarfs",
+      "cost": 2,
+      "costBucket": "2",
+      "inkwell": false,
+      "parDelta": -2,
+      "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set5/193_c73e3fe876537025524ae561e440f5c4746fd8de.jpg"
+    },
+    {
+      "id": "1150",
+      "number": 194,
+      "name": "Arthur - King Victorious",
+      "type": "Character",
+      "subtypes": [
+        "Floodborn",
+        "Hero",
+        "King"
+      ],
+      "mentionedSubtypes": [],
+      "rarity": "Legendary",
+      "story": "The Sword in the Stone",
+      "cost": 7,
+      "costBucket": "7+",
+      "inkwell": false,
+      "parDelta": -5,
+      "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set5/194_df60182efdcfe7506e53edac36b982e050689338.jpg"
+    },
+    {
+      "id": "1151",
+      "number": 195,
+      "name": "Pete - Games Referee",
+      "type": "Character",
+      "subtypes": [
+        "Dreamborn",
+        "Villain"
+      ],
+      "mentionedSubtypes": [],
+      "rarity": "Uncommon",
+      "story": "Mickey Mouse & Friends",
+      "cost": 3,
+      "costBucket": "3",
+      "inkwell": true,
+      "parDelta": -2,
+      "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set5/195_3c5c7aad7641f1f467e5d89c89906e9c9caa5b3f.jpg"
+    },
+    {
+      "id": "1152",
+      "number": 196,
+      "name": "Tug-of-War",
+      "type": "Action",
+      "subtypes": [],
+      "mentionedSubtypes": [],
+      "rarity": "Rare",
+      "story": "Peter Pan",
+      "cost": 5,
+      "costBucket": "5",
+      "inkwell": true,
+      "parDelta": null,
+      "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set5/196_99e4502f4ded78a1068730839d50d44a7428ad88.jpg"
+    },
+    {
+      "id": "1153",
+      "number": 197,
+      "name": "When Will My Life Begin?",
+      "type": "Action",
+      "subtypes": [
+        "Song"
+      ],
+      "mentionedSubtypes": [],
+      "rarity": "Common",
+      "story": "Tangled",
+      "cost": 3,
+      "costBucket": "3",
+      "inkwell": true,
+      "parDelta": null,
+      "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set5/197_240b535b8896ef79c2d90841362d0e2c4c8636de.jpg"
+    },
+    {
+      "id": "1154",
+      "number": 198,
+      "name": "Duck for Cover!",
+      "type": "Action",
+      "subtypes": [],
+      "mentionedSubtypes": [],
+      "rarity": "Common",
+      "story": "Mickey Mouse & Friends",
+      "cost": 2,
+      "costBucket": "2",
+      "inkwell": true,
+      "parDelta": null,
+      "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set5/198_ef9ef96ba79b6cb17cb7e33bb2ef68c597c7fb92.jpg"
+    },
+    {
+      "id": "1155",
+      "number": 199,
+      "name": "Food Fight!",
+      "type": "Action",
+      "subtypes": [],
+      "mentionedSubtypes": [],
+      "rarity": "Uncommon",
+      "story": "Mickey Mouse & Friends",
+      "cost": 1,
+      "costBucket": "1",
+      "inkwell": false,
+      "parDelta": null,
+      "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set5/199_d63918b1f0c8243cebd183d002d2ce020a968451.jpg"
+    },
+    {
+      "id": "1156",
+      "number": 200,
+      "name": "Shield of Arendelle",
+      "type": "Item",
+      "subtypes": [],
+      "mentionedSubtypes": [],
+      "rarity": "Common",
+      "story": "Frozen",
+      "cost": 1,
+      "costBucket": "1",
+      "inkwell": true,
+      "parDelta": null,
+      "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set5/200_ec33012fe0edd2354be3e403ab7a5a9531569212.jpg"
+    },
+    {
+      "id": "1157",
+      "number": 201,
+      "name": "Plate Armor",
+      "type": "Item",
+      "subtypes": [],
+      "mentionedSubtypes": [],
+      "rarity": "Rare",
+      "story": "The Sword in the Stone",
+      "cost": 4,
+      "costBucket": "4",
+      "inkwell": false,
+      "parDelta": null,
+      "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set5/201_d4f113eb459b51eadcfeceacb6625ef88876ecac.jpg"
+    },
+    {
+      "id": "1158",
+      "number": 202,
+      "name": "Steel Chromicon",
+      "type": "Item",
+      "subtypes": [],
+      "mentionedSubtypes": [],
+      "rarity": "Uncommon",
+      "story": "Lorcana",
+      "cost": 6,
+      "costBucket": "6",
+      "inkwell": false,
+      "parDelta": null,
+      "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set5/202_c36cb8cf83104d497228a01c4570efb662ceca8e.jpg"
+    },
+    {
+      "id": "1159",
+      "number": 203,
+      "name": "Bad-Anon - Villain Support Center",
+      "type": "Location",
+      "subtypes": [],
+      "mentionedSubtypes": [
+        "Villain"
+      ],
+      "rarity": "Rare",
+      "story": "Wreck-It Ralph",
+      "cost": 3,
+      "costBucket": "3",
+      "inkwell": true,
+      "parDelta": null,
+      "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set5/203_f2567649b15b2c5766c5936bb5fe01f1e2cc4e3b.jpg"
+    },
+    {
+      "id": "1160",
+      "number": 204,
+      "name": "Seven Dwarfs' Mine - Secure Fortress",
+      "type": "Location",
+      "subtypes": [],
+      "mentionedSubtypes": [
+        "Knight"
+      ],
+      "rarity": "Uncommon",
+      "story": "Snow White and the Seven Dwarfs",
+      "cost": 2,
+      "costBucket": "2",
+      "inkwell": true,
+      "parDelta": null,
+      "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set5/204_6867b05b636c12d9a19aa48cae914f7091682e1a.jpg"
+    },
+    {
+      "id": "1179",
+      "number": 223,
+      "name": "Half Hexwell Crown",
+      "type": "Item",
+      "subtypes": [],
+      "mentionedSubtypes": [],
+      "rarity": "Rare",
+      "story": "Lorcana",
+      "cost": 6,
+      "costBucket": "6",
+      "inkwell": false,
+      "parDelta": null,
+      "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set5/223_952875e0441b6a6295cce8784df1d78aa1cf6949.jpg"
+    }
+  ],
+  "subtypeViews": [
+    {
+      "key": "filter:subtype:knight",
+      "label": "Knight",
+      "subtype": "Knight",
+      "type": "filter",
+      "cardCount": 12
+    },
+    {
+      "key": "filter:subtype:princess",
+      "label": "Princess",
+      "subtype": "Princess",
+      "type": "filter",
+      "cardCount": 12
+    },
+    {
+      "key": "filter:subtype:villain",
+      "label": "Villain",
+      "subtype": "Villain",
+      "type": "filter",
+      "cardCount": 32
+    }
+  ]
+};

@@ -12,20 +12,9 @@
   const TAB_ORDER = ["1", "2", "3", "4", "5", "6", "7+"];
   const CU_RARITIES = new Set(["Common", "Uncommon"]);
   const RSRL_RARITIES = new Set(["Rare", "Super Rare", "Legendary"]);
-  const STORAGE_KEY = "lorcana-tier-site-set12-v4";
-  const EXPORT_VERSION = 1;
-  const EXPORT_FILENAME = "lorcana-set12-tier-list.json";
-
-  const cards = Array.isArray(window.LORCANA_SET12_CARDS) ? window.LORCANA_SET12_CARDS.slice() : [];
-  const generatedSubtypeViews = Array.isArray(window.LORCANA_SET12_SUBTYPE_VIEWS)
-    ? window.LORCANA_SET12_SUBTYPE_VIEWS.slice()
-    : [];
-  const cardsById = Object.fromEntries(cards.map((card) => [card.id, card]));
-  const cardsByBucket = cards.reduce((acc, card) => {
-    (acc[card.costBucket] ||= []).push(card);
-    return acc;
-  }, {});
-  const costBuckets = TAB_ORDER.filter((bucket) => cardsByBucket[bucket]?.length);
+  const STORAGE_VERSION = 5;
+  const EXPORT_VERSION = 2;
+  const SELECTED_SET_STORAGE_KEY = "lorcana-tier-site-selected-set-v1";
   const BUILTIN_FILTER_VIEWS = [
     { key: "filter:items", label: "Items", type: "filter", predicate: (card) => card.type === "Item" },
     { key: "filter:songs", label: "Songs", type: "filter", predicate: (card) => card.type === "Action" && card.subtypes.includes("Song") },
@@ -33,21 +22,8 @@
     { key: "filter:locations", label: "Locations", type: "filter", predicate: (card) => card.type === "Location" },
     { key: "filter:uninkable", label: "Uninkable", type: "filter", predicate: (card) => card.inkwell === false },
   ];
-  const subtypeFilterViews = generatedSubtypeViews.map((view) => ({
-    ...view,
-    predicate: (card) => card.subtypes.includes(view.subtype) || (card.mentionedSubtypes || []).includes(view.subtype),
-  }));
-  const FILTER_VIEWS = [...BUILTIN_FILTER_VIEWS, ...subtypeFilterViews];
-  const VIEW_DEFS = [
-    ...costBuckets.map((bucket) => ({ key: `cost:${bucket}`, label: `Cost ${bucket}`, type: "cost", bucket })),
-    ...FILTER_VIEWS.filter((view) => cards.some(view.predicate)),
-  ];
 
-  let activeViewKey = VIEW_DEFS[0]?.key || "cost:1";
-  let state = normalizeState(loadState());
-  let previewCardId = null;
-  let statusTimeoutId = null;
-
+  const manifest = window.LORCANA_TIER_SITE_MANIFEST;
   const tabsRoot = document.getElementById("tabs");
   const appRoot = document.getElementById("app");
   const resetButton = document.getElementById("reset-all");
@@ -57,27 +33,245 @@
   const cuOnlyToggle = document.getElementById("cu-only-toggle");
   const rsrlOnlyToggle = document.getElementById("r-sr-l-only-toggle");
   const statusMessage = document.getElementById("status-message");
+  const setSelector = document.getElementById("set-selector");
+  const setEyebrow = document.getElementById("set-eyebrow");
+  const pageTitle = document.getElementById("page-title");
+  const pageSubhead = document.getElementById("page-subhead");
   const hoverPreview = createHoverPreview();
+
+  let currentSetMeta = null;
+  let cards = [];
+  let generatedSubtypeViews = [];
+  let cardsById = {};
+  let cardsByBucket = {};
+  let costBuckets = [];
+  let FILTER_VIEWS = [];
+  let VIEW_DEFS = [];
+  let activeViewKey = "cost:1";
+  let state = {};
+  let previewCardId = null;
+  let statusTimeoutId = null;
   let rarityFilterMode = "all";
+  let loadRequestToken = 0;
 
-  resetButton.addEventListener("click", () => {
-    state = createDefaultState();
-    saveState();
-    render();
-    setStatus("Reset all tier lists.", "success");
-  });
-  exportButton.addEventListener("click", exportStateToJson);
-  importButton.addEventListener("click", () => importFileInput.click());
-  importFileInput.addEventListener("change", handleImportFile);
-  cuOnlyToggle.addEventListener("change", () => {
-    setRarityFilterMode(cuOnlyToggle.checked ? "cu" : "all");
-  });
-  rsrlOnlyToggle.addEventListener("change", () => {
-    setRarityFilterMode(rsrlOnlyToggle.checked ? "rsrl" : "all");
-  });
-  window.addEventListener("resize", syncPoolPanelHeight);
+  const setAssetPromises = new Map();
 
-  render();
+  if (!manifest || !Array.isArray(manifest.sets) || !manifest.sets.length) {
+    renderAppMessage("No supported sets were generated for this site.", true);
+    disableControls(true);
+    return;
+  }
+
+  bindEvents();
+  populateSetSelector();
+  renderAppMessage("Loading set data…");
+  void switchSet(resolveInitialSetId(), { replaceHistory: true, showStatus: false });
+
+  function bindEvents() {
+    resetButton.addEventListener("click", () => {
+      state = createDefaultState();
+      saveState();
+      render();
+      setStatus(`Reset all tier lists for ${currentSetMeta.name}.`, "success");
+    });
+    exportButton.addEventListener("click", exportStateToJson);
+    importButton.addEventListener("click", () => importFileInput.click());
+    importFileInput.addEventListener("change", handleImportFile);
+    cuOnlyToggle.addEventListener("change", () => {
+      setRarityFilterMode(cuOnlyToggle.checked ? "cu" : "all");
+    });
+    rsrlOnlyToggle.addEventListener("change", () => {
+      setRarityFilterMode(rsrlOnlyToggle.checked ? "rsrl" : "all");
+    });
+    setSelector.addEventListener("change", () => {
+      void switchSet(setSelector.value, { replaceHistory: true, showStatus: true });
+    });
+    window.addEventListener("resize", syncPoolPanelHeight);
+  }
+
+  function populateSetSelector() {
+    setSelector.replaceChildren();
+    for (const setMeta of manifest.sets) {
+      const option = document.createElement("option");
+      option.value = setMeta.id;
+      option.textContent = `Set ${setMeta.number} — ${setMeta.name}`;
+      setSelector.appendChild(option);
+    }
+  }
+
+  function resolveInitialSetId() {
+    const requestedSetId = new URLSearchParams(window.location.search).get("set");
+    if (requestedSetId && manifest.sets.some((setMeta) => setMeta.id === requestedSetId)) {
+      return requestedSetId;
+    }
+
+    const persistedSetId = localStorage.getItem(SELECTED_SET_STORAGE_KEY);
+    if (persistedSetId && manifest.sets.some((setMeta) => setMeta.id === persistedSetId)) {
+      return persistedSetId;
+    }
+
+    return manifest.defaultSetId || manifest.sets.at(-1)?.id || manifest.sets[0].id;
+  }
+
+  async function switchSet(requestedSetId, options = {}) {
+    const setMeta = manifest.sets.find((candidate) => candidate.id === requestedSetId) || manifest.sets[0];
+    const requestToken = ++loadRequestToken;
+    disableControls(true);
+    hideHoverPreview();
+    setSelector.value = setMeta.id;
+    renderAppMessage(`Loading ${setMeta.name}…`);
+
+    try {
+      const payload = await loadSetPayload(setMeta);
+      if (requestToken !== loadRequestToken) {
+        return;
+      }
+
+      currentSetMeta = payload.meta || setMeta;
+      initializeRuntime(payload);
+      updatePageCopy();
+      updateSelectedSetState(options.replaceHistory !== false);
+      render();
+      disableControls(false);
+      if (options.showStatus) {
+        setStatus(`Loaded ${currentSetMeta.name}.`, "success");
+      }
+    } catch (error) {
+      disableControls(false);
+      renderAppMessage(error instanceof Error ? error.message : "Failed to load set data.", true);
+      setStatus(error instanceof Error ? error.message : "Failed to load set data.", "error");
+    }
+  }
+
+  function disableControls(disabled) {
+    resetButton.disabled = disabled;
+    exportButton.disabled = disabled;
+    importButton.disabled = disabled;
+    importFileInput.disabled = disabled;
+    cuOnlyToggle.disabled = disabled;
+    rsrlOnlyToggle.disabled = disabled;
+    setSelector.disabled = disabled;
+  }
+
+  function updatePageCopy() {
+    setEyebrow.textContent = `Lorcana Set ${currentSetMeta.number}`;
+    pageTitle.textContent = `${currentSetMeta.name} Tier Views`;
+    pageSubhead.textContent =
+      `Drag cards from the untiered pool into A, B, C+, C, C-, D+, D, or F for ${currentSetMeta.name}. `
+      + "Cost tabs and filter tabs share the same underlying placements, and costs 7 and up are grouped together.";
+    document.title = `Lorcana Set ${currentSetMeta.number} Tier List · ${currentSetMeta.name}`;
+  }
+
+  function updateSelectedSetState(replaceHistory) {
+    localStorage.setItem(SELECTED_SET_STORAGE_KEY, currentSetMeta.id);
+    setSelector.value = currentSetMeta.id;
+    const url = new URL(window.location.href);
+    url.searchParams.set("set", currentSetMeta.id);
+    if (replaceHistory) {
+      window.history.replaceState({}, "", url);
+    }
+  }
+
+  function loadSetPayload(setMeta) {
+    const existingPayload = window.LORCANA_TIER_SITE_SETS?.[setMeta.id];
+    if (existingPayload) {
+      return Promise.resolve(existingPayload);
+    }
+
+    if (setAssetPromises.has(setMeta.id)) {
+      return setAssetPromises.get(setMeta.id);
+    }
+
+    const promise = new Promise((resolve, reject) => {
+      const script = document.createElement("script");
+      script.src = setMeta.asset;
+      script.async = true;
+      script.dataset.setId = setMeta.id;
+      script.onload = () => {
+        const payload = window.LORCANA_TIER_SITE_SETS?.[setMeta.id];
+        if (payload) {
+          resolve(payload);
+          return;
+        }
+        reject(new Error(`Loaded ${setMeta.asset} but no set payload was registered.`));
+      };
+      script.onerror = () => {
+        reject(new Error(`Failed to load ${setMeta.asset}.`));
+      };
+      document.body.appendChild(script);
+    });
+
+    setAssetPromises.set(setMeta.id, promise);
+    return promise;
+  }
+
+  function initializeRuntime(payload) {
+    cards = Array.isArray(payload.cards) ? payload.cards.slice() : [];
+    generatedSubtypeViews = Array.isArray(payload.subtypeViews) ? payload.subtypeViews.slice() : [];
+    cardsById = Object.fromEntries(cards.map((card) => [card.id, card]));
+    cardsByBucket = cards.reduce((acc, card) => {
+      (acc[card.costBucket] ||= []).push(card);
+      return acc;
+    }, {});
+    costBuckets = TAB_ORDER.filter((bucket) => cardsByBucket[bucket]?.length);
+    const subtypeFilterViews = generatedSubtypeViews.map((view) => ({
+      ...view,
+      predicate: (card) => card.subtypes.includes(view.subtype) || (card.mentionedSubtypes || []).includes(view.subtype),
+    }));
+    FILTER_VIEWS = [...BUILTIN_FILTER_VIEWS, ...subtypeFilterViews];
+    VIEW_DEFS = [
+      ...costBuckets.map((bucket) => ({ key: `cost:${bucket}`, label: bucket, type: "cost", bucket })),
+      ...FILTER_VIEWS.filter((view) => cards.some(view.predicate)),
+    ];
+
+    const persisted = loadPersistedState();
+    activeViewKey = isValidViewKey(persisted.activeViewKey) ? persisted.activeViewKey : VIEW_DEFS[0]?.key || "cost:1";
+    state = normalizeState(persisted.state);
+    rarityFilterMode = "all";
+    cuOnlyToggle.checked = false;
+    rsrlOnlyToggle.checked = false;
+  }
+
+  function getStorageKey() {
+    return `lorcana-tier-site-set${currentSetMeta.id}-v${STORAGE_VERSION}`;
+  }
+
+  function getExportFilename() {
+    return `lorcana-set${currentSetMeta.id}-tier-list.json`;
+  }
+
+  function loadPersistedState() {
+    try {
+      const raw = localStorage.getItem(getStorageKey());
+      if (!raw) {
+        return { state: null, activeViewKey: null };
+      }
+
+      const parsed = JSON.parse(raw);
+      if (parsed && typeof parsed === "object" && parsed.state) {
+        return {
+          state: parsed.state,
+          activeViewKey: typeof parsed.activeViewKey === "string" ? parsed.activeViewKey : null,
+        };
+      }
+
+      return { state: parsed, activeViewKey: null };
+    } catch {
+      return { state: null, activeViewKey: null };
+    }
+  }
+
+  function saveState() {
+    localStorage.setItem(
+      getStorageKey(),
+      JSON.stringify({
+        version: EXPORT_VERSION,
+        setId: currentSetMeta.id,
+        activeViewKey,
+        state,
+      })
+    );
+  }
 
   function createDefaultState() {
     const nextState = {};
@@ -95,24 +289,14 @@
     return Object.fromEntries(ZONES.map((zone) => [zone, []]));
   }
 
-  function loadState() {
-    try {
-      const raw = localStorage.getItem(STORAGE_KEY);
-      return raw ? JSON.parse(raw) : null;
-    } catch {
-      return null;
-    }
-  }
-
-  function saveState() {
-    localStorage.setItem(STORAGE_KEY, JSON.stringify(state));
-  }
-
   function exportStateToJson() {
     const payload = {
       version: EXPORT_VERSION,
       exportedAt: new Date().toISOString(),
-      storageKey: STORAGE_KEY,
+      storageKey: getStorageKey(),
+      setId: currentSetMeta.id,
+      setNumber: currentSetMeta.number,
+      setName: currentSetMeta.name,
       activeViewKey,
       state,
     };
@@ -120,12 +304,12 @@
     const url = URL.createObjectURL(blob);
     const link = document.createElement("a");
     link.href = url;
-    link.download = EXPORT_FILENAME;
+    link.download = getExportFilename();
     document.body.appendChild(link);
     link.click();
     link.remove();
     URL.revokeObjectURL(url);
-    setStatus("Exported tier list JSON.", "success");
+    setStatus(`Exported ${currentSetMeta.name} tier list JSON.`, "success");
   }
 
   async function handleImportFile(event) {
@@ -142,10 +326,10 @@
         throw new Error("File does not contain tier list state.");
       }
 
+      validateImportedSet(payload);
       state = normalizeState(importedState);
-      const importedViewKey = payload?.activeViewKey;
-      if (typeof importedViewKey === "string" && VIEW_DEFS.some((view) => view.key === importedViewKey)) {
-        activeViewKey = importedViewKey;
+      if (typeof payload?.activeViewKey === "string" && isValidViewKey(payload.activeViewKey)) {
+        activeViewKey = payload.activeViewKey;
       }
       saveState();
       render();
@@ -154,6 +338,21 @@
       setStatus(error instanceof Error ? error.message : "Failed to import tier list JSON.", "error");
     } finally {
       importFileInput.value = "";
+    }
+  }
+
+  function validateImportedSet(payload) {
+    if (!payload || typeof payload !== "object" || !("state" in payload)) {
+      return;
+    }
+
+    const setId = payload.setId;
+    const setNumber = payload.setNumber;
+    if (typeof setId === "string" && setId !== currentSetMeta.id) {
+      throw new Error(`That export is for set ${setId}, but ${currentSetMeta.name} is currently active.`);
+    }
+    if (typeof setNumber === "number" && setNumber !== currentSetMeta.number) {
+      throw new Error(`That export is for set ${setNumber}, but ${currentSetMeta.name} is currently active.`);
     }
   }
 
@@ -209,6 +408,9 @@
   }
 
   function render() {
+    if (!currentSetMeta) {
+      return;
+    }
     renderTabs();
     renderActiveBucket();
   }
@@ -232,6 +434,7 @@
       button.appendChild(count);
       button.addEventListener("click", () => {
         activeViewKey = view.key;
+        saveState();
         render();
       });
       if (view.type === "cost") {
@@ -288,6 +491,13 @@
 
     appRoot.replaceChildren(meta, layout);
     requestAnimationFrame(syncPoolPanelHeight);
+  }
+
+  function renderAppMessage(message, isError = false) {
+    const notice = document.createElement("section");
+    notice.className = isError ? "app-message is-error" : "app-message";
+    notice.textContent = message;
+    appRoot.replaceChildren(notice);
   }
 
   function syncPoolPanelHeight() {
@@ -547,8 +757,8 @@
       const zone = track.dataset.zone;
       nextBucketState[zone].push(
         ...Array.from(track.querySelectorAll(".card"))
-        .map((card) => card.dataset.cardId)
-        .filter((id, index, ids) => visibleIds.has(id) && ids.indexOf(id) === index)
+          .map((card) => card.dataset.cardId)
+          .filter((id, index, ids) => visibleIds.has(id) && ids.indexOf(id) === index)
       );
     });
 
@@ -786,5 +996,9 @@
     cuOnlyToggle.checked = mode === "cu";
     rsrlOnlyToggle.checked = mode === "rsrl";
     render();
+  }
+
+  function isValidViewKey(viewKey) {
+    return typeof viewKey === "string" && VIEW_DEFS.some((view) => view.key === viewKey);
   }
 })();

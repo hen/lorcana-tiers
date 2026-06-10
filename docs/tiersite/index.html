@@ -5,22 +5,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta
       http-equiv="Content-Security-Policy"
-      content="default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self' data:; connect-src 'self'; object-src 'none'; base-uri 'self'; frame-ancestors 'none'; form-action 'self'">
-    <title>Lorcana Set 12 Tier List</title>
+      content="default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self' data: https://api.lorcana.ravensburger.com; connect-src 'self'; object-src 'none'; base-uri 'self'; frame-ancestors 'none'; form-action 'self'">
+    <title>Lorcana Tier List</title>
     <link rel="stylesheet" href="styles.css">
   </head>
   <body>
     <div class="page">
       <header class="hero">
         <div>
-          <p class="eyebrow">Lorcana Set 12</p>
-          <h1>Lorcana Tier Views</h1>
-          <p class="subhead">
-            Drag cards from the untiered pool into A, B, C+, C, C-, D+, D, or F. Cost tabs and filter tabs
-            share the same underlying placements, and costs 7 and up are grouped together.
+          <p id="set-eyebrow" class="eyebrow">Loading supported sets…</p>
+          <h1 id="page-title">Lorcana Tier Views</h1>
+          <p id="page-subhead" class="subhead">
+            Choose a set, then drag cards from the untiered pool into A, B, C+, C, C-, D+, D, or F. Cost
+            tabs and filter tabs share the same underlying placements, and costs 7 and up are grouped
+            together.
           </p>
         </div>
         <div class="hero-actions">
+          <label class="set-selector-shell" for="set-selector">
+            <span class="set-selector-label">Active set</span>
+            <select id="set-selector" class="set-selector"></select>
+          </label>
           <div class="action-row">
             <button id="export-json" class="secondary-button" type="button">Export JSON</button>
             <button id="import-json" class="secondary-button" type="button">Import JSON</button>
@@ -47,7 +52,7 @@
       <main id="app" class="app-shell"></main>
     </div>
 
-    <script src="cards.js"></script>
+    <script src="data/manifest.js"></script>
     <script src="app.js"></script>
   </body>
 </html>

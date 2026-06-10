@@ -74,15 +74,28 @@ Also skip any card whose local thumbnail file is missing.
 
 ## Generated Site Data
 
-The runtime site consumes a generated JS file:
+The runtime site consumes generated JS assets:
 
-- `docs/tiersite/cards.js`
+- `docs/tiersite/data/manifest.js`
+- `docs/tiersite/data/set.<N>.js`
 
-This file assigns globals:
+The manifest assigns:
 
 ```js
-window.LORCANA_SET12_CARDS = [...]
-window.LORCANA_SET12_SUBTYPE_VIEWS = [...]
+window.LORCANA_TIER_SITE_MANIFEST = {
+  defaultSetId: "12",
+  sets: [{ id: "12", number: 12, name: "Wilds Unknown", asset: "data/set.12.js" }]
+};
+```
+
+Each per-set asset assigns:
+
+```js
+window.LORCANA_TIER_SITE_SETS["12"] = {
+  meta: { id: "12", number: 12, name: "Wilds Unknown" },
+  cards: [...],
+  subtypeViews: [...]
+};
 ```
 
 Each card entry should contain:
@@ -145,7 +158,7 @@ Final decision:
 - for cards without the needed stats (for example `Action`, `Item`, or `Location`), set `parDelta` to `null`
 - explain on the page that the bottom-right number on a character card is its delta from that cost's vanilla stat line
 
-### Sorting rule for `cards.js`
+### Sorting rule for generated card data
 
 Final decision:
 
@@ -179,7 +192,7 @@ The generated card data must also preserve enough metadata to build filter views
 
 ### Generated subtype analysis
 
-As part of generating `cards.js`, analyze the set's subtypes against the ability text on all cards in the set.
+As part of generating the per-set asset, analyze the set's subtypes against the ability text on all cards in the set.
 
 Rules:
 
@@ -200,7 +213,7 @@ Purpose:
 
 - take a `setdata.N.json` file
 - filter to the allowed rarities
-- download thumbnails into `images/set.N.thumbs/`
+- download thumbnails into `docs/images/set.N.thumbs/`
 - save each file as `<json id>.jpg`
 - skip download if the file already exists
 
@@ -210,29 +223,24 @@ Expected behavior:
 ./download_filtered_thumbs.sh setdata.12.json
 ```
 
-### cards.js generator
+### Site data generator
 
 `generate_cards_js.py`
 
 Purpose:
 
-- take a `setdata.N.json` file
-- read local thumbnails from `images/set.N.thumbs/`
-- generate `docs/tiersite/cards.js`
-- skip any filtered card whose local thumbnail is missing
+- take one or more `setdata.N.json` files, or a directory that contains them
+- read local thumbnails from `docs/images/set.N.thumbs/` when available
+- otherwise fall back to the raw JSON thumbnail URL for each card
+- generate `docs/tiersite/data/manifest.js`
+- generate `docs/tiersite/data/set.<N>.js`
 - sort output by `number`, then `id`
 - generate subtype-based filter-view definitions from set-wide subtype/ability analysis
 
 Typical use:
 
 ```bash
-python3 generate_cards_js.py setdata.12.json
-```
-
-Optional explicit output:
-
-```bash
-python3 generate_cards_js.py setdata.12.json docs/tiersite/cards.js
+python3 generate_cards_js.py ..
 ```
 
 ## Site File Layout
@@ -242,7 +250,8 @@ The site is plain static files:
 - `tiersite/index.html`
 - `tiersite/styles.css`
 - `tiersite/app.js`
-- `tiersite/cards.js`
+- `tiersite/data/manifest.js`
+- `tiersite/data/set.<N>.js`
 
 No framework, bundler, or package manager is required.
 
@@ -530,7 +539,7 @@ Persist the current tier state in `localStorage`.
 
 Current storage key convention:
 
-- `lorcana-tier-site-set12-v4`
+- `lorcana-tier-site-set12-v5`
 
 The storage key is versioned so incompatible tier-schema changes can invalidate older saved layouts.
 
@@ -544,9 +553,11 @@ Export current state to a JSON file containing:
 
 ```json
 {
-  "version": 1,
+  "version": 2,
   "exportedAt": "ISO timestamp",
-  "storageKey": "lorcana-tier-site-set12-v4",
+  "storageKey": "lorcana-tier-site-set12-v5",
+  "setId": "12",
+  "setNumber": 12,
   "activeViewKey": "cost:3",
   "state": { ... }
 }
@@ -565,6 +576,7 @@ Importer should accept either:
 
 After import:
 
+- reject exports for a different set if `setId` or `setNumber` is present and does not match
 - normalize the imported state
 - restore `activeViewKey` if valid
 - save to localStorage
@@ -615,8 +627,9 @@ Exact colors can differ if rebuilt, but the information hierarchy should remain 
    - `strength + willpower + (2 * lore - 1)`
    - compare against the cost par table above
 
-6. **Generate `cards.js` from local thumbnails**
-   - only cards with existing local thumbnails should be included
+6. **Generate per-set site assets from raw setdata**
+   - prefer local thumbnails when present
+   - otherwise use the raw JSON thumbnail URL
 
 7. **Sort generated cards by `number`**
    - not by original setdata order
@@ -642,7 +655,7 @@ Exact colors can differ if rebuilt, but the information hierarchy should remain 
 If rebuilding from scratch, the resulting system should satisfy all of these:
 
 1. Build or update local thumbnails with `download_filtered_thumbs.sh`.
-2. Generate `tiersite/cards.js` from `setdata.N.json` with `generate_cards_js.py`.
+2. Generate `tiersite/data/manifest.js` and `tiersite/data/set.<N>.js` from `setdata.N.json` with `generate_cards_js.py`.
 3. Create a static site with:
     - cost tabs
     - filter tabs for items, songs, non-song actions, locations, and uninkable cards
@@ -665,11 +678,10 @@ If rebuilding from scratch, the resulting system should satisfy all of these:
 
 ## Example Regeneration Flow
 
-For set 12, the expected workflow is:
+For all numeric expansion sets in the parent directory, the expected workflow is:
 
 ```bash
-./download_filtered_thumbs.sh setdata.12.json
-python3 generate_cards_js.py setdata.12.json
+python3 generate_cards_js.py ..
 ```
 
 Then open:

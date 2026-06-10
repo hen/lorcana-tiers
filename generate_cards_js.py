@@ -5,11 +5,12 @@ import json
 import re
 import sys
 from collections import Counter, defaultdict
+from datetime import datetime, timezone
 from pathlib import Path
 
 
 ALLOWED_RARITIES = {"Common", "Uncommon", "Rare", "Super Rare", "Legendary"}
-SETDATA_RE = re.compile(r"^setdata\.(.+)\.json$")
+SETDATA_RE = re.compile(r"^setdata\.(\d+)\.json$")
 PAR_BY_COST = {1: 5, 2: 7, 3: 9, 4: 11, 5: 14, 6: 16, 7: 19}
 BUILTIN_VIEW_LABELS = {"Items", "Songs", "Actions", "Locations", "Uninkable"}
 EXCLUDED_GENERATED_SUBTYPE_VIEWS = {"Song"}
@@ -18,14 +19,51 @@ EXCLUDED_GENERATED_SUBTYPE_VIEWS = {"Song"}
 def parse_set_id(set_file: Path) -> str:
     match = SETDATA_RE.match(set_file.name)
     if not match:
-      raise SystemExit(f"error: expected a file named like setdata.N.json, got {set_file.name}")
+        raise SystemExit(f"error: expected a file named like setdata.N.json, got {set_file.name}")
     return match.group(1)
 
 
-def load_cards(set_file: Path) -> list[dict]:
-    with set_file.open() as handle:
-        data = json.load(handle)
+def parse_number(value: object, fallback: int) -> int:
+    if isinstance(value, int):
+        return value
+    if isinstance(value, str) and value.isdigit():
+        return int(value)
+    return fallback
 
+
+def iter_candidate_files(path: Path) -> list[Path]:
+    if path.is_file():
+        return [path]
+    if path.is_dir():
+        return sorted(candidate for candidate in path.iterdir() if candidate.is_file() and candidate.name.startswith("setdata."))
+    raise SystemExit(f"error: path not found: {path}")
+
+
+def discover_set_files(args: list[str]) -> list[Path]:
+    input_args = args or ["."]
+    discovered: dict[Path, Path] = {}
+
+    for raw_arg in input_args:
+        base = Path(raw_arg).expanduser().resolve()
+        for candidate in iter_candidate_files(base):
+            match = SETDATA_RE.match(candidate.name)
+            if base.is_file() and not match:
+                raise SystemExit(f"error: expected a numeric setdata file, got {candidate.name}")
+            if match:
+                discovered[candidate.resolve()] = candidate.resolve()
+
+    if not discovered:
+        raise SystemExit("error: no numeric setdata.N.json files found")
+
+    return sorted(discovered.values(), key=lambda file_path: int(parse_set_id(file_path)))
+
+
+def load_set_document(set_file: Path) -> object:
+    with set_file.open(encoding="utf-8") as handle:
+        return json.load(handle)
+
+
+def load_cards(data: object, set_file: Path) -> list[dict]:
     if isinstance(data, dict) and isinstance(data.get("cards"), list):
         cards = data["cards"]
     elif isinstance(data, list):
@@ -148,11 +186,29 @@ def analyze_subtypes(cards: list[dict]) -> tuple[dict[str, set[str]], list[dict]
     return qualifying_mentions, subtype_views
 
 
+def resolve_thumbnail(card: dict, set_id: str, thumb_dir: Path | None) -> tuple[str | None, str]:
+    card_id = card.get("id")
+    if card_id is None:
+        return None, "missing"
+
+    if thumb_dir is not None:
+        local_thumb = thumb_dir / f"{card_id}.jpg"
+        if local_thumb.is_file():
+            return f"../images/set.{set_id}.thumbs/{card_id}.jpg", "local"
+
+    remote_thumb = card.get("images", {}).get("thumbnail") if isinstance(card.get("images"), dict) else None
+    if isinstance(remote_thumb, str) and remote_thumb.strip():
+        return remote_thumb, "remote"
+
+    return None, "missing"
+
+
 def build_entries(
-    cards: list[dict], set_id: str, thumb_dir: Path, qualifying_mentions: dict[str, set[str]]
-) -> tuple[list[dict], list[tuple[int, str]]]:
+    cards: list[dict], set_id: str, thumb_dir: Path | None, qualifying_mentions: dict[str, set[str]]
+) -> tuple[list[dict], list[tuple[int | str, str]], Counter[str]]:
     entries: list[dict] = []
-    missing: list[tuple[int, str]] = []
+    missing: list[tuple[int | str, str]] = []
+    thumbnail_sources: Counter[str] = Counter()
 
     for card in cards:
         if card.get("rarity") not in ALLOWED_RARITIES:
@@ -162,11 +218,12 @@ def build_entries(
         if card_id is None:
             continue
 
-        thumb_path = thumb_dir / f"{card_id}.jpg"
-        if not thumb_path.exists():
+        thumbnail, thumbnail_source = resolve_thumbnail(card, set_id, thumb_dir)
+        if thumbnail is None:
             missing.append((card_id, card.get("fullName") or card.get("name") or f"Card {card_id}"))
             continue
 
+        thumbnail_sources[thumbnail_source] += 1
         cost = card.get("cost")
         cost_bucket = "7+" if isinstance(cost, int) and cost >= 7 else str(cost)
         par_delta = compute_par_delta(card)
@@ -189,63 +246,136 @@ def build_entries(
                 "costBucket": cost_bucket,
                 "inkwell": card.get("inkwell"),
                 "parDelta": par_delta,
-                "thumbnail": f"../images/set.{set_id}.thumbs/{card_id}.jpg",
+                "thumbnail": thumbnail,
             }
         )
 
     entries.sort(
         key=lambda card: (
-            card["number"],
+            card["number"] if isinstance(card["number"], int) else 9999,
             card["id"],
         )
     )
-    return entries, missing
+    return entries, missing, thumbnail_sources
+
+
+def build_set_meta(data: object, set_file: Path, card_count: int) -> dict:
+    set_id = parse_set_id(set_file)
+    set_number = parse_number(data.get("number"), int(set_id)) if isinstance(data, dict) else int(set_id)
+    set_name = data.get("name") if isinstance(data, dict) and isinstance(data.get("name"), str) else f"Set {set_number}"
+    set_code = data.get("code") if isinstance(data, dict) and isinstance(data.get("code"), str) else str(set_number)
+    release_date = data.get("releaseDate") if isinstance(data, dict) else None
+    prerelease_date = data.get("prereleaseDate") if isinstance(data, dict) else None
+
+    return {
+        "id": str(set_number),
+        "number": set_number,
+        "code": set_code,
+        "name": set_name,
+        "releaseDate": release_date,
+        "prereleaseDate": prerelease_date,
+        "cardCount": card_count,
+        "asset": f"data/set.{set_number}.js",
+    }
+
+
+def write_set_asset(data_dir: Path, set_id: str, payload: dict) -> Path:
+    output_file = data_dir / f"set.{set_id}.js"
+    output_file.write_text(
+        "window.LORCANA_TIER_SITE_SETS = window.LORCANA_TIER_SITE_SETS || {};\n"
+        + f"window.LORCANA_TIER_SITE_SETS[{json.dumps(set_id)}] = "
+        + json.dumps(payload, indent=2, ensure_ascii=False)
+        + ";\n",
+        encoding="utf-8",
+    )
+    return output_file
+
+
+def write_manifest(data_dir: Path, manifest: dict) -> Path:
+    output_file = data_dir / "manifest.js"
+    output_file.write_text(
+        "window.LORCANA_TIER_SITE_MANIFEST = "
+        + json.dumps(manifest, indent=2, ensure_ascii=False)
+        + ";\n",
+        encoding="utf-8",
+    )
+    return output_file
+
+
+def should_include_set(data: object, set_file: Path) -> bool:
+    if not isinstance(data, dict):
+        return True
+    set_type = data.get("type")
+    set_number = parse_number(data.get("number"), int(parse_set_id(set_file)))
+    return set_type == "expansion" and set_number > 0
 
 
 def main() -> int:
-    if len(sys.argv) not in {2, 3}:
-        print("usage: generate_cards_js.py path/to/setdata.N.json [output_file]", file=sys.stderr)
-        return 1
-
-    set_file = Path(sys.argv[1]).expanduser().resolve()
-    if not set_file.is_file():
-        print(f"error: file not found: {set_file}", file=sys.stderr)
-        return 1
-
-    set_id = parse_set_id(set_file)
+    set_files = discover_set_files(sys.argv[1:])
     root = Path(__file__).resolve().parent
-    output_file = (
-        Path(sys.argv[2]).expanduser().resolve()
-        if len(sys.argv) == 3
-        else root / "docs" / "tiersite" / "cards.js"
-    )
-    thumb_dir = root / "docs" / "images" / f"set.{set_id}.thumbs"
-    if not thumb_dir.is_dir():
-        print(f"error: thumbnail directory not found: {thumb_dir}", file=sys.stderr)
+    data_dir = root / "docs" / "tiersite" / "data"
+    data_dir.mkdir(parents=True, exist_ok=True)
+
+    manifest_sets: list[dict] = []
+    summaries: list[str] = []
+    generated_ids: set[str] = set()
+
+    for set_file in set_files:
+        data = load_set_document(set_file)
+        if not should_include_set(data, set_file):
+            continue
+
+        set_id = parse_set_id(set_file)
+        cards = load_cards(data, set_file)
+        thumb_dir_candidate = root / "docs" / "images" / f"set.{set_id}.thumbs"
+        thumb_dir = thumb_dir_candidate if thumb_dir_candidate.is_dir() else None
+        qualifying_mentions, subtype_views = analyze_subtypes(cards)
+        entries, missing, thumbnail_sources = build_entries(cards, set_id, thumb_dir, qualifying_mentions)
+        meta = build_set_meta(data, set_file, len(entries))
+        payload = {
+            "meta": meta,
+            "cards": entries,
+            "subtypeViews": subtype_views,
+        }
+
+        write_set_asset(data_dir, meta["id"], payload)
+        manifest_sets.append(meta)
+        generated_ids.add(meta["id"])
+
+        thumbnail_summary = []
+        if thumbnail_sources.get("local"):
+            thumbnail_summary.append(f"{thumbnail_sources['local']} local")
+        if thumbnail_sources.get("remote"):
+            thumbnail_summary.append(f"{thumbnail_sources['remote']} remote")
+        if not thumbnail_summary:
+            thumbnail_summary.append("0 thumbnails")
+
+        summaries.append(
+            f"set {meta['number']}: {meta['name']} -> {len(entries)} cards, "
+            + ", ".join(thumbnail_summary)
+            + (f", skipped {len(missing)} missing thumbnails" if missing else "")
+        )
+
+    if not manifest_sets:
+        print("error: no expansion setdata.N.json files were eligible for generation", file=sys.stderr)
         return 1
 
-    cards = load_cards(set_file)
-    qualifying_mentions, subtype_views = analyze_subtypes(cards)
-    entries, missing = build_entries(cards, set_id, thumb_dir, qualifying_mentions)
+    manifest_sets.sort(key=lambda item: item["number"])
+    manifest = {
+        "generatedAt": datetime.now(timezone.utc).isoformat(),
+        "defaultSetId": manifest_sets[-1]["id"],
+        "sets": manifest_sets,
+    }
+    write_manifest(data_dir, manifest)
 
-    output_file.parent.mkdir(parents=True, exist_ok=True)
-    output_file.write_text(
-        "window.LORCANA_SET12_CARDS = "
-        + json.dumps(entries, indent=2)
-        + ";\nwindow.LORCANA_SET12_SUBTYPE_VIEWS = "
-        + json.dumps(subtype_views, indent=2)
-        + ";\n"
-    )
+    for stale_file in data_dir.glob("set.*.js"):
+        match = re.fullmatch(r"set\.(\d+)\.js", stale_file.name)
+        if match and match.group(1) not in generated_ids:
+            stale_file.unlink()
 
-    counts = Counter(card["costBucket"] for card in entries)
-    ordered_counts = dict(sorted(counts.items(), key=lambda kv: (99 if kv[0] == "7+" else int(kv[0]))))
-    print(f"wrote {len(entries)} cards to {output_file}")
-    print(f"buckets: {ordered_counts}")
-    if subtype_views:
-        print("subtype views:", ", ".join(f"{view['label']} ({view['cardCount']})" for view in subtype_views))
-    if missing:
-        print(f"skipped {len(missing)} cards with missing thumbnails", file=sys.stderr)
-
+    print(f"wrote manifest and {len(manifest_sets)} set assets to {data_dir}")
+    for summary in summaries:
+        print(summary)
     return 0
 
 

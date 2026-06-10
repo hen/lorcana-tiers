@@ -26,7 +26,7 @@ fi
 set_name="$(basename "$set_file")"
 set_id="${set_name#setdata.}"
 set_id="${set_id%.json}"
-out_dir="public_html/images/set.${set_id}.thumbs"
+out_dir="docs/images/set.${set_id}.thumbs"
 
 mkdir -p "$out_dir"
 

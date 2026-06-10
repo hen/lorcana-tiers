@@ -62,6 +62,20 @@ body {
   min-width: 260px;
 }
 
+.set-selector-shell {
+  display: grid;
+  gap: 8px;
+  width: min(100%, 320px);
+}
+
+.set-selector-label {
+  color: var(--muted);
+  font-size: 0.85rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
 .action-row {
   display: flex;
   flex-wrap: wrap;
@@ -126,8 +140,25 @@ h1 {
   cursor: pointer;
 }
 
+.set-selector {
+  border: 1px solid var(--border);
+  background: var(--panel-alt);
+  color: var(--text);
+  border-radius: 14px;
+  padding: 12px 14px;
+  font: inherit;
+  font-weight: 600;
+}
+
+.set-selector:hover,
 .secondary-button:hover {
   background: #2b3344;
+}
+
+.secondary-button:disabled,
+.set-selector:disabled {
+  opacity: 0.65;
+  cursor: not-allowed;
 }
 
 .status-message {
@@ -215,6 +246,19 @@ h1 {
 .app-shell {
   display: grid;
   gap: 18px;
+}
+
+.app-message {
+  padding: 24px 28px;
+  border-radius: 20px;
+  background: rgba(17, 19, 24, 0.82);
+  border: 1px solid rgba(255, 255, 255, 0.06);
+  box-shadow: var(--shadow);
+  color: var(--muted);
+}
+
+.app-message.is-error {
+  color: #ffb8b8;
 }
 
 .board-layout {
