@@ -607,7 +607,7 @@
       const count = document.createElement("span");
       button.type = "button";
       button.className = view.key === activeViewKey ? "tab-button active" : "tab-button";
-      button.append(view.label);
+      button.append(getTabLabel(view));
       count.textContent = getTabCountLabel(view);
       button.appendChild(count);
       button.addEventListener("click", () => {
@@ -1078,10 +1078,17 @@
       const mentionOnlyCount = cards.filter(
         (card) => !card.subtypes.includes(view.subtype) && (card.mentionedSubtypes || []).includes(view.subtype)
       ).length;
-      return `${subtypeCount}/${mentionOnlyCount}`;
+      return `(${subtypeCount}/${mentionOnlyCount})`;
     }
 
-    return `${getViewCardCount(view)} cards`;
+    return `(${getViewCardCount(view)})`;
+  }
+
+  function getTabLabel(view) {
+    if (view.type === "cost") {
+      return `${view.label} cost`;
+    }
+    return view.label;
   }
 
   function getRenderedViewCount(view) {
