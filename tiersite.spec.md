@@ -135,12 +135,24 @@ Generated subtype-view definitions should contain:
 For cards with numeric `strength`, `willpower`, and `lore`, compute:
 
 ```text
-basicValue = strength + willpower + (2 * lore - 1)
+sets 1-9:   basicValue = strength + willpower + lore
+sets 10-12: basicValue = strength + willpower + (2 * lore - 1)
 ```
 
-Compare that against the cost par table:
+Compare that against the cost par table for that set range:
 
 ```text
+sets 1-9:
+1 -> 5
+2 -> 6
+3 -> 8
+4 -> 9
+5 -> 12
+6 -> 14
+7 -> 16
+8 -> 19
+
+sets 10-12:
 1 -> 5
 2 -> 7
 3 -> 9
@@ -636,8 +648,9 @@ Exact colors can differ if rebuilt, but the information hierarchy should remain 
    - cards with `parDelta = null` show no badge
 
 6. **Basic value formula**
-   - `strength + willpower + (2 * lore - 1)`
-   - compare against the cost par table above
+   - sets `1` through `9`: `strength + willpower + lore`
+   - sets `10+`: `strength + willpower + (2 * lore - 1)`
+   - compare against the matching cost par table above
 
 7. **Generate per-set site assets from raw setdata**
    - prefer local thumbnails when present

@@ -1,5 +1,5 @@
 window.LORCANA_TIER_SITE_MANIFEST = {
-  "generatedAt": "2026-06-10T19:04:20.471474+00:00",
+  "generatedAt": "2026-06-11T02:35:33.028752+00:00",
   "defaultSetId": "12",
   "sets": [
     {

@@ -22,6 +22,7 @@
     { key: "filter:items", label: "Items", type: "filter", predicate: (card) => card.type === "Item" },
     { key: "filter:songs", label: "Songs", type: "filter", predicate: (card) => card.type === "Action" && card.subtypes.includes("Song") },
     { key: "filter:actions", label: "Actions", type: "filter", predicate: (card) => card.type === "Action" && !card.subtypes.includes("Song") },
+    { key: "filter:vanillas", label: "Vanillas", type: "filter", predicate: (card) => card.type === "Character" && card.fullText === "" && card.inkwell !== false },
     { key: "filter:locations", label: "Locations", type: "filter", predicate: (card) => card.type === "Location" },
     { key: "filter:uninkable", label: "Uninkable", type: "filter", predicate: (card) => card.inkwell === false },
   ];

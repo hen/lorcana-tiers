@@ -22,6 +22,7 @@ window.LORCANA_TIER_SITE_SETS["12"] = {
         "Hero"
       ],
       "mentionedSubtypes": [],
+      "fullText": "HEROIC INTERVENTION When you play this\ncharacter, you may ready chosen character\nwith cost 2 or less. If you do, they can't quest or\nchallenge for the rest of this turn.",
       "rarity": "Common",
       "story": "Darkwing Duck",
       "cost": 2,
@@ -40,6 +41,7 @@ window.LORCANA_TIER_SITE_SETS["12"] = {
         "Ally"
       ],
       "mentionedSubtypes": [],
+      "fullText": "BIRD'S-EYE VIEW When you play this character,\nyou may reveal the top card of your deck. If it's\na character card, you may put it into your hand.\nOtherwise, put it on the bottom of your deck.",
       "rarity": "Common",
       "story": "Chip 'n Dale: Rescue Rangers",
       "cost": 3,
@@ -59,6 +61,7 @@ window.LORCANA_TIER_SITE_SETS["12"] = {
         "Toy"
       ],
       "mentionedSubtypes": [],
+      "fullText": "",
       "rarity": "Common",
       "story": "Toy Story",
       "cost": 1,
@@ -77,6 +80,7 @@ window.LORCANA_TIER_SITE_SETS["12"] = {
         "Hero"
       ],
       "mentionedSubtypes": [],
+      "fullText": "LOOK WHAT I FOUND While you have a character\nnamed Chip in play, this character gets +1 ◊.",
       "rarity": "Common",
       "story": "Chip 'n Dale: Rescue Rangers",
       "cost": 3,
@@ -98,6 +102,7 @@ window.LORCANA_TIER_SITE_SETS["12"] = {
       "mentionedSubtypes": [
         "Madrigal"
       ],
+      "fullText": "DIFFICULT JOURNEY This character enters play\nwith 1 damage.\nDEVOTED FAMILY When you play this character, if\nyou have another Madrigal character in play, you\nmay remove up to 1 damage from him.",
       "rarity": "Uncommon",
       "story": "Encanto",
       "cost": 2,
@@ -117,6 +122,7 @@ window.LORCANA_TIER_SITE_SETS["12"] = {
         "Madrigal"
       ],
       "mentionedSubtypes": [],
+      "fullText": "Support (Whenever this character quests, you may\nadd their ¤ to another chosen character's ¤\nthis turn.)",
       "rarity": "Common",
       "story": "Encanto",
       "cost": 4,
@@ -135,6 +141,7 @@ window.LORCANA_TIER_SITE_SETS["12"] = {
         "Ally"
       ],
       "mentionedSubtypes": [],
+      "fullText": "Singer 4 (This character counts as cost 4 to\nsing songs.)",
       "rarity": "Common",
       "story": "Robin Hood",
       "cost": 2,
@@ -154,6 +161,7 @@ window.LORCANA_TIER_SITE_SETS["12"] = {
         "Prince"
       ],
       "mentionedSubtypes": [],
+      "fullText": "",
       "rarity": "Common",
       "story": "The Little Mermaid",
       "cost": 5,
@@ -173,6 +181,7 @@ window.LORCANA_TIER_SITE_SETS["12"] = {
         "Madrigal"
       ],
       "mentionedSubtypes": [],
+      "fullText": "NO SECRETS When you play this character, look\nat chosen opponent's hand.",
       "rarity": "Common",
       "story": "Encanto",
       "cost": 5,
@@ -193,6 +202,7 @@ window.LORCANA_TIER_SITE_SETS["12"] = {
         "Toy"
       ],
       "mentionedSubtypes": [],
+      "fullText": "Bodyguard (This character may enter play\nexerted. An opposing character who challenges\none of your characters must choose one with\nBodyguard if able.)\nRUN AWAY! During an opponent's turn, when this\ncharacter is banished, gain 1 lore.",
       "rarity": "Rare",
       "story": "Toy Story",
       "cost": 2,
@@ -212,6 +222,7 @@ window.LORCANA_TIER_SITE_SETS["12"] = {
         "Toy"
       ],
       "mentionedSubtypes": [],
+      "fullText": "LOOSE CHANGE ⟳ — You pay 1 ⬡ less for the\nnext character you play this turn.",
       "rarity": "Uncommon",
       "story": "Toy Story",
       "cost": 2,
@@ -230,6 +241,7 @@ window.LORCANA_TIER_SITE_SETS["12"] = {
         "Ally"
       ],
       "mentionedSubtypes": [],
+      "fullText": "BREAK THE TRANCE This character can't quest\nunless you have a character with 4 ⛉ or more\nin play.",
       "rarity": "Rare",
       "story": "Chip 'n Dale: Rescue Rangers",
       "cost": 2,
@@ -249,6 +261,7 @@ window.LORCANA_TIER_SITE_SETS["12"] = {
         "Toy"
       ],
       "mentionedSubtypes": [],
+      "fullText": "SOMEBODY DO SOMETHING! Your characters\nnamed Woody gain Bodyguard. (An opposing\ncharacter who challenges one of your characters\nmust choose one with Bodyguard if able.)",
       "rarity": "Uncommon",
       "story": "Toy Story",
       "cost": 3,
@@ -267,6 +280,7 @@ window.LORCANA_TIER_SITE_SETS["12"] = {
         "Hero"
       ],
       "mentionedSubtypes": [],
+      "fullText": "THERE YOU ARE! When you play this character,\nyou may return a character card with 4 ⛉ or\nmore from your discard to your hand.\nFRIENDLY ASSIST Your characters named Dale\nget +1 ⛉.",
       "rarity": "Uncommon",
       "story": "Chip 'n Dale: Rescue Rangers",
       "cost": 4,
@@ -288,6 +302,7 @@ window.LORCANA_TIER_SITE_SETS["12"] = {
       "mentionedSubtypes": [
         "Toy"
       ],
+      "fullText": "Shift 3 ⬡ (You may pay 3 ⬡ to play this on top of one of\nyour characters named Woody.)\nLET'S GET MOVIN' Whenever this character quests, draw\na card. Then, you may play a character with cost 2 or less\nfor free.\nEVERYONE GATHER 'ROUND Your other Toy characters\nget +1 ⛉.",
       "rarity": "Legendary",
       "story": "Toy Story",
       "cost": 5,
@@ -307,6 +322,7 @@ window.LORCANA_TIER_SITE_SETS["12"] = {
         "Madrigal"
       ],
       "mentionedSubtypes": [],
+      "fullText": "Singer 5 (This character counts as cost 5 to\nsing songs.)\nNEW MOTIF When you play this character, if you\nremoved 1 or more damage from one of your\ncharacters this turn, gain 1 lore.",
       "rarity": "Uncommon",
       "story": "Encanto",
       "cost": 3,
@@ -326,6 +342,7 @@ window.LORCANA_TIER_SITE_SETS["12"] = {
         "Toy"
       ],
       "mentionedSubtypes": [],
+      "fullText": "LET'S RIDE If you have a character named Woody\nor Jessie in play, you pay 1 ⬡ less to play this\ncharacter.",
       "rarity": "Common",
       "story": "Toy Story",
       "cost": 3,
@@ -345,6 +362,7 @@ window.LORCANA_TIER_SITE_SETS["12"] = {
         "Princess"
       ],
       "mentionedSubtypes": [],
+      "fullText": "FAMILIAR GROUND Whenever this character quests,\nif you played another character this turn, chosen\nopposing character can't challenge and must quest\nduring their next turn if able.",
       "rarity": "Rare",
       "story": "The Little Mermaid",
       "cost": 4,
@@ -366,6 +384,7 @@ window.LORCANA_TIER_SITE_SETS["12"] = {
       "mentionedSubtypes": [
         "Madrigal"
       ],
+      "fullText": "Shift 4 ⬡ (You may pay 4 ⬡ to play this on top of\none of your characters named Isabela Madrigal.)\nDO NO WRONG Whenever you remove damage\nfrom one of your characters, gain 1 lore for each 1\ndamage removed.",
       "rarity": "Rare",
       "story": "Encanto",
       "cost": 6,
@@ -387,6 +406,7 @@ window.LORCANA_TIER_SITE_SETS["12"] = {
       "mentionedSubtypes": [
         "Toy"
       ],
+      "fullText": "PART OF A FAMILY Whenever this character\nquests, if you have 2 or more other Toy characters\nin play, you may draw a card.\nYODEL-AY-HEE-HOO! Whenever you pay 2 ⬡ or\nless to play a card, chosen opposing character\ngets -1 ¤ until the start of your next turn.",
       "rarity": "Super Rare",
       "story": "Toy Story",
       "cost": 3,
@@ -408,6 +428,7 @@ window.LORCANA_TIER_SITE_SETS["12"] = {
       "mentionedSubtypes": [
         "Toy"
       ],
+      "fullText": "LET'S GO HOME When you play this character,\nlook at the top 4 cards of your deck. You may\nreveal a Toy character card or a location card\nnamed Andy's Room and put it into your hand.\nPut the rest on the bottom of your deck in\nany order.",
       "rarity": "Uncommon",
       "story": "Toy Story",
       "cost": 4,
@@ -426,6 +447,7 @@ window.LORCANA_TIER_SITE_SETS["12"] = {
         "Hero"
       ],
       "mentionedSubtypes": [],
+      "fullText": "SPIKE SUIT During challenges, your characters\ndeal damage with their ⛉ instead of their ¤.",
       "rarity": "Legendary",
       "story": "Chip 'n Dale: Rescue Rangers",
       "cost": 4,
@@ -445,6 +467,7 @@ window.LORCANA_TIER_SITE_SETS["12"] = {
         "Prince"
       ],
       "mentionedSubtypes": [],
+      "fullText": "",
       "rarity": "Rare",
       "story": "Snow White and the Seven Dwarfs",
       "cost": 1,
@@ -464,6 +487,7 @@ window.LORCANA_TIER_SITE_SETS["12"] = {
         "Madrigal"
       ],
       "mentionedSubtypes": [],
+      "fullText": "RESTORING RECIPE When you play this character\nand whenever she quests, you may remove up to\n1 damage from chosen character or location.",
       "rarity": "Common",
       "story": "Encanto",
       "cost": 1,
@@ -482,6 +506,7 @@ window.LORCANA_TIER_SITE_SETS["12"] = {
         "Ally"
       ],
       "mentionedSubtypes": [],
+      "fullText": "BEWARE OF DOG Whenever this character quests,\nif you played another character this turn, chosen\nopposing character gets -1 ¤ until the start of your\nnext turn.",
       "rarity": "Uncommon",
       "story": "Mickey Mouse & Friends",
       "cost": 2,
@@ -500,6 +525,7 @@ window.LORCANA_TIER_SITE_SETS["12"] = {
         "Hero"
       ],
       "mentionedSubtypes": [],
+      "fullText": "LONG JOURNEY This character may enter play exerted.\nSECRET PATH While this character is exerted, whenever\none of your other characters quests, chosen opposing\ncharacter gets -2 ¤ until the start of your next turn.",
       "rarity": "Super Rare",
       "story": "Mickey Mouse & Friends",
       "cost": 4,
@@ -518,6 +544,7 @@ window.LORCANA_TIER_SITE_SETS["12"] = {
         "Hero"
       ],
       "mentionedSubtypes": [],
+      "fullText": "RANGER RESOURCEFULNESS When you play this\ncharacter, if you have another character with 4 ⛉\nor more in play, you may draw a card.",
       "rarity": "Common",
       "story": "Chip 'n Dale: Rescue Rangers",
       "cost": 6,
@@ -533,6 +560,7 @@ window.LORCANA_TIER_SITE_SETS["12"] = {
       "type": "Action",
       "subtypes": [],
       "mentionedSubtypes": [],
+      "fullText": "Chosen character gets +¤ equal to their ⛉ this turn.",
       "rarity": "Uncommon",
       "story": "Chip 'n Dale: Rescue Rangers",
       "cost": 2,
@@ -550,6 +578,7 @@ window.LORCANA_TIER_SITE_SETS["12"] = {
         "Song"
       ],
       "mentionedSubtypes": [],
+      "fullText": "(A character with cost 3 or more can ⟳ to sing this\nsong for free.)\nChosen opposing character can't challenge and must\nquest during their next turn if able. Draw a card.",
       "rarity": "Common",
       "story": "Encanto",
       "cost": 3,
@@ -569,6 +598,7 @@ window.LORCANA_TIER_SITE_SETS["12"] = {
       "mentionedSubtypes": [
         "Toy"
       ],
+      "fullText": "(A character with cost 3 or more can ⟳ to sing this\nsong for free.)\nLook at the top 4 cards of your deck. You may reveal\nup to 2 Toy character cards and put them into your\nhand. Put the rest on the bottom of your deck in\nany order.",
       "rarity": "Super Rare",
       "story": "Toy Story",
       "cost": 3,
@@ -584,6 +614,7 @@ window.LORCANA_TIER_SITE_SETS["12"] = {
       "type": "Action",
       "subtypes": [],
       "mentionedSubtypes": [],
+      "fullText": "Shift a character from your discard for free.",
       "rarity": "Rare",
       "story": "Encanto",
       "cost": 3,
@@ -601,6 +632,7 @@ window.LORCANA_TIER_SITE_SETS["12"] = {
         "Song"
       ],
       "mentionedSubtypes": [],
+      "fullText": "(A character with cost 3 or more can ⟳ to sing this\nsong for free.)\nIf an opponent has more characters in play than you,\nyou may play a character with cost 4 or less for free.",
       "rarity": "Rare",
       "story": "Chip 'n Dale: Rescue Rangers",
       "cost": 3,
@@ -616,6 +648,7 @@ window.LORCANA_TIER_SITE_SETS["12"] = {
       "type": "Item",
       "subtypes": [],
       "mentionedSubtypes": [],
+      "fullText": "GRAB HOLD! When you play this item, you may put\na character card from your discard on the top of\nyour deck.\nPACK IT UP At the end of your turn, you may banish\nthis item to draw a card.",
       "rarity": "Uncommon",
       "story": "Lorcana",
       "cost": 2,
@@ -631,6 +664,7 @@ window.LORCANA_TIER_SITE_SETS["12"] = {
       "type": "Location",
       "subtypes": [],
       "mentionedSubtypes": [],
+      "fullText": "ANDY'S FAVORITE While you have only 1 character here, they get +2 ⛉\nand +1 ◊.",
       "rarity": "Rare",
       "story": "Toy Story",
       "cost": 3,
@@ -650,6 +684,7 @@ window.LORCANA_TIER_SITE_SETS["12"] = {
         "Prince"
       ],
       "mentionedSubtypes": [],
+      "fullText": "Rush (This character can challenge the turn\nthey're played.)",
       "rarity": "Common",
       "story": "Brave",
       "cost": 2,
@@ -671,6 +706,7 @@ window.LORCANA_TIER_SITE_SETS["12"] = {
       "mentionedSubtypes": [
         "Madrigal"
       ],
+      "fullText": "PROTECTING THE FAMILY When you play this\ncharacter, if you have another Madrigal character\nin play, you may exert chosen opposing character.",
       "rarity": "Uncommon",
       "story": "Encanto",
       "cost": 2,
@@ -690,6 +726,7 @@ window.LORCANA_TIER_SITE_SETS["12"] = {
         "Princess"
       ],
       "mentionedSubtypes": [],
+      "fullText": "CLARION CALL Whenever this character quests,\nyou may return chosen Seven Dwarfs character of\nyours to your hand to draw a card.\nNEVER FORGOTTEN During an opponent's turn,\nwhen this character is banished in a challenge,\nreturn this card to your hand.",
       "rarity": "Legendary",
       "story": "Snow White and the Seven Dwarfs",
       "cost": 3,
@@ -709,6 +746,7 @@ window.LORCANA_TIER_SITE_SETS["12"] = {
         "Seven Dwarfs"
       ],
       "mentionedSubtypes": [],
+      "fullText": "TONGUE-TIED This character can't ⟳ to sing songs.\nDISTANT MELODY Once during your turn, whenever\nyou play a song, this character gets +1 ◊ this turn.",
       "rarity": "Uncommon",
       "story": "Snow White and the Seven Dwarfs",
       "cost": 6,
@@ -728,6 +766,7 @@ window.LORCANA_TIER_SITE_SETS["12"] = {
         "Seven Dwarfs"
       ],
       "mentionedSubtypes": [],
+      "fullText": "Evasive (Only characters with Evasive can\nchallenge this character.)",
       "rarity": "Common",
       "story": "Snow White and the Seven Dwarfs",
       "cost": 5,
@@ -749,6 +788,7 @@ window.LORCANA_TIER_SITE_SETS["12"] = {
       "mentionedSubtypes": [
         "Princess"
       ],
+      "fullText": "SHARE KNOWLEDGE When you play this character,\nif you have another Seven Dwarfs character or a\nPrincess character in play, draw a card.",
       "rarity": "Uncommon",
       "story": "Snow White and the Seven Dwarfs",
       "cost": 4,
@@ -768,6 +808,7 @@ window.LORCANA_TIER_SITE_SETS["12"] = {
         "Seven Dwarfs"
       ],
       "mentionedSubtypes": [],
+      "fullText": "",
       "rarity": "Common",
       "story": "Snow White and the Seven Dwarfs",
       "cost": 7,
@@ -787,6 +828,7 @@ window.LORCANA_TIER_SITE_SETS["12"] = {
         "Seven Dwarfs"
       ],
       "mentionedSubtypes": [],
+      "fullText": "GESUNDHEIT When you play this character,\nchosen character gets +1 ◊ this turn.",
       "rarity": "Common",
       "story": "Snow White and the Seven Dwarfs",
       "cost": 3,
@@ -806,6 +848,7 @@ window.LORCANA_TIER_SITE_SETS["12"] = {
         "Seven Dwarfs"
       ],
       "mentionedSubtypes": [],
+      "fullText": "",
       "rarity": "Common",
       "story": "Snow White and the Seven Dwarfs",
       "cost": 2,
@@ -827,6 +870,7 @@ window.LORCANA_TIER_SITE_SETS["12"] = {
       "mentionedSubtypes": [
         "Princess"
       ],
+      "fullText": "PLEASANT DREAMS When this character is\nbanished, if you have a Seven Dwarfs or Princess\ncharacter in play, you may draw a card.",
       "rarity": "Common",
       "story": "Snow White and the Seven Dwarfs",
       "cost": 1,
@@ -846,6 +890,7 @@ window.LORCANA_TIER_SITE_SETS["12"] = {
         "Madrigal"
       ],
       "mentionedSubtypes": [],
+      "fullText": "FIND A WAY Whenever this character quests,\nmove up to 1 damage from chosen character of\nyours to chosen opposing character.",
       "rarity": "Common",
       "story": "Encanto",
       "cost": 3,
@@ -865,6 +910,7 @@ window.LORCANA_TIER_SITE_SETS["12"] = {
         "Hero"
       ],
       "mentionedSubtypes": [],
+      "fullText": "Evasive (Only characters with Evasive can\nchallenge this character.)",
       "rarity": "Common",
       "story": "The Incredibles",
       "cost": 2,
@@ -882,6 +928,7 @@ window.LORCANA_TIER_SITE_SETS["12"] = {
         "Storyborn"
       ],
       "mentionedSubtypes": [],
+      "fullText": "COME ON OUT When this character is banished in a\nchallenge, you may return this card to your hand.",
       "rarity": "Common",
       "story": "Brave",
       "cost": 1,
@@ -901,6 +948,7 @@ window.LORCANA_TIER_SITE_SETS["12"] = {
         "Hero"
       ],
       "mentionedSubtypes": [],
+      "fullText": "Evasive (Only characters with Evasive can\nchallenge this character.)\nDEFLECT When you play this character, you may\nmove 1 damage from chosen character to chosen\nopposing character.",
       "rarity": "Uncommon",
       "story": "The Incredibles",
       "cost": 3,
@@ -920,6 +968,7 @@ window.LORCANA_TIER_SITE_SETS["12"] = {
         "Hero"
       ],
       "mentionedSubtypes": [],
+      "fullText": "FLEXIBLE THINKING At the start of your turn, you\nmay choose one:\n• This character gains Evasive until the start of\nyour next turn. (Only characters with Evasive can\nchallenge them.)\n• This character gets +1 ◊ this turn.",
       "rarity": "Rare",
       "story": "The Incredibles",
       "cost": 5,
@@ -939,6 +988,7 @@ window.LORCANA_TIER_SITE_SETS["12"] = {
         "Prince"
       ],
       "mentionedSubtypes": [],
+      "fullText": "STAY QUIET This character may enter play exerted.\nCLEVER TRAP At the end of your turn, if this\ncharacter is exerted, chosen opposing character\ncan't ready at the start of their next turn.",
       "rarity": "Uncommon",
       "story": "Brave",
       "cost": 3,
@@ -957,6 +1007,7 @@ window.LORCANA_TIER_SITE_SETS["12"] = {
         "Queen"
       ],
       "mentionedSubtypes": [],
+      "fullText": "Challenger +2 (While challenging, this character\ngets +2 ¤.)",
       "rarity": "Uncommon",
       "story": "Brave",
       "cost": 4,
@@ -976,6 +1027,7 @@ window.LORCANA_TIER_SITE_SETS["12"] = {
         "Sorcerer"
       ],
       "mentionedSubtypes": [],
+      "fullText": "LIGHTING THE WAY Whenever this character\nquests, if you played another character this turn,\nyou may draw a card.",
       "rarity": "Uncommon",
       "story": "Mickey Mouse & Friends",
       "cost": 3,
@@ -997,6 +1049,7 @@ window.LORCANA_TIER_SITE_SETS["12"] = {
         "Hero",
         "Super"
       ],
+      "fullText": "BUSINESS ARRANGEMENT When you play this\ncharacter, if you have a Super or Hero character\nin play, you may draw a card.",
       "rarity": "Common",
       "story": "The Incredibles",
       "cost": 4,
@@ -1018,6 +1071,7 @@ window.LORCANA_TIER_SITE_SETS["12"] = {
       "mentionedSubtypes": [
         "Super"
       ],
+      "fullText": "NO CAPES! When you play this character, you\nmay return chosen item with cost 2 or less to its\nplayer's hand. If you do, its player draws a card.\nMAKING SUPERS FABULOUS Whenever this\ncharacter quests, your Super characters get +1 ◊\nthis turn.",
       "rarity": "Rare",
       "story": "The Incredibles",
       "cost": 3,
@@ -1037,6 +1091,7 @@ window.LORCANA_TIER_SITE_SETS["12"] = {
         "Sorcerer"
       ],
       "mentionedSubtypes": [],
+      "fullText": "HEED MY WORDS Whenever this character quests,\nif you played another character this turn, you may\nexert chosen opposing character.",
       "rarity": "Rare",
       "story": "Sleeping Beauty",
       "cost": 5,
@@ -1056,6 +1111,7 @@ window.LORCANA_TIER_SITE_SETS["12"] = {
         "Madrigal"
       ],
       "mentionedSubtypes": [],
+      "fullText": "STORMY WEATHER When you play this character,\ndeal 1 damage to each of your other characters.\nSILVER LINING Once during your turn, whenever\nyou remove 1 or more damage from one of your\ncharacters, draw a card.",
       "rarity": "Super Rare",
       "story": "Encanto",
       "cost": 3,
@@ -1075,6 +1131,7 @@ window.LORCANA_TIER_SITE_SETS["12"] = {
         "Prince"
       ],
       "mentionedSubtypes": [],
+      "fullText": "FEROCIOUS ROAR When you play this character,\nexert all your characters not named Mor'du.\nROOTED BY FEAR Your characters not named\nMor'du can't ready at the start of your turn.",
       "rarity": "Super Rare",
       "story": "Brave",
       "cost": 5,
@@ -1096,6 +1153,7 @@ window.LORCANA_TIER_SITE_SETS["12"] = {
       "mentionedSubtypes": [
         "Madrigal"
       ],
+      "fullText": "Shift 3 ⬡ (You may pay 3 ⬡ to play this on top of\none of your characters named Alma Madrigal.)\nTHAT'S ENOUGH Whenever you remove 1 or more\ndamage from one of your characters, you may\nexert chosen opposing character.",
       "rarity": "Rare",
       "story": "Encanto",
       "cost": 5,
@@ -1117,6 +1175,7 @@ window.LORCANA_TIER_SITE_SETS["12"] = {
       "mentionedSubtypes": [
         "Super"
       ],
+      "fullText": "Rush (This character can challenge the turn\nthey're played.)\nJUST CHILL When you play this character, if you\nhave another Super character in play, you may\nexert chosen opposing character.",
       "rarity": "Rare",
       "story": "The Incredibles",
       "cost": 6,
@@ -1138,6 +1197,7 @@ window.LORCANA_TIER_SITE_SETS["12"] = {
       "mentionedSubtypes": [
         "Madrigal"
       ],
+      "fullText": "Shift 3 ⬡ (You may pay 3 ⬡ to play this on top of one\nof your characters named Luisa Madrigal.)\nI CAN TAKE IT 1 ⬡ — Move up to 1 damage from chosen\ncharacter of yours to this character. Then, if this\ncharacter has 3 or more damage, move all damage from\nthis character to chosen opposing character.",
       "rarity": "Legendary",
       "story": "Encanto",
       "cost": 5,
@@ -1157,6 +1217,7 @@ window.LORCANA_TIER_SITE_SETS["12"] = {
         "Hero"
       ],
       "mentionedSubtypes": [],
+      "fullText": "Rush (This character can challenge the turn\nthey're played.)\nRECORD TIME This character can quest the turn\nhe's played.",
       "rarity": "Super Rare",
       "story": "The Incredibles",
       "cost": 4,
@@ -1176,6 +1237,7 @@ window.LORCANA_TIER_SITE_SETS["12"] = {
         "Madrigal"
       ],
       "mentionedSubtypes": [],
+      "fullText": "Challenger +2 (While challenging, this character\ngets +2 ¤.)",
       "rarity": "Common",
       "story": "Encanto",
       "cost": 1,
@@ -1193,6 +1255,7 @@ window.LORCANA_TIER_SITE_SETS["12"] = {
       "mentionedSubtypes": [
         "Hero"
       ],
+      "fullText": "Return chosen character of yours to your hand. If you\nreturned a Hero character this way, draw 2 cards.",
       "rarity": "Common",
       "story": "The Incredibles",
       "cost": 4,
@@ -1210,6 +1273,7 @@ window.LORCANA_TIER_SITE_SETS["12"] = {
       "mentionedSubtypes": [
         "Princess"
       ],
+      "fullText": "Draw a card. If you have a Seven Dwarfs character\nand a Princess character in play, you may play a Seven\nDwarfs character for free.",
       "rarity": "Uncommon",
       "story": "Snow White and the Seven Dwarfs",
       "cost": 3,
@@ -1227,6 +1291,7 @@ window.LORCANA_TIER_SITE_SETS["12"] = {
       "mentionedSubtypes": [
         "Princess"
       ],
+      "fullText": "Search your deck for a Princess character card, reveal\nthat card to all players, and put it into your hand. Then,\nshuffle your deck. If you have 2 or more Seven Dwarfs\ncharacters in play, draw 2 cards and gain 2 lore.",
       "rarity": "Rare",
       "story": "Snow White and the Seven Dwarfs",
       "cost": 5,
@@ -1244,6 +1309,7 @@ window.LORCANA_TIER_SITE_SETS["12"] = {
       "mentionedSubtypes": [
         "Hero"
       ],
+      "fullText": "SIMPLE, ELEGANT When you play this item, if you have\na Hero character in play, gain 1 lore.\nSUIT UP ⟳, 2 ⬡ — If you played a Hero character this\nturn, draw a card.",
       "rarity": "Uncommon",
       "story": "The Incredibles",
       "cost": 2,
@@ -1259,6 +1325,7 @@ window.LORCANA_TIER_SITE_SETS["12"] = {
       "type": "Item",
       "subtypes": [],
       "mentionedSubtypes": [],
+      "fullText": "TORN APART This item enters play exerted.\nMEND THE BOND ⟳, Banish this item — Each player\nshuffles all character cards from their discard into\ntheir deck.",
       "rarity": "Rare",
       "story": "Brave",
       "cost": 2,
@@ -1274,6 +1341,7 @@ window.LORCANA_TIER_SITE_SETS["12"] = {
       "type": "Location",
       "subtypes": [],
       "mentionedSubtypes": [],
+      "fullText": "FOLLOW YOUR FATE Your exerted characters can move here for free.\nPART THE VEIL Once during your turn, whenever a character moves\nhere, gain 1 lore.",
       "rarity": "Rare",
       "story": "Brave",
       "cost": 4,
@@ -1293,6 +1361,7 @@ window.LORCANA_TIER_SITE_SETS["12"] = {
         "Princess"
       ],
       "mentionedSubtypes": [],
+      "fullText": "Ward (Opponents can't choose this character\nexcept to challenge.)",
       "rarity": "Common",
       "story": "Brave",
       "cost": 2,
@@ -1312,6 +1381,7 @@ window.LORCANA_TIER_SITE_SETS["12"] = {
         "Prince"
       ],
       "mentionedSubtypes": [],
+      "fullText": "Evasive (Only characters with Evasive can\nchallenge this character.)",
       "rarity": "Common",
       "story": "Brave",
       "cost": 3,
@@ -1330,6 +1400,7 @@ window.LORCANA_TIER_SITE_SETS["12"] = {
         "Ally"
       ],
       "mentionedSubtypes": [],
+      "fullText": "",
       "rarity": "Common",
       "story": "Brave",
       "cost": 1,
@@ -1348,6 +1419,7 @@ window.LORCANA_TIER_SITE_SETS["12"] = {
         "Hero"
       ],
       "mentionedSubtypes": [],
+      "fullText": "Evasive (Only characters with Evasive can\nchallenge this character.)",
       "rarity": "Common",
       "story": "The Fox and the Hound",
       "cost": 5,
@@ -1366,6 +1438,7 @@ window.LORCANA_TIER_SITE_SETS["12"] = {
         "Villain"
       ],
       "mentionedSubtypes": [],
+      "fullText": "CRISIS MANAGEMENT If 2 or more cards were put\ninto your discard this turn, you pay 2 ⬡ less to\nplay this character.",
       "rarity": "Common",
       "story": "Atlantis: The Lost Empire",
       "cost": 4,
@@ -1384,6 +1457,7 @@ window.LORCANA_TIER_SITE_SETS["12"] = {
         "Sorcerer"
       ],
       "mentionedSubtypes": [],
+      "fullText": "UNSATISFIED CUSTOMERS Whenever this\ncharacter is challenged, each opponent\nloses 1 lore.",
       "rarity": "Common",
       "story": "Brave",
       "cost": 5,
@@ -1404,6 +1478,7 @@ window.LORCANA_TIER_SITE_SETS["12"] = {
         "Sorcerer"
       ],
       "mentionedSubtypes": [],
+      "fullText": "UNEQUALED CRUELTY While an opposing\ndamaged character is in play, this character\ngets +2 ¤.",
       "rarity": "Common",
       "story": "Snow White and the Seven Dwarfs",
       "cost": 1,
@@ -1424,6 +1499,7 @@ window.LORCANA_TIER_SITE_SETS["12"] = {
         "Captain"
       ],
       "mentionedSubtypes": [],
+      "fullText": "",
       "rarity": "Common",
       "story": "Toy Story",
       "cost": 2,
@@ -1444,6 +1520,7 @@ window.LORCANA_TIER_SITE_SETS["12"] = {
         "Racer"
       ],
       "mentionedSubtypes": [],
+      "fullText": "LOW BATTERIES This character can't quest or\nchallenge unless you pay 1 ⬡. (You pay this cost\neach time.)",
       "rarity": "Common",
       "story": "Toy Story",
       "cost": 1,
@@ -1462,6 +1539,7 @@ window.LORCANA_TIER_SITE_SETS["12"] = {
         "Ally"
       ],
       "mentionedSubtypes": [],
+      "fullText": "WAIT FOR IT... This character may enter play\nexerted to deal 3 damage to chosen damaged\ncharacter.",
       "rarity": "Uncommon",
       "story": "Brave",
       "cost": 5,
@@ -1481,6 +1559,7 @@ window.LORCANA_TIER_SITE_SETS["12"] = {
         "Toy"
       ],
       "mentionedSubtypes": [],
+      "fullText": "TAKE A GOOD LOOK When you play this character,\nchosen opponent reveals their hand and discards\nan action card of your choice.\nCOMIN' UP FAST Once during your turn, whenever\nyou play an action, you may ready this character.",
       "rarity": "Rare",
       "story": "Toy Story",
       "cost": 3,
@@ -1499,6 +1578,7 @@ window.LORCANA_TIER_SITE_SETS["12"] = {
         "Ally"
       ],
       "mentionedSubtypes": [],
+      "fullText": "Evasive (Only characters with Evasive can\nchallenge this character.)\nUNEARTH Whenever this character quests, you\nmay draw 2 cards, then choose and discard 2 cards.",
       "rarity": "Uncommon",
       "story": "Atlantis: The Lost Empire",
       "cost": 4,
@@ -1517,6 +1597,7 @@ window.LORCANA_TIER_SITE_SETS["12"] = {
         "Hero"
       ],
       "mentionedSubtypes": [],
+      "fullText": "",
       "rarity": "Uncommon",
       "story": "Peter Pan",
       "cost": 3,
@@ -1535,6 +1616,7 @@ window.LORCANA_TIER_SITE_SETS["12"] = {
         "Hero"
       ],
       "mentionedSubtypes": [],
+      "fullText": "Ward\nSCHOLAR'S GAMBIT When you play this character,\nyou may choose and discard a card to return chosen\ncharacter to their player's hand.\nPRACTICAL KNOWLEDGE At the end of your turn, if\n2 or more cards were put into your discard this turn,\ndraw a card.",
       "rarity": "Super Rare",
       "story": "Atlantis: The Lost Empire",
       "cost": 7,
@@ -1557,6 +1639,7 @@ window.LORCANA_TIER_SITE_SETS["12"] = {
       "mentionedSubtypes": [
         "Toy"
       ],
+      "fullText": "WE ARE ONE This character gets +1 ¤ for each\nother Toy character you have in play.\nHE HAS BEEN CHOSEN During your turn, when\nthis character is banished, return another\ncharacter card named Alien from your discard to\nyour hand.",
       "rarity": "Rare",
       "story": "Toy Story",
       "cost": 1,
@@ -1575,6 +1658,7 @@ window.LORCANA_TIER_SITE_SETS["12"] = {
         "Ally"
       ],
       "mentionedSubtypes": [],
+      "fullText": "BURNING CURIOSITY Whenever this character\nquests, if you played another character this turn,\neach opponent chooses and discards a card.",
       "rarity": "Uncommon",
       "story": "Mickey Mouse & Friends",
       "cost": 5,
@@ -1597,6 +1681,7 @@ window.LORCANA_TIER_SITE_SETS["12"] = {
       "mentionedSubtypes": [
         "Toy"
       ],
+      "fullText": "SECRET MISSION Whenever you pay 2 ⬡ or less\nto play a non-character, draw a card, then choose\nand discard a card.\nWORLD'S GREATEST TOY Whenever you pay 2 ⬡\nor less to play a character, deal 1 damage to\nchosen opposing damaged character.",
       "rarity": "Rare",
       "story": "Toy Story",
       "cost": 3,
@@ -1616,6 +1701,7 @@ window.LORCANA_TIER_SITE_SETS["12"] = {
         "Queen"
       ],
       "mentionedSubtypes": [],
+      "fullText": "COORDINATED EFFORTS At the end of your turn,\nif you have 3 or more exerted characters in play,\ndeal 1 damage to chosen opposing character, gain\n1 lore, and draw a card.",
       "rarity": "Super Rare",
       "story": "Brave",
       "cost": 4,
@@ -1634,6 +1720,7 @@ window.LORCANA_TIER_SITE_SETS["12"] = {
         "Villain"
       ],
       "mentionedSubtypes": [],
+      "fullText": "EYE FOR VALUE When you play this character, you\nmay draw a card, then choose and discard a card.\nDIRTY TRICKS At the end of your turn, if 2 or\nmore cards were put into your discard this turn,\neach opponent loses 1 lore.",
       "rarity": "Uncommon",
       "story": "Atlantis: The Lost Empire",
       "cost": 2,
@@ -1652,6 +1739,7 @@ window.LORCANA_TIER_SITE_SETS["12"] = {
         "Ally"
       ],
       "mentionedSubtypes": [],
+      "fullText": "NO PATIENCE Whenever this character is\nchallenged, chosen opponent chooses and\ndiscards a card.",
       "rarity": "Common",
       "story": "Atlantis: The Lost Empire",
       "cost": 2,
@@ -1671,6 +1759,7 @@ window.LORCANA_TIER_SITE_SETS["12"] = {
         "Princess"
       ],
       "mentionedSubtypes": [],
+      "fullText": "Shift 3 ⬡ (You may pay 3 ⬡ to play this on top of\none of your characters named Merida.)\nFIERCE PROTECTION While this character is\nexerted, whenever an opposing character\nchallenges, you may deal 1 damage to the\nchallenging character.",
       "rarity": "Rare",
       "story": "Brave",
       "cost": 5,
@@ -1691,6 +1780,7 @@ window.LORCANA_TIER_SITE_SETS["12"] = {
         "Sorcerer"
       ],
       "mentionedSubtypes": [],
+      "fullText": "EVIL SCHEME When you play this character,\nyou may draw a card. If you do, each opponent\ngains 2 lore.\nJEALOUS HEART While an opponent has more\nlore than you, this character gets +2 ◊.",
       "rarity": "Legendary",
       "story": "Snow White and the Seven Dwarfs",
       "cost": 4,
@@ -1711,6 +1801,7 @@ window.LORCANA_TIER_SITE_SETS["12"] = {
         "Captain"
       ],
       "mentionedSubtypes": [],
+      "fullText": "Shift 5 ⬡ (You may pay 5 ⬡ to play this on top of one of\nyour characters named Buzz Lightyear.)\nTAKE CHARGE When you play this character, you may\nreturn an action card with cost 7 or less from your discard\nto your hand.\nADVANCED TRAINING Whenever you play an action, chosen\ncharacter gets +1 ◊ this turn.",
       "rarity": "Legendary",
       "story": "Toy Story",
       "cost": 7,
@@ -1729,6 +1820,7 @@ window.LORCANA_TIER_SITE_SETS["12"] = {
         "Villain"
       ],
       "mentionedSubtypes": [],
+      "fullText": "YOU'RE OUT OF FASHION Whenever this character\nquests, if you played another character this turn,\nyou may banish chosen damaged character.",
       "rarity": "Rare",
       "story": "101 Dalmatians",
       "cost": 6,
@@ -1747,6 +1839,7 @@ window.LORCANA_TIER_SITE_SETS["12"] = {
         "Villain"
       ],
       "mentionedSubtypes": [],
+      "fullText": "COMBAT TRAINING Whenever this character\nquests, deal 1 damage to chosen opposing\ncharacter. If 2 or more cards were put into your\ndiscard this turn, deal 2 damage instead.",
       "rarity": "Rare",
       "story": "Atlantis: The Lost Empire",
       "cost": 6,
@@ -1765,6 +1858,7 @@ window.LORCANA_TIER_SITE_SETS["12"] = {
         "Ally"
       ],
       "mentionedSubtypes": [],
+      "fullText": "Ward (Opponents can't choose this character\nexcept to challenge.)",
       "rarity": "Uncommon",
       "story": "Snow White and the Seven Dwarfs",
       "cost": 3,
@@ -1782,6 +1876,7 @@ window.LORCANA_TIER_SITE_SETS["12"] = {
         "Song"
       ],
       "mentionedSubtypes": [],
+      "fullText": "(A character with cost 4 or more can ⟳ to sing this\nsong for free.)\nUp to 2 chosen characters can't quest until the start of\nyour next turn. Draw a card.",
       "rarity": "Uncommon",
       "story": "Toy Story",
       "cost": 4,
@@ -1797,6 +1892,7 @@ window.LORCANA_TIER_SITE_SETS["12"] = {
       "type": "Action",
       "subtypes": [],
       "mentionedSubtypes": [],
+      "fullText": "Banish chosen item or location and all other items or\nlocations with the same name.",
       "rarity": "Common",
       "story": "Atlantis: The Lost Empire",
       "cost": 3,
@@ -1812,6 +1908,7 @@ window.LORCANA_TIER_SITE_SETS["12"] = {
       "type": "Action",
       "subtypes": [],
       "mentionedSubtypes": [],
+      "fullText": "Chosen opponent chooses 3 of their characters and\nreturns one of those cards to their hand, puts one on\nthe bottom of their deck, and puts one on the top of\ntheir deck.",
       "rarity": "Super Rare",
       "story": "Encanto",
       "cost": 8,
@@ -1827,6 +1924,7 @@ window.LORCANA_TIER_SITE_SETS["12"] = {
       "type": "Item",
       "subtypes": [],
       "mentionedSubtypes": [],
+      "fullText": "MISSING PIECE If a character named Buzz Lightyear\nwas banished this turn, you may play this item for free.\nSOME ASSEMBLY REQUIRED ⟳ — You pay 1 ⬡ less for\nthe next action or item you play this turn.",
       "rarity": "Uncommon",
       "story": "Toy Story",
       "cost": 2,
@@ -1842,6 +1940,7 @@ window.LORCANA_TIER_SITE_SETS["12"] = {
       "type": "Item",
       "subtypes": [],
       "mentionedSubtypes": [],
+      "fullText": "THE CLAW CHOOSES ⟳, 2 ⬡, Banish one of your\ncharacters — Return chosen opposing character to their\nplayer's hand.",
       "rarity": "Rare",
       "story": "Toy Story",
       "cost": 4,
@@ -1857,6 +1956,7 @@ window.LORCANA_TIER_SITE_SETS["12"] = {
       "type": "Item",
       "subtypes": [],
       "mentionedSubtypes": [],
+      "fullText": "TAKE HER UP ⟳, 1 ⬡ — Chosen character of yours\ngains Evasive until the start of your next turn. (Only\ncharacters with Evasive can challenge them.)\nCRASH LANDING ⟳, Banish this item — Each player\nloses 2 lore.",
       "rarity": "Uncommon",
       "story": "Atlantis: The Lost Empire",
       "cost": 3,
@@ -1872,6 +1972,7 @@ window.LORCANA_TIER_SITE_SETS["12"] = {
       "type": "Item",
       "subtypes": [],
       "mentionedSubtypes": [],
+      "fullText": "EASY SHOT When you play this item, deal 1 damage to\nchosen character.\nFINAL ARROW 1 ⬡, Banish this item — Deal 1 damage\nto chosen character.",
       "rarity": "Common",
       "story": "Brave",
       "cost": 2,
@@ -1889,6 +1990,7 @@ window.LORCANA_TIER_SITE_SETS["12"] = {
       "mentionedSubtypes": [
         "Toy"
       ],
+      "fullText": "YOU ARE CLEAR TO ENTER Your Toy characters can move here for free.\nHEAVILY GUARDED Whenever a character is challenged while here, each\nopponent loses 1 lore.",
       "rarity": "Rare",
       "story": "Toy Story",
       "cost": 2,
@@ -1907,6 +2009,7 @@ window.LORCANA_TIER_SITE_SETS["12"] = {
         "Villain"
       ],
       "mentionedSubtypes": [],
+      "fullText": "Shift 4 ⬡ (You may pay 4 ⬡ to play this on top of\none of your characters named Lyle Tiberius Rourke.)\nPLAN'S CHANGED When you play this character, put\nthe top 2 cards of your deck into your discard. Then,\nyou may return an action card with cost 4 or less\nfrom your discard to your hand.",
       "rarity": "Rare",
       "story": "Atlantis: The Lost Empire",
       "cost": 6,
@@ -1926,6 +2029,7 @@ window.LORCANA_TIER_SITE_SETS["12"] = {
         "Hero"
       ],
       "mentionedSubtypes": [],
+      "fullText": "",
       "rarity": "Common",
       "story": "The Incredibles",
       "cost": 1,
@@ -1944,6 +2048,7 @@ window.LORCANA_TIER_SITE_SETS["12"] = {
         "Villain"
       ],
       "mentionedSubtypes": [],
+      "fullText": "",
       "rarity": "Common",
       "story": "Atlantis: The Lost Empire",
       "cost": 3,
@@ -1962,6 +2067,7 @@ window.LORCANA_TIER_SITE_SETS["12"] = {
         "Ally"
       ],
       "mentionedSubtypes": [],
+      "fullText": "Evasive (Only characters with Evasive can\nchallenge this character.)",
       "rarity": "Common",
       "story": "Hercules",
       "cost": 6,
@@ -1980,6 +2086,7 @@ window.LORCANA_TIER_SITE_SETS["12"] = {
         "Ally"
       ],
       "mentionedSubtypes": [],
+      "fullText": "Rush (This character can challenge the turn\nthey're played.)",
       "rarity": "Common",
       "story": "Atlantis: The Lost Empire",
       "cost": 1,
@@ -1998,6 +2105,7 @@ window.LORCANA_TIER_SITE_SETS["12"] = {
         "Hero"
       ],
       "mentionedSubtypes": [],
+      "fullText": "FASCINATING DISCOVERY During your turn, if 2 or\nmore cards were put into your discard this turn,\nthis character gets +1 ◊.",
       "rarity": "Common",
       "story": "Atlantis: The Lost Empire",
       "cost": 3,
@@ -2017,6 +2125,7 @@ window.LORCANA_TIER_SITE_SETS["12"] = {
         "Deity"
       ],
       "mentionedSubtypes": [],
+      "fullText": "IMMORTAL WOUND This character enters play\nwith 4 damage.",
       "rarity": "Uncommon",
       "story": "Hercules",
       "cost": 5,
@@ -2035,6 +2144,7 @@ window.LORCANA_TIER_SITE_SETS["12"] = {
         "Ally"
       ],
       "mentionedSubtypes": [],
+      "fullText": "PRICE OF PROGRESS When you play this\ncharacter, you may put the top 2 cards of your\ndeck into your discard.",
       "rarity": "Common",
       "story": "Atlantis: The Lost Empire",
       "cost": 5,
@@ -2056,6 +2166,7 @@ window.LORCANA_TIER_SITE_SETS["12"] = {
       "mentionedSubtypes": [
         "Toy"
       ],
+      "fullText": "TURN OUT THE LIGHT During your turn, whenever\none of your other Toy characters is banished,\nchosen character of yours gains Evasive until\nthe start of your next turn. (Only characters with\nEvasive can challenge them.)",
       "rarity": "Common",
       "story": "Toy Story",
       "cost": 2,
@@ -2077,6 +2188,7 @@ window.LORCANA_TIER_SITE_SETS["12"] = {
       "mentionedSubtypes": [
         "Toy"
       ],
+      "fullText": "ADDED TRACTION If one of your Toy characters was\nbanished this turn, you pay 2 ⬡ less to play this\ncharacter.",
       "rarity": "Common",
       "story": "Toy Story",
       "cost": 2,
@@ -2096,6 +2208,7 @@ window.LORCANA_TIER_SITE_SETS["12"] = {
         "Toy"
       ],
       "mentionedSubtypes": [],
+      "fullText": "TIME TO MOVE When you play this character, you\nmay put 2 character cards from your discard on\nthe bottom of your deck to give this character\nRush this turn. (They can challenge the turn\nthey're played.)",
       "rarity": "Uncommon",
       "story": "Toy Story",
       "cost": 3,
@@ -2117,6 +2230,7 @@ window.LORCANA_TIER_SITE_SETS["12"] = {
       "mentionedSubtypes": [
         "Toy"
       ],
+      "fullText": "SPRING-LOADED You may put a Toy character\ncard from your discard on the bottom of your\ndeck to play this character for free.",
       "rarity": "Uncommon",
       "story": "Toy Story",
       "cost": 2,
@@ -2135,6 +2249,7 @@ window.LORCANA_TIER_SITE_SETS["12"] = {
         "Ally"
       ],
       "mentionedSubtypes": [],
+      "fullText": "BREAK IS OVER Whenever this character quests,\nif you played a character this turn, you may ready\nanother chosen character. If you do, they can't\nquest for the rest of this turn.",
       "rarity": "Uncommon",
       "story": "Mickey Mouse & Friends",
       "cost": 3,
@@ -2153,6 +2268,7 @@ window.LORCANA_TIER_SITE_SETS["12"] = {
         "Hero"
       ],
       "mentionedSubtypes": [],
+      "fullText": "",
       "rarity": "Uncommon",
       "story": "The Fox and the Hound",
       "cost": 6,
@@ -2171,6 +2287,7 @@ window.LORCANA_TIER_SITE_SETS["12"] = {
         "Ally"
       ],
       "mentionedSubtypes": [],
+      "fullText": "Evasive (Only characters with Evasive can\nchallenge this character.)\nReckless (This character can't quest and must\nchallenge each turn if able.)",
       "rarity": "Uncommon",
       "story": "Atlantis: The Lost Empire",
       "cost": 2,
@@ -2190,6 +2307,7 @@ window.LORCANA_TIER_SITE_SETS["12"] = {
         "Hero"
       ],
       "mentionedSubtypes": [],
+      "fullText": "Rush (This character can challenge the turn\nthey're played.)",
       "rarity": "Uncommon",
       "story": "The Incredibles",
       "cost": 5,
@@ -2209,6 +2327,7 @@ window.LORCANA_TIER_SITE_SETS["12"] = {
         "Toy"
       ],
       "mentionedSubtypes": [],
+      "fullText": "TIGHTEN THE BOLTS Whenever you pay 2 ⬡ or\nless to play a card, chosen character gets +2 ¤\nthis turn.\nREPLACEMENT PARTS During your turn, whenever\none of your other characters is banished,\ndraw a card.",
       "rarity": "Rare",
       "story": "Toy Story",
       "cost": 4,
@@ -2230,6 +2349,7 @@ window.LORCANA_TIER_SITE_SETS["12"] = {
       "mentionedSubtypes": [
         "Toy"
       ],
+      "fullText": "REJECTED TOYS For each Toy character card\nin your discard, you pay 1 ⬡ less to play this\ncharacter.\nREPURPOSED When you play this character, put\nall Toy character cards from your discard on the\nbottom of your deck in any order.",
       "rarity": "Rare",
       "story": "Toy Story",
       "cost": 6,
@@ -2249,6 +2369,7 @@ window.LORCANA_TIER_SITE_SETS["12"] = {
         "Hero"
       ],
       "mentionedSubtypes": [],
+      "fullText": "WEIRD THINGS ARE HAPPENING At the start of your turn,\nyou may put the top card of your deck into your discard.\nIf its card type is:\n• character, this character gets +2 ¤ this turn.\n• action or item, this character gets +2 ◊ this turn.\n• location, banish chosen character.",
       "rarity": "Super Rare",
       "story": "The Incredibles",
       "cost": 4,
@@ -2268,6 +2389,7 @@ window.LORCANA_TIER_SITE_SETS["12"] = {
         "Queen"
       ],
       "mentionedSubtypes": [],
+      "fullText": "ROYAL COMMAND Whenever this character quests,\nif you played another character this turn, chosen\ncharacter gains Rush this turn. (They can challenge\nthe turn they're played.)",
       "rarity": "Rare",
       "story": "Alice In Wonderland",
       "cost": 4,
@@ -2287,6 +2409,7 @@ window.LORCANA_TIER_SITE_SETS["12"] = {
         "Prince"
       ],
       "mentionedSubtypes": [],
+      "fullText": "HEROIC SACRIFICE When you play this character,\nyou may discard your hand. If you do, return a\ncard from your discard to your hand.",
       "rarity": "Super Rare",
       "story": "Hercules",
       "cost": 2,
@@ -2305,6 +2428,7 @@ window.LORCANA_TIER_SITE_SETS["12"] = {
         "Ally"
       ],
       "mentionedSubtypes": [],
+      "fullText": "Evasive (Only characters with Evasive can\nchallenge this character.)\nNEUTRALIZE Opposing items can't ready at the\nstart of their players' turns.",
       "rarity": "Rare",
       "story": "Atlantis: The Lost Empire",
       "cost": 4,
@@ -2324,6 +2448,7 @@ window.LORCANA_TIER_SITE_SETS["12"] = {
         "Robot"
       ],
       "mentionedSubtypes": [],
+      "fullText": "IT'S A MACHINE! When you play this character,\nif 2 or more cards were put into your discard\nthis turn, you may banish any number of chosen\nopposing characters with total ¤ 10 or less.",
       "rarity": "Super Rare",
       "story": "Atlantis: The Lost Empire",
       "cost": 10,
@@ -2344,6 +2469,7 @@ window.LORCANA_TIER_SITE_SETS["12"] = {
       "mentionedSubtypes": [
         "Toy"
       ],
+      "fullText": "PLAYTIME'S OVER When you play this character,\nyou may banish another chosen character of\nyours. If you do, each opponent chooses and\nbanishes one of their characters.\nDOUBLE PRIZES! During your turn, whenever a\nToy character is banished, gain 2 lore.",
       "rarity": "Legendary",
       "story": "Toy Story",
       "cost": 6,
@@ -2365,6 +2491,7 @@ window.LORCANA_TIER_SITE_SETS["12"] = {
       "mentionedSubtypes": [
         "Super"
       ],
+      "fullText": "Shift 3 ⬡ (You may pay 3 ⬡ to play this on top of one\nof your characters named Mr. Incredible.)\nALWAYS UNITED This character gets +2 ¤ for each\nother character you have in play.\nLET'S DO THIS! Whenever one of your Super characters\nchallenges another character, draw a card.",
       "rarity": "Legendary",
       "story": "The Incredibles",
       "cost": 5,
@@ -2384,6 +2511,7 @@ window.LORCANA_TIER_SITE_SETS["12"] = {
         "Toy"
       ],
       "mentionedSubtypes": [],
+      "fullText": "DOUBLE TRANSPLANT During your turn, when this\ncharacter is banished, each opponent loses 1 lore\nand you gain 1 lore.",
       "rarity": "Common",
       "story": "Toy Story",
       "cost": 1,
@@ -2399,6 +2527,7 @@ window.LORCANA_TIER_SITE_SETS["12"] = {
       "type": "Action",
       "subtypes": [],
       "mentionedSubtypes": [],
+      "fullText": "Chosen character gets +1 ¤ this turn. Draw a card.",
       "rarity": "Common",
       "story": "Atlantis: The Lost Empire",
       "cost": 1,
@@ -2414,6 +2543,7 @@ window.LORCANA_TIER_SITE_SETS["12"] = {
       "type": "Action",
       "subtypes": [],
       "mentionedSubtypes": [],
+      "fullText": "Choose one:\n• Banish chosen character with 2 ¤ or less.\n• If 2 or more other cards were put into your discard\nthis turn, banish chosen character.",
       "rarity": "Uncommon",
       "story": "Atlantis: The Lost Empire",
       "cost": 3,
@@ -2431,6 +2561,7 @@ window.LORCANA_TIER_SITE_SETS["12"] = {
         "Song"
       ],
       "mentionedSubtypes": [],
+      "fullText": "(A character with cost 2 or more can ⟳ to sing this\nsong for free.)\nChosen character gets +1 ◊ and gains Evasive until the\nstart of your next turn. (Only characters with Evasive\ncan challenge them.)",
       "rarity": "Common",
       "story": "Toy Story",
       "cost": 2,
@@ -2448,6 +2579,7 @@ window.LORCANA_TIER_SITE_SETS["12"] = {
       "mentionedSubtypes": [
         "Hero"
       ],
+      "fullText": "Your characters get +1 ¤ this turn. Your Hero characters\ngain “Whenever this character challenges another\ncharacter, each opponent loses 1 lore and you gain 1 lore”\nthis turn.",
       "rarity": "Rare",
       "story": "The Incredibles",
       "cost": 2,
@@ -2463,6 +2595,7 @@ window.LORCANA_TIER_SITE_SETS["12"] = {
       "type": "Action",
       "subtypes": [],
       "mentionedSubtypes": [],
+      "fullText": "Draw 2 cards. Then, discard a card at random.",
       "rarity": "Common",
       "story": "Atlantis: The Lost Empire",
       "cost": 1,
@@ -2478,6 +2611,7 @@ window.LORCANA_TIER_SITE_SETS["12"] = {
       "type": "Item",
       "subtypes": [],
       "mentionedSubtypes": [],
+      "fullText": "ON THE HORIZON ⟳, 1 ⬡ — Look at the top 4 cards of\nyour deck. You may reveal a location card and put it into\nyour hand. Put the rest on the bottom of your deck in\nany order.",
       "rarity": "Uncommon",
       "story": "Lorcana",
       "cost": 2,
@@ -2493,6 +2627,7 @@ window.LORCANA_TIER_SITE_SETS["12"] = {
       "type": "Location",
       "subtypes": [],
       "mentionedSubtypes": [],
+      "fullText": "ERODING WINDS At the start of your turn, put the top card of your deck\ninto your discard.\nSUCCESSFUL EXPEDITION Characters get +2 ¤ while here.",
       "rarity": "Rare",
       "story": "Lorcana",
       "cost": 2,
@@ -2508,6 +2643,7 @@ window.LORCANA_TIER_SITE_SETS["12"] = {
       "type": "Location",
       "subtypes": [],
       "mentionedSubtypes": [],
+      "fullText": "LOST TO THE DUNES When this location is banished, each opponent chooses and\nbanishes one of their characters.",
       "rarity": "Rare",
       "story": "Atlantis: The Lost Empire",
       "cost": 4,
@@ -2526,6 +2662,7 @@ window.LORCANA_TIER_SITE_SETS["12"] = {
         "Hero"
       ],
       "mentionedSubtypes": [],
+      "fullText": "",
       "rarity": "Common",
       "story": "Robin Hood",
       "cost": 1,
@@ -2545,6 +2682,7 @@ window.LORCANA_TIER_SITE_SETS["12"] = {
         "Prince"
       ],
       "mentionedSubtypes": [],
+      "fullText": "",
       "rarity": "Common",
       "story": "Cinderella",
       "cost": 2,
@@ -2564,6 +2702,7 @@ window.LORCANA_TIER_SITE_SETS["12"] = {
         "Fairy"
       ],
       "mentionedSubtypes": [],
+      "fullText": "Ward (Opponents can't choose this character\nexcept to challenge.)",
       "rarity": "Uncommon",
       "story": "Sleeping Beauty",
       "cost": 4,
@@ -2583,6 +2722,7 @@ window.LORCANA_TIER_SITE_SETS["12"] = {
         "Fairy"
       ],
       "mentionedSubtypes": [],
+      "fullText": "Support (Whenever this character quests, you may\nadd their ¤ to another chosen character's ¤\nthis turn.)",
       "rarity": "Common",
       "story": "Sleeping Beauty",
       "cost": 1,
@@ -2602,6 +2742,7 @@ window.LORCANA_TIER_SITE_SETS["12"] = {
         "Fairy"
       ],
       "mentionedSubtypes": [],
+      "fullText": "LUMINOUS SHELTER When you play this character,\nyour other characters gain Resist +1 until the\nstart of your next turn. (Damage dealt to them is\nreduced by 1.)",
       "rarity": "Rare",
       "story": "Sleeping Beauty",
       "cost": 5,
@@ -2621,6 +2762,7 @@ window.LORCANA_TIER_SITE_SETS["12"] = {
         "Madrigal"
       ],
       "mentionedSubtypes": [],
+      "fullText": "THIS WILL HELP When you play this character,\nremove up to 2 damage from chosen character.",
       "rarity": "Common",
       "story": "Encanto",
       "cost": 4,
@@ -2641,6 +2783,7 @@ window.LORCANA_TIER_SITE_SETS["12"] = {
         "Inventor"
       ],
       "mentionedSubtypes": [],
+      "fullText": "Alert (This character can challenge as if they had\nEvasive.)",
       "rarity": "Common",
       "story": "The Incredibles",
       "cost": 3,
@@ -2660,6 +2803,7 @@ window.LORCANA_TIER_SITE_SETS["12"] = {
         "Princess"
       ],
       "mentionedSubtypes": [],
+      "fullText": "NATURAL DEFENSE When you play this character,\nchosen opposing character gets -2 ¤ this turn.",
       "rarity": "Common",
       "story": "Atlantis: The Lost Empire",
       "cost": 2,
@@ -2679,6 +2823,7 @@ window.LORCANA_TIER_SITE_SETS["12"] = {
         "Inventor"
       ],
       "mentionedSubtypes": [],
+      "fullText": "TIME TO TINKER When you play this character,\nyou may play an item with cost 3 or less for free.\nWELL SUPPLIED Your characters with Support\nget +1 ◊.",
       "rarity": "Super Rare",
       "story": "Chip 'n Dale: Rescue Rangers",
       "cost": 4,
@@ -2698,6 +2843,7 @@ window.LORCANA_TIER_SITE_SETS["12"] = {
         "Inventor"
       ],
       "mentionedSubtypes": [],
+      "fullText": "DEVITALIZER RAY Once during your turn,\nwhenever you play an item, chosen opposing\ncharacter gets -2 ¤ this turn.",
       "rarity": "Uncommon",
       "story": "Chip 'n Dale: Rescue Rangers",
       "cost": 3,
@@ -2717,6 +2863,7 @@ window.LORCANA_TIER_SITE_SETS["12"] = {
         "Inventor"
       ],
       "mentionedSubtypes": [],
+      "fullText": "USEFUL BITS When this character leaves play,\nyou may return an item card from your discard to\nyour hand.",
       "rarity": "Common",
       "story": "Chip 'n Dale: Rescue Rangers",
       "cost": 2,
@@ -2735,6 +2882,7 @@ window.LORCANA_TIER_SITE_SETS["12"] = {
         "Ally"
       ],
       "mentionedSubtypes": [],
+      "fullText": "",
       "rarity": "Uncommon",
       "story": "Chip 'n Dale: Rescue Rangers",
       "cost": 1,
@@ -2756,6 +2904,7 @@ window.LORCANA_TIER_SITE_SETS["12"] = {
       "mentionedSubtypes": [
         "Super"
       ],
+      "fullText": "KEY ACCESSORY ⟳ — Ready chosen item.\nALL THE BASICS While you have an item\nnamed Super Suit in play, this character gains\nWard. (Opponents can't choose them except to\nchallenge.)",
       "rarity": "Rare",
       "story": "The Incredibles",
       "cost": 2,
@@ -2774,6 +2923,7 @@ window.LORCANA_TIER_SITE_SETS["12"] = {
         "Ally"
       ],
       "mentionedSubtypes": [],
+      "fullText": "Shift 2 ⬡ (You may pay 2 ⬡ to play this on top of\none of your characters named Zipper.)\nBUZZING ENTHUSIASM Whenever this character\nquests, you may add his ⛉ to another chosen\ncharacter's ¤ this turn.",
       "rarity": "Super Rare",
       "story": "Chip 'n Dale: Rescue Rangers",
       "cost": 4,
@@ -2793,6 +2943,7 @@ window.LORCANA_TIER_SITE_SETS["12"] = {
         "Madrigal"
       ],
       "mentionedSubtypes": [],
+      "fullText": "SHOULDER THE BURDEN Whenever this character\nquests, you may move up to 3 damage from\nchosen character to this character.",
       "rarity": "Uncommon",
       "story": "Encanto",
       "cost": 7,
@@ -2812,6 +2963,7 @@ window.LORCANA_TIER_SITE_SETS["12"] = {
         "Inventor"
       ],
       "mentionedSubtypes": [],
+      "fullText": "SCIENTIFIC SCRUTINY When you play this\ncharacter, look at the top card of your deck. Put it\non either the top or the bottom of your deck.",
       "rarity": "Common",
       "story": "Darkwing Duck",
       "cost": 3,
@@ -2831,6 +2983,7 @@ window.LORCANA_TIER_SITE_SETS["12"] = {
         "Madrigal"
       ],
       "mentionedSubtypes": [],
+      "fullText": "FEEL BETTER When you play this character and\nwhenever she quests, you may move all damage\nfrom chosen character of yours to this character.\nSELF-CARE At the end of your turn, you may\nremove all damage from this character.",
       "rarity": "Super Rare",
       "story": "Encanto",
       "cost": 6,
@@ -2850,6 +3003,7 @@ window.LORCANA_TIER_SITE_SETS["12"] = {
         "Madrigal"
       ],
       "mentionedSubtypes": [],
+      "fullText": "FIND THAT VISION Once during your turn, whenever you\nremove damage from one of your characters, you may\nlook at the top 2 cards of your deck. Put one into your\nhand and the other on the bottom of your deck.\nYOU'LL BE OKAY Whenever this character quests, you\nmay remove all damage from chosen character.",
       "rarity": "Rare",
       "story": "Encanto",
       "cost": 5,
@@ -2869,6 +3023,7 @@ window.LORCANA_TIER_SITE_SETS["12"] = {
         "Princess"
       ],
       "mentionedSubtypes": [],
+      "fullText": "THIS AND THAT Whenever this character quests, if\nyou played another character this turn, you may put\nthe top card of your deck into your inkwell facedown\nand exerted.",
       "rarity": "Rare",
       "story": "Cinderella",
       "cost": 4,
@@ -2888,6 +3043,7 @@ window.LORCANA_TIER_SITE_SETS["12"] = {
         "Madrigal"
       ],
       "mentionedSubtypes": [],
+      "fullText": "CHANGE THE OUTCOME When you play this\ncharacter, you may look at the top card of chosen\nplayer's deck. Put it on either the top or the bottom\nof their deck.",
       "rarity": "Common",
       "story": "Encanto",
       "cost": 6,
@@ -2907,6 +3063,7 @@ window.LORCANA_TIER_SITE_SETS["12"] = {
         "Princess"
       ],
       "mentionedSubtypes": [],
+      "fullText": "READ THE RUNES Whenever this character\nquests, if 2 or more cards were put into your\ndiscard this turn, you may put the top card\nof your deck into your inkwell facedown\nand exerted.",
       "rarity": "Rare",
       "story": "Atlantis: The Lost Empire",
       "cost": 3,
@@ -2925,6 +3082,7 @@ window.LORCANA_TIER_SITE_SETS["12"] = {
         "King"
       ],
       "mentionedSubtypes": [],
+      "fullText": "STRENGTH IN MEMORY At the end of your turn,\nif 2 or more cards were put into your discard this\nturn, you may put the top card of your deck into\nyour inkwell facedown.",
       "rarity": "Uncommon",
       "story": "Atlantis: The Lost Empire",
       "cost": 5,
@@ -2943,6 +3101,7 @@ window.LORCANA_TIER_SITE_SETS["12"] = {
         "Hero"
       ],
       "mentionedSubtypes": [],
+      "fullText": "DISCERNING EYE Whenever this character\nquests, if you played another character this turn,\ngain 1 lore.",
       "rarity": "Uncommon",
       "story": "Mickey Mouse & Friends",
       "cost": 1,
@@ -2962,6 +3121,7 @@ window.LORCANA_TIER_SITE_SETS["12"] = {
         "Princess"
       ],
       "mentionedSubtypes": [],
+      "fullText": "Shift 6 ⬡\nFLOOD OF POWER When you play this character, each player\nmay put up to 5 cards from their discard into their inkwell\nfacedown and exerted.\nTHE PATH REVEALED 7 ⬡ — Look at the top 2 cards of your\ndeck. Put one into your hand and the other on the bottom\nof your deck.",
       "rarity": "Legendary",
       "story": "Atlantis: The Lost Empire",
       "cost": 8,
@@ -2981,6 +3141,7 @@ window.LORCANA_TIER_SITE_SETS["12"] = {
         "Sorcerer"
       ],
       "mentionedSubtypes": [],
+      "fullText": "QUITE THE BARGAIN When you play this character\nand whenever she quests, another chosen\ncharacter gets +1 ◊ this turn.\nBY THE WAY At the end of your turn, if this\ncharacter is exerted, put chosen character of\nyours into your inkwell facedown and exerted.",
       "rarity": "Legendary",
       "story": "The Little Mermaid",
       "cost": 3,
@@ -2998,6 +3159,7 @@ window.LORCANA_TIER_SITE_SETS["12"] = {
         "Song"
       ],
       "mentionedSubtypes": [],
+      "fullText": "(A character with cost 3 or more can ⟳ to sing this\nsong for free.)\nEach opposing character gets -2 ¤ this turn.",
       "rarity": "Common",
       "story": "Alice In Wonderland",
       "cost": 3,
@@ -3015,6 +3177,7 @@ window.LORCANA_TIER_SITE_SETS["12"] = {
         "Song"
       ],
       "mentionedSubtypes": [],
+      "fullText": "(A character with cost 5 or more can ⟳ to sing this song\nfor free.)\nLook at the top 2 cards of your deck. Put one into your hand\nand the other into your inkwell facedown and exerted. If a\ncharacter sang this song, your characters gain Ward until the\nstart of your next turn. (Opponents can't choose them except\nto challenge.)",
       "rarity": "Rare",
       "story": "Encanto",
       "cost": 5,
@@ -3030,6 +3193,7 @@ window.LORCANA_TIER_SITE_SETS["12"] = {
       "type": "Action",
       "subtypes": [],
       "mentionedSubtypes": [],
+      "fullText": "You can't play this action unless 2 or more cards were\nput into your discard this turn.\nEach player chooses 2 of their characters and puts\nthem into their inkwell facedown and exerted.",
       "rarity": "Rare",
       "story": "Atlantis: The Lost Empire",
       "cost": 5,
@@ -3045,6 +3209,7 @@ window.LORCANA_TIER_SITE_SETS["12"] = {
       "type": "Action",
       "subtypes": [],
       "mentionedSubtypes": [],
+      "fullText": "Return an item card from your discard to your hand. If you\nhave a character with 4 ⛉ or more in play, gain 1 lore.",
       "rarity": "Uncommon",
       "story": "Chip 'n Dale: Rescue Rangers",
       "cost": 2,
@@ -3062,6 +3227,7 @@ window.LORCANA_TIER_SITE_SETS["12"] = {
       "mentionedSubtypes": [
         "Madrigal"
       ],
+      "fullText": "FLAVORFUL CURE At the start of your turn, if you have\na Madrigal character in play, remove up to 2 damage\nfrom chosen character.\nTHAT DID THE TRICK ⟳ — If you removed damage from\na character this turn, gain 1 lore.",
       "rarity": "Common",
       "story": "Encanto",
       "cost": 1,
@@ -3077,6 +3243,7 @@ window.LORCANA_TIER_SITE_SETS["12"] = {
       "type": "Item",
       "subtypes": [],
       "mentionedSubtypes": [],
+      "fullText": "AIR SUPPORT Your characters gain Support. (Whenever\nthey quest, you may add their ¤ to another chosen\ncharacter's ¤ this turn.)\nBIG LIFT ⟳ — Chosen character with 10 ¤ or more\ngets +3 ◊ this turn.",
       "rarity": "Rare",
       "story": "Chip 'n Dale: Rescue Rangers",
       "cost": 3,
@@ -3092,6 +3259,7 @@ window.LORCANA_TIER_SITE_SETS["12"] = {
       "type": "Item",
       "subtypes": [],
       "mentionedSubtypes": [],
+      "fullText": "ENHANCED VISION ⟳, 1 ⬡ — Look at the top 2 cards\nof your deck. Put one on the top of your deck and the\nother on the bottom.",
       "rarity": "Uncommon",
       "story": "Chip 'n Dale: Rescue Rangers",
       "cost": 2,
@@ -3107,6 +3275,7 @@ window.LORCANA_TIER_SITE_SETS["12"] = {
       "type": "Item",
       "subtypes": [],
       "mentionedSubtypes": [],
+      "fullText": "MARGIN NOTES When you play this item, you may look\nat the top card of your deck. Put it on either the top of\nyour deck or into your discard.\nKEY TO THE PUZZLE 1 ⬡, Banish this item — Return\nanother item card from your discard to your hand.",
       "rarity": "Uncommon",
       "story": "Atlantis: The Lost Empire",
       "cost": 2,
@@ -3122,6 +3291,7 @@ window.LORCANA_TIER_SITE_SETS["12"] = {
       "type": "Location",
       "subtypes": [],
       "mentionedSubtypes": [],
+      "fullText": "HEALING HOME Whenever a character quests while here, you may\nremove up to 2 damage from them. Then, you may remove up to 2\ndamage from this location.",
       "rarity": "Common",
       "story": "Encanto",
       "cost": 4,
@@ -3141,6 +3311,7 @@ window.LORCANA_TIER_SITE_SETS["12"] = {
         "Princess"
       ],
       "mentionedSubtypes": [],
+      "fullText": "WANDERING SPIRIT Whenever this character quests,\nif you played another character this turn, return a\nlocation card from your discard to your hand.",
       "rarity": "Rare",
       "story": "Pocahontas",
       "cost": 4,
@@ -3161,6 +3332,7 @@ window.LORCANA_TIER_SITE_SETS["12"] = {
         "Inventor"
       ],
       "mentionedSubtypes": [],
+      "fullText": "Shift 4 ⬡ (You may pay 4 ⬡ to play this on top of\none of your characters named Syndrome.)\nGOT ME MONOLOGUING! Whenever this character\nquests, return a Robot character card from your\ndiscard to your hand. Then, you may play or shift\na Robot character with cost 8 or less for free.",
       "rarity": "Super Rare",
       "story": "The Incredibles",
       "cost": 6,
@@ -3179,6 +3351,7 @@ window.LORCANA_TIER_SITE_SETS["12"] = {
         "Robot"
       ],
       "mentionedSubtypes": [],
+      "fullText": "",
       "rarity": "Common",
       "story": "The Incredibles",
       "cost": 1,
@@ -3197,6 +3370,7 @@ window.LORCANA_TIER_SITE_SETS["12"] = {
         "Ally"
       ],
       "mentionedSubtypes": [],
+      "fullText": "DAUNTLESS When you play this character,\nchosen character gains Alert this turn. (They can\nchallenge as if they had Evasive.)",
       "rarity": "Common",
       "story": "Brave",
       "cost": 3,
@@ -3216,6 +3390,7 @@ window.LORCANA_TIER_SITE_SETS["12"] = {
         "King"
       ],
       "mentionedSubtypes": [],
+      "fullText": "Bodyguard (This character may enter play exerted.\nAn opposing character who challenges one of\nyour characters must choose one with Bodyguard\nif able.)",
       "rarity": "Common",
       "story": "Brave",
       "cost": 2,
@@ -3234,6 +3409,7 @@ window.LORCANA_TIER_SITE_SETS["12"] = {
         "Ally"
       ],
       "mentionedSubtypes": [],
+      "fullText": "Challenger +2 (While challenging, this character\ngets +2 ¤.)",
       "rarity": "Common",
       "story": "Brave",
       "cost": 3,
@@ -3254,6 +3430,7 @@ window.LORCANA_TIER_SITE_SETS["12"] = {
       "mentionedSubtypes": [
         "Hero"
       ],
+      "fullText": "NERDING OUT When you play this character, if a\nHero character is in play, gain 1 lore.\nSPOILER ALERT This character also counts as\nbeing named Syndrome for Shift.",
       "rarity": "Common",
       "story": "The Incredibles",
       "cost": 2,
@@ -3273,6 +3450,7 @@ window.LORCANA_TIER_SITE_SETS["12"] = {
         "Hero"
       ],
       "mentionedSubtypes": [],
+      "fullText": "Alert (This character can challenge as if they had\nEvasive.)",
       "rarity": "Common",
       "story": "The Incredibles",
       "cost": 1,
@@ -3292,6 +3470,7 @@ window.LORCANA_TIER_SITE_SETS["12"] = {
         "Hero"
       ],
       "mentionedSubtypes": [],
+      "fullText": "PEP TALK When you play this character, chosen\ncharacter gains Challenger +2 this turn. (They get\n+2 ¤ while challenging.)",
       "rarity": "Common",
       "story": "The Incredibles",
       "cost": 2,
@@ -3310,6 +3489,7 @@ window.LORCANA_TIER_SITE_SETS["12"] = {
         "Ally"
       ],
       "mentionedSubtypes": [],
+      "fullText": "",
       "rarity": "Common",
       "story": "Brave",
       "cost": 3,
@@ -3328,6 +3508,7 @@ window.LORCANA_TIER_SITE_SETS["12"] = {
         "Ally"
       ],
       "mentionedSubtypes": [],
+      "fullText": "TOUGH IT OUT This character may enter play\nexerted to give chosen character Resist +2 until the\nstart of your next turn. (Damage dealt to them is\nreduced by 2.)",
       "rarity": "Uncommon",
       "story": "Brave",
       "cost": 4,
@@ -3346,6 +3527,7 @@ window.LORCANA_TIER_SITE_SETS["12"] = {
         "Villain"
       ],
       "mentionedSubtypes": [],
+      "fullText": "Resist +1 (Damage dealt to this character is\nreduced by 1.)",
       "rarity": "Common",
       "story": "Chip 'n Dale: Rescue Rangers",
       "cost": 6,
@@ -3364,6 +3546,7 @@ window.LORCANA_TIER_SITE_SETS["12"] = {
         "Villain"
       ],
       "mentionedSubtypes": [],
+      "fullText": "SHADAAP! While this character has no damage,\nhe gets +3 ¤.",
       "rarity": "Common",
       "story": "Chip 'n Dale: Rescue Rangers",
       "cost": 4,
@@ -3382,6 +3565,7 @@ window.LORCANA_TIER_SITE_SETS["12"] = {
         "Robot"
       ],
       "mentionedSubtypes": [],
+      "fullText": "Shift 2 ⬡ (You may pay 2 ⬡ to play this on top of\none of your characters named Omnidroid.)\nENEMY DETECTED When you play this character,\nif you used Shift to play it, you may deal 2\ndamage to chosen character.",
       "rarity": "Uncommon",
       "story": "The Incredibles",
       "cost": 4,
@@ -3403,6 +3587,7 @@ window.LORCANA_TIER_SITE_SETS["12"] = {
       "mentionedSubtypes": [
         "Villain"
       ],
+      "fullText": "KA-POW! When you play this character, you may\ndeal 2 damage to chosen opposing Robot or Villain\ncharacter.",
       "rarity": "Uncommon",
       "story": "The Incredibles",
       "cost": 4,
@@ -3421,6 +3606,7 @@ window.LORCANA_TIER_SITE_SETS["12"] = {
         "Ally"
       ],
       "mentionedSubtypes": [],
+      "fullText": "FIGHTIN' TALK This character may enter play\nexerted to give chosen character Challenger +3\nthis turn. (They get +3 ¤ while challenging.)",
       "rarity": "Uncommon",
       "story": "Brave",
       "cost": 5,
@@ -3439,6 +3625,7 @@ window.LORCANA_TIER_SITE_SETS["12"] = {
         "Villain"
       ],
       "mentionedSubtypes": [],
+      "fullText": "WORTHY INVESTMENT Your locations gain Resist\n+1. (Damage dealt to them is reduced by 1.)",
       "rarity": "Rare",
       "story": "Chip 'n Dale: Rescue Rangers",
       "cost": 4,
@@ -3456,6 +3643,7 @@ window.LORCANA_TIER_SITE_SETS["12"] = {
         "Storyborn"
       ],
       "mentionedSubtypes": [],
+      "fullText": "Resist +1 (Damage dealt to this character is\nreduced by 1.)",
       "rarity": "Uncommon",
       "story": "Brave",
       "cost": 3,
@@ -3474,6 +3662,7 @@ window.LORCANA_TIER_SITE_SETS["12"] = {
         "Hero"
       ],
       "mentionedSubtypes": [],
+      "fullText": "FALLING ROCKS Whenever this character quests,\nif you played another character this turn, you may\ndeal 1 damage to chosen character or location.",
       "rarity": "Uncommon",
       "story": "Mickey Mouse & Friends",
       "cost": 2,
@@ -3492,6 +3681,7 @@ window.LORCANA_TIER_SITE_SETS["12"] = {
         "Robot"
       ],
       "mentionedSubtypes": [],
+      "fullText": "Shift 4 ⬡ (You may pay 4 ⬡ to play this on top of\none of your characters named Omnidroid.)\nELECTRO-ARMOR While there's a card under this\ncharacter, it gains Resist +2. (Damage dealt to\nthem is reduced by 2.)",
       "rarity": "Rare",
       "story": "The Incredibles",
       "cost": 6,
@@ -3511,6 +3701,7 @@ window.LORCANA_TIER_SITE_SETS["12"] = {
         "Princess"
       ],
       "mentionedSubtypes": [],
+      "fullText": "FULL QUIVER When you play this character, you\nmay return an action card named Three Arrows\nfrom your discard to your hand.\nSTEADY AIM Whenever one of your actions deals\ndamage to an opposing character, deal 2 damage\nto that character.",
       "rarity": "Legendary",
       "story": "Brave",
       "cost": 5,
@@ -3529,6 +3720,7 @@ window.LORCANA_TIER_SITE_SETS["12"] = {
         "Hero"
       ],
       "mentionedSubtypes": [],
+      "fullText": "",
       "rarity": "Rare",
       "story": "Pocahontas",
       "cost": 1,
@@ -3549,6 +3741,7 @@ window.LORCANA_TIER_SITE_SETS["12"] = {
         "Inventor"
       ],
       "mentionedSubtypes": [],
+      "fullText": "Resist +1 (Damage dealt to this character is\nreduced by 1.)\nFAIL-SAFE While you have no cards in your hand,\nopponents can't play actions with cost 4 or more.",
       "rarity": "Rare",
       "story": "DuckTales",
       "cost": 5,
@@ -3568,6 +3761,7 @@ window.LORCANA_TIER_SITE_SETS["12"] = {
         "King"
       ],
       "mentionedSubtypes": [],
+      "fullText": "JUST THE SPOT During your turn, whenever this\ncharacter becomes exerted, you may play a location\nfrom your hand or discard with cost 4 or less for free.\nHOLD FAST While this character is at a location,\nwhenever a location is challenged and banished, you\nmay deal 4 damage to chosen character.",
       "rarity": "Super Rare",
       "story": "Brave",
       "cost": 6,
@@ -3589,6 +3783,7 @@ window.LORCANA_TIER_SITE_SETS["12"] = {
       "mentionedSubtypes": [
         "Super"
       ],
+      "fullText": "Shift 5 ⬡\nPULL BACK Your characters gain Resist +1.\nREGROUP During your turn, whenever another\ncharacter is banished in a challenge, you may ready\nchosen Super character. If you do, they can't quest\nfor the rest of this turn.",
       "rarity": "Legendary",
       "story": "The Incredibles",
       "cost": 7,
@@ -3609,6 +3804,7 @@ window.LORCANA_TIER_SITE_SETS["12"] = {
       "mentionedSubtypes": [
         "Villain"
       ],
+      "fullText": "CRUEL INTENT While you have a Villain character\nin play, this character gets +2 ¤ and +1 ◊.\nVILLAINOUS BOND While this character is\nexerted, your Villain characters can't be\nchallenged.",
       "rarity": "Super Rare",
       "story": "Sleeping Beauty",
       "cost": 2,
@@ -3624,6 +3820,7 @@ window.LORCANA_TIER_SITE_SETS["12"] = {
       "type": "Action",
       "subtypes": [],
       "mentionedSubtypes": [],
+      "fullText": "Deal 2 damage to chosen character. Then, you may\ndeal 1 damage to another chosen character.",
       "rarity": "Uncommon",
       "story": "Brave",
       "cost": 3,
@@ -3639,6 +3836,7 @@ window.LORCANA_TIER_SITE_SETS["12"] = {
       "type": "Action",
       "subtypes": [],
       "mentionedSubtypes": [],
+      "fullText": "If an opposing character was banished in a challenge\nthis turn, draw 2 cards.",
       "rarity": "Uncommon",
       "story": "Alice In Wonderland",
       "cost": 2,
@@ -3656,6 +3854,7 @@ window.LORCANA_TIER_SITE_SETS["12"] = {
         "Song"
       ],
       "mentionedSubtypes": [],
+      "fullText": "(A character with cost 2 or more can ⟳ to sing this\nsong for free.)\nMove a character of yours to a location for free.\nThen, draw cards equal to that location's ◊.",
       "rarity": "Rare",
       "story": "Brave",
       "cost": 2,
@@ -3671,6 +3870,7 @@ window.LORCANA_TIER_SITE_SETS["12"] = {
       "type": "Item",
       "subtypes": [],
       "mentionedSubtypes": [],
+      "fullText": "SUCTION TECHNOLOGY ⟳, 2 ⬡ — Draw a card, then\nchoose and discard a card.",
       "rarity": "Common",
       "story": "Chip 'n Dale: Rescue Rangers",
       "cost": 1,
@@ -3686,6 +3886,7 @@ window.LORCANA_TIER_SITE_SETS["12"] = {
       "type": "Item",
       "subtypes": [],
       "mentionedSubtypes": [],
+      "fullText": "ZERO-POINT ENERGY ⟳, 2 ⬡ — Chosen character\ncan't challenge during their next turn.\nLEARN FROM THEIR LOSSES Whenever a Robot\ncharacter is banished, you may banish this item to\ndiscard your hand and draw 2 cards.",
       "rarity": "Rare",
       "story": "The Incredibles",
       "cost": 2,
@@ -3701,6 +3902,7 @@ window.LORCANA_TIER_SITE_SETS["12"] = {
       "type": "Item",
       "subtypes": [],
       "mentionedSubtypes": [],
+      "fullText": "WELCOME BACK, SIR If you have a character named\nFat Cat in play, you may play this card for free.\nCOOL CATS ONLY Your locations can't be challenged\nby characters with cost 2 or less.",
       "rarity": "Uncommon",
       "story": "Chip 'n Dale: Rescue Rangers",
       "cost": 3,
@@ -3716,6 +3918,7 @@ window.LORCANA_TIER_SITE_SETS["12"] = {
       "type": "Location",
       "subtypes": [],
       "mentionedSubtypes": [],
+      "fullText": "",
       "rarity": "Common",
       "story": "Chip 'n Dale: Rescue Rangers",
       "cost": 3,
@@ -3731,6 +3934,7 @@ window.LORCANA_TIER_SITE_SETS["12"] = {
       "type": "Location",
       "subtypes": [],
       "mentionedSubtypes": [],
+      "fullText": "RESEARCH & DEVELOPMENT Robot characters get +1 ¤ and +1 ⛉ while here.\nCHEAP SHOT Once during your turn, whenever a character banishes another\ncharacter in a challenge while here, you may deal 2 damage to chosen character.",
       "rarity": "Rare",
       "story": "The Incredibles",
       "cost": 3,

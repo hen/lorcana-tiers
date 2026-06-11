@@ -22,6 +22,7 @@ window.LORCANA_TIER_SITE_SETS["2"] = {
         "Seven Dwarfs"
       ],
       "mentionedSubtypes": [],
+      "fullText": "OH, GOSH! This character can't quest unless you\nhave another Seven Dwarfs character in play.",
       "rarity": "Uncommon",
       "story": "Snow White and the Seven Dwarfs",
       "cost": 4,
@@ -40,12 +41,13 @@ window.LORCANA_TIER_SITE_SETS["2"] = {
         "Hero"
       ],
       "mentionedSubtypes": [],
+      "fullText": "WE'LL ALWAYS BE TOGETHER Whenever you ready\nthis character, if you have 2 or more other characters\nin play, gain 2 lore.",
       "rarity": "Rare",
       "story": "Winnie the Pooh",
       "cost": 6,
       "costBucket": "6",
       "inkwell": true,
-      "parDelta": -5,
+      "parDelta": -4,
       "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set2/2_08fc21aeb96dbc3a5fed67c8f9c0720682c91c99.jpg"
     },
     {
@@ -59,6 +61,7 @@ window.LORCANA_TIER_SITE_SETS["2"] = {
         "Princess"
       ],
       "mentionedSubtypes": [],
+      "fullText": "Singer 3 (This character counts as cost 3 to sing\nsongs.)",
       "rarity": "Rare",
       "story": "Cinderella",
       "cost": 1,
@@ -77,12 +80,13 @@ window.LORCANA_TIER_SITE_SETS["2"] = {
         "Ally"
       ],
       "mentionedSubtypes": [],
+      "fullText": "",
       "rarity": "Rare",
       "story": "Lilo & Stitch",
       "cost": 7,
       "costBucket": "7+",
       "inkwell": true,
-      "parDelta": -2,
+      "parDelta": 0,
       "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set2/4_7d665e5e3877c987b831863abb4ea1d594792497.jpg"
     },
     {
@@ -96,6 +100,7 @@ window.LORCANA_TIER_SITE_SETS["2"] = {
         "Seven Dwarfs"
       ],
       "mentionedSubtypes": [],
+      "fullText": "SHARE AND SHARE ALIKE Whenever this\ncharacter quests, you pay 1 ⬡ less for the next\ncharacter you play this turn.",
       "rarity": "Uncommon",
       "story": "Snow White and the Seven Dwarfs",
       "cost": 3,
@@ -115,12 +120,13 @@ window.LORCANA_TIER_SITE_SETS["2"] = {
         "Seven Dwarfs"
       ],
       "mentionedSubtypes": [],
+      "fullText": "ODD ONE OUT When this character is banished,\nyour other Seven Dwarfs characters get +2 ¤\nuntil the start of your next turn.",
       "rarity": "Uncommon",
       "story": "Snow White and the Seven Dwarfs",
       "cost": 3,
       "costBucket": "3",
       "inkwell": true,
-      "parDelta": -4,
+      "parDelta": -3,
       "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set2/6_e04a787be7332d9d8ea86819933b149edd4f3d22.jpg"
     },
     {
@@ -133,12 +139,13 @@ window.LORCANA_TIER_SITE_SETS["2"] = {
         "Ally"
       ],
       "mentionedSubtypes": [],
+      "fullText": "",
       "rarity": "Common",
       "story": "The Princess And The Frog",
       "cost": 5,
       "costBucket": "5",
       "inkwell": true,
-      "parDelta": -1,
+      "parDelta": 0,
       "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set2/7_6b1c71b848003ce4320dfb6cb2f08f602b1ac642.jpg"
     },
     {
@@ -151,12 +158,13 @@ window.LORCANA_TIER_SITE_SETS["2"] = {
         "Villain"
       ],
       "mentionedSubtypes": [],
+      "fullText": "Singer 5 (This character counts as cost 5 to sing\nsongs.)",
       "rarity": "Uncommon",
       "story": "Beauty and the Beast",
       "cost": 3,
       "costBucket": "3",
       "inkwell": true,
-      "parDelta": -2,
+      "parDelta": -1,
       "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set2/8_934c4aa6a6a67e71b09c465a213fef0a0a678758.jpg"
     },
     {
@@ -173,12 +181,13 @@ window.LORCANA_TIER_SITE_SETS["2"] = {
         "Princess",
         "Queen"
       ],
+      "fullText": "YES, YOUR MAJESTY Your Prince, Princess, King,\nand Queen characters get +1 ¤.",
       "rarity": "Rare",
       "story": "Cinderella",
       "cost": 2,
       "costBucket": "2",
       "inkwell": true,
-      "parDelta": -2,
+      "parDelta": -1,
       "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set2/9_b6b78fc51ef9b947e6b98dc8048c70077342c53e.jpg"
     },
     {
@@ -192,12 +201,13 @@ window.LORCANA_TIER_SITE_SETS["2"] = {
         "Seven Dwarfs"
       ],
       "mentionedSubtypes": [],
+      "fullText": "THERE'S TROUBLE A-BREWIN' Your other Seven\nDwarfs characters get +1 ¤.",
       "rarity": "Common",
       "story": "Snow White and the Seven Dwarfs",
       "cost": 4,
       "costBucket": "4",
       "inkwell": true,
-      "parDelta": -3,
+      "parDelta": -1,
       "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set2/10_2d812c6491de2d7de879bfde20bc3d59836ac818.jpg"
     },
     {
@@ -211,12 +221,13 @@ window.LORCANA_TIER_SITE_SETS["2"] = {
         "Seven Dwarfs"
       ],
       "mentionedSubtypes": [],
+      "fullText": "Support (Whenever this character quests, you\nmay add their ¤ to another chosen character's\n¤ this turn.)",
       "rarity": "Common",
       "story": "Snow White and the Seven Dwarfs",
       "cost": 5,
       "costBucket": "5",
       "inkwell": true,
-      "parDelta": -3,
+      "parDelta": -2,
       "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set2/11_c20172212a09e2b361ed618ff89a575262abb941.jpg"
     },
     {
@@ -229,12 +240,13 @@ window.LORCANA_TIER_SITE_SETS["2"] = {
         "King"
       ],
       "mentionedSubtypes": [],
+      "fullText": "LAY IT ON THE LINE Whenever another character\nis banished, you may remove up to 2 damage\nfrom this character.",
       "rarity": "Super Rare",
       "story": "The Jungle Book",
       "cost": 7,
       "costBucket": "7+",
       "inkwell": true,
-      "parDelta": -5,
+      "parDelta": -3,
       "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set2/12_f05afb2bfd3b214b009737cb3d04c490dca2bee8.jpg"
     },
     {
@@ -247,6 +259,7 @@ window.LORCANA_TIER_SITE_SETS["2"] = {
         "Hero"
       ],
       "mentionedSubtypes": [],
+      "fullText": "GLAD YOU'RE HERE! Whenever this character\nquests, you pay 3 ⬡ less for the next character\nyou play this turn.",
       "rarity": "Super Rare",
       "story": "Mickey Mouse & Friends",
       "cost": 6,
@@ -266,12 +279,13 @@ window.LORCANA_TIER_SITE_SETS["2"] = {
         "King"
       ],
       "mentionedSubtypes": [],
+      "fullText": "THE SUN WILL SET When this character is\nbanished, you may reveal the top card of your\ndeck. If it's a character card, you may play that\ncharacter for free and they enter play exerted.\nOtherwise, put it on the top of your deck.",
       "rarity": "Legendary",
       "story": "The Lion King",
       "cost": 5,
       "costBucket": "5",
       "inkwell": true,
-      "parDelta": -5,
+      "parDelta": -4,
       "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set2/14_44e58742271d0e31e4c6cd5d2f73bcbc2bca3604.jpg"
     },
     {
@@ -285,6 +299,7 @@ window.LORCANA_TIER_SITE_SETS["2"] = {
         "Princess"
       ],
       "mentionedSubtypes": [],
+      "fullText": "Support (Whenever this character quests, you\nmay add their ¤ to another chosen character's\n¤ this turn.)",
       "rarity": "Common",
       "story": "Mulan",
       "cost": 3,
@@ -304,12 +319,13 @@ window.LORCANA_TIER_SITE_SETS["2"] = {
         "Princess"
       ],
       "mentionedSubtypes": [],
+      "fullText": "Shift 2 (You may pay 2 ⬡ to play this on top of\none of your characters named Mulan.)\nHONOR TO THE ANCESTORS Whenever this\ncharacter quests, you may reveal the top card of\nyour deck. If it's a song card, you may play it for\nfree. Otherwise, put it on the top of your deck.",
       "rarity": "Rare",
       "story": "Mulan",
       "cost": 4,
       "costBucket": "4",
       "inkwell": true,
-      "parDelta": -2,
+      "parDelta": -1,
       "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set2/16_c398bfa593f4e9665d24c371744697a20b02ee9e.jpg"
     },
     {
@@ -324,12 +340,13 @@ window.LORCANA_TIER_SITE_SETS["2"] = {
       "mentionedSubtypes": [
         "Floodborn"
       ],
+      "fullText": "NURSEMAID Whenever you play a Floodborn\ncharacter, you may remove all damage from\nchosen character.",
       "rarity": "Uncommon",
       "story": "Peter Pan",
       "cost": 2,
       "costBucket": "2",
       "inkwell": true,
-      "parDelta": -2,
+      "parDelta": -1,
       "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set2/17_310f9849094144beafc44d96bd0ebb2e377ea047.jpg"
     },
     {
@@ -342,6 +359,7 @@ window.LORCANA_TIER_SITE_SETS["2"] = {
         "Ally"
       ],
       "mentionedSubtypes": [],
+      "fullText": "",
       "rarity": "Common",
       "story": "Winnie the Pooh",
       "cost": 3,
@@ -361,12 +379,13 @@ window.LORCANA_TIER_SITE_SETS["2"] = {
         "Princess"
       ],
       "mentionedSubtypes": [],
+      "fullText": "Shift 3 (You may pay 3 ⬡ to play this on top of\none of your characters named Rapunzel.)\nLET YOUR POWER SHINE Whenever you remove 1\nor more damage from one of your characters, you\nmay draw a card.",
       "rarity": "Uncommon",
       "story": "Tangled",
       "cost": 5,
       "costBucket": "5",
       "inkwell": true,
-      "parDelta": -5,
+      "parDelta": -4,
       "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set2/19_d7d826a57182a0c9c060e06c245ac9b40c6bd80e.jpg"
     },
     {
@@ -380,12 +399,13 @@ window.LORCANA_TIER_SITE_SETS["2"] = {
         "Princess"
       ],
       "mentionedSubtypes": [],
+      "fullText": "MAGIC HAIR ⟳ — Remove up to 2 damage from\nchosen character.",
       "rarity": "Common",
       "story": "Tangled",
       "cost": 2,
       "costBucket": "2",
       "inkwell": true,
-      "parDelta": -1,
+      "parDelta": 0,
       "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set2/20_a407ae71bb53762b8de30a642b78976d9895c846.jpg"
     },
     {
@@ -399,6 +419,7 @@ window.LORCANA_TIER_SITE_SETS["2"] = {
         "Seven Dwarfs"
       ],
       "mentionedSubtypes": [],
+      "fullText": "YAWN! This character enters play exerted.",
       "rarity": "Common",
       "story": "Snow White and the Seven Dwarfs",
       "cost": 2,
@@ -418,12 +439,13 @@ window.LORCANA_TIER_SITE_SETS["2"] = {
         "Seven Dwarfs"
       ],
       "mentionedSubtypes": [],
+      "fullText": "AH-CHOO! Whenever you play this character or\nanother Seven Dwarfs character, you may give\nchosen character -1 ¤ this turn.",
       "rarity": "Common",
       "story": "Snow White and the Seven Dwarfs",
       "cost": 2,
       "costBucket": "2",
       "inkwell": true,
-      "parDelta": -1,
+      "parDelta": 0,
       "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set2/22_584062a403cc620438e36714d56b8ac35ac24a98.jpg"
     },
     {
@@ -437,12 +459,13 @@ window.LORCANA_TIER_SITE_SETS["2"] = {
         "Princess"
       ],
       "mentionedSubtypes": [],
+      "fullText": "I WON'T HURT YOU When you play this character,\nyou may remove up to 2 damage from chosen\ncharacter.",
       "rarity": "Common",
       "story": "Snow White and the Seven Dwarfs",
       "cost": 2,
       "costBucket": "2",
       "inkwell": true,
-      "parDelta": -1,
+      "parDelta": 0,
       "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set2/23_b9907d59cd3a8a7d01633a149d63d1c78b5ba17e.jpg"
     },
     {
@@ -456,12 +479,13 @@ window.LORCANA_TIER_SITE_SETS["2"] = {
         "Princess"
       ],
       "mentionedSubtypes": [],
+      "fullText": "HOW DO YOU DO? You pay 1 ⬡ less to play Seven\nDwarfs characters.",
       "rarity": "Uncommon",
       "story": "Snow White and the Seven Dwarfs",
       "cost": 2,
       "costBucket": "2",
       "inkwell": false,
-      "parDelta": -3,
+      "parDelta": -2,
       "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set2/24_e925821e7f1e58d901ca99e0db9f3a4683f3fd59.jpg"
     },
     {
@@ -475,12 +499,13 @@ window.LORCANA_TIER_SITE_SETS["2"] = {
         "Princess"
       ],
       "mentionedSubtypes": [],
+      "fullText": "Shift 4 (You may pay 4 ⬡ to play this on top of\none of your characters named Snow White.)\nWISHES COME TRUE Whenever this character\nquests, you may return a character card from\nyour discard to your hand.",
       "rarity": "Legendary",
       "story": "Snow White and the Seven Dwarfs",
       "cost": 6,
       "costBucket": "6",
       "inkwell": false,
-      "parDelta": -5,
+      "parDelta": -4,
       "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set2/25_6afc197d350e9d61f2adb0e9d10fd43b8613e823.jpg"
     },
     {
@@ -496,12 +521,13 @@ window.LORCANA_TIER_SITE_SETS["2"] = {
       "mentionedSubtypes": [
         "Queen"
       ],
+      "fullText": "Shift 2 (You may pay 2 ⬡ to play this on top of one of\nyour characters named The Queen.)\nWHO IS THE FAIREST? Whenever this character\nquests, chosen opposing character gets -4 ¤ this\nturn and chosen character gets +4 ¤ this turn.",
       "rarity": "Super Rare",
       "story": "Snow White and the Seven Dwarfs",
       "cost": 5,
       "costBucket": "5",
       "inkwell": true,
-      "parDelta": -4,
+      "parDelta": -3,
       "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set2/26_c8b3557c88c1f80caea14274e48de7aaa1ffd375.jpg"
     },
     {
@@ -515,6 +541,7 @@ window.LORCANA_TIER_SITE_SETS["2"] = {
         "Queen"
       ],
       "mentionedSubtypes": [],
+      "fullText": "",
       "rarity": "Common",
       "story": "Snow White and the Seven Dwarfs",
       "cost": 1,
@@ -530,6 +557,7 @@ window.LORCANA_TIER_SITE_SETS["2"] = {
       "type": "Action",
       "subtypes": [],
       "mentionedSubtypes": [],
+      "fullText": "Remove up to 4 damage from chosen character.",
       "rarity": "Common",
       "story": "Beauty and the Beast",
       "cost": 2,
@@ -545,6 +573,7 @@ window.LORCANA_TIER_SITE_SETS["2"] = {
       "type": "Action",
       "subtypes": [],
       "mentionedSubtypes": [],
+      "fullText": "Banish chosen character who was challenged this turn.",
       "rarity": "Uncommon",
       "story": "Raya and the Last Dragon",
       "cost": 2,
@@ -562,6 +591,7 @@ window.LORCANA_TIER_SITE_SETS["2"] = {
         "Song"
       ],
       "mentionedSubtypes": [],
+      "fullText": "(A character with cost 2 or more can ⟳ to sing this\nsong for free.)\nUp to 2 chosen characters get -1 ¤ this turn. Draw\na card.",
       "rarity": "Common",
       "story": "Alice In Wonderland",
       "cost": 2,
@@ -579,6 +609,7 @@ window.LORCANA_TIER_SITE_SETS["2"] = {
         "Song"
       ],
       "mentionedSubtypes": [],
+      "fullText": "(A character with cost 3 or more can ⟳ to sing this\nsong for free.)\nBanish chosen character with 5 ¤ or more.",
       "rarity": "Rare",
       "story": "The Great Mouse Detective",
       "cost": 3,
@@ -596,6 +627,7 @@ window.LORCANA_TIER_SITE_SETS["2"] = {
         "Song"
       ],
       "mentionedSubtypes": [],
+      "fullText": "(A character with cost 2 or more can ⟳ to sing this\nsong for free.)\nCount the number of characters you have in play. You\npay that amount of ⬡ less for the next character you\nplay this turn.",
       "rarity": "Uncommon",
       "story": "Hercules",
       "cost": 2,
@@ -611,6 +643,7 @@ window.LORCANA_TIER_SITE_SETS["2"] = {
       "type": "Item",
       "subtypes": [],
       "mentionedSubtypes": [],
+      "fullText": "BRING BACK TO LIFE ⟳, 3 ⬡ — Return a character\ncard with Support from your discard to your hand.",
       "rarity": "Rare",
       "story": "Raya and the Last Dragon",
       "cost": 3,
@@ -626,6 +659,7 @@ window.LORCANA_TIER_SITE_SETS["2"] = {
       "type": "Item",
       "subtypes": [],
       "mentionedSubtypes": [],
+      "fullText": "A SILLY SONG ⟳ — If you played a song this turn, gain\n1 lore.",
       "rarity": "Rare",
       "story": "Snow White and the Seven Dwarfs",
       "cost": 2,
@@ -645,12 +679,13 @@ window.LORCANA_TIER_SITE_SETS["2"] = {
         "Sorcerer"
       ],
       "mentionedSubtypes": [],
+      "fullText": "STUDENT Whenever this character quests, you\nmay return another chosen character of yours to\nyour hand to gain 2 lore.",
       "rarity": "Super Rare",
       "story": "The Sword in the Stone",
       "cost": 3,
       "costBucket": "3",
       "inkwell": false,
-      "parDelta": -4,
+      "parDelta": -3,
       "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set2/35_e4cc87bb2c2675e1d0b50ca2f643ed0f306f8c59.jpg"
     },
     {
@@ -666,12 +701,13 @@ window.LORCANA_TIER_SITE_SETS["2"] = {
       "mentionedSubtypes": [
         "Floodborn"
       ],
+      "fullText": "Evasive (Only characters with Evasive can challenge this\ncharacter.)\nETHEREAL GLOW Whenever you play a Floodborn\ncharacter, you may draw a card.",
       "rarity": "Uncommon",
       "story": "Pinocchio",
       "cost": 2,
       "costBucket": "2",
       "inkwell": true,
-      "parDelta": -4,
+      "parDelta": -3,
       "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set2/36_77cd66e48745310ef6939c1e05cac22e0a180dc4.jpg"
     },
     {
@@ -684,6 +720,7 @@ window.LORCANA_TIER_SITE_SETS["2"] = {
         "Ally"
       ],
       "mentionedSubtypes": [],
+      "fullText": "",
       "rarity": "Common",
       "story": "Beauty and the Beast",
       "cost": 1,
@@ -703,12 +740,13 @@ window.LORCANA_TIER_SITE_SETS["2"] = {
         "Sorcerer"
       ],
       "mentionedSubtypes": [],
+      "fullText": "Evasive (Only characters with Evasive can\nchallenge this character.)",
       "rarity": "Common",
       "story": "The Princess And The Frog",
       "cost": 4,
       "costBucket": "4",
       "inkwell": true,
-      "parDelta": -4,
+      "parDelta": -2,
       "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set2/38_8f79f15d97302059c5021707d674da8698f69257.jpg"
     },
     {
@@ -723,12 +761,13 @@ window.LORCANA_TIER_SITE_SETS["2"] = {
         "Sorcerer"
       ],
       "mentionedSubtypes": [],
+      "fullText": "Challenger +3 (While challenging, this character\ngets +3 ¤.)",
       "rarity": "Common",
       "story": "Frozen",
       "cost": 4,
       "costBucket": "4",
       "inkwell": true,
-      "parDelta": -3,
+      "parDelta": -1,
       "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set2/39_3b9bae8eb982963a877a50e0bb81ae7c61855f5e.jpg"
     },
     {
@@ -742,12 +781,13 @@ window.LORCANA_TIER_SITE_SETS["2"] = {
         "Fairy"
       ],
       "mentionedSubtypes": [],
+      "fullText": "",
       "rarity": "Uncommon",
       "story": "Cinderella",
       "cost": 5,
       "costBucket": "5",
       "inkwell": true,
-      "parDelta": -1,
+      "parDelta": 0,
       "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set2/40_3cc104e9c9c48d6f1b931caf77b4c9089570c028.jpg"
     },
     {
@@ -761,12 +801,13 @@ window.LORCANA_TIER_SITE_SETS["2"] = {
         "Fairy"
       ],
       "mentionedSubtypes": [],
+      "fullText": "Shift 2 (You may pay 2 ⬡ to play this on top of one of your\ncharacters named Fairy Godmother.)\nFORGET THE COACH, HERE'S A SWORD Whenever this\ncharacter quests, your characters gain Challenger +3 and\n“When this character is banished in a challenge, return\nthis card to your hand” this turn. (They get +3 ¤ while\nchallenging.)",
       "rarity": "Legendary",
       "story": "Cinderella",
       "cost": 5,
       "costBucket": "5",
       "inkwell": true,
-      "parDelta": -4,
+      "parDelta": -3,
       "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set2/41_0bdcc3bfcef3eee23a761333ae4975d1b6b29826.jpg"
     },
     {
@@ -780,12 +821,13 @@ window.LORCANA_TIER_SITE_SETS["2"] = {
         "Fairy"
       ],
       "mentionedSubtypes": [],
+      "fullText": "JUST LEAVE IT TO ME Whenever you play a\ncharacter named Cinderella, you may exert\nchosen character.",
       "rarity": "Common",
       "story": "Cinderella",
       "cost": 3,
       "costBucket": "3",
       "inkwell": true,
-      "parDelta": -1,
+      "parDelta": 0,
       "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set2/42_71244394f28786e44a4720f618ace88758a5f014.jpg"
     },
     {
@@ -798,12 +840,13 @@ window.LORCANA_TIER_SITE_SETS["2"] = {
         "Ally"
       ],
       "mentionedSubtypes": [],
+      "fullText": "HE'S BACK! When this character is banished in a\nchallenge, return this card to your hand.",
       "rarity": "Uncommon",
       "story": "Moana",
       "cost": 2,
       "costBucket": "2",
       "inkwell": true,
-      "parDelta": -3,
+      "parDelta": -2,
       "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set2/43_f5bce7e97ecef814991f788389d7f50572328594.jpg"
     },
     {
@@ -816,12 +859,13 @@ window.LORCANA_TIER_SITE_SETS["2"] = {
         "Mentor"
       ],
       "mentionedSubtypes": [],
+      "fullText": "Evasive (Only characters with Evasive can challenge this\ncharacter.)\nTHAT STILL, SMALL VOICE When you play this character,\nif you have a character named Pinocchio in play, you\nmay draw a card.",
       "rarity": "Common",
       "story": "Pinocchio",
       "cost": 2,
       "costBucket": "2",
       "inkwell": true,
-      "parDelta": -3,
+      "parDelta": -2,
       "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set2/44_d2e9d84dd13b7109270d7fd3aa2caf6e080fe403.jpg"
     },
     {
@@ -834,12 +878,13 @@ window.LORCANA_TIER_SITE_SETS["2"] = {
         "King"
       ],
       "mentionedSubtypes": [],
+      "fullText": "OK, WHERE AM I? When this character is\nbanished, you may draw a card.",
       "rarity": "Common",
       "story": "The Emperor's New Groove",
       "cost": 2,
       "costBucket": "2",
       "inkwell": true,
-      "parDelta": -3,
+      "parDelta": -2,
       "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set2/45_06c7b3f72582d2d7a9a71eb1e380391f66f45bcc.jpg"
     },
     {
@@ -853,12 +898,13 @@ window.LORCANA_TIER_SITE_SETS["2"] = {
         "Sorcerer"
       ],
       "mentionedSubtypes": [],
+      "fullText": "CHASING THE RABBIT When you play this\ncharacter, banish her or return another chosen\ncharacter of yours to your hand.\nRush (This character can challenge the turn\nthey're played.)",
       "rarity": "Rare",
       "story": "The Sword in the Stone",
       "cost": 3,
       "costBucket": "3",
       "inkwell": true,
-      "parDelta": -1,
+      "parDelta": 0,
       "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set2/46_03271866a214faf00d299ad585cdd8b5f6e4d2de.jpg"
     },
     {
@@ -873,6 +919,7 @@ window.LORCANA_TIER_SITE_SETS["2"] = {
         "Dragon"
       ],
       "mentionedSubtypes": [],
+      "fullText": "Evasive (Only characters with Evasive can challenge this\ncharacter.)\nI WIN, I WIN! When you play this character, banish her or\nreturn another 2 chosen characters of yours to your hand.",
       "rarity": "Legendary",
       "story": "The Sword in the Stone",
       "cost": 7,
@@ -892,12 +939,13 @@ window.LORCANA_TIER_SITE_SETS["2"] = {
         "Sorcerer"
       ],
       "mentionedSubtypes": [],
+      "fullText": "Shift 3 (You may pay 3 ⬡ to play this on top of\none of your characters named Madam Mim.)\nGRUESOME AND GRIM ⟳ — Play a character with\ncost 4 or less for free. They gain Rush. At the end\nof the turn, banish them. (They can challenge the\nturn they're played.)",
       "rarity": "Rare",
       "story": "The Sword in the Stone",
       "cost": 5,
       "costBucket": "5",
       "inkwell": true,
-      "parDelta": -4,
+      "parDelta": -3,
       "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set2/48_a6bfc2fb762c68941bd56661c52fbb36bd63aade.jpg"
     },
     {
@@ -911,12 +959,13 @@ window.LORCANA_TIER_SITE_SETS["2"] = {
         "Sorcerer"
       ],
       "mentionedSubtypes": [],
+      "fullText": "JUST YOU WAIT When you play this character,\nbanish her or return another chosen character of\nyours to your hand.",
       "rarity": "Uncommon",
       "story": "The Sword in the Stone",
       "cost": 2,
       "costBucket": "2",
       "inkwell": true,
-      "parDelta": 0,
+      "parDelta": 1,
       "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set2/49_35ce6e8c8be212ddcf74378e9386b0778c98ba8a.jpg"
     },
     {
@@ -930,12 +979,13 @@ window.LORCANA_TIER_SITE_SETS["2"] = {
         "Sorcerer"
       ],
       "mentionedSubtypes": [],
+      "fullText": "READY OR NOT! When you play this character\nand when he leaves play, chosen character gains\nChallenger +3 this turn. (They get +3 ¤ while\nchallenging.)",
       "rarity": "Common",
       "story": "The Sword in the Stone",
       "cost": 3,
       "costBucket": "3",
       "inkwell": true,
-      "parDelta": -2,
+      "parDelta": -1,
       "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set2/50_0d0b9007cc52d96cff54bd3f86c4e1e28a11b77a.jpg"
     },
     {
@@ -949,12 +999,13 @@ window.LORCANA_TIER_SITE_SETS["2"] = {
         "Sorcerer"
       ],
       "mentionedSubtypes": [],
+      "fullText": "HERE I COME! When you play this character and\nwhen he leaves play, gain 1 lore.",
       "rarity": "Uncommon",
       "story": "The Sword in the Stone",
       "cost": 4,
       "costBucket": "4",
       "inkwell": true,
-      "parDelta": -3,
+      "parDelta": -1,
       "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set2/51_236b37e7a7054a04d07c1262c40d32ff4593ced7.jpg"
     },
     {
@@ -968,12 +1019,13 @@ window.LORCANA_TIER_SITE_SETS["2"] = {
         "Sorcerer"
       ],
       "mentionedSubtypes": [],
+      "fullText": "HOPPITY HIP! When you play this character and\nwhen he leaves play, you may draw a card.",
       "rarity": "Rare",
       "story": "The Sword in the Stone",
       "cost": 4,
       "costBucket": "4",
       "inkwell": false,
-      "parDelta": -5,
+      "parDelta": -3,
       "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set2/52_8ad198413f3d6781ec1db7661e7da1b7b8248dbe.jpg"
     },
     {
@@ -987,12 +1039,13 @@ window.LORCANA_TIER_SITE_SETS["2"] = {
         "Sorcerer"
       ],
       "mentionedSubtypes": [],
+      "fullText": "BATTLE OF WITS Whenever one of your other\ncharacters is returned to your hand from play,\nthis character gets +1 ◊ this turn.",
       "rarity": "Rare",
       "story": "The Sword in the Stone",
       "cost": 4,
       "costBucket": "4",
       "inkwell": true,
-      "parDelta": -4,
+      "parDelta": -2,
       "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set2/53_e6c98c1c474fc28fd7b9fb111238e087809c8f60.jpg"
     },
     {
@@ -1006,12 +1059,13 @@ window.LORCANA_TIER_SITE_SETS["2"] = {
         "Sorcerer"
       ],
       "mentionedSubtypes": [],
+      "fullText": "LOOK BEFORE YOU LEAP When you play this\ncharacter and when he leaves play, look at the\ntop card of your deck. Put it on either the top or\nthe bottom of your deck.",
       "rarity": "Common",
       "story": "The Sword in the Stone",
       "cost": 2,
       "costBucket": "2",
       "inkwell": true,
-      "parDelta": -3,
+      "parDelta": -2,
       "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set2/54_2a972ea016a5ef6d9faa4136a58621b3d2c7455f.jpg"
     },
     {
@@ -1024,12 +1078,13 @@ window.LORCANA_TIER_SITE_SETS["2"] = {
         "Ally"
       ],
       "mentionedSubtypes": [],
+      "fullText": "Evasive (Only characters with Evasive can\nchallenge this character.)\nRush (This character can challenge the turn\nthey're played.)\nTIPTOE Your other characters with Rush gain\nEvasive.",
       "rarity": "Super Rare",
       "story": "Peter Pan",
       "cost": 4,
       "costBucket": "4",
       "inkwell": false,
-      "parDelta": -3,
+      "parDelta": -2,
       "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set2/55_57ab6208082cd9837f7a231f019a327d50c3557e.jpg"
     },
     {
@@ -1042,12 +1097,13 @@ window.LORCANA_TIER_SITE_SETS["2"] = {
         "Hero"
       ],
       "mentionedSubtypes": [],
+      "fullText": "",
       "rarity": "Rare",
       "story": "Pinocchio",
       "cost": 2,
       "costBucket": "2",
       "inkwell": false,
-      "parDelta": 0,
+      "parDelta": -1,
       "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set2/56_c95de8bb75b6299313e9c7b899c4dfa35702f38b.jpg"
     },
     {
@@ -1060,12 +1116,13 @@ window.LORCANA_TIER_SITE_SETS["2"] = {
         "Hero"
       ],
       "mentionedSubtypes": [],
+      "fullText": "Shift 3 (You may pay 3 ⬡ to play this on top of one of\nyour characters named Pinocchio.)\nLISTEN TO YOUR CONSCIENCE When you play this\ncharacter, you may return chosen character or item with\ncost 3 or less to their player's hand.",
       "rarity": "Uncommon",
       "story": "Pinocchio",
       "cost": 5,
       "costBucket": "5",
       "inkwell": false,
-      "parDelta": -5,
+      "parDelta": -4,
       "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set2/57_3af235f5baefb7f83e60108a4904bc03c6ee6426.jpg"
     },
     {
@@ -1078,12 +1135,13 @@ window.LORCANA_TIER_SITE_SETS["2"] = {
         "Hero"
       ],
       "mentionedSubtypes": [],
+      "fullText": "TELLING LIES When you play this character, you\nmay exert chosen opposing character.",
       "rarity": "Uncommon",
       "story": "Pinocchio",
       "cost": 2,
       "costBucket": "2",
       "inkwell": false,
-      "parDelta": -4,
+      "parDelta": -3,
       "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set2/58_6f562d33c8580ee58a3a6423eba9a7a9307cbde8.jpg"
     },
     {
@@ -1097,12 +1155,13 @@ window.LORCANA_TIER_SITE_SETS["2"] = {
         "Sorcerer"
       ],
       "mentionedSubtypes": [],
+      "fullText": "",
       "rarity": "Common",
       "story": "Winnie the Pooh",
       "cost": 5,
       "costBucket": "5",
       "inkwell": true,
-      "parDelta": -1,
+      "parDelta": 0,
       "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set2/59_a14c720e34015d4c20586be1012348bcefe487b3.jpg"
     },
     {
@@ -1116,12 +1175,13 @@ window.LORCANA_TIER_SITE_SETS["2"] = {
         "Sorcerer"
       ],
       "mentionedSubtypes": [],
+      "fullText": "Shift 4 (You may pay 4 ⬡ to play this on top of\none of your characters named Yzma.)\nCRUEL IRONY When you play this character,\nshuffle another chosen character card into their\nplayer's deck. That player draws 2 cards.",
       "rarity": "Super Rare",
       "story": "The Emperor's New Groove",
       "cost": 6,
       "costBucket": "6",
       "inkwell": true,
-      "parDelta": -5,
+      "parDelta": -4,
       "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set2/60_3892d5f5b92e154f52824e1c2feb48f705290d9e.jpg"
     },
     {
@@ -1135,12 +1195,13 @@ window.LORCANA_TIER_SITE_SETS["2"] = {
         "Sorcerer"
       ],
       "mentionedSubtypes": [],
+      "fullText": "",
       "rarity": "Uncommon",
       "story": "The Emperor's New Groove",
       "cost": 3,
       "costBucket": "3",
       "inkwell": true,
-      "parDelta": -1,
+      "parDelta": 0,
       "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set2/61_b3ee6f7fd397a81d79c726d43221282a98d26bb1.jpg"
     },
     {
@@ -1152,6 +1213,7 @@ window.LORCANA_TIER_SITE_SETS["2"] = {
         "Song"
       ],
       "mentionedSubtypes": [],
+      "fullText": "(A character with cost 3 or more can ⟳ to sing this\nsong for free.)\nPlay a character with cost 4 or less for free. They gain\nRush. At the end of the turn, banish them. (They can\nchallenge the turn they're played.)",
       "rarity": "Rare",
       "story": "The Sword in the Stone",
       "cost": 3,
@@ -1167,6 +1229,7 @@ window.LORCANA_TIER_SITE_SETS["2"] = {
       "type": "Action",
       "subtypes": [],
       "mentionedSubtypes": [],
+      "fullText": "Chosen exerted character can't ready at the start of\ntheir next turn.",
       "rarity": "Common",
       "story": "Winnie the Pooh",
       "cost": 1,
@@ -1184,6 +1247,7 @@ window.LORCANA_TIER_SITE_SETS["2"] = {
         "Song"
       ],
       "mentionedSubtypes": [],
+      "fullText": "(A character with cost 2 or more can ⟳ to sing this song for\nfree.)\nChosen character gains Challenger +3 this turn. (They get\n+3 ¤ while challenging.)",
       "rarity": "Common",
       "story": "The Sword in the Stone",
       "cost": 2,
@@ -1199,6 +1263,7 @@ window.LORCANA_TIER_SITE_SETS["2"] = {
       "type": "Item",
       "subtypes": [],
       "mentionedSubtypes": [],
+      "fullText": "FOR ALL ETERNITY ⟳, ⟳ one of your characters —\nExert chosen character.",
       "rarity": "Uncommon",
       "story": "The Little Mermaid",
       "cost": 4,
@@ -1214,6 +1279,7 @@ window.LORCANA_TIER_SITE_SETS["2"] = {
       "type": "Item",
       "subtypes": [],
       "mentionedSubtypes": [],
+      "fullText": "HURTLING HEDGEHOG Banish this item — Chosen\ncharacter gains Rush this turn. (They can challenge the\nturn they're played.)",
       "rarity": "Common",
       "story": "Alice In Wonderland",
       "cost": 1,
@@ -1229,6 +1295,7 @@ window.LORCANA_TIER_SITE_SETS["2"] = {
       "type": "Item",
       "subtypes": [],
       "mentionedSubtypes": [],
+      "fullText": "TO WONDERLAND Banish this item — Return chosen\ncharacter of yours to your hand.",
       "rarity": "Rare",
       "story": "Alice In Wonderland",
       "cost": 2,
@@ -1244,6 +1311,7 @@ window.LORCANA_TIER_SITE_SETS["2"] = {
       "type": "Item",
       "subtypes": [],
       "mentionedSubtypes": [],
+      "fullText": "KNOWLEDGE ⟳, 1 ⬡ — Gain 1 lore.",
       "rarity": "Rare",
       "story": "The Sorcerer's Apprentice",
       "cost": 3,
@@ -1262,12 +1330,13 @@ window.LORCANA_TIER_SITE_SETS["2"] = {
         "Hero"
       ],
       "mentionedSubtypes": [],
+      "fullText": "",
       "rarity": "Common",
       "story": "The Sword in the Stone",
       "cost": 4,
       "costBucket": "4",
       "inkwell": true,
-      "parDelta": -1,
+      "parDelta": 0,
       "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set2/69_173aa86a3b176780f8ae6ddce93a2496b2c6ad14.jpg"
     },
     {
@@ -1281,12 +1350,13 @@ window.LORCANA_TIER_SITE_SETS["2"] = {
         "Prince"
       ],
       "mentionedSubtypes": [],
+      "fullText": "SECOND WIND Whenever an opposing character\nis damaged, you may ready this character.",
       "rarity": "Legendary",
       "story": "Beauty and the Beast",
       "cost": 6,
       "costBucket": "6",
       "inkwell": true,
-      "parDelta": -4,
+      "parDelta": -3,
       "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set2/70_e0733cc0e089468c7c0ca8121b8571b2229b364a.jpg"
     },
     {
@@ -1300,12 +1370,13 @@ window.LORCANA_TIER_SITE_SETS["2"] = {
         "Princess"
       ],
       "mentionedSubtypes": [],
+      "fullText": "USE YOUR IMAGINATION While an opponent has\nno cards in their hand, this character gets +2 ◊.",
       "rarity": "Uncommon",
       "story": "Beauty and the Beast",
       "cost": 3,
       "costBucket": "3",
       "inkwell": false,
-      "parDelta": -2,
+      "parDelta": -1,
       "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set2/71_4649617bc1b4bf4954f0b1b35d309a9e489438b4.jpg"
     },
     {
@@ -1319,6 +1390,7 @@ window.LORCANA_TIER_SITE_SETS["2"] = {
         "Princess"
       ],
       "mentionedSubtypes": [],
+      "fullText": "Shift 3 (You may pay 3 ⬡ to play this on top of one of your\ncharacters named Belle.)\nTHORNY ARROWS Whenever this character is challenged,\nthe challenging character's player discards all cards in their\nhand.",
       "rarity": "Legendary",
       "story": "Beauty and the Beast",
       "cost": 5,
@@ -1339,12 +1411,13 @@ window.LORCANA_TIER_SITE_SETS["2"] = {
       "mentionedSubtypes": [
         "Floodborn"
       ],
+      "fullText": "SQUEAK Whenever you play a Floodborn character,\nif you used Shift to play them, each opponent\nchooses and discards a card.",
       "rarity": "Uncommon",
       "story": "The Emperor's New Groove",
       "cost": 3,
       "costBucket": "3",
       "inkwell": true,
-      "parDelta": -6,
+      "parDelta": -5,
       "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set2/73_964c21fdfd56e2099218b3d77a9c1e1acfe43e6f.jpg"
     },
     {
@@ -1356,12 +1429,13 @@ window.LORCANA_TIER_SITE_SETS["2"] = {
         "Storyborn"
       ],
       "mentionedSubtypes": [],
+      "fullText": "",
       "rarity": "Uncommon",
       "story": "Alice In Wonderland",
       "cost": 2,
       "costBucket": "2",
       "inkwell": true,
-      "parDelta": -1,
+      "parDelta": 0,
       "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set2/74_2ddedcf89e5f2f356f72f45cd0c7ec50e6af1028.jpg"
     },
     {
@@ -1373,12 +1447,13 @@ window.LORCANA_TIER_SITE_SETS["2"] = {
         "Floodborn"
       ],
       "mentionedSubtypes": [],
+      "fullText": "Shift 5 (You may pay 5 ⬡ to play this on top of one of\nyour characters named Cheshire Cat.)\nEvasive (Only characters with Evasive can challenge this\ncharacter.)\nWICKED SMILE ⟳ — Banish chosen damaged character.",
       "rarity": "Super Rare",
       "story": "Alice In Wonderland",
       "cost": 8,
       "costBucket": "7+",
       "inkwell": true,
-      "parDelta": null,
+      "parDelta": -6,
       "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set2/75_a7de8c4589d237d554f29e0c93d18696a94f36a6.jpg"
     },
     {
@@ -1391,12 +1466,13 @@ window.LORCANA_TIER_SITE_SETS["2"] = {
         "Ally"
       ],
       "mentionedSubtypes": [],
+      "fullText": "THWART Whenever this character quests, each\nopponent chooses and discards a card.",
       "rarity": "Uncommon",
       "story": "Mickey Mouse & Friends",
       "cost": 4,
       "costBucket": "4",
       "inkwell": true,
-      "parDelta": -3,
+      "parDelta": -2,
       "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set2/76_9752b2d631cf047c0ef9eba0cbb30b8aea11c25d.jpg"
     },
     {
@@ -1409,12 +1485,13 @@ window.LORCANA_TIER_SITE_SETS["2"] = {
         "Ally"
       ],
       "mentionedSubtypes": [],
+      "fullText": "Shift 3 (You may pay 3 ⬡ to play this on top of\none of your characters named Donald Duck.)\nALLOW ME At the start of your turn, each player\nmay draw a card.",
       "rarity": "Uncommon",
       "story": "Mickey Mouse & Friends",
       "cost": 4,
       "costBucket": "4",
       "inkwell": true,
-      "parDelta": -1,
+      "parDelta": 0,
       "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set2/77_65eb5d3f4c3c1c0011a5169c2f8710ec2af4feb9.jpg"
     },
     {
@@ -1426,12 +1503,13 @@ window.LORCANA_TIER_SITE_SETS["2"] = {
         "Storyborn"
       ],
       "mentionedSubtypes": [],
+      "fullText": "STARTLED AWAKE Whenever you play an action,\nthis character gets +2 ¤ this turn.",
       "rarity": "Common",
       "story": "Mickey Mouse & Friends",
       "cost": 3,
       "costBucket": "3",
       "inkwell": true,
-      "parDelta": -3,
+      "parDelta": -2,
       "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set2/78_02f2bc70b36d653bc2d3a76189f04f135a62f939.jpg"
     },
     {
@@ -1445,12 +1523,13 @@ window.LORCANA_TIER_SITE_SETS["2"] = {
         "Sorcerer"
       ],
       "mentionedSubtypes": [],
+      "fullText": "Evasive (Only characters with Evasive can\nchallenge this character.)\nYOU'RE IN MY WORLD Whenever this character\nquests, chosen opposing character can't quest\nduring their next turn.",
       "rarity": "Super Rare",
       "story": "The Princess And The Frog",
       "cost": 7,
       "costBucket": "7+",
       "inkwell": true,
-      "parDelta": -6,
+      "parDelta": -5,
       "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set2/79_9a857a3831dd73ef6cfcf2b1eacf6aa9c0d3ddb3.jpg"
     },
     {
@@ -1463,6 +1542,7 @@ window.LORCANA_TIER_SITE_SETS["2"] = {
         "Sorcerer"
       ],
       "mentionedSubtypes": [],
+      "fullText": "TRUE FORM While being challenged, this\ncharacter gets +2 ¤.",
       "rarity": "Common",
       "story": "Beauty and the Beast",
       "cost": 2,
@@ -1482,6 +1562,7 @@ window.LORCANA_TIER_SITE_SETS["2"] = {
         "Prince"
       ],
       "mentionedSubtypes": [],
+      "fullText": "",
       "rarity": "Common",
       "story": "Tangled",
       "cost": 1,
@@ -1501,12 +1582,13 @@ window.LORCANA_TIER_SITE_SETS["2"] = {
         "Prince"
       ],
       "mentionedSubtypes": [],
+      "fullText": "Shift 2 (You may pay 2 ⬡ to play this on top of one of\nyour characters named Flynn Rider.)\nEvasive (Only characters with Evasive can challenge this\ncharacter.)\nONE LAST, BIG SCORE This character gets -1 ◊ for each\ncard in your opponents' hands.",
       "rarity": "Rare",
       "story": "Tangled",
       "cost": 4,
       "costBucket": "4",
       "inkwell": false,
-      "parDelta": 1,
+      "parDelta": 0,
       "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set2/82_8744140673fbdc998f6852c26d7ba574199ecc65.jpg"
     },
     {
@@ -1519,12 +1601,13 @@ window.LORCANA_TIER_SITE_SETS["2"] = {
         "Villain"
       ],
       "mentionedSubtypes": [],
+      "fullText": "YES, I'M INTIMIDATING While one or more\nopponents have no cards in their hands, this\ncharacter gets +3 ¤.",
       "rarity": "Common",
       "story": "Beauty and the Beast",
       "cost": 2,
       "costBucket": "2",
       "inkwell": true,
-      "parDelta": -2,
+      "parDelta": -1,
       "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set2/83_26c316203b5e9e1966b4d2eedd0de03e928baa47.jpg"
     },
     {
@@ -1537,12 +1620,13 @@ window.LORCANA_TIER_SITE_SETS["2"] = {
         "Ally"
       ],
       "mentionedSubtypes": [],
+      "fullText": "",
       "rarity": "Rare",
       "story": "Robin Hood",
       "cost": 6,
       "costBucket": "6",
       "inkwell": true,
-      "parDelta": -1,
+      "parDelta": 0,
       "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set2/84_73911315bb1b7f29311f1a9df66094a8cc3e2d11.jpg"
     },
     {
@@ -1555,12 +1639,13 @@ window.LORCANA_TIER_SITE_SETS["2"] = {
         "Ally"
       ],
       "mentionedSubtypes": [],
+      "fullText": "MOUSE CATCHER When you play this character,\neach opponent chooses and discards either 2\ncards or 1 action card.",
       "rarity": "Rare",
       "story": "Cinderella",
       "cost": 5,
       "costBucket": "5",
       "inkwell": false,
-      "parDelta": -7,
+      "parDelta": -6,
       "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set2/85_483c4795f3042778c5f0a0052d894709a58c39e8.jpg"
     },
     {
@@ -1573,12 +1658,13 @@ window.LORCANA_TIER_SITE_SETS["2"] = {
         "Ally"
       ],
       "mentionedSubtypes": [],
+      "fullText": "COMING, YOUR MOST LUGUBRIOUSNESS While this\ncharacter has 5 ¤ or more, he gets +2 ◊.",
       "rarity": "Uncommon",
       "story": "Hercules",
       "cost": 2,
       "costBucket": "2",
       "inkwell": true,
-      "parDelta": -1,
+      "parDelta": 0,
       "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set2/86_ae2cb9cb4e9e351b180f88cc4e0a68f0a2486d23.jpg"
     },
     {
@@ -1591,6 +1677,7 @@ window.LORCANA_TIER_SITE_SETS["2"] = {
         "Ally"
       ],
       "mentionedSubtypes": [],
+      "fullText": "I CAN HANDLE IT When you play this character,\nchosen character gets +2 ¤ this turn. If the chosen\ncharacter is named Pain, he gets +4 ¤ instead.",
       "rarity": "Common",
       "story": "Hercules",
       "cost": 3,
@@ -1609,12 +1696,13 @@ window.LORCANA_TIER_SITE_SETS["2"] = {
         "Villain"
       ],
       "mentionedSubtypes": [],
+      "fullText": "Ward (Opponents can't choose this character\nexcept to challenge.)\nTAKE THAT! Whenever you play an action, this\ncharacter gets +2 ¤ this turn.\nWHO'S NEXT? While this character has 7 ¤ or\nmore, he gets +2 ◊.",
       "rarity": "Rare",
       "story": "Mickey Mouse & Friends",
       "cost": 5,
       "costBucket": "5",
       "inkwell": true,
-      "parDelta": -4,
+      "parDelta": -3,
       "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set2/88_a71d0c3ccb72f29c2624be0f99cca3030a366032.jpg"
     },
     {
@@ -1628,6 +1716,7 @@ window.LORCANA_TIER_SITE_SETS["2"] = {
         "Prince"
       ],
       "mentionedSubtypes": [],
+      "fullText": "Ward (Opponents can't choose this character except to\nchallenge.)\nI SENTENCE YOU Whenever your opponent discards\n1 or more cards, you may draw a card for each card\ndiscarded.",
       "rarity": "Rare",
       "story": "Robin Hood",
       "cost": 3,
@@ -1647,6 +1736,7 @@ window.LORCANA_TIER_SITE_SETS["2"] = {
         "Queen"
       ],
       "mentionedSubtypes": [],
+      "fullText": "ROYAL RAGE When you play this character, deal 1\ndamage to chosen damaged opposing character.",
       "rarity": "Common",
       "story": "Alice In Wonderland",
       "cost": 2,
@@ -1665,12 +1755,13 @@ window.LORCANA_TIER_SITE_SETS["2"] = {
         "Villain"
       ],
       "mentionedSubtypes": [],
+      "fullText": "Evasive (Only characters with Evasive can\nchallenge this character.)",
       "rarity": "Common",
       "story": "The Great Mouse Detective",
       "cost": 4,
       "costBucket": "4",
       "inkwell": true,
-      "parDelta": -3,
+      "parDelta": -2,
       "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set2/91_c49a1fb6e86bec9ac9cf1e36ca44c569d5b49458.jpg"
     },
     {
@@ -1683,6 +1774,7 @@ window.LORCANA_TIER_SITE_SETS["2"] = {
         "Ally"
       ],
       "mentionedSubtypes": [],
+      "fullText": "Evasive (Only characters with Evasive can\nchallenge this character.)",
       "rarity": "Common",
       "story": "The Princess And The Frog",
       "cost": 5,
@@ -1702,12 +1794,13 @@ window.LORCANA_TIER_SITE_SETS["2"] = {
         "Queen"
       ],
       "mentionedSubtypes": [],
+      "fullText": "A PERFECT DISGUISE ⟳, Choose and discard a\ncharacter card — Gain lore equal to the discarded\ncharacter's ◊.",
       "rarity": "Super Rare",
       "story": "Snow White and the Seven Dwarfs",
       "cost": 3,
       "costBucket": "3",
       "inkwell": false,
-      "parDelta": -5,
+      "parDelta": -3,
       "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set2/93_f337bad947a5241a8b0254a60823e77064552e27.jpg"
     },
     {
@@ -1721,6 +1814,7 @@ window.LORCANA_TIER_SITE_SETS["2"] = {
         "Princess"
       ],
       "mentionedSubtypes": [],
+      "fullText": "",
       "rarity": "Uncommon",
       "story": "The Princess And The Frog",
       "cost": 5,
@@ -1740,12 +1834,13 @@ window.LORCANA_TIER_SITE_SETS["2"] = {
         "Queen"
       ],
       "mentionedSubtypes": [],
+      "fullText": "",
       "rarity": "Common",
       "story": "Raya and the Last Dragon",
       "cost": 5,
       "costBucket": "5",
       "inkwell": true,
-      "parDelta": -1,
+      "parDelta": 0,
       "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set2/95_2cef5aaaa4c950b8d00ea09281fd465cf8dd2afe.jpg"
     },
     {
@@ -1757,6 +1852,7 @@ window.LORCANA_TIER_SITE_SETS["2"] = {
         "Song"
       ],
       "mentionedSubtypes": [],
+      "fullText": "(A character with cost 3 or more can ⟳ to sing this song for\nfree.)\nReturn chosen character of yours to your hand to play a\ncharacter with the same cost or less for free.",
       "rarity": "Rare",
       "story": "Cinderella",
       "cost": 3,
@@ -1772,6 +1868,7 @@ window.LORCANA_TIER_SITE_SETS["2"] = {
       "type": "Action",
       "subtypes": [],
       "mentionedSubtypes": [],
+      "fullText": "Return chosen character of yours to your hand to\nreturn another chosen character to their player's hand.",
       "rarity": "Uncommon",
       "story": "Winnie the Pooh",
       "cost": 2,
@@ -1787,6 +1884,7 @@ window.LORCANA_TIER_SITE_SETS["2"] = {
       "type": "Action",
       "subtypes": [],
       "mentionedSubtypes": [],
+      "fullText": "Each opponent chooses and discards a card. Draw a\ncard.",
       "rarity": "Common",
       "story": "The Jungle Book",
       "cost": 3,
@@ -1802,6 +1900,7 @@ window.LORCANA_TIER_SITE_SETS["2"] = {
       "type": "Action",
       "subtypes": [],
       "mentionedSubtypes": [],
+      "fullText": "Chosen character gets +1 ¤ this turn. Draw a card.",
       "rarity": "Common",
       "story": "Mulan",
       "cost": 1,
@@ -1817,6 +1916,7 @@ window.LORCANA_TIER_SITE_SETS["2"] = {
       "type": "Action",
       "subtypes": [],
       "mentionedSubtypes": [],
+      "fullText": "Gain 1 lore for each damaged character opponents\nhave in play.",
       "rarity": "Rare",
       "story": "The Emperor's New Groove",
       "cost": 4,
@@ -1832,6 +1932,7 @@ window.LORCANA_TIER_SITE_SETS["2"] = {
       "type": "Action",
       "subtypes": [],
       "mentionedSubtypes": [],
+      "fullText": "Banish chosen damaged character.",
       "rarity": "Uncommon",
       "story": "The Great Mouse Detective",
       "cost": 3,
@@ -1847,6 +1948,7 @@ window.LORCANA_TIER_SITE_SETS["2"] = {
       "type": "Item",
       "subtypes": [],
       "mentionedSubtypes": [],
+      "fullText": "SNAP! BOOM! TWANG! Banish this item — Each\nopponent loses 2 lore.",
       "rarity": "Rare",
       "story": "The Great Mouse Detective",
       "cost": 3,
@@ -1865,12 +1967,13 @@ window.LORCANA_TIER_SITE_SETS["2"] = {
         "Ally"
       ],
       "mentionedSubtypes": [],
+      "fullText": "",
       "rarity": "Common",
       "story": "The Jungle Book",
       "cost": 3,
       "costBucket": "3",
       "inkwell": true,
-      "parDelta": -1,
+      "parDelta": 0,
       "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set2/103_3ac844d2c436527380203cc677044c0fe64a91f1.jpg"
     },
     {
@@ -1883,12 +1986,13 @@ window.LORCANA_TIER_SITE_SETS["2"] = {
         "Ally"
       ],
       "mentionedSubtypes": [],
+      "fullText": "",
       "rarity": "Common",
       "story": "Raya and the Last Dragon",
       "cost": 2,
       "costBucket": "2",
       "inkwell": true,
-      "parDelta": -1,
+      "parDelta": 0,
       "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set2/104_c66c020046e8a54d8643f78dca756169a0602926.jpg"
     },
     {
@@ -1901,12 +2005,13 @@ window.LORCANA_TIER_SITE_SETS["2"] = {
         "Ally"
       ],
       "mentionedSubtypes": [],
+      "fullText": "",
       "rarity": "Uncommon",
       "story": "Alice In Wonderland",
       "cost": 5,
       "costBucket": "5",
       "inkwell": true,
-      "parDelta": -1,
+      "parDelta": 0,
       "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set2/105_80d1bbc085bb7ab0937250df87cdf6b87e971e84.jpg"
     },
     {
@@ -1919,12 +2024,13 @@ window.LORCANA_TIER_SITE_SETS["2"] = {
         "Hero"
       ],
       "mentionedSubtypes": [],
+      "fullText": "Evasive (Only characters with Evasive can\nchallenge this character.)\nPHOOEY! This character gets +1 ◊ for each 1\ndamage on him.",
       "rarity": "Legendary",
       "story": "Mickey Mouse & Friends",
       "cost": 5,
       "costBucket": "5",
       "inkwell": true,
-      "parDelta": -7,
+      "parDelta": -5,
       "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set2/106_2572814dc55e42c6d64d021c5cea9afe5d67d248.jpg"
     },
     {
@@ -1937,12 +2043,13 @@ window.LORCANA_TIER_SITE_SETS["2"] = {
         "Ally"
       ],
       "mentionedSubtypes": [],
+      "fullText": "Reckless (This character can't quest and must\nchallenge each turn if able.)",
       "rarity": "Common",
       "story": "The Great Mouse Detective",
       "cost": 1,
       "costBucket": "1",
       "inkwell": true,
-      "parDelta": -2,
+      "parDelta": -1,
       "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set2/107_a0f87a458022ef548feb5af1e5af969bc26e89d2.jpg"
     },
     {
@@ -1955,12 +2062,13 @@ window.LORCANA_TIER_SITE_SETS["2"] = {
         "Ally"
       ],
       "mentionedSubtypes": [],
+      "fullText": "Evasive (Only characters with Evasive can\nchallenge this character.)",
       "rarity": "Common",
       "story": "The Great Mouse Detective",
       "cost": 3,
       "costBucket": "3",
       "inkwell": true,
-      "parDelta": -3,
+      "parDelta": -2,
       "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set2/108_1ca2aee95357487dd2d47b4e8a0fb7336c219436.jpg"
     },
     {
@@ -1975,12 +2083,13 @@ window.LORCANA_TIER_SITE_SETS["2"] = {
       "mentionedSubtypes": [
         "Floodborn"
       ],
+      "fullText": "EASY STREET Whenever you play a Floodborn\ncharacter, each opponent loses 1 lore.",
       "rarity": "Rare",
       "story": "Pinocchio",
       "cost": 3,
       "costBucket": "3",
       "inkwell": false,
-      "parDelta": -3,
+      "parDelta": -2,
       "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set2/109_817a8b7de8ae3c8bfa7522aab94192d277e7115c.jpg"
     },
     {
@@ -1994,12 +2103,13 @@ window.LORCANA_TIER_SITE_SETS["2"] = {
         "Queen"
       ],
       "mentionedSubtypes": [],
+      "fullText": "Shift 4 (You may pay 4 ⬡ to play this on top of one of your\ncharacters named Lady Tremaine.)\nPOWER TO RULE AT LAST When you play this character, each\nopponent chooses and banishes one of their characters.",
       "rarity": "Super Rare",
       "story": "Cinderella",
       "cost": 6,
       "costBucket": "6",
       "inkwell": false,
-      "parDelta": -6,
+      "parDelta": -5,
       "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set2/110_d5d8afa5c7ec50a3084dcdba460f4e254fed20f6.jpg"
     },
     {
@@ -2012,12 +2122,13 @@ window.LORCANA_TIER_SITE_SETS["2"] = {
         "Villain"
       ],
       "mentionedSubtypes": [],
+      "fullText": "NOT FOR YOU When you play this character, each\nopponent with more lore than you loses 1 lore.",
       "rarity": "Common",
       "story": "Cinderella",
       "cost": 2,
       "costBucket": "2",
       "inkwell": false,
-      "parDelta": -2,
+      "parDelta": -1,
       "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set2/111_5ca3496ca39b1bfd16502b875c93f138b0577e56.jpg"
     },
     {
@@ -2030,12 +2141,13 @@ window.LORCANA_TIER_SITE_SETS["2"] = {
         "Ally"
       ],
       "mentionedSubtypes": [],
+      "fullText": "",
       "rarity": "Rare",
       "story": "Beauty and the Beast",
       "cost": 7,
       "costBucket": "7+",
       "inkwell": true,
-      "parDelta": -2,
+      "parDelta": 0,
       "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set2/112_8784f8af4a9c16f6a1dd01e58ec0d63882ddc1e7.jpg"
     },
     {
@@ -2048,6 +2160,7 @@ window.LORCANA_TIER_SITE_SETS["2"] = {
         "Hero"
       ],
       "mentionedSubtypes": [],
+      "fullText": "Evasive (Only characters with Evasive can\nchallenge this character.)",
       "rarity": "Uncommon",
       "story": "Mickey Mouse & Friends",
       "cost": 3,
@@ -2066,12 +2179,13 @@ window.LORCANA_TIER_SITE_SETS["2"] = {
         "Hero"
       ],
       "mentionedSubtypes": [],
+      "fullText": "Shift 2 (You may pay 2 ⬡ to play this on top of one of\nyour characters named Minnie Mouse.)\nEvasive (Only characters with Evasive can challenge this\ncharacter.)\nUNDERSEA ADVENTURE Whenever you play a second\naction in a turn, this character gets +2 ◊ this turn.",
       "rarity": "Rare",
       "story": "Mickey Mouse & Friends",
       "cost": 4,
       "costBucket": "4",
       "inkwell": true,
-      "parDelta": -5,
+      "parDelta": -3,
       "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set2/114_beaf69d252e759b49369574bbe6daa944c19656b.jpg"
     },
     {
@@ -2084,12 +2198,13 @@ window.LORCANA_TIER_SITE_SETS["2"] = {
         "Hero"
       ],
       "mentionedSubtypes": [],
+      "fullText": "",
       "rarity": "Common",
       "story": "Mickey Mouse & Friends",
       "cost": 2,
       "costBucket": "2",
       "inkwell": true,
-      "parDelta": -1,
+      "parDelta": 0,
       "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set2/115_a29e481acc9a5c8b51b883a3a920018517485d4f.jpg"
     },
     {
@@ -2102,12 +2217,13 @@ window.LORCANA_TIER_SITE_SETS["2"] = {
         "Villain"
       ],
       "mentionedSubtypes": [],
+      "fullText": "WHAT HAVE YOU DONE?! This character enters\nplay with 3 damage.",
       "rarity": "Uncommon",
       "story": "Tangled",
       "cost": 2,
       "costBucket": "2",
       "inkwell": true,
-      "parDelta": 1,
+      "parDelta": 2,
       "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set2/116_aadf0a56666ea7c4e943a5fdbec1fd1e84ae39b4.jpg"
     },
     {
@@ -2121,12 +2237,13 @@ window.LORCANA_TIER_SITE_SETS["2"] = {
         "Princess"
       ],
       "mentionedSubtypes": [],
+      "fullText": "Rush (This character can challenge the turn\nthey're played.)",
       "rarity": "Common",
       "story": "Mulan",
       "cost": 4,
       "costBucket": "4",
       "inkwell": false,
-      "parDelta": -3,
+      "parDelta": -1,
       "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set2/117_7dbdb6cf8d91669b0a35f6f8cc41c6040fa47b07.jpg"
     },
     {
@@ -2140,12 +2257,13 @@ window.LORCANA_TIER_SITE_SETS["2"] = {
         "Princess"
       ],
       "mentionedSubtypes": [],
+      "fullText": "THIS SHOULDN'T TAKE LONG ⟳, Banish this\ncharacter — Banish chosen character.",
       "rarity": "Super Rare",
       "story": "Raya and the Last Dragon",
       "cost": 4,
       "costBucket": "4",
       "inkwell": false,
-      "parDelta": -4,
+      "parDelta": -2,
       "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set2/118_62f30cea5d8dfe59cb91945c7785cf8bdf7b19e0.jpg"
     },
     {
@@ -2159,12 +2277,13 @@ window.LORCANA_TIER_SITE_SETS["2"] = {
         "Queen"
       ],
       "mentionedSubtypes": [],
+      "fullText": "Rush (This character can challenge the turn\nthey're played.)",
       "rarity": "Uncommon",
       "story": "Alice In Wonderland",
       "cost": 2,
       "costBucket": "2",
       "inkwell": true,
-      "parDelta": -2,
+      "parDelta": -1,
       "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set2/119_08a2fb97a1fc59896a5a110db668042d484d767c.jpg"
     },
     {
@@ -2180,12 +2299,13 @@ window.LORCANA_TIER_SITE_SETS["2"] = {
       "mentionedSubtypes": [
         "Queen"
       ],
+      "fullText": "Shift 2 (You may pay 2 ⬡ to play this on top of\none of your characters named Queen of Hearts.)\nLET THE GAME BEGIN Whenever one of your\ncharacters challenges another character, you may\ndraw a card.",
       "rarity": "Uncommon",
       "story": "Alice In Wonderland",
       "cost": 5,
       "costBucket": "5",
       "inkwell": true,
-      "parDelta": -6,
+      "parDelta": -4,
       "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set2/120_3f86881137366a9b50c8d8b37c872af77b68e43f.jpg"
     },
     {
@@ -2198,12 +2318,13 @@ window.LORCANA_TIER_SITE_SETS["2"] = {
         "Villain"
       ],
       "mentionedSubtypes": [],
+      "fullText": "THIS IS MY KINGDOM When you play this character,\nexert chosen opposing character with 3 ¤ or less.\nChoose one of your characters and ready them. They\ncan't quest for the rest of this turn.",
       "rarity": "Rare",
       "story": "The Great Mouse Detective",
       "cost": 5,
       "costBucket": "5",
       "inkwell": false,
-      "parDelta": -5,
+      "parDelta": -4,
       "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set2/121_63f0b8aa937447a162b620d42e426eaf92199595.jpg"
     },
     {
@@ -2217,12 +2338,13 @@ window.LORCANA_TIER_SITE_SETS["2"] = {
         "Princess"
       ],
       "mentionedSubtypes": [],
+      "fullText": "NOTE TO SELF, DON'T DIE During your turn, whenever\nthis character banishes another character in a\nchallenge, you may ready this character. She can't\nquest for the rest of this turn.",
       "rarity": "Common",
       "story": "Raya and the Last Dragon",
       "cost": 3,
       "costBucket": "3",
       "inkwell": true,
-      "parDelta": -3,
+      "parDelta": -2,
       "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set2/122_7a4d057e86c364223ae7522bce262020f0e111c0.jpg"
     },
     {
@@ -2236,12 +2358,13 @@ window.LORCANA_TIER_SITE_SETS["2"] = {
         "Princess"
       ],
       "mentionedSubtypes": [],
+      "fullText": "Shift 4 (You may pay 4 ⬡ to play this on top of\none of your characters named Raya.)\nCHAMPION OF KUMANDRA Whenever this\ncharacter challenges a damaged character, she\ntakes no damage from the challenge.",
       "rarity": "Super Rare",
       "story": "Raya and the Last Dragon",
       "cost": 6,
       "costBucket": "6",
       "inkwell": true,
-      "parDelta": -5,
+      "parDelta": -4,
       "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set2/123_c33d339aea5eb08aa2ee2994256be46a1246b201.jpg"
     },
     {
@@ -2255,12 +2378,13 @@ window.LORCANA_TIER_SITE_SETS["2"] = {
         "Princess"
       ],
       "mentionedSubtypes": [],
+      "fullText": "",
       "rarity": "Uncommon",
       "story": "Raya and the Last Dragon",
       "cost": 4,
       "costBucket": "4",
       "inkwell": true,
-      "parDelta": -2,
+      "parDelta": 0,
       "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set2/124_2757a4cf7393dc7d5da395e895a7fd9c33a5915d.jpg"
     },
     {
@@ -2273,12 +2397,13 @@ window.LORCANA_TIER_SITE_SETS["2"] = {
         "Villain"
       ],
       "mentionedSubtypes": [],
+      "fullText": "Rush (This character can challenge the turn\nthey're played.)\nDADDY ISN'T HERE TO SAVE YOU During your\nturn, whenever this character banishes another\ncharacter in a challenge, you may ready this\ncharacter. He can't quest for the rest of this turn.",
       "rarity": "Legendary",
       "story": "The Lion King",
       "cost": 7,
       "costBucket": "7+",
       "inkwell": false,
-      "parDelta": -5,
+      "parDelta": -3,
       "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set2/125_c492614e2e3c496eead8cd68ed1facc6793eb2cb.jpg"
     },
     {
@@ -2291,12 +2416,13 @@ window.LORCANA_TIER_SITE_SETS["2"] = {
         "Villain"
       ],
       "mentionedSubtypes": [],
+      "fullText": "DON'T INSULT MY INTELLIGENCE Whenever one\nof your characters challenges another character,\ngain 1 lore.",
       "rarity": "Rare",
       "story": "The Jungle Book",
       "cost": 3,
       "costBucket": "3",
       "inkwell": true,
-      "parDelta": -2,
+      "parDelta": -1,
       "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set2/126_176f585990d6e04b401d890eaf76a7eca5ee3213.jpg"
     },
     {
@@ -2309,12 +2435,13 @@ window.LORCANA_TIER_SITE_SETS["2"] = {
         "Tigger"
       ],
       "mentionedSubtypes": [],
+      "fullText": "ENERGETIC Whenever you play an action, this\ncharacter gets +2 ¤ this turn.",
       "rarity": "Common",
       "story": "Winnie the Pooh",
       "cost": 3,
       "costBucket": "3",
       "inkwell": true,
-      "parDelta": -2,
+      "parDelta": -1,
       "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set2/127_06e8cfa7207f3646e60010781bac3567a5cf1f9a.jpg"
     },
     {
@@ -2327,12 +2454,13 @@ window.LORCANA_TIER_SITE_SETS["2"] = {
         "Ally"
       ],
       "mentionedSubtypes": [],
+      "fullText": "Reckless (This character can't quest and must\nchallenge each turn if able.)",
       "rarity": "Rare",
       "story": "Raya and the Last Dragon",
       "cost": 4,
       "costBucket": "4",
       "inkwell": false,
-      "parDelta": -3,
+      "parDelta": 0,
       "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set2/128_f69bab9046554c2e429fbc1c7572f364d9f2528b.jpg"
     },
     {
@@ -2344,6 +2472,7 @@ window.LORCANA_TIER_SITE_SETS["2"] = {
         "Song"
       ],
       "mentionedSubtypes": [],
+      "fullText": "(A character with cost 2 or more can ⟳ to sing this\nsong for free.)\nReady chosen damaged character of yours. They can't\nquest for the rest of this turn. Draw a card.",
       "rarity": "Common",
       "story": "Hercules",
       "cost": 2,
@@ -2361,6 +2490,7 @@ window.LORCANA_TIER_SITE_SETS["2"] = {
         "Song"
       ],
       "mentionedSubtypes": [],
+      "fullText": "(A character with cost 2 or more can ⟳ to sing this song for\nfree.)\nDeal 2 damage to chosen character of yours to deal 2 damage\nto another chosen character.",
       "rarity": "Rare",
       "story": "The Lion King",
       "cost": 2,
@@ -2380,6 +2510,7 @@ window.LORCANA_TIER_SITE_SETS["2"] = {
       "mentionedSubtypes": [
         "Villain"
       ],
+      "fullText": "(A character with cost 3 or more can ⟳ to sing this song\nfor free.)\nBanish chosen Villain of yours to banish chosen character.",
       "rarity": "Uncommon",
       "story": "The Great Mouse Detective",
       "cost": 3,
@@ -2395,6 +2526,7 @@ window.LORCANA_TIER_SITE_SETS["2"] = {
       "type": "Action",
       "subtypes": [],
       "mentionedSubtypes": [],
+      "fullText": "Chosen damaged character gets +3 ¤ this turn.",
       "rarity": "Common",
       "story": "The Great Mouse Detective",
       "cost": 1,
@@ -2412,6 +2544,7 @@ window.LORCANA_TIER_SITE_SETS["2"] = {
         "Song"
       ],
       "mentionedSubtypes": [],
+      "fullText": "(A character with cost 2 or more can ⟳ to sing this\nsong for free.)\nChosen character gains Evasive until the start of your\nnext turn. (Only characters with Evasive can challenge\nthem.)",
       "rarity": "Uncommon",
       "story": "Peter Pan",
       "cost": 2,
@@ -2427,6 +2560,7 @@ window.LORCANA_TIER_SITE_SETS["2"] = {
       "type": "Item",
       "subtypes": [],
       "mentionedSubtypes": [],
+      "fullText": "YOU KNOW WHAT HAPPENS ⟳, 2 ⬡ — Draw cards\nequal to the damage on chosen character of yours,\nthen banish them.",
       "rarity": "Rare",
       "story": "The Great Mouse Detective",
       "cost": 4,
@@ -2442,6 +2576,7 @@ window.LORCANA_TIER_SITE_SETS["2"] = {
       "type": "Item",
       "subtypes": [],
       "mentionedSubtypes": [],
+      "fullText": "Your characters with Evasive get +1 ¤.",
       "rarity": "Common",
       "story": "Peter Pan",
       "cost": 2,
@@ -2457,6 +2592,7 @@ window.LORCANA_TIER_SITE_SETS["2"] = {
       "type": "Item",
       "subtypes": [],
       "mentionedSubtypes": [],
+      "fullText": "⟳, 2 ⬡ — Chosen character gets +1 ¤ this turn for\neach 1 damage on them.",
       "rarity": "Uncommon",
       "story": "The Sword in the Stone",
       "cost": 1,
@@ -2475,12 +2611,13 @@ window.LORCANA_TIER_SITE_SETS["2"] = {
         "Hero"
       ],
       "mentionedSubtypes": [],
+      "fullText": "GOOD ADVICE Your other characters gain\nSupport. (Whenever they quest, you may add their\n¤ to another chosen character's ¤ this turn.)\nWHAT DID I DO? While this character has 10 ¤\nor more, she gets +4 ◊.",
       "rarity": "Legendary",
       "story": "Alice In Wonderland",
       "cost": 3,
       "costBucket": "3",
       "inkwell": true,
-      "parDelta": -3,
+      "parDelta": -2,
       "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set2/137_12c2cca21952db6d63d78dbef1338a9e55d7b578.jpg"
     },
     {
@@ -2494,6 +2631,7 @@ window.LORCANA_TIER_SITE_SETS["2"] = {
         "Detective"
       ],
       "mentionedSubtypes": [],
+      "fullText": "Shift 5 (You may pay 5 ⬡ to play this on top of one of\nyour characters named Basil.)\nTHERE'S ALWAYS A CHANCE If you used Shift to play this\ncharacter, you may draw 2 cards when he enters play.",
       "rarity": "Super Rare",
       "story": "The Great Mouse Detective",
       "cost": 6,
@@ -2513,12 +2651,13 @@ window.LORCANA_TIER_SITE_SETS["2"] = {
         "Detective"
       ],
       "mentionedSubtypes": [],
+      "fullText": "Support (Whenever this character quests, you may\nadd their ¤ to another chosen character's ¤ this\nturn.)",
       "rarity": "Common",
       "story": "The Great Mouse Detective",
       "cost": 2,
       "costBucket": "2",
       "inkwell": true,
-      "parDelta": -2,
+      "parDelta": -1,
       "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set2/139_4205688bdef3299c2c3a734ec1a8d99523624869.jpg"
     },
     {
@@ -2532,12 +2671,13 @@ window.LORCANA_TIER_SITE_SETS["2"] = {
         "Detective"
       ],
       "mentionedSubtypes": [],
+      "fullText": "",
       "rarity": "Common",
       "story": "The Great Mouse Detective",
       "cost": 4,
       "costBucket": "4",
       "inkwell": true,
-      "parDelta": -1,
+      "parDelta": 0,
       "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set2/140_3cb5b0b1a03a9e9df98c01445d900b2e130845da.jpg"
     },
     {
@@ -2549,12 +2689,13 @@ window.LORCANA_TIER_SITE_SETS["2"] = {
         "Dreamborn"
       ],
       "mentionedSubtypes": [],
+      "fullText": "",
       "rarity": "Uncommon",
       "story": "Alice In Wonderland",
       "cost": 3,
       "costBucket": "3",
       "inkwell": true,
-      "parDelta": 0,
+      "parDelta": -1,
       "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set2/141_7812a38b3f9a5b89fd4889906ff1f8c75b3c39dc.jpg"
     },
     {
@@ -2567,12 +2708,13 @@ window.LORCANA_TIER_SITE_SETS["2"] = {
         "Ally"
       ],
       "mentionedSubtypes": [],
+      "fullText": "Shift 3 (You may pay 3 ⬡ to play this on top of one of\nyour characters named Cogsworth.)\nWard (Opponents can't choose this character except to\nchallenge.)\nUNWIND Your other characters gain Resist +1 (Damage\ndealt to them is reduced by 1.)",
       "rarity": "Super Rare",
       "story": "Beauty and the Beast",
       "cost": 5,
       "costBucket": "5",
       "inkwell": true,
-      "parDelta": -4,
+      "parDelta": -3,
       "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set2/142_099eb671939713d36bfd0945b75c086edb72236c.jpg"
     },
     {
@@ -2585,12 +2727,13 @@ window.LORCANA_TIER_SITE_SETS["2"] = {
         "Ally"
       ],
       "mentionedSubtypes": [],
+      "fullText": "WAIT A MINUTE Your characters with Reckless\ngain “⟳ — Gain 1 lore.”",
       "rarity": "Uncommon",
       "story": "Beauty and the Beast",
       "cost": 2,
       "costBucket": "2",
       "inkwell": true,
-      "parDelta": -1,
+      "parDelta": 0,
       "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set2/143_3d874262ed13fe4b4115ed21fb9e6c32485d5675.jpg"
     },
     {
@@ -2603,12 +2746,13 @@ window.LORCANA_TIER_SITE_SETS["2"] = {
         "Villain"
       ],
       "mentionedSubtypes": [],
+      "fullText": "NOW GET GOING During your turn, this character\ngains Evasive. (They can challenge characters\nwith Evasive.)",
       "rarity": "Common",
       "story": "101 Dalmatians",
       "cost": 2,
       "costBucket": "2",
       "inkwell": true,
-      "parDelta": -1,
+      "parDelta": 0,
       "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set2/144_8215cef09e06aae4401ed3b4bbe7517378dc6a2a.jpg"
     },
     {
@@ -2621,12 +2765,13 @@ window.LORCANA_TIER_SITE_SETS["2"] = {
         "Villain"
       ],
       "mentionedSubtypes": [],
+      "fullText": "Shift 3 (You may pay 3 ⬡ to play this on top of one of\nyour characters named Cruella De Vil.)\nOH, NO YOU DON'T Whenever this character quests,\nchosen opposing character gets -2 ¤ this turn.",
       "rarity": "Uncommon",
       "story": "101 Dalmatians",
       "cost": 5,
       "costBucket": "5",
       "inkwell": true,
-      "parDelta": -4,
+      "parDelta": -3,
       "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set2/145_5b395321f968b2216345f2e3aa842ede1ca903e5.jpg"
     },
     {
@@ -2638,6 +2783,7 @@ window.LORCANA_TIER_SITE_SETS["2"] = {
         "Storyborn"
       ],
       "mentionedSubtypes": [],
+      "fullText": "Ward (Opponents can't choose this character\nexcept to challenge.)",
       "rarity": "Common",
       "story": "Zootopia",
       "cost": 2,
@@ -2656,6 +2802,7 @@ window.LORCANA_TIER_SITE_SETS["2"] = {
         "Villain"
       ],
       "mentionedSubtypes": [],
+      "fullText": "Shift 4 (You may pay 4 ⬡ to play this on top of\none of your characters named Gaston.)\nDEVELOPED BRAIN When you play this character,\nlook at the top 3 cards of your deck. You may put\none into your hand. Put the rest on the bottom of\nyour deck in any order.",
       "rarity": "Rare",
       "story": "Beauty and the Beast",
       "cost": 6,
@@ -2674,12 +2821,13 @@ window.LORCANA_TIER_SITE_SETS["2"] = {
         "Mentor"
       ],
       "mentionedSubtypes": [],
+      "fullText": "ANCIENT INSIGHT Whenever you remove 1 or\nmore damage from one of your characters, gain\n2 lore.",
       "rarity": "Super Rare",
       "story": "Frozen",
       "cost": 7,
       "costBucket": "7+",
       "inkwell": false,
-      "parDelta": -5,
+      "parDelta": -4,
       "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set2/148_11c66faaf7193e5faa05b573f7ed5ddd2bb166c1.jpg"
     },
     {
@@ -2692,12 +2840,13 @@ window.LORCANA_TIER_SITE_SETS["2"] = {
         "Inventor"
       ],
       "mentionedSubtypes": [],
+      "fullText": "ARTIFICER When you play this character and\nwhenever he quests, you may banish one of your\nitems to draw 2 cards.",
       "rarity": "Rare",
       "story": "The Great Mouse Detective",
       "cost": 4,
       "costBucket": "4",
       "inkwell": true,
-      "parDelta": -3,
+      "parDelta": -1,
       "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set2/149_2c8c2611099dc474492fb182f7732681e8c5e5eb.jpg"
     },
     {
@@ -2710,12 +2859,13 @@ window.LORCANA_TIER_SITE_SETS["2"] = {
         "Mentor"
       ],
       "mentionedSubtypes": [],
+      "fullText": "NEVER, EVER LOSE SIGHT When this character is\nbanished, you may put this card into your inkwell\nfacedown and exerted.",
       "rarity": "Common",
       "story": "The Princess And The Frog",
       "cost": 4,
       "costBucket": "4",
       "inkwell": false,
-      "parDelta": -2,
+      "parDelta": -1,
       "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set2/150_1753701256b83aa2c1b20ae4feb1f0f0383c105c.jpg"
     },
     {
@@ -2729,6 +2879,7 @@ window.LORCANA_TIER_SITE_SETS["2"] = {
         "Princess"
       ],
       "mentionedSubtypes": [],
+      "fullText": "I'M A FAST LEARNER When you play this\ncharacter, remove up to 1 damage from chosen\ncharacter of yours.",
       "rarity": "Common",
       "story": "Aladdin",
       "cost": 1,
@@ -2747,6 +2898,7 @@ window.LORCANA_TIER_SITE_SETS["2"] = {
         "Hero"
       ],
       "mentionedSubtypes": [],
+      "fullText": "DON'T CALL ME CUTE When you play this\ncharacter, you may banish chosen item. Its player\ndraws a card.",
       "rarity": "Uncommon",
       "story": "Zootopia",
       "cost": 3,
@@ -2767,12 +2919,13 @@ window.LORCANA_TIER_SITE_SETS["2"] = {
       "mentionedSubtypes": [
         "Floodborn"
       ],
+      "fullText": "TIDY UP Whenever you play a Floodborn\ncharacter, you may put the top card of your deck\ninto your inkwell facedown and exerted.",
       "rarity": "Rare",
       "story": "The Great Mouse Detective",
       "cost": 4,
       "costBucket": "4",
       "inkwell": false,
-      "parDelta": -2,
+      "parDelta": -1,
       "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set2/153_e8831865b01c37589db3bd4d61050daf2b8e7a13.jpg"
     },
     {
@@ -2785,12 +2938,13 @@ window.LORCANA_TIER_SITE_SETS["2"] = {
         "Ally"
       ],
       "mentionedSubtypes": [],
+      "fullText": "IT'S CALLED A HUSTLE When you play this\ncharacter, you may return an item card named\nPawpsicle from your discard to your hand.",
       "rarity": "Uncommon",
       "story": "Zootopia",
       "cost": 4,
       "costBucket": "4",
       "inkwell": true,
-      "parDelta": -2,
+      "parDelta": -1,
       "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set2/154_7693ed3d1a7bc7bfa9eee87b795b86eec91dba00.jpg"
     },
     {
@@ -2803,6 +2957,7 @@ window.LORCANA_TIER_SITE_SETS["2"] = {
         "Ally"
       ],
       "mentionedSubtypes": [],
+      "fullText": "HIDE AND SEEK While you have an item in play,\nthis character gains Resist +1 and Ward. (Damage\ndealt to this character is reduced by 1. Opponents\ncan't choose this character except to challenge.)",
       "rarity": "Rare",
       "story": "Raya and the Last Dragon",
       "cost": 2,
@@ -2821,6 +2976,7 @@ window.LORCANA_TIER_SITE_SETS["2"] = {
         "Ally"
       ],
       "mentionedSubtypes": [],
+      "fullText": "",
       "rarity": "Common",
       "story": "Winnie the Pooh",
       "cost": 1,
@@ -2840,6 +2996,7 @@ window.LORCANA_TIER_SITE_SETS["2"] = {
         "Prince"
       ],
       "mentionedSubtypes": [],
+      "fullText": "",
       "rarity": "Rare",
       "story": "Cinderella",
       "cost": 4,
@@ -2858,12 +3015,13 @@ window.LORCANA_TIER_SITE_SETS["2"] = {
         "Ally"
       ],
       "mentionedSubtypes": [],
+      "fullText": "",
       "rarity": "Common",
       "story": "Winnie the Pooh",
       "cost": 5,
       "costBucket": "5",
       "inkwell": true,
-      "parDelta": -1,
+      "parDelta": 0,
       "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set2/158_3bf410aa456eadf000f39493188222f1ba4a17e2.jpg"
     },
     {
@@ -2878,12 +3036,13 @@ window.LORCANA_TIER_SITE_SETS["2"] = {
         "Dragon"
       ],
       "mentionedSubtypes": [],
+      "fullText": "I TRUST YOU Whenever this character quests,\nlook at the top 2 cards of your deck. You may put\none into your hand. Put the rest on the bottom of\nyour deck in any order.",
       "rarity": "Legendary",
       "story": "Raya and the Last Dragon",
       "cost": 4,
       "costBucket": "4",
       "inkwell": false,
-      "parDelta": -2,
+      "parDelta": -1,
       "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set2/159_2a502dd92f75c3505e12ac3e52e560e37b1bbba2.jpg"
     },
     {
@@ -2895,12 +3054,13 @@ window.LORCANA_TIER_SITE_SETS["2"] = {
         "Storyborn"
       ],
       "mentionedSubtypes": [],
+      "fullText": "Ward (Opponents can't choose this character\nexcept to challenge.)",
       "rarity": "Common",
       "story": "Frozen",
       "cost": 4,
       "costBucket": "4",
       "inkwell": true,
-      "parDelta": -3,
+      "parDelta": -1,
       "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set2/160_966ad6b3c25ebc12dff76df34dc917dbff22ffa5.jpg"
     },
     {
@@ -2913,6 +3073,7 @@ window.LORCANA_TIER_SITE_SETS["2"] = {
         "Hero"
       ],
       "mentionedSubtypes": [],
+      "fullText": "HUNNY POT Whenever this character quests,\nyou may put a card from your hand into your\ninkwell facedown.",
       "rarity": "Rare",
       "story": "Winnie the Pooh",
       "cost": 3,
@@ -2928,6 +3089,7 @@ window.LORCANA_TIER_SITE_SETS["2"] = {
       "type": "Action",
       "subtypes": [],
       "mentionedSubtypes": [],
+      "fullText": "Each player chooses one of their characters and puts\nthem into their inkwell facedown and exerted.",
       "rarity": "Rare",
       "story": "Alice In Wonderland",
       "cost": 4,
@@ -2945,6 +3107,7 @@ window.LORCANA_TIER_SITE_SETS["2"] = {
         "Song"
       ],
       "mentionedSubtypes": [],
+      "fullText": "(A character with cost 4 or more can ⟳ to sing this\nsong for free.)\nYour characters gain Resist +2 until the start of your\nnext turn. (Damage dealt to them is reduced by 2.)",
       "rarity": "Uncommon",
       "story": "Beauty and the Beast",
       "cost": 4,
@@ -2960,6 +3123,7 @@ window.LORCANA_TIER_SITE_SETS["2"] = {
       "type": "Action",
       "subtypes": [],
       "mentionedSubtypes": [],
+      "fullText": "Banish chosen item of yours to deal 5 damage to\nchosen character.",
       "rarity": "Uncommon",
       "story": "Lorcana",
       "cost": 3,
@@ -2975,6 +3139,7 @@ window.LORCANA_TIER_SITE_SETS["2"] = {
       "type": "Action",
       "subtypes": [],
       "mentionedSubtypes": [],
+      "fullText": "Each opponent reveals their hand. Draw a card.",
       "rarity": "Common",
       "story": "Beauty and the Beast",
       "cost": 1,
@@ -2990,6 +3155,7 @@ window.LORCANA_TIER_SITE_SETS["2"] = {
       "type": "Item",
       "subtypes": [],
       "mentionedSubtypes": [],
+      "fullText": "CAREFUL AIM ⟳, 2 ⬡ — Chosen character gets -2 ¤\nthis turn.\nSTAY BACK! ⟳, Banish this item — Banish chosen\nDragon character.",
       "rarity": "Uncommon",
       "story": "Raya and the Last Dragon",
       "cost": 3,
@@ -3005,6 +3171,7 @@ window.LORCANA_TIER_SITE_SETS["2"] = {
       "type": "Item",
       "subtypes": [],
       "mentionedSubtypes": [],
+      "fullText": "THE BEST I'VE EVER TASTED ⟳ — Remove 1 damage\neach from up to 2 chosen characters.",
       "rarity": "Common",
       "story": "The Princess And The Frog",
       "cost": 2,
@@ -3020,6 +3187,7 @@ window.LORCANA_TIER_SITE_SETS["2"] = {
       "type": "Item",
       "subtypes": [],
       "mentionedSubtypes": [],
+      "fullText": "LOOKING FOR THIS? Whenever you play another item,\nyou may pay 1 ⬡ to draw a card.",
       "rarity": "Rare",
       "story": "Beauty and the Beast",
       "cost": 3,
@@ -3035,6 +3203,7 @@ window.LORCANA_TIER_SITE_SETS["2"] = {
       "type": "Item",
       "subtypes": [],
       "mentionedSubtypes": [],
+      "fullText": "JUMBO POP When you play this item, you may draw a card.\nTHAT'S REDWOOD Banish this item — Remove up to 2 damage\nfrom chosen character.",
       "rarity": "Common",
       "story": "Zootopia",
       "cost": 1,
@@ -3050,6 +3219,7 @@ window.LORCANA_TIER_SITE_SETS["2"] = {
       "type": "Item",
       "subtypes": [],
       "mentionedSubtypes": [],
+      "fullText": "FLIGHT CABIN Your exerted characters gain Ward.\n(Opponents can't choose them except to challenge.)",
       "rarity": "Uncommon",
       "story": "The Rescuers",
       "cost": 4,
@@ -3069,12 +3239,13 @@ window.LORCANA_TIER_SITE_SETS["2"] = {
         "Prince"
       ],
       "mentionedSubtypes": [],
+      "fullText": "YOU'RE NOT WELCOME HERE When you play this\ncharacter, you may deal 1 damage to chosen\ncharacter.",
       "rarity": "Common",
       "story": "Beauty and the Beast",
       "cost": 4,
       "costBucket": "4",
       "inkwell": true,
-      "parDelta": -3,
+      "parDelta": -1,
       "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set2/171_9a47f0d84828c4dfb343f51c9bb677629ce782e0.jpg"
     },
     {
@@ -3088,12 +3259,13 @@ window.LORCANA_TIER_SITE_SETS["2"] = {
         "Prince"
       ],
       "mentionedSubtypes": [],
+      "fullText": "SHIELD ANOTHER Whenever one of your other\ncharacters would be dealt damage, put that many\ndamage counters on this character instead.",
       "rarity": "Super Rare",
       "story": "Beauty and the Beast",
       "cost": 6,
       "costBucket": "6",
       "inkwell": true,
-      "parDelta": -5,
+      "parDelta": -3,
       "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set2/172_52f728a769c5c33d55221365582e2c34386cf9ec.jpg"
     },
     {
@@ -3107,12 +3279,13 @@ window.LORCANA_TIER_SITE_SETS["2"] = {
         "Prince"
       ],
       "mentionedSubtypes": [],
+      "fullText": "Shift 3 (You may pay 3 ⬡ to play this on top of one of your\ncharacters named Beast.)\nIT'S BETTER THIS WAY At the start of your turn, if this\ncharacter has no damage, draw a card. Otherwise, he gets\n+4 ¤ this turn.",
       "rarity": "Legendary",
       "story": "Beauty and the Beast",
       "cost": 5,
       "costBucket": "5",
       "inkwell": true,
-      "parDelta": -3,
+      "parDelta": -2,
       "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set2/173_90e7a8e4f24109dcbda85082abd1e90a3bce273f.jpg"
     },
     {
@@ -3126,6 +3299,7 @@ window.LORCANA_TIER_SITE_SETS["2"] = {
         "King"
       ],
       "mentionedSubtypes": [],
+      "fullText": "WE HAVE A CHOICE When you play this character,\nyou may banish chosen item.",
       "rarity": "Common",
       "story": "Raya and the Last Dragon",
       "cost": 3,
@@ -3145,12 +3319,13 @@ window.LORCANA_TIER_SITE_SETS["2"] = {
       "mentionedSubtypes": [
         "Floodborn"
       ],
+      "fullText": "INSUBORDINATION! Whenever you play a Floodborn\ncharacter, deal 1 damage to each opposing\ncharacter.",
       "rarity": "Rare",
       "story": "Zootopia",
       "cost": 4,
       "costBucket": "4",
       "inkwell": false,
-      "parDelta": -2,
+      "parDelta": -1,
       "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set2/175_f987fae892d436b3c198996c9174b9292d17a416.jpg"
     },
     {
@@ -3165,12 +3340,13 @@ window.LORCANA_TIER_SITE_SETS["2"] = {
         "Knight"
       ],
       "mentionedSubtypes": [],
+      "fullText": "HAVE COURAGE When you play this character,\nyou may draw a card, then choose and discard a\ncard.",
       "rarity": "Common",
       "story": "Cinderella",
       "cost": 2,
       "costBucket": "2",
       "inkwell": true,
-      "parDelta": -2,
+      "parDelta": -1,
       "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set2/176_7691a312760882639114afdc051af4330944ffc2.jpg"
     },
     {
@@ -3185,12 +3361,13 @@ window.LORCANA_TIER_SITE_SETS["2"] = {
         "Knight"
       ],
       "mentionedSubtypes": [],
+      "fullText": "Shift 5 (You may pay 5 ⬡ to play this on top of one of your\ncharacters named Cinderella.)\nResist +2 (Damage dealt to this character is reduced by 2.)\nTHE SINGING SWORD Whenever you play a song, this\ncharacter may challenge ready characters this turn.",
       "rarity": "Super Rare",
       "story": "Cinderella",
       "cost": 7,
       "costBucket": "7+",
       "inkwell": true,
-      "parDelta": -4,
+      "parDelta": -3,
       "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set2/177_6258dfccfff3917a76f10adee7c3ad705ec69cc3.jpg"
     },
     {
@@ -3203,12 +3380,13 @@ window.LORCANA_TIER_SITE_SETS["2"] = {
         "Hero"
       ],
       "mentionedSubtypes": [],
+      "fullText": "",
       "rarity": "Common",
       "story": "Mickey Mouse & Friends",
       "cost": 5,
       "costBucket": "5",
       "inkwell": true,
-      "parDelta": -2,
+      "parDelta": 0,
       "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set2/178_be22807d46a22785b529c31701297c0a94a5d0a3.jpg"
     },
     {
@@ -3221,12 +3399,13 @@ window.LORCANA_TIER_SITE_SETS["2"] = {
         "Mentor"
       ],
       "mentionedSubtypes": [],
+      "fullText": "",
       "rarity": "Uncommon",
       "story": "The Princess And The Frog",
       "cost": 4,
       "costBucket": "4",
       "inkwell": true,
-      "parDelta": -1,
+      "parDelta": 0,
       "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set2/179_9bf3ba7a1b85b699519214d8231e0d0f4d63e7ca.jpg"
     },
     {
@@ -3240,6 +3419,7 @@ window.LORCANA_TIER_SITE_SETS["2"] = {
         "Knight"
       ],
       "mentionedSubtypes": [],
+      "fullText": "",
       "rarity": "Rare",
       "story": "Mickey Mouse & Friends",
       "cost": 9,
@@ -3260,12 +3440,13 @@ window.LORCANA_TIER_SITE_SETS["2"] = {
         "Deity"
       ],
       "mentionedSubtypes": [],
+      "fullText": "Shift 4 (You may pay 4 ⬡ to play this on top of one of your\ncharacters named Hercules.)\nResist +2 (Damage dealt to this character is reduced by 2.)",
       "rarity": "Rare",
       "story": "Hercules",
       "cost": 6,
       "costBucket": "6",
       "inkwell": true,
-      "parDelta": -4,
+      "parDelta": -3,
       "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set2/181_fc07bc2a61fb462d8ce42f7f71868444cc688892.jpg"
     },
     {
@@ -3279,12 +3460,13 @@ window.LORCANA_TIER_SITE_SETS["2"] = {
         "Prince"
       ],
       "mentionedSubtypes": [],
+      "fullText": "",
       "rarity": "Common",
       "story": "Hercules",
       "cost": 2,
       "costBucket": "2",
       "inkwell": true,
-      "parDelta": -1,
+      "parDelta": 0,
       "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set2/182_d92f8600220b1de2166ea8afb5df7fc914a3ecc3.jpg"
     },
     {
@@ -3298,12 +3480,13 @@ window.LORCANA_TIER_SITE_SETS["2"] = {
         "Sorcerer"
       ],
       "mentionedSubtypes": [],
+      "fullText": "Shift 2 (You may pay 2 ⬡ to play this on top of\none of your characters named Jafar.)\nNOW WHERE WERE WE? During your turn,\nwhenever this character banishes another\ncharacter in a challenge, you may draw a card.",
       "rarity": "Uncommon",
       "story": "Aladdin",
       "cost": 4,
       "costBucket": "4",
       "inkwell": true,
-      "parDelta": -3,
+      "parDelta": -1,
       "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set2/183_4ddc92396a72ae9cb1606ba4e65136e13f6d4be4.jpg"
     },
     {
@@ -3317,12 +3500,13 @@ window.LORCANA_TIER_SITE_SETS["2"] = {
         "Sorcerer"
       ],
       "mentionedSubtypes": [],
+      "fullText": "I DON'T TRUST HIM, SIRE During your turn, this\ncharacter gains Evasive. (They can challenge\ncharacters with Evasive.)",
       "rarity": "Common",
       "story": "Aladdin",
       "cost": 2,
       "costBucket": "2",
       "inkwell": true,
-      "parDelta": -1,
+      "parDelta": 0,
       "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set2/184_a7a8d0b53d23109c75891d216d2248ee567b28ca.jpg"
     },
     {
@@ -3335,12 +3519,13 @@ window.LORCANA_TIER_SITE_SETS["2"] = {
         "Ally"
       ],
       "mentionedSubtypes": [],
+      "fullText": "Resist +1 (Damage dealt to this character is\nreduced by 1.)\nSCOUT LEADER During your turn, whenever\nthis character banishes another character in a\nchallenge, you may deal 2 damage to chosen\ncharacter.",
       "rarity": "Rare",
       "story": "The Emperor's New Groove",
       "cost": 6,
       "costBucket": "6",
       "inkwell": true,
-      "parDelta": -4,
+      "parDelta": -3,
       "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set2/185_a115e7a5479d2a4828859e9b3793f19f0534f521.jpg"
     },
     {
@@ -3353,6 +3538,7 @@ window.LORCANA_TIER_SITE_SETS["2"] = {
         "Ally"
       ],
       "mentionedSubtypes": [],
+      "fullText": "PAYBACK While this character has no damage,\nhe gets +4 ¤.",
       "rarity": "Uncommon",
       "story": "The Princess And The Frog",
       "cost": 3,
@@ -3371,12 +3557,13 @@ window.LORCANA_TIER_SITE_SETS["2"] = {
         "Hero"
       ],
       "mentionedSubtypes": [],
+      "fullText": "ARCHERY LESSON Whenever this character\nquests, your characters gain Evasive this turn.\n(They can challenge characters with Evasive.)",
       "rarity": "Uncommon",
       "story": "Mulan",
       "cost": 5,
       "costBucket": "5",
       "inkwell": true,
-      "parDelta": -2,
+      "parDelta": -1,
       "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set2/187_12f86f73b7faadb26c0faa02887f690fbfd2e197.jpg"
     },
     {
@@ -3389,12 +3576,13 @@ window.LORCANA_TIER_SITE_SETS["2"] = {
         "Broom"
       ],
       "mentionedSubtypes": [],
+      "fullText": "MAKE IT SHINE When you play this character,\nchosen character gains Resist +1 until the start of\nyour next turn. (Damage dealt to them is reduced by 1.)",
       "rarity": "Common",
       "story": "The Sorcerer's Apprentice",
       "cost": 3,
       "costBucket": "3",
       "inkwell": true,
-      "parDelta": -3,
+      "parDelta": -2,
       "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set2/188_2af97ce6e1f76a5523335cf061bb73d9ca55dbbb.jpg"
     },
     {
@@ -3408,12 +3596,13 @@ window.LORCANA_TIER_SITE_SETS["2"] = {
         "Princess"
       ],
       "mentionedSubtypes": [],
+      "fullText": "Bodyguard (This character may enter play exerted.\nAn opposing character who challenges one of\nyour characters must choose one with Bodyguard\nif able.)\nBLADES This character can challenge ready\ncharacters.",
       "rarity": "Legendary",
       "story": "Raya and the Last Dragon",
       "cost": 4,
       "costBucket": "4",
       "inkwell": false,
-      "parDelta": -4,
+      "parDelta": -2,
       "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set2/189_d13a92907020fa6e7515b2378e527c6eb6af7c58.jpg"
     },
     {
@@ -3426,12 +3615,13 @@ window.LORCANA_TIER_SITE_SETS["2"] = {
         "Hero"
       ],
       "mentionedSubtypes": [],
+      "fullText": "",
       "rarity": "Uncommon",
       "story": "The Emperor's New Groove",
       "cost": 6,
       "costBucket": "6",
       "inkwell": true,
-      "parDelta": -1,
+      "parDelta": 0,
       "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set2/190_6b7b58c230927bede276e7b3ee20a48b032351fb.jpg"
     },
     {
@@ -3444,12 +3634,13 @@ window.LORCANA_TIER_SITE_SETS["2"] = {
         "Prince"
       ],
       "mentionedSubtypes": [],
+      "fullText": "",
       "rarity": "Common",
       "story": "The Princess And The Frog",
       "cost": 3,
       "costBucket": "3",
       "inkwell": true,
-      "parDelta": -1,
+      "parDelta": 0,
       "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set2/191_75a38375caadf23cfe013e4240895fca3ffe2739.jpg"
     },
     {
@@ -3463,12 +3654,13 @@ window.LORCANA_TIER_SITE_SETS["2"] = {
         "Queen"
       ],
       "mentionedSubtypes": [],
+      "fullText": "OFF WITH THEIR HEADS! Whenever an opposing\ncharacter is banished, you may ready this\ncharacter.",
       "rarity": "Rare",
       "story": "Alice In Wonderland",
       "cost": 7,
       "costBucket": "7+",
       "inkwell": true,
-      "parDelta": -7,
+      "parDelta": -4,
       "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set2/192_691f7e6133bcacce4373d79588253be9cfa00d23.jpg"
     },
     {
@@ -3481,12 +3673,13 @@ window.LORCANA_TIER_SITE_SETS["2"] = {
         "Hero"
       ],
       "mentionedSubtypes": [],
+      "fullText": "SKIRMISH ⟳ — Deal 1 damage to chosen\ncharacter.",
       "rarity": "Uncommon",
       "story": "Robin Hood",
       "cost": 2,
       "costBucket": "2",
       "inkwell": false,
-      "parDelta": -2,
+      "parDelta": -1,
       "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set2/193_3e27142dded98d6996a40fb7738cf0a9032fd538.jpg"
     },
     {
@@ -3499,6 +3692,7 @@ window.LORCANA_TIER_SITE_SETS["2"] = {
         "Ally"
       ],
       "mentionedSubtypes": [],
+      "fullText": "CHANGE OF HEART Whenever this character\nquests, you may draw a card, then choose and\ndiscard a card.",
       "rarity": "Rare",
       "story": "Snow White and the Seven Dwarfs",
       "cost": 2,
@@ -3518,6 +3712,7 @@ window.LORCANA_TIER_SITE_SETS["2"] = {
         "Prince"
       ],
       "mentionedSubtypes": [],
+      "fullText": "Bodyguard (This character may enter play exerted.\nAn opposing character who challenges one of\nyour characters must choose one with Bodyguard\nif able.)\nResist +1 (Damage dealt to this character is\nreduced by 1.)",
       "rarity": "Uncommon",
       "story": "Snow White and the Seven Dwarfs",
       "cost": 3,
@@ -3537,12 +3732,13 @@ window.LORCANA_TIER_SITE_SETS["2"] = {
         "Princess"
       ],
       "mentionedSubtypes": [],
+      "fullText": "Resist +2 (Damage dealt to this character is\nreduced by 2.)\nWHAT YOU GIVE IS WHAT YOU GET While this\ncharacter is exerted and you have no cards in\nyour hand, opponents can't play actions.",
       "rarity": "Super Rare",
       "story": "The Princess And The Frog",
       "cost": 4,
       "costBucket": "4",
       "inkwell": false,
-      "parDelta": -3,
+      "parDelta": -2,
       "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set2/196_5384414c43db7c37f77cdef7804364f3a8e64b46.jpg"
     },
     {
@@ -3556,6 +3752,7 @@ window.LORCANA_TIER_SITE_SETS["2"] = {
         "Princess"
       ],
       "mentionedSubtypes": [],
+      "fullText": "",
       "rarity": "Common",
       "story": "The Princess And The Frog",
       "cost": 1,
@@ -3571,6 +3768,7 @@ window.LORCANA_TIER_SITE_SETS["2"] = {
       "type": "Action",
       "subtypes": [],
       "mentionedSubtypes": [],
+      "fullText": "Chosen character gains Challenger +2 and Resist +2\nthis turn. (They get +2 ¤ while challenging. Damage\ndealt to them is reduced by 2.)",
       "rarity": "Common",
       "story": "Raya and the Last Dragon",
       "cost": 2,
@@ -3588,6 +3786,7 @@ window.LORCANA_TIER_SITE_SETS["2"] = {
         "Song"
       ],
       "mentionedSubtypes": [],
+      "fullText": "(A character with cost 3 or more can ⟳ to sing this\nsong for free.)\nDeal 2 damage to chosen character. Draw a card.",
       "rarity": "Common",
       "story": "Frozen",
       "cost": 3,
@@ -3603,6 +3802,7 @@ window.LORCANA_TIER_SITE_SETS["2"] = {
       "type": "Action",
       "subtypes": [],
       "mentionedSubtypes": [],
+      "fullText": "Chosen character can challenge ready characters this\nturn.",
       "rarity": "Uncommon",
       "story": "Wreck-It Ralph",
       "cost": 2,
@@ -3620,6 +3820,7 @@ window.LORCANA_TIER_SITE_SETS["2"] = {
         "Song"
       ],
       "mentionedSubtypes": [],
+      "fullText": "(A character with cost 3 or more can ⟳ to sing this song for\nfree.)\nDeal damage to chosen character equal to the number of\ncharacters you have in play.",
       "rarity": "Rare",
       "story": "Mulan",
       "cost": 3,
@@ -3635,6 +3836,7 @@ window.LORCANA_TIER_SITE_SETS["2"] = {
       "type": "Item",
       "subtypes": [],
       "mentionedSubtypes": [],
+      "fullText": "ARM YOURSELF 1 ⬡, Banish this item — Chosen\ncharacter gains Challenger +3 this turn. (They get +3 ¤\nwhile challenging.)",
       "rarity": "Common",
       "story": "Mulan",
       "cost": 1,
@@ -3650,6 +3852,7 @@ window.LORCANA_TIER_SITE_SETS["2"] = {
       "type": "Item",
       "subtypes": [],
       "mentionedSubtypes": [],
+      "fullText": "PROTECTION ⟳ — Chosen character gains Resist +1\nuntil the start of your next turn. (Damage dealt to them\nis reduced by 1.)",
       "rarity": "Uncommon",
       "story": "The Great Mouse Detective",
       "cost": 2,
@@ -3665,6 +3868,7 @@ window.LORCANA_TIER_SITE_SETS["2"] = {
       "type": "Item",
       "subtypes": [],
       "mentionedSubtypes": [],
+      "fullText": "TRAINING Whenever you play a character with 4 ¤ or\nmore, you may pay 1 ⬡ to draw a card.",
       "rarity": "Rare",
       "story": "Hercules",
       "cost": 3,

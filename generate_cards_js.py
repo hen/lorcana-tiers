@@ -11,7 +11,8 @@ from pathlib import Path
 
 ALLOWED_RARITIES = {"Common", "Uncommon", "Rare", "Super Rare", "Legendary"}
 SETDATA_RE = re.compile(r"^setdata\.(\d+)\.json$")
-PAR_BY_COST = {1: 5, 2: 7, 3: 9, 4: 11, 5: 14, 6: 16, 7: 19}
+EARLY_SET_PAR_BY_COST = {1: 5, 2: 6, 3: 8, 4: 9, 5: 12, 6: 14, 7: 16, 8: 19}
+CURRENT_PAR_BY_COST = {1: 5, 2: 7, 3: 9, 4: 11, 5: 14, 6: 16, 7: 19}
 BUILTIN_VIEW_LABELS = {"Items", "Songs", "Actions", "Locations", "Uninkable"}
 EXCLUDED_GENERATED_SUBTYPE_VIEWS = {"Song"}
 
@@ -74,16 +75,20 @@ def load_cards(data: object, set_file: Path) -> list[dict]:
     return [card for card in cards if isinstance(card, dict)]
 
 
-def compute_par_delta(card: dict) -> int | None:
+def compute_par_delta(card: dict, set_number: int) -> int | None:
     if not all(isinstance(card.get(key), int) for key in ("strength", "willpower", "lore", "cost")):
         return None
 
     cost = int(card["cost"])
-    baseline = PAR_BY_COST.get(cost)
+    is_early_set = 1 <= set_number <= 9
+    baseline = (EARLY_SET_PAR_BY_COST if is_early_set else CURRENT_PAR_BY_COST).get(cost)
     if baseline is None:
         return None
 
-    basic_value = int(card["strength"]) + int(card["willpower"]) + (2 * int(card["lore"]) - 1)
+    if is_early_set:
+        basic_value = int(card["strength"]) + int(card["willpower"]) + int(card["lore"])
+    else:
+        basic_value = int(card["strength"]) + int(card["willpower"]) + (2 * int(card["lore"]) - 1)
     return basic_value - baseline
 
 
@@ -209,6 +214,7 @@ def build_entries(
     entries: list[dict] = []
     missing: list[tuple[int | str, str]] = []
     thumbnail_sources: Counter[str] = Counter()
+    set_number = int(set_id)
 
     for card in cards:
         if card.get("rarity") not in ALLOWED_RARITIES:
@@ -226,7 +232,7 @@ def build_entries(
         thumbnail_sources[thumbnail_source] += 1
         cost = card.get("cost")
         cost_bucket = "7+" if isinstance(cost, int) and cost >= 7 else str(cost)
-        par_delta = compute_par_delta(card)
+        par_delta = compute_par_delta(card, set_number)
         card_id_str = str(card_id)
         mentioned_subtypes = sorted(
             subtype for subtype, card_ids in qualifying_mentions.items()
@@ -240,6 +246,7 @@ def build_entries(
                 "type": card.get("type"),
                 "subtypes": card.get("subtypes") or [],
                 "mentionedSubtypes": mentioned_subtypes,
+                "fullText": card.get("fullText") or "",
                 "rarity": card.get("rarity"),
                 "story": card.get("story"),
                 "cost": cost,
