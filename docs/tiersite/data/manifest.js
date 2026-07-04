@@ -1,6 +1,6 @@
 window.LORCANA_TIER_SITE_MANIFEST = {
-  "generatedAt": "2026-06-11T02:35:33.028752+00:00",
-  "defaultSetId": "12",
+  "generatedAt": "2026-07-04T05:42:07.321791+00:00",
+  "defaultSetId": "13",
   "sets": [
     {
       "id": "1",
@@ -121,6 +121,16 @@ window.LORCANA_TIER_SITE_MANIFEST = {
       "prereleaseDate": "2026-05-08",
       "cardCount": 204,
       "asset": "data/set.12.js"
+    },
+    {
+      "id": "13",
+      "number": 13,
+      "code": "13",
+      "name": "Attack of the Vine!",
+      "releaseDate": "2026-07-24",
+      "prereleaseDate": "2026-07-17",
+      "cardCount": 207,
+      "asset": "data/set.13.js"
     }
   ]
 };
