@@ -15,7 +15,7 @@ Build a static website for ranking Lorcana cards from a single set into these in
 - `D`
 - `F`
 
-These should render as six visible rows:
+By default, these render as six visible rows:
 
 1. `A`
 2. `B`
@@ -23,6 +23,11 @@ These should render as six visible rows:
 4. split row with `C-` and `D+`
 5. `D`
 6. `F`
+
+The `Combine C/D tiers` display toggle instead renders five rows: `A`, `B`, `C`, `D`, and `F`.
+It combines the cards from `C+`, `C`, and `C-` into the visible `C` lane, and cards from `D+` and
+`D` into the visible `D` lane. This is a render-only option: each card retains its original internal
+tier and ordering, so switching the toggle off restores the split-tier layout unchanged.
 
 The site is intended for local use and should work as plain HTML/CSS/JS without a build step.
 

@@ -8,6 +8,13 @@
     { type: "single", tier: "D" },
     { type: "single", tier: "F" },
   ];
+  const FOLDED_ROWS = [
+    { type: "single", tier: "A" },
+    { type: "single", tier: "B" },
+    { type: "folded", label: "C", tiers: ["C+", "C", "C-"] },
+    { type: "folded", label: "D", tiers: ["D+", "D"] },
+    { type: "single", tier: "F" },
+  ];
   const ZONES = [...TIERS, "pool"];
   const TAB_ORDER = ["1", "2", "3", "4", "5", "6", "7+"];
   const CU_RARITIES = new Set(["Common", "Uncommon"]);
@@ -35,6 +42,7 @@
   const exportButton = document.getElementById("export-json");
   const importButton = document.getElementById("import-json");
   const importFileInput = document.getElementById("import-file");
+  const foldTierToggle = document.getElementById("fold-tier-toggle");
   const cuOnlyToggle = document.getElementById("cu-only-toggle");
   const rsrlOnlyToggle = document.getElementById("r-sr-l-only-toggle");
   const statusMessage = document.getElementById("status-message");
@@ -58,6 +66,7 @@
   let previewCardId = null;
   let statusTimeoutId = null;
   let rarityFilterMode = "all";
+  let areTiersFolded = false;
   let loadRequestToken = 0;
 
   const setAssetPromises = new Map();
@@ -88,6 +97,10 @@
     });
     importButton.addEventListener("click", () => importFileInput.click());
     importFileInput.addEventListener("change", handleImportFile);
+    foldTierToggle.addEventListener("change", () => {
+      areTiersFolded = foldTierToggle.checked;
+      renderActiveBucket();
+    });
     cuOnlyToggle.addEventListener("change", () => {
       setRarityFilterMode(cuOnlyToggle.checked ? "cu" : "all");
     });
@@ -160,6 +173,7 @@
     exportButton.disabled = disabled;
     importButton.disabled = disabled;
     importFileInput.disabled = disabled;
+    foldTierToggle.disabled = disabled;
     cuOnlyToggle.disabled = disabled;
     rsrlOnlyToggle.disabled = disabled;
     setSelector.disabled = disabled;
@@ -652,9 +666,11 @@
     board.className = "tier-board";
 
     const showEmptyTierHint = visibleState.pool.length > 0;
-    for (const rowDef of ROWS) {
+    for (const rowDef of areTiersFolded ? FOLDED_ROWS : ROWS) {
       if (rowDef.type === "split") {
         board.appendChild(createSplitTierRow(rowDef.tiers, visibleState, showEmptyTierHint, view));
+      } else if (rowDef.type === "folded") {
+        board.appendChild(createFoldedTierRow(rowDef.label, rowDef.tiers, visibleState, showEmptyTierHint, view));
       } else {
         board.appendChild(createTierRow(rowDef.tier, visibleState[rowDef.tier], showEmptyTierHint, view));
       }
@@ -731,6 +747,20 @@
     return row;
   }
 
+  function createFoldedTierRow(label, tiers, bucketState, showEmptyHint, view) {
+    const row = document.createElement("div");
+    row.className = "tier-row tier-row-folded";
+
+    const badge = document.createElement("div");
+    badge.className = "tier-badge";
+    badge.dataset.tier = label;
+    badge.textContent = label;
+
+    const cardEntries = tiers.flatMap((tier) => bucketState[tier].map((cardId) => ({ cardId, tier })));
+    row.append(badge, createTrack(`folded:${tiers.join("|")}`, cardEntries, view, { showEmptyHint }));
+    return row;
+  }
+
   function createPoolPanel(cardIds, view) {
     const wrapper = document.createElement("div");
     const header = document.createElement("div");
@@ -748,8 +778,9 @@
     return wrapper;
   }
 
-  function createTrack(zone, cardIds, view, options = {}) {
+  function createTrack(zone, cardEntries, view, options = {}) {
     const { showEmptyHint = true } = options;
+    const cardIds = cardEntries.map((entry) => typeof entry === "string" ? entry : entry.cardId);
     const track = document.createElement("div");
     track.className = zone === "pool" ? "card-track pool-track" : "card-track";
     if (options.className) {
@@ -757,8 +788,9 @@
     }
     track.dataset.zone = zone;
 
-    for (const cardId of cardIds) {
-      track.appendChild(createCard(cardId, view));
+    for (const entry of cardEntries) {
+      const cardId = typeof entry === "string" ? entry : entry.cardId;
+      track.appendChild(createCard(cardId, view, typeof entry === "string" ? null : entry.tier));
     }
 
     if (!cardIds.length && showEmptyHint) {
@@ -780,7 +812,7 @@
     return track;
   }
 
-  function createCard(cardId, view) {
+  function createCard(cardId, view, sourceTier = null) {
     const card = cardsById[cardId];
     const deltaLabel = formatParDelta(card.parDelta);
     const article = document.createElement("article");
@@ -791,6 +823,9 @@
     }
     article.draggable = true;
     article.dataset.cardId = card.id;
+    if (sourceTier) {
+      article.dataset.sourceTier = sourceTier;
+    }
     article.title = `${card.name}\nCost ${card.cost} • ${card.rarity}`;
     image.src = card.thumbnail;
     image.alt = card.name;
@@ -933,12 +968,13 @@
     );
 
     document.querySelectorAll(".card-track").forEach((track) => {
-      const zone = track.dataset.zone;
-      nextBucketState[zone].push(
-        ...Array.from(track.querySelectorAll(".card"))
-          .map((card) => card.dataset.cardId)
-          .filter((id, index, ids) => visibleIds.has(id) && ids.indexOf(id) === index)
-      );
+      for (const card of track.querySelectorAll(".card")) {
+        const id = card.dataset.cardId;
+        const zone = getStateZoneForCard(track, card);
+        if (visibleIds.has(id) && !nextBucketState[zone].includes(id)) {
+          nextBucketState[zone].push(id);
+        }
+      }
     });
 
     const missing = [...visibleIds]
@@ -964,12 +1000,12 @@
 
     const assigned = new Set();
     document.querySelectorAll(".card-track").forEach((track) => {
-      const zone = track.dataset.zone;
-      const ids = Array.from(track.querySelectorAll(".card"))
-        .map((card) => card.dataset.cardId)
-        .filter((id) => visibleFilteredIds.has(id) && !assigned.has(id));
-
-      for (const id of ids) {
+      for (const card of track.querySelectorAll(".card")) {
+        const id = card.dataset.cardId;
+        const zone = getStateZoneForCard(track, card);
+        if (!visibleFilteredIds.has(id) || assigned.has(id)) {
+          continue;
+        }
         assigned.add(id);
         nextState[cardsById[id].costBucket][zone].push(id);
       }
@@ -988,6 +1024,16 @@
     }
 
     state = normalizeState(nextState);
+  }
+
+  function getStateZoneForCard(track, card) {
+    const zone = track.dataset.zone;
+    if (!zone.startsWith("folded:")) {
+      return zone;
+    }
+
+    const tiers = zone.slice("folded:".length).split("|");
+    return tiers.includes(card.dataset.sourceTier) ? card.dataset.sourceTier : tiers[Math.floor(tiers.length / 2)];
   }
 
   function removeEmptyState(track) {
