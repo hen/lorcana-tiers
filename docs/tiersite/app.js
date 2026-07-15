@@ -42,6 +42,7 @@
   const exportButton = document.getElementById("export-json");
   const importButton = document.getElementById("import-json");
   const importFileInput = document.getElementById("import-file");
+  const hideStatLinesToggle = document.getElementById("hide-stat-lines-toggle");
   const foldTierToggle = document.getElementById("fold-tier-toggle");
   const cuOnlyToggle = document.getElementById("cu-only-toggle");
   const rsrlOnlyToggle = document.getElementById("r-sr-l-only-toggle");
@@ -66,6 +67,7 @@
   let previewCardId = null;
   let statusTimeoutId = null;
   let rarityFilterMode = "all";
+  let hideStatLines = false;
   let areTiersFolded = false;
   let loadRequestToken = 0;
 
@@ -97,6 +99,10 @@
     });
     importButton.addEventListener("click", () => importFileInput.click());
     importFileInput.addEventListener("change", handleImportFile);
+    hideStatLinesToggle.addEventListener("change", () => {
+      hideStatLines = hideStatLinesToggle.checked;
+      renderActiveBucket();
+    });
     foldTierToggle.addEventListener("change", () => {
       areTiersFolded = foldTierToggle.checked;
       renderActiveBucket();
@@ -173,6 +179,7 @@
     exportButton.disabled = disabled;
     importButton.disabled = disabled;
     importFileInput.disabled = disabled;
+    hideStatLinesToggle.disabled = disabled;
     foldTierToggle.disabled = disabled;
     cuOnlyToggle.disabled = disabled;
     rsrlOnlyToggle.disabled = disabled;
@@ -656,11 +663,11 @@
 
     const meta = document.createElement("section");
     meta.className = "tab-meta";
-    meta.append(
-      createMetaCount(viewCount, renderedCount, view.label),
-      createMetaText("Bottom-right numbers show how far a character is above or below that cost's vanilla stat line."),
-      createMetaText("Hover a thumbnail to magnify it, then drag it into place.")
-    );
+    meta.append(createMetaCount(viewCount, renderedCount, view.label));
+    if (!hideStatLines) {
+      meta.append(createMetaText("Bottom-right numbers show how far a character is above or below that cost's vanilla stat line."));
+    }
+    meta.append(createMetaText("Hover a thumbnail to magnify it, then drag it into place."));
 
     const board = document.createElement("section");
     board.className = "tier-board";
@@ -814,7 +821,7 @@
 
   function createCard(cardId, view, sourceTier = null) {
     const card = cardsById[cardId];
-    const deltaLabel = formatParDelta(card.parDelta);
+    const deltaLabel = hideStatLines ? null : formatParDelta(card.parDelta);
     const article = document.createElement("article");
     const image = document.createElement("img");
     article.className = "card";

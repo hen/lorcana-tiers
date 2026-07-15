@@ -29,6 +29,9 @@ It combines the cards from `C+`, `C`, and `C-` into the visible `C` lane, and ca
 `D` into the visible `D` lane. This is a render-only option: each card retains its original internal
 tier and ordering, so switching the toggle off restores the split-tier layout unchanged.
 
+The `Hide stat lines` display toggle is disabled by default. When enabled, it hides the bottom-right
+par-delta badges and their explanatory note without changing card data or placements.
+
 The site is intended for local use and should work as plain HTML/CSS/JS without a build step.
 
 ## Data Sources
