@@ -132,6 +132,14 @@ def analysis_abilities(card: dict) -> list[dict[str, str]]:
     return abilities
 
 
+def analysis_effects(card: dict) -> list[str]:
+    return [
+        effect
+        for effect in card.get("effects") or []
+        if isinstance(effect, str) and effect.strip()
+    ]
+
+
 def pluralize(word: str) -> str:
     lower = word.lower()
     if lower.endswith(("s", "x", "z", "ch", "sh")):
@@ -263,6 +271,7 @@ def build_entries(
                 "mentionedSubtypes": mentioned_subtypes,
                 "fullText": card.get("fullText") or "",
                 "abilities": analysis_abilities(card),
+                "effects": analysis_effects(card),
                 "rarity": card.get("rarity"),
                 "story": card.get("story"),
                 "cost": cost,

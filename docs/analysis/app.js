@@ -9,6 +9,7 @@
     { key: "characteristic", label: "Characteristics" },
     { key: "keyword", label: "Keywords" },
     { key: "reference", label: "References" },
+    { key: "other", label: "Other" },
   ];
 
   const manifest = window.LORCANA_TIER_SITE_MANIFEST;
@@ -155,6 +156,10 @@
       characteristic: subtypes.map((subtype) => view(`characteristic:${subtype}`, subtype, (card) => (card.subtypes || []).includes(subtype))),
       keyword: keywords.map((keyword) => view(`keyword:${keyword}`, keyword, (card) => getKeywords(card).includes(keyword))),
       reference: referenceTerms.map((term) => view(`reference:${term}`, term, (card) => getEffects(card).some((effect) => matchesTerm(effect, term)))),
+      other: [
+        view("other:removal", "Removal", (card) => getEffects(card).some(isCharacterRemovalEffect)),
+        view("other:draw", "Draw", (card) => getEffects(card).some(isDrawEffect)),
+      ],
     };
   }
 
@@ -171,7 +176,10 @@
   }
 
   function getEffects(card) {
-    return (card.abilities || []).map((ability) => ability.effect).filter(Boolean);
+    return [
+      ...(card.effects || []),
+      ...(card.abilities || []).map((ability) => ability.effect).filter(Boolean),
+    ];
   }
 
   function matchesTerm(text, term) {
@@ -179,6 +187,24 @@
     const plural = term.replace(/y$/i, "ies").replace(/(?<!y)$/i, "s");
     const pluralEscaped = plural.replace(/[.*+?^${}()|[\]\\]/g, "\\$&").replace(/\s+/g, "\\s+");
     return new RegExp(`(^|[^a-z0-9])(?:${escaped}|${pluralEscaped})(?=$|[^a-z0-9])`, "i").test(text);
+  }
+
+  function isCharacterRemovalEffect(effect) {
+    return [
+      /\bbanish\b/i,
+      /\bmove\s+\d+\s+damage\b/i,
+      /\bdeal\s+\d+\s+damage\b/i,
+      /\breturn\b[^.]*\bto\b[^.]*\bplayer'?s\s+hand\b/i,
+    ].some((pattern) => pattern.test(effect)) || hasNonDeckInkwellEffect(effect);
+  }
+
+  function hasNonDeckInkwellEffect(effect) {
+    return [...effect.matchAll(/\bput\s+((?:(?!\bput\b|[.])[\s\S])+?)\s+into\b[^.]*\binkwell\b/gi)]
+      .some((match) => !/\b(?:the\s+)?top\s+(?:\d+\s+)?cards?\b/i.test(match[1]));
+  }
+
+  function isDrawEffect(effect) {
+    return /\bdraws?\s+(?:a|\d+)\s+cards?\b/i.test(effect);
   }
 
   function render() {

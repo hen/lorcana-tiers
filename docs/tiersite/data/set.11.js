@@ -23,6 +23,7 @@ window.LORCANA_TIER_SITE_SETS["11"] = {
       "mentionedSubtypes": [],
       "fullText": "",
       "abilities": [],
+      "effects": [],
       "rarity": "Common",
       "story": "Pocahontas",
       "cost": 1,
@@ -47,6 +48,7 @@ window.LORCANA_TIER_SITE_SETS["11"] = {
           "effect": "While you have a character named Stitch in play, this character gets +1 ◊."
         }
       ],
+      "effects": [],
       "rarity": "Common",
       "story": "Lilo & Stitch",
       "cost": 1,
@@ -71,6 +73,7 @@ window.LORCANA_TIER_SITE_SETS["11"] = {
           "effect": "If you have a character named Lilo in play, you can play this character for free."
         }
       ],
+      "effects": [],
       "rarity": "Uncommon",
       "story": "Lilo & Stitch",
       "cost": 2,
@@ -95,6 +98,7 @@ window.LORCANA_TIER_SITE_SETS["11"] = {
           "effect": "When you play this character, each opponent chooses and discards a card."
         }
       ],
+      "effects": [],
       "rarity": "Common",
       "story": "The Lion King",
       "cost": 6,
@@ -120,6 +124,7 @@ window.LORCANA_TIER_SITE_SETS["11"] = {
           "keyword": "Support"
         }
       ],
+      "effects": [],
       "rarity": "Common",
       "story": "The Princess And The Frog",
       "cost": 4,
@@ -140,6 +145,7 @@ window.LORCANA_TIER_SITE_SETS["11"] = {
       "mentionedSubtypes": [],
       "fullText": "",
       "abilities": [],
+      "effects": [],
       "rarity": "Common",
       "story": "Pocahontas",
       "cost": 4,
@@ -165,6 +171,7 @@ window.LORCANA_TIER_SITE_SETS["11"] = {
           "effect": "Whenever this character quests, if you have 2 or more other characters in play, you may draw a card."
         }
       ],
+      "effects": [],
       "rarity": "Rare",
       "story": "Lilo & Stitch",
       "cost": 5,
@@ -190,6 +197,7 @@ window.LORCANA_TIER_SITE_SETS["11"] = {
           "effect": "When you play this character, chosen character gets +1 ◊ this turn."
         }
       ],
+      "effects": [],
       "rarity": "Common",
       "story": "Pocahontas",
       "cost": 3,
@@ -214,6 +222,7 @@ window.LORCANA_TIER_SITE_SETS["11"] = {
           "keyword": "Bodyguard"
         }
       ],
+      "effects": [],
       "rarity": "Common",
       "story": "Lilo & Stitch",
       "cost": 2,
@@ -241,6 +250,7 @@ window.LORCANA_TIER_SITE_SETS["11"] = {
           "effect": "When you play this character, you may return a Detective character card from your discard to your hand."
         }
       ],
+      "effects": [],
       "rarity": "Common",
       "story": "Zootopia",
       "cost": 5,
@@ -269,6 +279,7 @@ window.LORCANA_TIER_SITE_SETS["11"] = {
           "effect": "This character can't challenge."
         }
       ],
+      "effects": [],
       "rarity": "Uncommon",
       "story": "Pocahontas",
       "cost": 4,
@@ -294,6 +305,7 @@ window.LORCANA_TIER_SITE_SETS["11"] = {
           "effect": "Chosen opposing character gets -4 ¤ until the start of your next turn."
         }
       ],
+      "effects": [],
       "rarity": "Common",
       "story": "The Lion King",
       "cost": 4,
@@ -318,6 +330,7 @@ window.LORCANA_TIER_SITE_SETS["11"] = {
           "effect": "Once during your turn, you pay 1 ⬡ less for the next character you play this turn."
         }
       ],
+      "effects": [],
       "rarity": "Uncommon",
       "story": "Pocahontas",
       "cost": 2,
@@ -342,6 +355,7 @@ window.LORCANA_TIER_SITE_SETS["11"] = {
           "effect": "Whenever this character quests, chosen opposing character can't challenge and must quest during their next turn if able."
         }
       ],
+      "effects": [],
       "rarity": "Rare",
       "story": "Lilo & Stitch",
       "cost": 5,
@@ -366,6 +380,7 @@ window.LORCANA_TIER_SITE_SETS["11"] = {
           "effect": "At the end of your turn, if this character is exerted and none of your characters challenged this turn, gain 1 lore."
         }
       ],
+      "effects": [],
       "rarity": "Uncommon",
       "story": "Pocahontas",
       "cost": 2,
@@ -390,6 +405,7 @@ window.LORCANA_TIER_SITE_SETS["11"] = {
           "effect": "When you play this character, chosen opponent reveals their hand and discards a non-character card of your choice."
         }
       ],
+      "effects": [],
       "rarity": "Rare",
       "story": "The Lion King",
       "cost": 3,
@@ -417,6 +433,7 @@ window.LORCANA_TIER_SITE_SETS["11"] = {
           "effect": "Whenever this character quests, you may play a character with cost 2 or less from your discard for free."
         }
       ],
+      "effects": [],
       "rarity": "Super Rare",
       "story": "Lilo & Stitch",
       "cost": 6,
@@ -444,6 +461,7 @@ window.LORCANA_TIER_SITE_SETS["11"] = {
           "effect": "When you play this character, if you have another Alien character in play, draw a card."
         }
       ],
+      "effects": [],
       "rarity": "Uncommon",
       "story": "Lilo & Stitch",
       "cost": 3,
@@ -473,6 +491,7 @@ window.LORCANA_TIER_SITE_SETS["11"] = {
           "effect": "Whenever this character quests, you may remove all damage from chosen character."
         }
       ],
+      "effects": [],
       "rarity": "Rare",
       "story": "Lilo & Stitch",
       "cost": 8,
@@ -497,6 +516,7 @@ window.LORCANA_TIER_SITE_SETS["11"] = {
           "effect": "When you play this character, look at the top 4 cards of your deck. You may reveal a character card with cost 2 or less and put it into your hand. Put the rest on the bottom of your deck in any order."
         }
       ],
+      "effects": [],
       "rarity": "Uncommon",
       "story": "Lilo & Stitch",
       "cost": 3,
@@ -522,6 +542,7 @@ window.LORCANA_TIER_SITE_SETS["11"] = {
           "effect": "Remove up to 2 damage from chosen character of yours. For each 1 damage removed this way, you pay 1 ⬡ less for the next character you play this turn."
         }
       ],
+      "effects": [],
       "rarity": "Rare",
       "story": "Lilo & Stitch",
       "cost": 2,
@@ -550,6 +571,7 @@ window.LORCANA_TIER_SITE_SETS["11"] = {
           "effect": "When you play this character, if you used Shift to play her and none of your characters challenged this turn, characters can't challenge until the start of your next turn."
         }
       ],
+      "effects": [],
       "rarity": "Legendary",
       "story": "Pocahontas",
       "cost": 5,
@@ -575,6 +597,7 @@ window.LORCANA_TIER_SITE_SETS["11"] = {
           "effect": "When you play this character, chosen opposing character gets -2 ¤ until the start of your next turn."
         }
       ],
+      "effects": [],
       "rarity": "Uncommon",
       "story": "The Lion King",
       "cost": 2,
@@ -604,6 +627,7 @@ window.LORCANA_TIER_SITE_SETS["11"] = {
           "effect": "During your turn, whenever this character exerts, reveal a number of cards from the top of your deck equal to the number of cards under him. Put all revealed character cards into your hand. Put the rest on the bottom of your deck in any order."
         }
       ],
+      "effects": [],
       "rarity": "Super Rare",
       "story": "Bambi",
       "cost": 4,
@@ -632,6 +656,7 @@ window.LORCANA_TIER_SITE_SETS["11"] = {
           "keyword": "Singer"
         }
       ],
+      "effects": [],
       "rarity": "Uncommon",
       "story": "Lilo & Stitch",
       "cost": 2,
@@ -656,6 +681,7 @@ window.LORCANA_TIER_SITE_SETS["11"] = {
           "effect": "When you play this character, return a character card from your discard to your hand. If that character is named Tod, you may play him for free."
         }
       ],
+      "effects": [],
       "rarity": "Rare",
       "story": "The Fox and the Hound",
       "cost": 6,
@@ -680,6 +706,7 @@ window.LORCANA_TIER_SITE_SETS["11"] = {
           "effect": "This character can't challenge."
         }
       ],
+      "effects": [],
       "rarity": "Common",
       "story": "Pocahontas",
       "cost": 3,
@@ -697,6 +724,9 @@ window.LORCANA_TIER_SITE_SETS["11"] = {
       "mentionedSubtypes": [],
       "fullText": "Banish all characters.",
       "abilities": [],
+      "effects": [
+        "Banish all characters."
+      ],
       "rarity": "Super Rare",
       "story": "Lilo & Stitch",
       "cost": 8,
@@ -719,6 +749,9 @@ window.LORCANA_TIER_SITE_SETS["11"] = {
         {
           "effect": "A character with cost 3 or more can ⟳ to sing this song for free."
         }
+      ],
+      "effects": [
+        "You pay 2 ⬡ less for the next character you play this turn.\nDraw a card."
       ],
       "rarity": "Rare",
       "story": "Lilo & Stitch",
@@ -743,6 +776,9 @@ window.LORCANA_TIER_SITE_SETS["11"] = {
           "effect": "A character with cost 2 or more can ⟳ to sing this song for free."
         }
       ],
+      "effects": [
+        "Chosen character can't be challenged until the start of\nyour next turn."
+      ],
       "rarity": "Common",
       "story": "Tangled",
       "cost": 2,
@@ -760,6 +796,9 @@ window.LORCANA_TIER_SITE_SETS["11"] = {
       "mentionedSubtypes": [],
       "fullText": "For the rest of this turn, whenever one of your\ncharacters quests, you may draw a card.",
       "abilities": [],
+      "effects": [
+        "For the rest of this turn, whenever one of your\ncharacters quests, you may draw a card."
+      ],
       "rarity": "Uncommon",
       "story": "Pocahontas",
       "cost": 4,
@@ -777,6 +816,9 @@ window.LORCANA_TIER_SITE_SETS["11"] = {
       "mentionedSubtypes": [],
       "fullText": "Remove all damage from chosen character of yours.\nDraw a card for each 1 damage removed this way.",
       "abilities": [],
+      "effects": [
+        "Remove all damage from chosen character of yours.\nDraw a card for each 1 damage removed this way."
+      ],
       "rarity": "Legendary",
       "story": "Lilo & Stitch",
       "cost": 3,
@@ -801,6 +843,7 @@ window.LORCANA_TIER_SITE_SETS["11"] = {
           "effect": "At the end of your turn, if none of your characters challenged this turn, reveal the top card of your deck. If it's a character card with cost 3 or less or named Pocahontas, you may put it into your hand. Otherwise, put it on the bottom of your deck."
         }
       ],
+      "effects": [],
       "rarity": "Rare",
       "story": "Pocahontas",
       "cost": 3,
@@ -818,6 +861,7 @@ window.LORCANA_TIER_SITE_SETS["11"] = {
       "mentionedSubtypes": [],
       "fullText": "",
       "abilities": [],
+      "effects": [],
       "rarity": "Common",
       "story": "Zootopia",
       "cost": 1,
@@ -842,6 +886,7 @@ window.LORCANA_TIER_SITE_SETS["11"] = {
           "effect": "When you play this character, chosen character of yours gains Evasive until the start of your next turn. (Only characters with Evasive can challenge them.)"
         }
       ],
+      "effects": [],
       "rarity": "Common",
       "story": "The Lion King",
       "cost": 2,
@@ -870,6 +915,7 @@ window.LORCANA_TIER_SITE_SETS["11"] = {
           "effect": "Whenever this character quests, put all cards from under her into your hand."
         }
       ],
+      "effects": [],
       "rarity": "Uncommon",
       "story": "Alice In Wonderland",
       "cost": 4,
@@ -894,6 +940,7 @@ window.LORCANA_TIER_SITE_SETS["11"] = {
           "effect": "When you play this character, you may return chosen character, item, or location with cost 2 or less to their player's hand."
         }
       ],
+      "effects": [],
       "rarity": "Common",
       "story": "Winnie the Pooh",
       "cost": 4,
@@ -919,6 +966,7 @@ window.LORCANA_TIER_SITE_SETS["11"] = {
           "effect": "When you play this character, exert chosen opposing character."
         }
       ],
+      "effects": [],
       "rarity": "Common",
       "story": "Darkwing Duck",
       "cost": 4,
@@ -943,6 +991,7 @@ window.LORCANA_TIER_SITE_SETS["11"] = {
           "effect": "When you play this character, move up to 1 damage from chosen character to chosen opposing character."
         }
       ],
+      "effects": [],
       "rarity": "Uncommon",
       "story": "Pocahontas",
       "cost": 1,
@@ -965,6 +1014,7 @@ window.LORCANA_TIER_SITE_SETS["11"] = {
       "mentionedSubtypes": [],
       "fullText": "",
       "abilities": [],
+      "effects": [],
       "rarity": "Common",
       "story": "Darkwing Duck",
       "cost": 3,
@@ -989,6 +1039,7 @@ window.LORCANA_TIER_SITE_SETS["11"] = {
           "keyword": "Challenger"
         }
       ],
+      "effects": [],
       "rarity": "Uncommon",
       "story": "Winnie the Pooh",
       "cost": 3,
@@ -1014,6 +1065,7 @@ window.LORCANA_TIER_SITE_SETS["11"] = {
           "effect": "Whenever this character quests, gain lore equal to another chosen exerted character's ◊."
         }
       ],
+      "effects": [],
       "rarity": "Super Rare",
       "story": "Pocahontas",
       "cost": 2,
@@ -1040,6 +1092,7 @@ window.LORCANA_TIER_SITE_SETS["11"] = {
           "keyword": "Rush"
         }
       ],
+      "effects": [],
       "rarity": "Common",
       "story": "Darkwing Duck",
       "cost": 3,
@@ -1067,6 +1120,7 @@ window.LORCANA_TIER_SITE_SETS["11"] = {
           "effect": "When you play this character, put up to 2 cards from chosen player's discard on the bottom of their deck in any order."
         }
       ],
+      "effects": [],
       "rarity": "Uncommon",
       "story": "The Black Cauldron",
       "cost": 5,
@@ -1094,6 +1148,7 @@ window.LORCANA_TIER_SITE_SETS["11"] = {
           "effect": "When you play this character, for each opposing player, you may choose a character of theirs. They can't ready at the start of their next turn."
         }
       ],
+      "effects": [],
       "rarity": "Rare",
       "story": "Winnie the Pooh",
       "cost": 9,
@@ -1121,6 +1176,7 @@ window.LORCANA_TIER_SITE_SETS["11"] = {
           "effect": "At the end of your turn, if this character is exerted, choose and discard a card or banish him."
         }
       ],
+      "effects": [],
       "rarity": "Uncommon",
       "story": "Pocahontas",
       "cost": 1,
@@ -1150,6 +1206,7 @@ window.LORCANA_TIER_SITE_SETS["11"] = {
           "effect": "When you play this character, you may choose an opposing character and move 1 damage from each other character to them."
         }
       ],
+      "effects": [],
       "rarity": "Rare",
       "story": "Darkwing Duck",
       "cost": 6,
@@ -1178,6 +1235,7 @@ window.LORCANA_TIER_SITE_SETS["11"] = {
           "effect": "While you have 7 or more cards in your hand, this character gets +3 ◊."
         }
       ],
+      "effects": [],
       "rarity": "Legendary",
       "story": "Peter Pan",
       "cost": 3,
@@ -1206,6 +1264,7 @@ window.LORCANA_TIER_SITE_SETS["11"] = {
           "effect": "This character gets +1 ◊ for each card under him."
         }
       ],
+      "effects": [],
       "rarity": "Rare",
       "story": "Aladdin",
       "cost": 3,
@@ -1234,6 +1293,7 @@ window.LORCANA_TIER_SITE_SETS["11"] = {
           "effect": "Whenever this character quests, you may gain lore equal to the ◊ of a character card in your discard. If you do, put that card on the bottom of your deck."
         }
       ],
+      "effects": [],
       "rarity": "Legendary",
       "story": "Frozen",
       "cost": 5,
@@ -1261,6 +1321,7 @@ window.LORCANA_TIER_SITE_SETS["11"] = {
           "effect": "Once during your turn, whenever a card leaves your discard, draw a card."
         }
       ],
+      "effects": [],
       "rarity": "Rare",
       "story": "Frozen",
       "cost": 4,
@@ -1286,6 +1347,7 @@ window.LORCANA_TIER_SITE_SETS["11"] = {
           "effect": "When you play this character, you may put a card from chosen player's discard on the bottom of their deck."
         }
       ],
+      "effects": [],
       "rarity": "Uncommon",
       "story": "Frozen",
       "cost": 2,
@@ -1310,6 +1372,7 @@ window.LORCANA_TIER_SITE_SETS["11"] = {
           "effect": "Whenever this character quests, each opponent can't ready more than 1 of their characters at the start of their next turn."
         }
       ],
+      "effects": [],
       "rarity": "Rare",
       "story": "Frozen",
       "cost": 5,
@@ -1331,6 +1394,7 @@ window.LORCANA_TIER_SITE_SETS["11"] = {
       "mentionedSubtypes": [],
       "fullText": "",
       "abilities": [],
+      "effects": [],
       "rarity": "Common",
       "story": "Darkwing Duck",
       "cost": 7,
@@ -1355,6 +1419,7 @@ window.LORCANA_TIER_SITE_SETS["11"] = {
           "effect": "If this is your first turn and you're not the first player, you pay 1 ⬡ less to play this character."
         }
       ],
+      "effects": [],
       "rarity": "Uncommon",
       "story": "Winnie the Pooh",
       "cost": 2,
@@ -1379,6 +1444,7 @@ window.LORCANA_TIER_SITE_SETS["11"] = {
           "keyword": "Evasive"
         }
       ],
+      "effects": [],
       "rarity": "Common",
       "story": "Winnie the Pooh",
       "cost": 6,
@@ -1404,6 +1470,7 @@ window.LORCANA_TIER_SITE_SETS["11"] = {
           "effect": "When you play this character, you may return another chosen character of yours to your hand. If you do, gain 1 lore."
         }
       ],
+      "effects": [],
       "rarity": "Rare",
       "story": "The Black Cauldron",
       "cost": 5,
@@ -1428,6 +1495,7 @@ window.LORCANA_TIER_SITE_SETS["11"] = {
           "effect": "When this character is banished in a challenge, return this card from your discard to your hand."
         }
       ],
+      "effects": [],
       "rarity": "Common",
       "story": "Moana",
       "cost": 2,
@@ -1448,6 +1516,7 @@ window.LORCANA_TIER_SITE_SETS["11"] = {
       "mentionedSubtypes": [],
       "fullText": "",
       "abilities": [],
+      "effects": [],
       "rarity": "Common",
       "story": "Moana",
       "cost": 1,
@@ -1478,6 +1547,7 @@ window.LORCANA_TIER_SITE_SETS["11"] = {
           "keyword": "Evasive"
         }
       ],
+      "effects": [],
       "rarity": "Super Rare",
       "story": "Frozen",
       "cost": 4,
@@ -1501,6 +1571,9 @@ window.LORCANA_TIER_SITE_SETS["11"] = {
           "effect": "A character with cost 3 or more can ⟳ to sing this song for free."
         }
       ],
+      "effects": [
+        "Chosen opponent chooses YES! or NO!:\n• YES! You gain 3 lore.\n• NO! They choose a character of theirs and put that\ncard on the bottom of their deck."
+      ],
       "rarity": "Rare",
       "story": "Frozen",
       "cost": 3,
@@ -1518,6 +1591,9 @@ window.LORCANA_TIER_SITE_SETS["11"] = {
       "mentionedSubtypes": [],
       "fullText": "Put all cards from under chosen character, item, or\nlocation on the bottom of their player's deck in a\nrandom order. Draw a card.",
       "abilities": [],
+      "effects": [
+        "Put all cards from under chosen character, item, or\nlocation on the bottom of their player's deck in a\nrandom order. Draw a card."
+      ],
       "rarity": "Common",
       "story": "Mickey Mouse & Friends",
       "cost": 2,
@@ -1535,6 +1611,9 @@ window.LORCANA_TIER_SITE_SETS["11"] = {
       "mentionedSubtypes": [],
       "fullText": "Chosen character gains Challenger +3 this turn.\n(They get +3 ¤ while challenging.)",
       "abilities": [],
+      "effects": [
+        "Chosen character gains Challenger +3 this turn.\n(They get +3 ¤ while challenging.)"
+      ],
       "rarity": "Common",
       "story": "The Black Cauldron",
       "cost": 1,
@@ -1558,6 +1637,9 @@ window.LORCANA_TIER_SITE_SETS["11"] = {
           "effect": "A character with cost 4 or more can ⟳ to sing this song for free."
         }
       ],
+      "effects": [
+        "Each player reveals the top card of their deck. Draw\na card for each different ink type of cards revealed\nthis way."
+      ],
       "rarity": "Super Rare",
       "story": "Pocahontas",
       "cost": 4,
@@ -1579,6 +1661,7 @@ window.LORCANA_TIER_SITE_SETS["11"] = {
           "effect": "At the end of your turn, if none of your characters challenged this turn, chosen character of yours gains Evasive until the start of your next turn. (Only characters with Evasive can challenge them.)"
         }
       ],
+      "effects": [],
       "rarity": "Uncommon",
       "story": "Pocahontas",
       "cost": 2,
@@ -1600,6 +1683,7 @@ window.LORCANA_TIER_SITE_SETS["11"] = {
           "effect": "Play a character with cost 5 or less for free. They gain Rush. At the end of your turn, banish them. (They can challenge the turn they're played.)"
         }
       ],
+      "effects": [],
       "rarity": "Rare",
       "story": "Lorcana",
       "cost": 3,
@@ -1621,6 +1705,7 @@ window.LORCANA_TIER_SITE_SETS["11"] = {
           "effect": "Chosen exerted character can't ready at the start of their next turn."
         }
       ],
+      "effects": [],
       "rarity": "Common",
       "story": "Winnie the Pooh",
       "cost": 1,
@@ -1642,6 +1727,7 @@ window.LORCANA_TIER_SITE_SETS["11"] = {
           "effect": "When this location is banished, if there was an exerted character here, return this card from your discard to your hand."
         }
       ],
+      "effects": [],
       "rarity": "Uncommon",
       "story": "Lorcana",
       "cost": 3,
@@ -1667,6 +1753,7 @@ window.LORCANA_TIER_SITE_SETS["11"] = {
           "effect": "Whenever this character quests, gain lore equal to her ¤, to a maximum of 6 lore."
         }
       ],
+      "effects": [],
       "rarity": "Super Rare",
       "story": "Mulan",
       "cost": 2,
@@ -1692,6 +1779,7 @@ window.LORCANA_TIER_SITE_SETS["11"] = {
           "effect": "Chosen opposing character gains Reckless until the start of your next turn. (They can't quest and must challenge if able.)"
         }
       ],
+      "effects": [],
       "rarity": "Common",
       "story": "Lilo & Stitch",
       "cost": 1,
@@ -1716,6 +1804,7 @@ window.LORCANA_TIER_SITE_SETS["11"] = {
           "keyword": "Ward"
         }
       ],
+      "effects": [],
       "rarity": "Uncommon",
       "story": "The Fox and the Hound",
       "cost": 4,
@@ -1736,6 +1825,7 @@ window.LORCANA_TIER_SITE_SETS["11"] = {
       "mentionedSubtypes": [],
       "fullText": "",
       "abilities": [],
+      "effects": [],
       "rarity": "Common",
       "story": "Mickey Mouse & Friends",
       "cost": 2,
@@ -1760,6 +1850,7 @@ window.LORCANA_TIER_SITE_SETS["11"] = {
           "effect": "During opponents' turns, this character gains Resist +2. (Damage dealt to them is reduced by 2.)"
         }
       ],
+      "effects": [],
       "rarity": "Common",
       "story": "Mulan",
       "cost": 4,
@@ -1780,6 +1871,7 @@ window.LORCANA_TIER_SITE_SETS["11"] = {
       "mentionedSubtypes": [],
       "fullText": "",
       "abilities": [],
+      "effects": [],
       "rarity": "Uncommon",
       "story": "Mulan",
       "cost": 7,
@@ -1804,6 +1896,7 @@ window.LORCANA_TIER_SITE_SETS["11"] = {
           "effect": "Chosen character gets +1 ¤ this turn."
         }
       ],
+      "effects": [],
       "rarity": "Rare",
       "story": "Mulan",
       "cost": 3,
@@ -1828,6 +1921,7 @@ window.LORCANA_TIER_SITE_SETS["11"] = {
           "effect": "When you play this character, you may exert chosen damaged character."
         }
       ],
+      "effects": [],
       "rarity": "Common",
       "story": "The Fox and the Hound",
       "cost": 3,
@@ -1852,6 +1946,7 @@ window.LORCANA_TIER_SITE_SETS["11"] = {
           "effect": "When you play this character, you may shuffle chosen opposing character into their player's deck. If you do, that player may play a character from their discard for free."
         }
       ],
+      "effects": [],
       "rarity": "Super Rare",
       "story": "Fantasia",
       "cost": 5,
@@ -1876,6 +1971,7 @@ window.LORCANA_TIER_SITE_SETS["11"] = {
           "effect": "When you play this character, each opponent chooses one of their characters and deals 1 damage to them."
         }
       ],
+      "effects": [],
       "rarity": "Common",
       "story": "The Fox and the Hound",
       "cost": 2,
@@ -1904,6 +2000,7 @@ window.LORCANA_TIER_SITE_SETS["11"] = {
           "effect": "When you play this character, you may put 3 item cards from your discard on the bottom of your deck in any order. If you do, deal 3 damage to chosen character."
         }
       ],
+      "effects": [],
       "rarity": "Rare",
       "story": "Darkwing Duck",
       "cost": 8,
@@ -1927,6 +2024,7 @@ window.LORCANA_TIER_SITE_SETS["11"] = {
           "keyword": "Evasive"
         }
       ],
+      "effects": [],
       "rarity": "Common",
       "story": "The Fox and the Hound",
       "cost": 2,
@@ -1951,6 +2049,7 @@ window.LORCANA_TIER_SITE_SETS["11"] = {
           "effect": "Whenever you play an action, this character gains Evasive until the start of your next turn. (Only characters with Evasive can challenge them.)"
         }
       ],
+      "effects": [],
       "rarity": "Common",
       "story": "Aladdin",
       "cost": 3,
@@ -1976,6 +2075,7 @@ window.LORCANA_TIER_SITE_SETS["11"] = {
           "effect": "When you play this character, deal 2 damage to chosen character."
         }
       ],
+      "effects": [],
       "rarity": "Uncommon",
       "story": "Mulan",
       "cost": 5,
@@ -2004,6 +2104,7 @@ window.LORCANA_TIER_SITE_SETS["11"] = {
           "effect": "When this character is banished, each opponent chooses and discards a card for each card that was under him."
         }
       ],
+      "effects": [],
       "rarity": "Super Rare",
       "story": "Mickey's Christmas Carol",
       "cost": 4,
@@ -2031,6 +2132,7 @@ window.LORCANA_TIER_SITE_SETS["11"] = {
           "effect": "Whenever this character quests, your characters with Evasive get +1 ◊ this turn."
         }
       ],
+      "effects": [],
       "rarity": "Rare",
       "story": "The Fox and the Hound",
       "cost": 5,
@@ -2056,6 +2158,7 @@ window.LORCANA_TIER_SITE_SETS["11"] = {
           "effect": "When you play this character, chosen player reveals their hand."
         }
       ],
+      "effects": [],
       "rarity": "Common",
       "story": "The Fox and the Hound",
       "cost": 1,
@@ -2083,6 +2186,7 @@ window.LORCANA_TIER_SITE_SETS["11"] = {
           "keyword": "Evasive"
         }
       ],
+      "effects": [],
       "rarity": "Uncommon",
       "story": "The Fox and the Hound",
       "cost": 3,
@@ -2103,6 +2207,7 @@ window.LORCANA_TIER_SITE_SETS["11"] = {
       "mentionedSubtypes": [],
       "fullText": "",
       "abilities": [],
+      "effects": [],
       "rarity": "Common",
       "story": "The Fox and the Hound",
       "cost": 1,
@@ -2130,6 +2235,7 @@ window.LORCANA_TIER_SITE_SETS["11"] = {
           "effect": "When you play this character, you may put the top card of your deck facedown under one of your characters or locations with Boost. If you do, draw a card."
         }
       ],
+      "effects": [],
       "rarity": "Rare",
       "story": "Mickey's Christmas Carol",
       "cost": 5,
@@ -2157,6 +2263,7 @@ window.LORCANA_TIER_SITE_SETS["11"] = {
           "keyword": "Evasive"
         }
       ],
+      "effects": [],
       "rarity": "Uncommon",
       "story": "Alice In Wonderland",
       "cost": 2,
@@ -2181,6 +2288,7 @@ window.LORCANA_TIER_SITE_SETS["11"] = {
           "effect": "Whenever this character quests, choose one: • Gain 1 lore. • Chosen character of yours gains Evasive until the start of your next turn. (Only characters with Evasive can challenge them.)"
         }
       ],
+      "effects": [],
       "rarity": "Rare",
       "story": "The Fox and the Hound",
       "cost": 4,
@@ -2205,6 +2313,7 @@ window.LORCANA_TIER_SITE_SETS["11"] = {
           "effect": "When you play this character and when he leaves play, each opponent chooses and discards a card."
         }
       ],
+      "effects": [],
       "rarity": "Uncommon",
       "story": "Mickey Mouse & Friends",
       "cost": 6,
@@ -2235,6 +2344,7 @@ window.LORCANA_TIER_SITE_SETS["11"] = {
           "effect": "Twice during your turn, whenever this character is chosen for an action or an item's ability, you may ready him."
         }
       ],
+      "effects": [],
       "rarity": "Legendary",
       "story": "The Fox and the Hound",
       "cost": 7,
@@ -2262,6 +2372,7 @@ window.LORCANA_TIER_SITE_SETS["11"] = {
           "effect": "During opponents' turns, whenever one of your other characters is banished, you may draw a card for each card that was under them."
         }
       ],
+      "effects": [],
       "rarity": "Legendary",
       "story": "Mickey's Christmas Carol",
       "cost": 4,
@@ -2285,6 +2396,9 @@ window.LORCANA_TIER_SITE_SETS["11"] = {
           "effect": "A character with cost 2 or more can ⟳ to sing this song for free."
         }
       ],
+      "effects": [
+        "Draw 2 cards, then choose and discard a card."
+      ],
       "rarity": "Common",
       "story": "Mulan",
       "cost": 2,
@@ -2302,6 +2416,9 @@ window.LORCANA_TIER_SITE_SETS["11"] = {
       "mentionedSubtypes": [],
       "fullText": "Each opponent chooses and discards a card. If you\nhave a character with Evasive in play, gain 1 lore.",
       "abilities": [],
+      "effects": [
+        "Each opponent chooses and discards a card. If you\nhave a character with Evasive in play, gain 1 lore."
+      ],
       "rarity": "Common",
       "story": "Lilo & Stitch",
       "cost": 2,
@@ -2319,6 +2436,9 @@ window.LORCANA_TIER_SITE_SETS["11"] = {
       "mentionedSubtypes": [],
       "fullText": "Banish all locations. Draw 2 cards, then choose and\ndiscard a card.",
       "abilities": [],
+      "effects": [
+        "Banish all locations. Draw 2 cards, then choose and\ndiscard a card."
+      ],
       "rarity": "Rare",
       "story": "Frozen",
       "cost": 4,
@@ -2341,6 +2461,9 @@ window.LORCANA_TIER_SITE_SETS["11"] = {
         {
           "effect": "A character with cost 4 or more can ⟳ to sing this song for free."
         }
+      ],
+      "effects": [
+        "Choose one:\n• Draw a card. Chosen character of yours gets +1 ◊ and gains\nEvasive until the start of your next turn. (Only characters\nwith Evasive can challenge them.)\n• Banish chosen damaged character."
       ],
       "rarity": "Uncommon",
       "story": "The Fox and the Hound",
@@ -2366,6 +2489,7 @@ window.LORCANA_TIER_SITE_SETS["11"] = {
           "effect": "During opponents' turns, your characters gain Resist +1. (Damage dealt to them is reduced by 1.)"
         }
       ],
+      "effects": [],
       "rarity": "Uncommon",
       "story": "Lorcana",
       "cost": 3,
@@ -2390,6 +2514,7 @@ window.LORCANA_TIER_SITE_SETS["11"] = {
           "effect": "Deal 1 damage to chosen character."
         }
       ],
+      "effects": [],
       "rarity": "Uncommon",
       "story": "The Lion King",
       "cost": 2,
@@ -2411,6 +2536,7 @@ window.LORCANA_TIER_SITE_SETS["11"] = {
           "effect": "Play a character with cost up to 2 more than the banished character for free."
         }
       ],
+      "effects": [],
       "rarity": "Rare",
       "story": "Darkwing Duck",
       "cost": 3,
@@ -2435,6 +2561,7 @@ window.LORCANA_TIER_SITE_SETS["11"] = {
           "effect": "Banish chosen location."
         }
       ],
+      "effects": [],
       "rarity": "Rare",
       "story": "Beauty and the Beast",
       "cost": 4,
@@ -2456,6 +2583,7 @@ window.LORCANA_TIER_SITE_SETS["11"] = {
           "effect": "While there's a character with Evasive here, this location gains Evasive. (Only characters with Evasive can challenge it.)"
         }
       ],
+      "effects": [],
       "rarity": "Common",
       "story": "The Fox and the Hound",
       "cost": 3,
@@ -2487,6 +2615,7 @@ window.LORCANA_TIER_SITE_SETS["11"] = {
           "effect": "When this character is banished, banish all characters with ¤ equal to or less than the ¤ he had in play."
         }
       ],
+      "effects": [],
       "rarity": "Legendary",
       "story": "Wreck-It Ralph",
       "cost": 7,
@@ -2515,6 +2644,7 @@ window.LORCANA_TIER_SITE_SETS["11"] = {
           "effect": "This character gets +1 ¤ and +1 ⛉ for each card under him."
         }
       ],
+      "effects": [],
       "rarity": "Uncommon",
       "story": "Mickey's Christmas Carol",
       "cost": 2,
@@ -2535,6 +2665,7 @@ window.LORCANA_TIER_SITE_SETS["11"] = {
       "mentionedSubtypes": [],
       "fullText": "",
       "abilities": [],
+      "effects": [],
       "rarity": "Common",
       "story": "Mickey's Christmas Carol",
       "cost": 1,
@@ -2556,6 +2687,7 @@ window.LORCANA_TIER_SITE_SETS["11"] = {
       "mentionedSubtypes": [],
       "fullText": "",
       "abilities": [],
+      "effects": [],
       "rarity": "Common",
       "story": "Darkwing Duck",
       "cost": 3,
@@ -2583,6 +2715,7 @@ window.LORCANA_TIER_SITE_SETS["11"] = {
           "keyword": "Reckless"
         }
       ],
+      "effects": [],
       "rarity": "Uncommon",
       "story": "The Fox and the Hound",
       "cost": 6,
@@ -2611,6 +2744,7 @@ window.LORCANA_TIER_SITE_SETS["11"] = {
           "effect": "If you have a character in play with 5 ¤ or more, you pay 1 ⬡ less to play this character."
         }
       ],
+      "effects": [],
       "rarity": "Uncommon",
       "story": "Mulan",
       "cost": 4,
@@ -2636,6 +2770,7 @@ window.LORCANA_TIER_SITE_SETS["11"] = {
           "keyword": "Rush"
         }
       ],
+      "effects": [],
       "rarity": "Common",
       "story": "Moana",
       "cost": 4,
@@ -2660,6 +2795,7 @@ window.LORCANA_TIER_SITE_SETS["11"] = {
           "effect": "This character enters play with 2 damage."
         }
       ],
+      "effects": [],
       "rarity": "Common",
       "story": "Mulan",
       "cost": 2,
@@ -2688,6 +2824,7 @@ window.LORCANA_TIER_SITE_SETS["11"] = {
           "keyword": "Reckless"
         }
       ],
+      "effects": [],
       "rarity": "Uncommon",
       "story": "Darkwing Duck",
       "cost": 2,
@@ -2717,6 +2854,7 @@ window.LORCANA_TIER_SITE_SETS["11"] = {
           "effect": "If you have 3 or more cards in your hand, this character can't ready."
         }
       ],
+      "effects": [],
       "rarity": "Rare",
       "story": "Gargoyles",
       "cost": 3,
@@ -2742,6 +2880,7 @@ window.LORCANA_TIER_SITE_SETS["11"] = {
           "keyword": "Evasive"
         }
       ],
+      "effects": [],
       "rarity": "Common",
       "story": "Frozen",
       "cost": 2,
@@ -2767,6 +2906,7 @@ window.LORCANA_TIER_SITE_SETS["11"] = {
           "effect": "While you have a Queen character in play, this character gets +2 ¤."
         }
       ],
+      "effects": [],
       "rarity": "Common",
       "story": "Frozen",
       "cost": 3,
@@ -2788,6 +2928,7 @@ window.LORCANA_TIER_SITE_SETS["11"] = {
       "mentionedSubtypes": [],
       "fullText": "",
       "abilities": [],
+      "effects": [],
       "rarity": "Common",
       "story": "Darkwing Duck",
       "cost": 2,
@@ -2816,6 +2957,7 @@ window.LORCANA_TIER_SITE_SETS["11"] = {
           "effect": "Whenever this character challenges another character, each opponent loses 1 lore and you gain 1 lore."
         }
       ],
+      "effects": [],
       "rarity": "Rare",
       "story": "Darkwing Duck",
       "cost": 5,
@@ -2846,6 +2988,7 @@ window.LORCANA_TIER_SITE_SETS["11"] = {
           "effect": "While there's a card under this character, he gets +3 ¤."
         }
       ],
+      "effects": [],
       "rarity": "Common",
       "story": "Hercules",
       "cost": 1,
@@ -2874,6 +3017,7 @@ window.LORCANA_TIER_SITE_SETS["11"] = {
           "effect": "Whenever this character challenges, if he's at a location, he takes no damage from the challenge."
         }
       ],
+      "effects": [],
       "rarity": "Super Rare",
       "story": "Beauty and the Beast",
       "cost": 2,
@@ -2898,6 +3042,7 @@ window.LORCANA_TIER_SITE_SETS["11"] = {
           "keyword": "Evasive"
         }
       ],
+      "effects": [],
       "rarity": "Uncommon",
       "story": "Lilo & Stitch",
       "cost": 4,
@@ -2923,6 +3068,7 @@ window.LORCANA_TIER_SITE_SETS["11"] = {
           "effect": "When you play this character, you may ready chosen character. If you do, they can't quest for the rest of this turn."
         }
       ],
+      "effects": [],
       "rarity": "Common",
       "story": "Mickey's Christmas Carol",
       "cost": 5,
@@ -2947,6 +3093,7 @@ window.LORCANA_TIER_SITE_SETS["11"] = {
           "effect": "Banish chosen character."
         }
       ],
+      "effects": [],
       "rarity": "Rare",
       "story": "Mickey Mouse & Friends",
       "cost": 3,
@@ -2974,6 +3121,7 @@ window.LORCANA_TIER_SITE_SETS["11"] = {
           "effect": "When you play this character, each opponent loses 2 lore."
         }
       ],
+      "effects": [],
       "rarity": "Rare",
       "story": "Frozen",
       "cost": 9,
@@ -3006,6 +3154,7 @@ window.LORCANA_TIER_SITE_SETS["11"] = {
           "effect": "While this character is at a location, she gets +3 ◊."
         }
       ],
+      "effects": [],
       "rarity": "Legendary",
       "story": "Frozen",
       "cost": 6,
@@ -3033,6 +3182,7 @@ window.LORCANA_TIER_SITE_SETS["11"] = {
           "effect": "At the end of your turn, if an opponent has 0 lore, you gain 1 lore."
         }
       ],
+      "effects": [],
       "rarity": "Super Rare",
       "story": "Mickey's Christmas Carol",
       "cost": 4,
@@ -3059,6 +3209,7 @@ window.LORCANA_TIER_SITE_SETS["11"] = {
           "effect": "When you play this character, you pay 2 ⬡ less for the next location you play this turn."
         }
       ],
+      "effects": [],
       "rarity": "Uncommon",
       "story": "Frozen",
       "cost": 3,
@@ -3088,6 +3239,7 @@ window.LORCANA_TIER_SITE_SETS["11"] = {
           "effect": "This character can't quest or challenge unless you put a card under him this turn."
         }
       ],
+      "effects": [],
       "rarity": "Rare",
       "story": "Mickey's Christmas Carol",
       "cost": 4,
@@ -3105,6 +3257,9 @@ window.LORCANA_TIER_SITE_SETS["11"] = {
       "mentionedSubtypes": [],
       "fullText": "Each opponent loses lore equal to the damage on\nchosen character of yours, to a maximum of 4 lore\neach. Draw a card.",
       "abilities": [],
+      "effects": [
+        "Each opponent loses lore equal to the damage on\nchosen character of yours, to a maximum of 4 lore\neach. Draw a card."
+      ],
       "rarity": "Super Rare",
       "story": "Lilo & Stitch",
       "cost": 4,
@@ -3127,6 +3282,9 @@ window.LORCANA_TIER_SITE_SETS["11"] = {
         {
           "effect": "A character with cost 2 or more can ⟳ to sing this song for free."
         }
+      ],
+      "effects": [
+        "Chosen character gets +5 ¤ this turn."
       ],
       "rarity": "Common",
       "story": "Mulan",
@@ -3151,6 +3309,9 @@ window.LORCANA_TIER_SITE_SETS["11"] = {
           "effect": "A character with cost 4 or more can ⟳ to sing this song for free."
         }
       ],
+      "effects": [
+        "If a character was banished this turn, draw 2 cards."
+      ],
       "rarity": "Common",
       "story": "Mulan",
       "cost": 4,
@@ -3173,6 +3334,9 @@ window.LORCANA_TIER_SITE_SETS["11"] = {
         {
           "effect": "A character with cost 3 or more can ⟳ to sing this song for free."
         }
+      ],
+      "effects": [
+        "Look at the top 4 cards of your deck. You may reveal\na location card and put it into your hand. Put the\nrest into your discard. You pay 3 ⬡ less for the next\nlocation you play this turn."
       ],
       "rarity": "Rare",
       "story": "Frozen",
@@ -3197,6 +3361,9 @@ window.LORCANA_TIER_SITE_SETS["11"] = {
           "effect": "A character with cost 5 or more can ⟳ to sing this song for free."
         }
       ],
+      "effects": [
+        "Banish up to 2 chosen characters with 2 ¤ or less."
+      ],
       "rarity": "Uncommon",
       "story": "Beauty and the Beast",
       "cost": 5,
@@ -3218,6 +3385,7 @@ window.LORCANA_TIER_SITE_SETS["11"] = {
           "effect": "Put the top card of your deck facedown under one of your characters or locations with Boost."
         }
       ],
+      "effects": [],
       "rarity": "Uncommon",
       "story": "Mickey's Christmas Carol",
       "cost": 1,
@@ -3239,6 +3407,7 @@ window.LORCANA_TIER_SITE_SETS["11"] = {
           "effect": "Reveal the top card of your deck. You may play it as if it were in your hand. Otherwise, put it in your discard."
         }
       ],
+      "effects": [],
       "rarity": "Rare",
       "story": "Frozen",
       "cost": 3,
@@ -3263,6 +3432,7 @@ window.LORCANA_TIER_SITE_SETS["11"] = {
           "effect": "This location gets +1 ⛉ and +1 ◊ for each card under it."
         }
       ],
+      "effects": [],
       "rarity": "Uncommon",
       "story": "Mickey's Christmas Carol",
       "cost": 2,
@@ -3287,6 +3457,7 @@ window.LORCANA_TIER_SITE_SETS["11"] = {
           "effect": "At the start of your turn, you may put all cards from under this location into your hand. If you do, banish this location."
         }
       ],
+      "effects": [],
       "rarity": "Rare",
       "story": "Mickey's Christmas Carol",
       "cost": 4,
@@ -3308,6 +3479,7 @@ window.LORCANA_TIER_SITE_SETS["11"] = {
           "effect": "Whenever a character here challenges another character, gain 1 lore."
         }
       ],
+      "effects": [],
       "rarity": "Common",
       "story": "Beauty and the Beast",
       "cost": 1,
@@ -3333,6 +3505,7 @@ window.LORCANA_TIER_SITE_SETS["11"] = {
           "effect": "Put this character facedown under one of your characters or locations with Boost."
         }
       ],
+      "effects": [],
       "rarity": "Uncommon",
       "story": "Winnie the Pooh",
       "cost": 1,
@@ -3361,6 +3534,7 @@ window.LORCANA_TIER_SITE_SETS["11"] = {
           "effect": "While there's a card under this character, she gets +1 ◊."
         }
       ],
+      "effects": [],
       "rarity": "Common",
       "story": "Winnie the Pooh",
       "cost": 5,
@@ -3381,6 +3555,7 @@ window.LORCANA_TIER_SITE_SETS["11"] = {
       "mentionedSubtypes": [],
       "fullText": "",
       "abilities": [],
+      "effects": [],
       "rarity": "Common",
       "story": "Winnie the Pooh",
       "cost": 2,
@@ -3401,6 +3576,7 @@ window.LORCANA_TIER_SITE_SETS["11"] = {
       "mentionedSubtypes": [],
       "fullText": "",
       "abilities": [],
+      "effects": [],
       "rarity": "Common",
       "story": "Mickey's Christmas Carol",
       "cost": 6,
@@ -3425,6 +3601,7 @@ window.LORCANA_TIER_SITE_SETS["11"] = {
           "keyword": "Support"
         }
       ],
+      "effects": [],
       "rarity": "Common",
       "story": "Mickey's Christmas Carol",
       "cost": 3,
@@ -3449,6 +3626,7 @@ window.LORCANA_TIER_SITE_SETS["11"] = {
           "keyword": "Alert"
         }
       ],
+      "effects": [],
       "rarity": "Common",
       "story": "Moana",
       "cost": 1,
@@ -3474,6 +3652,7 @@ window.LORCANA_TIER_SITE_SETS["11"] = {
           "effect": "Your characters named Darkwing Duck gain Resist +1. (Damage dealt to them is reduced by 1.)"
         }
       ],
+      "effects": [],
       "rarity": "Common",
       "story": "Darkwing Duck",
       "cost": 1,
@@ -3494,6 +3673,7 @@ window.LORCANA_TIER_SITE_SETS["11"] = {
       "mentionedSubtypes": [],
       "fullText": "",
       "abilities": [],
+      "effects": [],
       "rarity": "Uncommon",
       "story": "Mickey's Christmas Carol",
       "cost": 3,
@@ -3520,6 +3700,7 @@ window.LORCANA_TIER_SITE_SETS["11"] = {
           "keyword": "Ward"
         }
       ],
+      "effects": [],
       "rarity": "Uncommon",
       "story": "Darkwing Duck",
       "cost": 2,
@@ -3548,6 +3729,7 @@ window.LORCANA_TIER_SITE_SETS["11"] = {
           "effect": "Whenever you put a card under this character, you may put a card from your discard into your inkwell facedown and exerted."
         }
       ],
+      "effects": [],
       "rarity": "Uncommon",
       "story": "Mickey's Christmas Carol",
       "cost": 3,
@@ -3575,6 +3757,7 @@ window.LORCANA_TIER_SITE_SETS["11"] = {
           "effect": "At the end of your turn, remove up to 2 damage from each of your characters."
         }
       ],
+      "effects": [],
       "rarity": "Rare",
       "story": "Winnie the Pooh",
       "cost": 5,
@@ -3599,6 +3782,7 @@ window.LORCANA_TIER_SITE_SETS["11"] = {
           "effect": "For each card in your inkwell, you pay 1 ⬡ less to play this character."
         }
       ],
+      "effects": [],
       "rarity": "Rare",
       "story": "Moana",
       "cost": 12,
@@ -3623,6 +3807,7 @@ window.LORCANA_TIER_SITE_SETS["11"] = {
           "effect": "When you play this character, look at the top 4 cards of your deck. You may reveal an item card and put it into your hand. Put the rest on the bottom of your deck in any order."
         }
       ],
+      "effects": [],
       "rarity": "Uncommon",
       "story": "Darkwing Duck",
       "cost": 3,
@@ -3649,6 +3834,7 @@ window.LORCANA_TIER_SITE_SETS["11"] = {
           "effect": "Whenever this character quests, you may put an item card from your discard on the bottom of your deck. If you do, you may play an item with cost 5 or less from your discard for free."
         }
       ],
+      "effects": [],
       "rarity": "Super Rare",
       "story": "Darkwing Duck",
       "cost": 4,
@@ -3673,6 +3859,7 @@ window.LORCANA_TIER_SITE_SETS["11"] = {
           "effect": "When you play this character, you may return an item card from your discard to your hand."
         }
       ],
+      "effects": [],
       "rarity": "Common",
       "story": "Winnie the Pooh",
       "cost": 4,
@@ -3700,6 +3887,7 @@ window.LORCANA_TIER_SITE_SETS["11"] = {
           "effect": "When you play this character, you may put a card from the top of your deck facedown under each of your other characters. If you do, those characters gain Ward until the start of your next turn. (Opponents can't choose them except to challenge.)"
         }
       ],
+      "effects": [],
       "rarity": "Legendary",
       "story": "Mickey's Christmas Carol",
       "cost": 6,
@@ -3728,6 +3916,7 @@ window.LORCANA_TIER_SITE_SETS["11"] = {
           "keyword": "Ward"
         }
       ],
+      "effects": [],
       "rarity": "Uncommon",
       "story": "Darkwing Duck",
       "cost": 2,
@@ -3756,6 +3945,7 @@ window.LORCANA_TIER_SITE_SETS["11"] = {
           "effect": "Whenever this character quests, look at a number of cards from the top of your deck equal to the number of cards under him. Put one into your hand and put the rest on the bottom of your deck in any order."
         }
       ],
+      "effects": [],
       "rarity": "Rare",
       "story": "Mickey's Christmas Carol",
       "cost": 5,
@@ -3781,6 +3971,7 @@ window.LORCANA_TIER_SITE_SETS["11"] = {
           "effect": "You can ink cards from your discard."
         }
       ],
+      "effects": [],
       "rarity": "Legendary",
       "story": "Moana",
       "cost": 5,
@@ -3812,6 +4003,7 @@ window.LORCANA_TIER_SITE_SETS["11"] = {
           "effect": "Whenever you put a card under one of your characters or locations, this character gets +1 ◊ this turn."
         }
       ],
+      "effects": [],
       "rarity": "Super Rare",
       "story": "Moana",
       "cost": 7,
@@ -3839,6 +4031,7 @@ window.LORCANA_TIER_SITE_SETS["11"] = {
           "effect": "This character gets +1 ◊ for each card under him."
         }
       ],
+      "effects": [],
       "rarity": "Rare",
       "story": "Mickey's Christmas Carol",
       "cost": 3,
@@ -3864,6 +4057,7 @@ window.LORCANA_TIER_SITE_SETS["11"] = {
           "effect": "Whenever one of your characters is banished, you may put that card from your discard into your inkwell facedown and exerted."
         }
       ],
+      "effects": [],
       "rarity": "Super Rare",
       "story": "Beauty and the Beast",
       "cost": 4,
@@ -3891,6 +4085,7 @@ window.LORCANA_TIER_SITE_SETS["11"] = {
           "effect": "When this character is banished in a challenge, you may put all cards that were under him under another chosen character or location of yours."
         }
       ],
+      "effects": [],
       "rarity": "Rare",
       "story": "Mickey's Christmas Carol",
       "cost": 2,
@@ -3915,6 +4110,7 @@ window.LORCANA_TIER_SITE_SETS["11"] = {
           "effect": "During your turn, whenever a card is put into your inkwell, chosen character gets -1 ¤ this turn."
         }
       ],
+      "effects": [],
       "rarity": "Common",
       "story": "Mickey's Christmas Carol",
       "cost": 3,
@@ -3940,6 +4136,7 @@ window.LORCANA_TIER_SITE_SETS["11"] = {
           "effect": "Once during your turn, whenever a card is put into your inkwell, look at the top card of your deck. You may put it on either the top or the bottom of your deck."
         }
       ],
+      "effects": [],
       "rarity": "Common",
       "story": "Moana",
       "cost": 5,
@@ -3957,6 +4154,9 @@ window.LORCANA_TIER_SITE_SETS["11"] = {
       "mentionedSubtypes": [],
       "fullText": "Put any number of cards from under your characters\nand locations into your inkwell facedown and exerted.",
       "abilities": [],
+      "effects": [
+        "Put any number of cards from under your characters\nand locations into your inkwell facedown and exerted."
+      ],
       "rarity": "Rare",
       "story": "Mickey's Christmas Carol",
       "cost": 3,
@@ -3980,6 +4180,9 @@ window.LORCANA_TIER_SITE_SETS["11"] = {
           "effect": "A character with cost 5 or more can ⟳ to sing this song for free."
         }
       ],
+      "effects": [
+        "Put chosen character into their player's inkwell\nfacedown and exerted."
+      ],
       "rarity": "Rare",
       "story": "Frozen",
       "cost": 5,
@@ -3997,6 +4200,9 @@ window.LORCANA_TIER_SITE_SETS["11"] = {
       "mentionedSubtypes": [],
       "fullText": "Chosen character gets -2 ¤ this turn. Draw a card.",
       "abilities": [],
+      "effects": [
+        "Chosen character gets -2 ¤ this turn. Draw a card."
+      ],
       "rarity": "Common",
       "story": "Mickey's Christmas Carol",
       "cost": 2,
@@ -4014,6 +4220,9 @@ window.LORCANA_TIER_SITE_SETS["11"] = {
       "mentionedSubtypes": [],
       "fullText": "Put chosen character with Bodyguard or item into their\nplayer's inkwell facedown and exerted.",
       "abilities": [],
+      "effects": [
+        "Put chosen character with Bodyguard or item into their\nplayer's inkwell facedown and exerted."
+      ],
       "rarity": "Uncommon",
       "story": "Lilo & Stitch",
       "cost": 2,
@@ -4038,6 +4247,7 @@ window.LORCANA_TIER_SITE_SETS["11"] = {
           "effect": "Chosen character gains Ward until the start of your next turn. (Opponents can't choose them except to challenge.)"
         }
       ],
+      "effects": [],
       "rarity": "Common",
       "story": "Darkwing Duck",
       "cost": 1,
@@ -4059,6 +4269,7 @@ window.LORCANA_TIER_SITE_SETS["11"] = {
           "effect": "Chosen character gains Support this turn. (Whenever they quest, you may add their ¤ to another chosen character's ¤ this turn.)"
         }
       ],
+      "effects": [],
       "rarity": "Common",
       "story": "Mickey's Christmas Carol",
       "cost": 1,
@@ -4083,6 +4294,7 @@ window.LORCANA_TIER_SITE_SETS["11"] = {
           "effect": "Remove up to 2 damage from chosen character. If a character named Darkwing Duck is chosen, remove up to 4 damage instead."
         }
       ],
+      "effects": [],
       "rarity": "Rare",
       "story": "Darkwing Duck",
       "cost": 3,
@@ -4104,6 +4316,7 @@ window.LORCANA_TIER_SITE_SETS["11"] = {
           "effect": "Chosen character gets -1 ¤ this turn. If you have a character named Darkwing Duck in play, chosen character gets -2 ¤ this turn instead."
         }
       ],
+      "effects": [],
       "rarity": "Uncommon",
       "story": "Darkwing Duck",
       "cost": 3,
@@ -4128,6 +4341,7 @@ window.LORCANA_TIER_SITE_SETS["11"] = {
           "effect": "Choose one: • Banish chosen item. • Chosen opposing character gets -2 ¤ this turn."
         }
       ],
+      "effects": [],
       "rarity": "Uncommon",
       "story": "The Fox and the Hound",
       "cost": 2,
@@ -4157,6 +4371,7 @@ window.LORCANA_TIER_SITE_SETS["11"] = {
           "effect": "Whenever this character quests, if there's a card under her, chosen opposing character can't challenge until the start of your next turn."
         }
       ],
+      "effects": [],
       "rarity": "Rare",
       "story": "Tangled",
       "cost": 3,
@@ -4181,6 +4396,7 @@ window.LORCANA_TIER_SITE_SETS["11"] = {
           "effect": "Your locations gain Resist +1. (Damage dealt to them is reduced by 1.)"
         }
       ],
+      "effects": [],
       "rarity": "Uncommon",
       "story": "Darkwing Duck",
       "cost": 3,
@@ -4202,6 +4418,7 @@ window.LORCANA_TIER_SITE_SETS["11"] = {
       "mentionedSubtypes": [],
       "fullText": "",
       "abilities": [],
+      "effects": [],
       "rarity": "Common",
       "story": "The Princess And The Frog",
       "cost": 5,
@@ -4224,6 +4441,7 @@ window.LORCANA_TIER_SITE_SETS["11"] = {
       "mentionedSubtypes": [],
       "fullText": "",
       "abilities": [],
+      "effects": [],
       "rarity": "Common",
       "story": "Darkwing Duck",
       "cost": 1,
@@ -4249,6 +4467,7 @@ window.LORCANA_TIER_SITE_SETS["11"] = {
           "keyword": "Challenger"
         }
       ],
+      "effects": [],
       "rarity": "Common",
       "story": "Mulan",
       "cost": 3,
@@ -4274,6 +4493,7 @@ window.LORCANA_TIER_SITE_SETS["11"] = {
           "effect": "When you play this character, choose and discard a card."
         }
       ],
+      "effects": [],
       "rarity": "Uncommon",
       "story": "Lilo & Stitch",
       "cost": 1,
@@ -4298,6 +4518,7 @@ window.LORCANA_TIER_SITE_SETS["11"] = {
           "effect": "Draw a card. Then, choose and discard a card unless you have a character named Darkwing Duck in play."
         }
       ],
+      "effects": [],
       "rarity": "Common",
       "story": "Darkwing Duck",
       "cost": 2,
@@ -4322,6 +4543,7 @@ window.LORCANA_TIER_SITE_SETS["11"] = {
           "effect": "When you play this character, you may banish chosen item."
         }
       ],
+      "effects": [],
       "rarity": "Common",
       "story": "Mickey Mouse & Friends",
       "cost": 5,
@@ -4346,6 +4568,7 @@ window.LORCANA_TIER_SITE_SETS["11"] = {
           "effect": "If an opposing character was banished in a challenge this turn, draw a card."
         }
       ],
+      "effects": [],
       "rarity": "Uncommon",
       "story": "The Fox and the Hound",
       "cost": 3,
@@ -4369,6 +4592,7 @@ window.LORCANA_TIER_SITE_SETS["11"] = {
           "keyword": "Alert"
         }
       ],
+      "effects": [],
       "rarity": "Common",
       "story": "The Fox and the Hound",
       "cost": 4,
@@ -4394,6 +4618,7 @@ window.LORCANA_TIER_SITE_SETS["11"] = {
           "keyword": "Bodyguard"
         }
       ],
+      "effects": [],
       "rarity": "Common",
       "story": "Zootopia",
       "cost": 5,
@@ -4417,6 +4642,7 @@ window.LORCANA_TIER_SITE_SETS["11"] = {
           "effect": "When this character is banished, you may play a character with cost 2 or less for free."
         }
       ],
+      "effects": [],
       "rarity": "Rare",
       "story": "Zootopia",
       "cost": 3,
@@ -4442,6 +4668,7 @@ window.LORCANA_TIER_SITE_SETS["11"] = {
           "keyword": "Shift"
         }
       ],
+      "effects": [],
       "rarity": "Uncommon",
       "story": "Mulan",
       "cost": 7,
@@ -4466,6 +4693,7 @@ window.LORCANA_TIER_SITE_SETS["11"] = {
           "effect": "While this character has no damage, she gets +1 ◊."
         }
       ],
+      "effects": [],
       "rarity": "Common",
       "story": "Lilo & Stitch",
       "cost": 2,
@@ -4491,6 +4719,7 @@ window.LORCANA_TIER_SITE_SETS["11"] = {
           "effect": "While you have a character named Lilo in play, this character gains Challenger +3. (They get +3 ¤ while challenging.)"
         }
       ],
+      "effects": [],
       "rarity": "Common",
       "story": "Lilo & Stitch",
       "cost": 2,
@@ -4522,6 +4751,7 @@ window.LORCANA_TIER_SITE_SETS["11"] = {
           "effect": "When you play this character, chosen opposing character can't challenge during their next turn."
         }
       ],
+      "effects": [],
       "rarity": "Rare",
       "story": "Lilo & Stitch",
       "cost": 8,
@@ -4550,6 +4780,7 @@ window.LORCANA_TIER_SITE_SETS["11"] = {
           "effect": "Your Gargoyle characters lose the Stone by Day ability."
         }
       ],
+      "effects": [],
       "rarity": "Super Rare",
       "story": "Gargoyles",
       "cost": 3,
@@ -4578,6 +4809,7 @@ window.LORCANA_TIER_SITE_SETS["11"] = {
           "effect": "During your turn, whenever an item is banished, this character gains Resist +1 until the start of your next turn. (Damage dealt to them is reduced by 1.)"
         }
       ],
+      "effects": [],
       "rarity": "Rare",
       "story": "Darkwing Duck",
       "cost": 5,
@@ -4605,6 +4837,7 @@ window.LORCANA_TIER_SITE_SETS["11"] = {
           "effect": "While this character has no damage, she gets +2 ¤."
         }
       ],
+      "effects": [],
       "rarity": "Uncommon",
       "story": "Lilo & Stitch",
       "cost": 3,
@@ -4625,6 +4858,7 @@ window.LORCANA_TIER_SITE_SETS["11"] = {
       "mentionedSubtypes": [],
       "fullText": "",
       "abilities": [],
+      "effects": [],
       "rarity": "Rare",
       "story": "Lilo & Stitch",
       "cost": 4,
@@ -4653,6 +4887,7 @@ window.LORCANA_TIER_SITE_SETS["11"] = {
           "effect": "Once during your turn, you may choose and discard a card to deal 2 damage to chosen character."
         }
       ],
+      "effects": [],
       "rarity": "Legendary",
       "story": "Lilo & Stitch",
       "cost": 4,
@@ -4687,6 +4922,7 @@ window.LORCANA_TIER_SITE_SETS["11"] = {
           "effect": "This character can challenge ready Villain characters."
         }
       ],
+      "effects": [],
       "rarity": "Legendary",
       "story": "Darkwing Duck",
       "cost": 7,
@@ -4714,6 +4950,7 @@ window.LORCANA_TIER_SITE_SETS["11"] = {
           "effect": "Opponents must choose this character for actions and abilities if able."
         }
       ],
+      "effects": [],
       "rarity": "Super Rare",
       "story": "Pocahontas",
       "cost": 5,
@@ -4742,6 +4979,7 @@ window.LORCANA_TIER_SITE_SETS["11"] = {
           "keyword": "Resist"
         }
       ],
+      "effects": [],
       "rarity": "Uncommon",
       "story": "Zootopia",
       "cost": 2,
@@ -4766,6 +5004,7 @@ window.LORCANA_TIER_SITE_SETS["11"] = {
           "effect": "During each opponent's turn, the first time this character would take damage, she takes no damage instead."
         }
       ],
+      "effects": [],
       "rarity": "Super Rare",
       "story": "Lilo & Stitch",
       "cost": 2,
@@ -4789,6 +5028,9 @@ window.LORCANA_TIER_SITE_SETS["11"] = {
           "effect": "A character with cost 2 or more can ⟳ to sing this song for free."
         }
       ],
+      "effects": [
+        "Opponents can't play actions or items until the start of\nyour next turn."
+      ],
       "rarity": "Uncommon",
       "story": "Pocahontas",
       "cost": 2,
@@ -4806,6 +5048,9 @@ window.LORCANA_TIER_SITE_SETS["11"] = {
       "mentionedSubtypes": [],
       "fullText": "Deal 2 damage to chosen opposing character. If you\nhave a character named Darkwing Duck in play, deal 3\ndamage instead.",
       "abilities": [],
+      "effects": [
+        "Deal 2 damage to chosen opposing character. If you\nhave a character named Darkwing Duck in play, deal 3\ndamage instead."
+      ],
       "rarity": "Common",
       "story": "Darkwing Duck",
       "cost": 2,
@@ -4829,6 +5074,9 @@ window.LORCANA_TIER_SITE_SETS["11"] = {
           "effect": "A character with cost 4 or more can ⟳ to sing this song for free."
         }
       ],
+      "effects": [
+        "Each player shuffles their deck and then reveals the\ntop card. Each player who reveals a character card\nmay play that character for free. Otherwise, put the\nrevealed cards on the bottom of their player's deck."
+      ],
       "rarity": "Rare",
       "story": "Darkwing Duck",
       "cost": 4,
@@ -4846,6 +5094,9 @@ window.LORCANA_TIER_SITE_SETS["11"] = {
       "mentionedSubtypes": [],
       "fullText": "Chosen location of yours can't be challenged until the\nstart of your next turn. Draw a card.",
       "abilities": [],
+      "effects": [
+        "Chosen location of yours can't be challenged until the\nstart of your next turn. Draw a card."
+      ],
       "rarity": "Uncommon",
       "story": "Lorcana",
       "cost": 1,
@@ -4863,6 +5114,9 @@ window.LORCANA_TIER_SITE_SETS["11"] = {
       "mentionedSubtypes": [],
       "fullText": "Chosen character of yours gains Resist +2 until the\nstart of your next turn. (Damage dealt to them is\nreduced by 2.)",
       "abilities": [],
+      "effects": [
+        "Chosen character of yours gains Resist +2 until the\nstart of your next turn. (Damage dealt to them is\nreduced by 2.)"
+      ],
       "rarity": "Common",
       "story": "Lilo & Stitch",
       "cost": 1,
@@ -4887,6 +5141,7 @@ window.LORCANA_TIER_SITE_SETS["11"] = {
           "effect": "Chosen character gains Alert this turn. (They can challenge as if they had Evasive.)"
         }
       ],
+      "effects": [],
       "rarity": "Common",
       "story": "Darkwing Duck",
       "cost": 1,
@@ -4913,6 +5168,7 @@ window.LORCANA_TIER_SITE_SETS["11"] = {
           "effect": "If a character was banished in a challenge this turn, gain 1 lore."
         }
       ],
+      "effects": [],
       "rarity": "Rare",
       "story": "Darkwing Duck",
       "cost": 3,
@@ -4937,6 +5193,7 @@ window.LORCANA_TIER_SITE_SETS["11"] = {
           "effect": "At the start of your turn, choose and discard a card or banish this item."
         }
       ],
+      "effects": [],
       "rarity": "Rare",
       "story": "Lilo & Stitch",
       "cost": 2,
@@ -4960,6 +5217,7 @@ window.LORCANA_TIER_SITE_SETS["11"] = {
           "effect": "During your turn, whenever an opposing Villain character is banished, you may ready a character here. If you do, they can't quest for the rest of this turn."
         }
       ],
+      "effects": [],
       "rarity": "Uncommon",
       "story": "Darkwing Duck",
       "cost": 4,
