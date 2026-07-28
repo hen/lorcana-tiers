@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta
+      http-equiv="Content-Security-Policy"
+      content="default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self' data: https://api.lorcana.ravensburger.com; connect-src 'self'; object-src 'none'; base-uri 'self'; frame-ancestors 'none'; form-action 'self'">
+    <title>Lorcana Set Analysis</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <div class="page">
+      <header class="hero">
+        <div>
+          <p id="set-eyebrow" class="eyebrow">Loading supported sets…</p>
+          <h1 id="page-title">Lorcana Set Analysis</h1>
+          <p id="page-subhead" class="subhead">Explore cards by cost, type, characteristic, keyword, and ability references.</p>
+        </div>
+        <div class="hero-actions">
+          <label class="set-selector-shell" for="set-selector">
+            <span class="set-selector-label">Active set</span>
+            <select id="set-selector" class="set-selector"></select>
+          </label>
+        </div>
+      </header>
+
+      <section class="filters-shell">
+        <div class="filter-tabs">
+          <nav id="top-tabs" class="top-tabs" aria-label="Analysis categories"></nav>
+          <nav id="option-tabs" class="option-tabs" aria-label="Analysis filters"></nav>
+        </div>
+        <div class="tab-filters" aria-label="Card display and rarity filters">
+          <label class="filter-toggle" for="hide-stat-lines-toggle">
+            <input id="hide-stat-lines-toggle" type="checkbox">
+            <span>Hide stat lines</span>
+          </label>
+          <label class="filter-toggle" for="cu-only-toggle">
+            <input id="cu-only-toggle" type="checkbox">
+            <span>C/U Only</span>
+          </label>
+          <label class="filter-toggle" for="r-sr-l-only-toggle">
+            <input id="r-sr-l-only-toggle" type="checkbox">
+            <span>R/SR/L Only</span>
+          </label>
+        </div>
+      </section>
+
+      <main id="app" class="app-shell"></main>
+    </div>
+
+    <script src="../tiersite/data/manifest.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>

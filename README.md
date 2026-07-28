@@ -1,6 +1,7 @@
 # lorcana-tiers
 
-Static Lorcana tier-list site sources live under `docs/tiersite/`.
+Static Lorcana tier-list site sources live under `docs/tiersite/`. The sibling set-analysis site
+lives under `docs/analysis/` and reuses the generated set data.
 
 The site now supports all generated expansion sets through a set picker. Its runtime data is generated into:
 
@@ -24,7 +25,7 @@ From the repository root, point the generator at one or more raw `setdata.N.json
 python3 generate_cards_js.py ..
 ```
 
-That command discovers numeric `setdata.N.json` files, skips non-expansion/non-numeric files such as quest data, and rebuilds the multi-set assets used by the site.
+That command discovers numeric `setdata.N.json` files, skips non-expansion/non-numeric files such as quest data, and rebuilds the multi-set assets used by both sites. The generated cards retain ability keyword and effect data for the analysis site's keyword and reference views.
 
 You can also regenerate a single set asset:
 

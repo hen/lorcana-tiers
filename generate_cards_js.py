@@ -117,6 +117,21 @@ def ability_text(card: dict) -> str:
     return normalize_whitespace("\n".join(parts))
 
 
+def analysis_abilities(card: dict) -> list[dict[str, str]]:
+    abilities: list[dict[str, str]] = []
+    for ability in card.get("abilities") or []:
+        if not isinstance(ability, dict):
+            continue
+        entry = {
+            key: value
+            for key in ("keyword", "effect")
+            if isinstance((value := ability.get(key)), str) and value.strip()
+        }
+        if entry:
+            abilities.append(entry)
+    return abilities
+
+
 def pluralize(word: str) -> str:
     lower = word.lower()
     if lower.endswith(("s", "x", "z", "ch", "sh")):
@@ -247,6 +262,7 @@ def build_entries(
                 "subtypes": card.get("subtypes") or [],
                 "mentionedSubtypes": mentioned_subtypes,
                 "fullText": card.get("fullText") or "",
+                "abilities": analysis_abilities(card),
                 "rarity": card.get("rarity"),
                 "story": card.get("story"),
                 "cost": cost,
