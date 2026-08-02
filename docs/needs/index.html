@@ -6,15 +6,13 @@
     <meta
       http-equiv="Content-Security-Policy"
       content="default-src 'self'; style-src 'self'; script-src 'self'; img-src 'self' https://api.lorcana.ravensburger.com; connect-src 'self'; object-src 'none'; base-uri 'self'; form-action 'self'">
-    <title>Lorcana Cards I Need</title>
+    <title>Lorcana Needs</title>
     <link rel="stylesheet" href="styles.css">
   </head>
   <body>
     <main class="page">
       <header class="hero">
-        <p class="eyebrow">Lorcana collection</p>
-        <h1>Cards I Need</h1>
-        <p class="subhead">Find the cards needed to finish each playset.</p>
+        <p class="eyebrow">Lorcana Collection</p>
       </header>
 
       <section class="filters" aria-label="Card filters">
@@ -24,6 +22,12 @@
         <label class="rarity-toggle" for="rare-toggle">
           <input id="rare-toggle" type="checkbox">
           <span>Rare?</span>
+        </label>
+        <label class="set-filter" for="set-filter">
+          <span>Set</span>
+          <select id="set-filter">
+            <option value="">All Sets</option>
+          </select>
         </label>
       </section>
 

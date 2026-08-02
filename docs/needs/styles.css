@@ -27,7 +27,7 @@ body {
 .page {
   width: min(100% - 24px, 560px);
   margin: 0 auto;
-  padding: 24px 0 calc(28px + env(safe-area-inset-bottom));
+  padding: 16px 0 calc(28px + env(safe-area-inset-bottom));
 }
 
 .hero,
@@ -40,28 +40,17 @@ body {
 }
 
 .hero {
-  padding: 22px;
+  margin-bottom: 16px;
+  padding: 15px 22px;
 }
 
 .eyebrow {
-  margin: 0 0 8px;
+  margin: 0;
   color: var(--accent);
   font-size: 0.76rem;
   font-weight: 700;
   letter-spacing: 0.12em;
   text-transform: uppercase;
-}
-
-h1 {
-  margin: 0;
-  font-size: clamp(1.8rem, 8vw, 2.35rem);
-  line-height: 1.08;
-}
-
-.subhead {
-  margin: 10px 0 0;
-  color: var(--muted);
-  line-height: 1.45;
 }
 
 .filters {
@@ -93,9 +82,34 @@ h1 {
   font: inherit;
 }
 
-#search:focus {
+#search:focus,
+#set-filter:focus {
   outline: 2px solid var(--accent);
   outline-offset: 2px;
+}
+
+.set-filter {
+  display: grid;
+  grid-column: 1;
+  gap: 6px;
+  color: var(--muted);
+  font-size: 0.8rem;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+#set-filter {
+  height: 46px;
+  min-width: 0;
+  border: 1px solid var(--border);
+  border-radius: 13px;
+  background: var(--panel-alt);
+  color: var(--text);
+  padding: 0 13px;
+  font: inherit;
+  letter-spacing: normal;
+  text-transform: none;
 }
 
 .rarity-toggle {

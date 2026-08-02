@@ -2,6 +2,7 @@
   const COMMON_UNCOMMON = new Set(["Common", "Uncommon"]);
   const searchInput = document.getElementById("search");
   const rareToggle = document.getElementById("rare-toggle");
+  const setFilter = document.getElementById("set-filter");
   const cardNames = document.getElementById("card-names");
   const cardsRoot = document.getElementById("cards");
   const resultsSummary = document.getElementById("results-summary");
@@ -14,11 +15,13 @@
   function visibleCards() {
     const search = searchInput.value.trim().toLocaleLowerCase();
     const showRare = rareToggle.checked;
+    const selectedSet = setFilter.value;
 
     return cards.filter((card) => {
       const matchesSearch = !search || card.Name.toLocaleLowerCase().includes(search);
       const isCommonOrUncommon = COMMON_UNCOMMON.has(primaryRarity(card));
-      return matchesSearch && (showRare ? !isCommonOrUncommon : isCommonOrUncommon);
+      const matchesSet = !selectedSet || card["Set Number"] === selectedSet;
+      return matchesSearch && matchesSet && (showRare ? !isCommonOrUncommon : isCommonOrUncommon);
     });
   }
 
@@ -81,6 +84,12 @@
         option.value = name;
         cardNames.append(option);
       }
+      for (const setNumber of [...new Set(cards.map((card) => card["Set Number"]))].sort((a, b) => Number(a) - Number(b))) {
+        const option = document.createElement("option");
+        option.value = setNumber;
+        option.textContent = `Set ${Number(setNumber)}`;
+        setFilter.append(option);
+      }
       render();
     } catch (error) {
       resultsSummary.textContent = error instanceof Error ? error.message : "Unable to load cards.";
@@ -89,5 +98,6 @@
 
   searchInput.addEventListener("input", render);
   rareToggle.addEventListener("change", render);
+  setFilter.addEventListener("change", render);
   void loadCards();
 })();
