@@ -49,6 +49,15 @@ To pre-download local thumbnails for a set:
 ./download_filtered_thumbs.sh ../setdata.13.json
 ```
 
+## Needs site
+
+The mobile-focused collection needs site lives in `docs/needs/`. Regenerate its compact
+thumbnail-enriched data after updating `needs.json`:
+
+```bash
+python3 scripts/build_needs_site_data.py docs/needs/needs.json ../allCards.json docs/needs/cards.json
+```
+
 ## Future sets
 
 To add a future set:

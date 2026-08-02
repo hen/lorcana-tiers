@@ -1,0 +1,5375 @@
+[
+  {
+    "Set Number": "013",
+    "Card Number": "17,17",
+    "Count": 1,
+    "Name": "4*Town - Hottest Band of the Year",
+    "Color": "Amber",
+    "Rarity": "Rare",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set13/17_b9060c4674704ab0ce8011780f115dd5bac50c28.jpg"
+  },
+  {
+    "Set Number": "004",
+    "Card Number": "2,2",
+    "Count": 3,
+    "Name": "Alma Madrigal - Family Matriarch",
+    "Color": "Amber",
+    "Rarity": "Rare",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set4/2_378b1877689b63d9ae994f1388e02d1471c01d36.jpg"
+  },
+  {
+    "Set Number": "012",
+    "Card Number": "18,18,43/P3",
+    "Count": 1,
+    "Name": "Ariel - Curious Traveler",
+    "Color": "Amber",
+    "Rarity": "Rare,Promo",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set12/18_924df5794eb9ba16ba0f94afa65b02718d4faf6d.jpg"
+  },
+  {
+    "Set Number": "010",
+    "Card Number": "17,17",
+    "Count": 1,
+    "Name": "Ariel - Ethereal Voice",
+    "Color": "Amber",
+    "Rarity": "Rare",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set10/17_e31cd8b766d510016d378c7382da8298c6db0483.jpg"
+  },
+  {
+    "Set Number": "001",
+    "Card Number": "2,2,1/CC1",
+    "Count": 4,
+    "Name": "Ariel - Spectacular Singer",
+    "Color": "Amber",
+    "Rarity": "Super Rare,Promo",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set1/2_ae7f28ac12f2ec8c2cdce8b8cc70c2a0669ca83d.jpg"
+  },
+  {
+    "Set Number": "009",
+    "Card Number": "6,6,206",
+    "Count": 1,
+    "Name": "Aurora - Holding Court",
+    "Color": "Amber",
+    "Rarity": "Uncommon,Epic",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set9/6_7535d7634e0c79a1682fdad7e290fce15a58f375.jpg"
+  },
+  {
+    "Set Number": "007",
+    "Card Number": "14,14",
+    "Count": 1,
+    "Name": "Aurora - Waking Beauty",
+    "Color": "Amber",
+    "Rarity": "Legendary",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set7/14_6c0ec7b82026a2bb7aca9187f1a7b5f4f9f8febd.jpg"
+  },
+  {
+    "Set Number": "009",
+    "Card Number": "4,4,40/P3",
+    "Count": 2,
+    "Name": "Beast - Gracious Prince",
+    "Color": "Amber",
+    "Rarity": "Rare,Promo",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set9/4_718ca44ead2602c7f576d36101bcaa1427dad92e.jpg"
+  },
+  {
+    "Set Number": "003",
+    "Card Number": "3,3",
+    "Count": 1,
+    "Name": "Chernabog - Evildoer",
+    "Color": "Amber",
+    "Rarity": "Super Rare",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set3/3_c74b8c9b0a7017bd0a9907cc86c2c34352d6fe23.jpg"
+  },
+  {
+    "Set Number": "011",
+    "Card Number": "11,11",
+    "Count": 1,
+    "Name": "Chief Powhatan - Protective Leader",
+    "Color": "Amber",
+    "Rarity": "Uncommon",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set11/11_c549c16b4b8af1df14fd250629ee00dd03f61cbf.jpg"
+  },
+  {
+    "Set Number": "002",
+    "Card Number": "3,3",
+    "Count": 3,
+    "Name": "Cinderella - Ballroom Sensation",
+    "Color": "Amber",
+    "Rarity": "Rare",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set2/3_47c274ee7ae51aee9d2caded9828a2fa048cd1a9.jpg"
+  },
+  {
+    "Set Number": "004",
+    "Card Number": "4,4",
+    "Count": 1,
+    "Name": "Cinderella - Melody Weaver",
+    "Color": "Amber",
+    "Rarity": "Legendary",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set4/4_2e06cb7d4f885467159e87d02aea440d06417fe3.jpg"
+  },
+  {
+    "Set Number": "011",
+    "Card Number": "14,14",
+    "Count": 3,
+    "Name": "Cobra Bubbles - Dedicated Official",
+    "Color": "Amber",
+    "Rarity": "Rare",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set11/14_fc4a1f0c3effccff41c0fe76df7b3d975cfce9fe.jpg"
+  },
+  {
+    "Set Number": "012",
+    "Card Number": "22,22",
+    "Count": 4,
+    "Name": "Dale - Ready for His Shot",
+    "Color": "Amber",
+    "Rarity": "Legendary",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set12/22_1e231c3490ba1685db9b2c4e98870fa3f13be12b.jpg"
+  },
+  {
+    "Set Number": "003",
+    "Card Number": "4d,4d,4e,4e",
+    "Count": 1,
+    "Name": "Dalmatian Puppy - Tail Wagger",
+    "Color": "Amber",
+    "Rarity": "Common",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set3/4d_65641817418414449dad6270e7514bd2dcc258e8.jpg"
+  },
+  {
+    "Set Number": "010",
+    "Card Number": "25,25",
+    "Count": 1,
+    "Name": "Gazelle - Ballad Singer",
+    "Color": "Amber",
+    "Rarity": "Rare",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set10/25_0cf9657434fd62d0991331653e3b18a8c32ab950.jpg"
+  },
+  {
+    "Set Number": "010",
+    "Card Number": "24,24",
+    "Count": 2,
+    "Name": "Goofy - Galumphing Gumshoe",
+    "Color": "Amber",
+    "Rarity": "Super Rare",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set10/24_133bcaddd1656dc526391b7053b4fb2720506348.jpg"
+  },
+  {
+    "Set Number": "001",
+    "Card Number": "5,5",
+    "Count": 1,
+    "Name": "Hades - King of Olympus",
+    "Color": "Amber",
+    "Rarity": "Rare",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set1/5_8db49403364e3f7f9fcad15e3e5f656db4fcdf12.jpg"
+  },
+  {
+    "Set Number": "001",
+    "Card Number": "6,6",
+    "Count": 1,
+    "Name": "Hades - Lord of the Underworld",
+    "Color": "Amber",
+    "Rarity": "Rare",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set1/6_779f63701572749103c9e8e7aefdb4e263f87b26.jpg"
+  },
+  {
+    "Set Number": "012",
+    "Card Number": "19,19",
+    "Count": 1,
+    "Name": "Isabela Madrigal - Caring Cultivator",
+    "Color": "Amber",
+    "Rarity": "Rare",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set12/19_7bd1ce09ad663d12feefaaba2f31255205c20db1.jpg"
+  },
+  {
+    "Set Number": "012",
+    "Card Number": "20,20",
+    "Count": 1,
+    "Name": "Jessie - Lively Cowgirl",
+    "Color": "Amber",
+    "Rarity": "Super Rare",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set12/20_a4b96f1bfd1dd9f2ae462a323f1e9e8f538b419c.jpg"
+  },
+  {
+    "Set Number": "006",
+    "Card Number": "15,15",
+    "Count": 2,
+    "Name": "Judy Hopps - Resourceful Rabbit",
+    "Color": "Amber",
+    "Rarity": "Rare",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set6/15_146fecb37fb9c5e939b18ed959a91b145443f577.jpg"
+  },
+  {
+    "Set Number": "007",
+    "Card Number": "28,28",
+    "Count": 1,
+    "Name": "Lady - Miss Park Avenue",
+    "Color": "Amber Emerald",
+    "Rarity": "Super Rare",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set7/28_d3a61a6c64545de6a7ff9dd5f6d804833b39ef55.jpg"
+  },
+  {
+    "Set Number": "001",
+    "Card Number": "9,9",
+    "Count": 1,
+    "Name": "Lilo - Making a Wish",
+    "Color": "Amber",
+    "Rarity": "Rare",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set1/9_9a4ce14a0b65e50fa31d97f00503ea87b95d5f40.jpg"
+  },
+  {
+    "Set Number": "011",
+    "Card Number": "17,17",
+    "Count": 1,
+    "Name": "Lilo - Rock Star",
+    "Color": "Amber",
+    "Rarity": "Super Rare",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set11/17_ac29476e1996af1b8f75e0645d45ce4d2092de10.jpg"
+  },
+  {
+    "Set Number": "001",
+    "Card Number": "10,10",
+    "Count": 2,
+    "Name": "Maximus - Palace Horse",
+    "Color": "Amber",
+    "Rarity": "Super Rare",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set1/10_d04efa60a9febf52bb6c16345447adafb0016e0a.jpg"
+  },
+  {
+    "Set Number": "012",
+    "Card Number": "26,26",
+    "Count": 1,
+    "Name": "Mickey Mouse - Expedition Leader",
+    "Color": "Amber",
+    "Rarity": "Super Rare",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set12/26_df9042bacc6601a8fa71d0292e768edd6083a79d.jpg"
+  },
+  {
+    "Set Number": "002",
+    "Card Number": "13,13,18/P1",
+    "Count": 1,
+    "Name": "Mickey Mouse - Friendly Face",
+    "Color": "Amber",
+    "Rarity": "Super Rare,Promo",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set2/13_fc6dcc45b5792ea37f3450d274f61e86f4684289.jpg"
+  },
+  {
+    "Set Number": "013",
+    "Card Number": "18,18",
+    "Count": 2,
+    "Name": "Mike Wazowski - Heroic Climber",
+    "Color": "Amber",
+    "Rarity": "Super Rare",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set13/18_d3e1fe8a2f0f4ba533e9860580ccfe54dfe3a530.jpg"
+  },
+  {
+    "Set Number": "013",
+    "Card Number": "2,2",
+    "Count": 3,
+    "Name": "Ming Lee - Proud Parent",
+    "Color": "Amber",
+    "Rarity": "Rare",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set13/2_530e8473fee6421c200b16f8244fb34a88821be8.jpg"
+  },
+  {
+    "Set Number": "007",
+    "Card Number": "31,31",
+    "Count": 3,
+    "Name": "Minnie Mouse - Storyteller",
+    "Color": "Amber",
+    "Rarity": "Legendary",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set7/31_763fad4ee8196f72308c4379763acc536e38947b.jpg"
+  },
+  {
+    "Set Number": "005",
+    "Card Number": "14,14,7/P2",
+    "Count": 4,
+    "Name": "Mirabel Madrigal - Family Gatherer",
+    "Color": "Amber",
+    "Rarity": "Legendary,Promo",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set5/14_65945241538ddcda2aa3dc6939353cc82546ff56.jpg"
+  },
+  {
+    "Set Number": "013",
+    "Card Number": "25,25",
+    "Count": 3,
+    "Name": "Mirabel Madrigal - Family Guardian",
+    "Color": "Amber",
+    "Rarity": "Rare",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set13/25_6cd294b25034f58ada9209ee6665d93485222f02.jpg"
+  },
+  {
+    "Set Number": "004",
+    "Card Number": "18,18",
+    "Count": 3,
+    "Name": "Mirabel Madrigal - Gift of the Family",
+    "Color": "Amber",
+    "Rarity": "Super Rare",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set4/18_bbfa96ee117f51a6fc11686213e44a34c3a82b06.jpg"
+  },
+  {
+    "Set Number": "007",
+    "Card Number": "35,35",
+    "Count": 3,
+    "Name": "Mirabel Madrigal - Musically Talented",
+    "Color": "Amber Amethyst",
+    "Rarity": "Super Rare",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set7/35_d5fcdb96ac05054e9c0e712e7342f94722253118.jpg"
+  },
+  {
+    "Set Number": "005",
+    "Card Number": "18,18",
+    "Count": 2,
+    "Name": "Moana - Determined Explorer",
+    "Color": "Amber",
+    "Rarity": "Rare",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set5/18_15ec9c5972bfb9ca00e77680bac7484f3b09d716.jpg"
+  },
+  {
+    "Set Number": "012",
+    "Card Number": "12,12",
+    "Count": 2,
+    "Name": "Monterey Jack - Hypnotized by Cheese",
+    "Color": "Amber",
+    "Rarity": "Rare",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set12/12_1dcccd4c0111db141b6abd0d5d7d83e024d0f744.jpg"
+  },
+  {
+    "Set Number": "002",
+    "Card Number": "14,14",
+    "Count": 4,
+    "Name": "Mufasa - Betrayed Leader",
+    "Color": "Amber",
+    "Rarity": "Legendary",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set2/14_44e58742271d0e31e4c6cd5d2f73bcbc2bca3604.jpg"
+  },
+  {
+    "Set Number": "002",
+    "Card Number": "16,16",
+    "Count": 2,
+    "Name": "Mulan - Reflecting",
+    "Color": "Amber",
+    "Rarity": "Rare",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set2/16_c398bfa593f4e9665d24c371744697a20b02ee9e.jpg"
+  },
+  {
+    "Set Number": "011",
+    "Card Number": "20,20",
+    "Count": 1,
+    "Name": "Nani - Stage Manager",
+    "Color": "Amber",
+    "Rarity": "Uncommon",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set11/20_7bf3aa068b89bb370881ef936b2c71b4f44aebeb.jpg"
+  },
+  {
+    "Set Number": "003",
+    "Card Number": "223",
+    "Count": 3,
+    "Name": "Piglet - Pooh Pirate Captain",
+    "Color": "Amber",
+    "Rarity": "Super Rare",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set3/223_57aba80a4d6f43b9eb696cc1923e4f014067c507.jpg"
+  },
+  {
+    "Set Number": "011",
+    "Card Number": "22,22",
+    "Count": 1,
+    "Name": "Pocahontas - Peacekeeper",
+    "Color": "Amber",
+    "Rarity": "Legendary",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set11/22_e894b43f27249fa170d320b2b467b06ac66e81b7.jpg"
+  },
+  {
+    "Set Number": "013",
+    "Card Number": "27,27",
+    "Count": 3,
+    "Name": "Pocahontas & Meeko - Adventurous Friends",
+    "Color": "Amber Amethyst",
+    "Rarity": "Legendary",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set13/27_4023c852f407c2e872c336484e5ab9df8d2586f8.jpg"
+  },
+  {
+    "Set Number": "003",
+    "Card Number": "19,19",
+    "Count": 1,
+    "Name": "Pongo - Determined Father",
+    "Color": "Amber",
+    "Rarity": "Super Rare",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set3/19_70b65187c057680f0c7666840272f5bfd5bff093.jpg"
+  },
+  {
+    "Set Number": "005",
+    "Card Number": "3,3",
+    "Count": 3,
+    "Name": "Prince Naveen - Ukulele Player",
+    "Color": "Amber",
+    "Rarity": "Legendary",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set5/3_fb7fe818b195432cd2a6ebad302b9bf60dd70a56.jpg"
+  },
+  {
+    "Set Number": "010",
+    "Card Number": "3,3",
+    "Count": 4,
+    "Name": "Rapunzel - Ready for Adventure",
+    "Color": "Amber",
+    "Rarity": "Legendary",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set10/3_9c038c310bbcd12c44683719583c3a08dd73cb89.jpg"
+  },
+  {
+    "Set Number": "011",
+    "Card Number": "21,21",
+    "Count": 1,
+    "Name": "Reuben - Sandwich Expert",
+    "Color": "Amber",
+    "Rarity": "Rare",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set11/21_cf4c464dd32a16f5f7b08c2dc2b1e0717a4ed4f7.jpg"
+  },
+  {
+    "Set Number": "006",
+    "Card Number": "20,20,4/C2,8/C2",
+    "Count": 4,
+    "Name": "Simba - Pride Protector",
+    "Color": "Amber",
+    "Rarity": "Legendary,Promo",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set6/20_9f00958a17b83684321b7ee4ac7e543d52cf2dc3.jpg"
+  },
+  {
+    "Set Number": "002",
+    "Card Number": "25,25",
+    "Count": 4,
+    "Name": "Snow White - Well Wisher",
+    "Color": "Amber",
+    "Rarity": "Legendary",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set2/25_6afc197d350e9d61f2adb0e9d10fd43b8613e823.jpg"
+  },
+  {
+    "Set Number": "009",
+    "Card Number": "24,24",
+    "Count": 1,
+    "Name": "Stitch - Carefree Surfer",
+    "Color": "Amber",
+    "Rarity": "Legendary",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set9/24_32c8553a3c0a7211050ec43d13df090daacdb026.jpg"
+  },
+  {
+    "Set Number": "001",
+    "Card Number": "21,21",
+    "Count": 3,
+    "Name": "Stitch - Carefree Surfer",
+    "Color": "Amber",
+    "Rarity": "Legendary",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set1/21_ed2a611f11bf71c48f7a9035e915df05114a3c6f.jpg"
+  },
+  {
+    "Set Number": "013",
+    "Card Number": "22,22",
+    "Count": 3,
+    "Name": "The Horned King - Merciless Master",
+    "Color": "Amber",
+    "Rarity": "Legendary",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set13/22_97ae19f2ddc2d47c98a4fdfc64e23485a8fdb835.jpg"
+  },
+  {
+    "Set Number": "013",
+    "Card Number": "30,30",
+    "Count": 4,
+    "Name": "The Madrigal Family - Every Generation",
+    "Color": "Amber Sapphire",
+    "Rarity": "Rare",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set13/30_fb520930872fdd8b6081c407743510cf707c56c3.jpg"
+  },
+  {
+    "Set Number": "012",
+    "Card Number": "23,23",
+    "Count": 1,
+    "Name": "The Prince - Searching for His Love",
+    "Color": "Amber",
+    "Rarity": "Rare",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set12/23_2fdc70005b8217d960f68e688798d6bbdc323ef0.jpg"
+  },
+  {
+    "Set Number": "008",
+    "Card Number": "9,9",
+    "Count": 2,
+    "Name": "Tiana - Natural Talent",
+    "Color": "Amber",
+    "Rarity": "Rare",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set8/9_ac9b3ac3da4a000cb7f7fffba68e777ac7e9415a.jpg"
+  },
+  {
+    "Set Number": "006",
+    "Card Number": "16,16",
+    "Count": 3,
+    "Name": "Tiana - Restaurant Owner",
+    "Color": "Amber",
+    "Rarity": "Legendary",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set6/16_a7d3e7e4541a09c46f7496cba3f31b6042b71806.jpg"
+  },
+  {
+    "Set Number": "011",
+    "Card Number": "16,16",
+    "Count": 1,
+    "Name": "Timon - Snowball Swiper",
+    "Color": "Amber",
+    "Rarity": "Rare",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set11/16_209deba1e059e9e2d3a11e2ff46c0e8fb1adfdbe.jpg"
+  },
+  {
+    "Set Number": "013",
+    "Card Number": "26,26",
+    "Count": 1,
+    "Name": "Ursula - Created by the Vine",
+    "Color": "Amber",
+    "Rarity": "Rare",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set13/26_52c25bc8ae89b33409a6097d1de6953bd46e00a6.jpg"
+  },
+  {
+    "Set Number": "004",
+    "Card Number": "24,24",
+    "Count": 1,
+    "Name": "Ursula - Eric's Bride",
+    "Color": "Amber",
+    "Rarity": "Rare",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set4/24_01ae066a2ddcf068452cf33e234296f2346e485a.jpg"
+  },
+  {
+    "Set Number": "013",
+    "Card Number": "1,1,60/P3",
+    "Count": 2,
+    "Name": "Woody - Helping a Friend",
+    "Color": "Amber",
+    "Rarity": "Rare,Promo",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set13/1_fa532b53a807674be47ffe934d2624979b768bc1.jpg"
+  },
+  {
+    "Set Number": "013",
+    "Card Number": "28,28",
+    "Count": 2,
+    "Name": "Woody & Buzz Lightyear - Best Buddies",
+    "Color": "Amber Emerald",
+    "Rarity": "Legendary",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set13/28_ab8e1f7faef740decfd15ec9104090c01c7cabf1.jpg"
+  },
+  {
+    "Set Number": "005",
+    "Card Number": "21,21",
+    "Count": 2,
+    "Name": "Wreck-It Ralph - Admiral Underpants",
+    "Color": "Amber",
+    "Rarity": "Rare",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set5/21_a3f1b6eac2c3b580288fead1294c7f2527c66749.jpg"
+  },
+  {
+    "Set Number": "008",
+    "Card Number": "24,24",
+    "Count": 2,
+    "Name": "Wreck-It Ralph - Big Lug",
+    "Color": "Amber Ruby",
+    "Rarity": "Super Rare",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set8/24_e74d96e4dd50146374efd4b548ca04a39e278159.jpg"
+  },
+  {
+    "Set Number": "009",
+    "Card Number": "26,26",
+    "Count": 4,
+    "Name": "Circle of Life",
+    "Color": "Amber",
+    "Rarity": "Legendary",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set9/26_ffd5489888e217a7350a6cfa8885506b0722a744.jpg"
+  },
+  {
+    "Set Number": "001",
+    "Card Number": "29,29",
+    "Count": 3,
+    "Name": "Just in Time",
+    "Color": "Amber",
+    "Rarity": "Rare",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set1/29_f8586158af4260fee8dbe281cdaba76cfc897df5.jpg"
+  },
+  {
+    "Set Number": "002",
+    "Card Number": "29,29",
+    "Count": 2,
+    "Name": "Last Stand",
+    "Color": "Amber",
+    "Rarity": "Uncommon",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set2/29_63eab0543c7b280bf5bac6adc3d9493ee1720927.jpg"
+  },
+  {
+    "Set Number": "004",
+    "Card Number": "28,28",
+    "Count": 1,
+    "Name": "Look At This Family",
+    "Color": "Amber",
+    "Rarity": "Rare",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set4/28_4070aa7a4367b151e61bac9a31bd2f26667573e3.jpg"
+  },
+  {
+    "Set Number": "012",
+    "Card Number": "31,31",
+    "Count": 2,
+    "Name": "Metamorphosis",
+    "Color": "Amber",
+    "Rarity": "Rare",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set12/31_40137d53377d66ebdf9e3b42e91916635ff64cbf.jpg"
+  },
+  {
+    "Set Number": "013",
+    "Card Number": "35,35",
+    "Count": 1,
+    "Name": "Nobody Like U",
+    "Color": "Amber",
+    "Rarity": "Rare",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set13/35_791fd66f58363f276e3fd724a7b5555ca7955943.jpg"
+  },
+  {
+    "Set Number": "011",
+    "Card Number": "32,32",
+    "Count": 2,
+    "Name": "Ohana Means Family",
+    "Color": "Amber",
+    "Rarity": "Legendary",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set11/32_f06ccc35177ad779a5c5d31b8a54cdd3396ea72f.jpg"
+  },
+  {
+    "Set Number": "011",
+    "Card Number": "28,28",
+    "Count": 4,
+    "Name": "Raging Storm",
+    "Color": "Amber",
+    "Rarity": "Super Rare",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set11/28_a60eb24f147cd8428a09e12896d02b8aed54eba2.jpg"
+  },
+  {
+    "Set Number": "006",
+    "Card Number": "30,30",
+    "Count": 1,
+    "Name": "Safe and Sound",
+    "Color": "Amber",
+    "Rarity": "Rare",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set6/30_f1b80c0272561bf40f415767eac305c11f64e2e0.jpg"
+  },
+  {
+    "Set Number": "003",
+    "Card Number": "28,28",
+    "Count": 2,
+    "Name": "The Bare Necessities",
+    "Color": "Amber",
+    "Rarity": "Rare",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set3/28_948c90cdca398c7013553001bae9137c0dab9b86.jpg"
+  },
+  {
+    "Set Number": "007",
+    "Card Number": "40,40",
+    "Count": 2,
+    "Name": "The Family Madrigal",
+    "Color": "Amber Amethyst",
+    "Rarity": "Rare",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set7/40_3ff4269c608a85f618025f87169ad6baa1022834.jpg"
+  },
+  {
+    "Set Number": "010",
+    "Card Number": "29,29,207",
+    "Count": 1,
+    "Name": "The Horseman Strikes!",
+    "Color": "Amber",
+    "Rarity": "Rare,Epic",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set10/29_407ff14ad263406c42755bd9f5d24b48181d4e6f.jpg"
+  },
+  {
+    "Set Number": "002",
+    "Card Number": "33,33",
+    "Count": 1,
+    "Name": "Dragon Gem",
+    "Color": "Amber",
+    "Rarity": "Rare",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set2/33_8c45bbe3996a5a7f2b9a08e69ed07ac281564feb.jpg"
+  },
+  {
+    "Set Number": "003",
+    "Card Number": "30,30",
+    "Count": 1,
+    "Name": "Heart of Atlantis",
+    "Color": "Amber",
+    "Rarity": "Rare",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set3/30_67cf92fbf88e6caebb71ec5acda2e48f9f80f82a.jpg"
+  },
+  {
+    "Set Number": "011",
+    "Card Number": "33,33",
+    "Count": 2,
+    "Name": "John Smith's Compass",
+    "Color": "Amber",
+    "Rarity": "Rare",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set11/33_9f8c6bc097dd5ac90a78e9fa58e435e6747daff5.jpg"
+  },
+  {
+    "Set Number": "004",
+    "Card Number": "31,31",
+    "Count": 2,
+    "Name": "Miracle Candle",
+    "Color": "Amber",
+    "Rarity": "Rare",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set4/31_9ac75e75ae9de62c8c78914a94f6d8ec927ea6ff.jpg"
+  },
+  {
+    "Set Number": "002",
+    "Card Number": "34,34",
+    "Count": 2,
+    "Name": "Sleepy's Flute",
+    "Color": "Amber",
+    "Rarity": "Rare",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set2/34_83ed069668c5fd38586a042580df3ae9ffa80745.jpg"
+  },
+  {
+    "Set Number": "010",
+    "Card Number": "32,32",
+    "Count": 2,
+    "Name": "The Black Cauldron",
+    "Color": "Amber",
+    "Rarity": "Legendary",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set10/32_a2af85f6ef8a2c1838200cae871f526440422dcc.jpg"
+  },
+  {
+    "Set Number": "001",
+    "Card Number": "34,34",
+    "Count": 3,
+    "Name": "Ursula's Shell Necklace",
+    "Color": "Amber",
+    "Rarity": "Rare",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set1/34_4237582b422649024c74839822f56467f66d9dc2.jpg"
+  },
+  {
+    "Set Number": "009",
+    "Card Number": "33,33",
+    "Count": 2,
+    "Name": "Ursula\u2019s Shell Necklace",
+    "Color": "Amber",
+    "Rarity": "Rare",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set9/33_6092ccc36e9812be6a7e80cb3b98ae71503a9cd0.jpg"
+  },
+  {
+    "Set Number": "012",
+    "Card Number": "34,34",
+    "Count": 1,
+    "Name": "Andy's Room - Home Base",
+    "Color": "Amber",
+    "Rarity": "Rare",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set12/34_70bccbe42b1326585e6dc83c7b0f4a8166142d6c.jpg"
+  },
+  {
+    "Set Number": "005",
+    "Card Number": "34,34",
+    "Count": 1,
+    "Name": "Pride Lands - Jungle Oasis",
+    "Color": "Amber",
+    "Rarity": "Rare",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set5/34_24af23d0affa7a98088a087652907563ccea3ce8.jpg"
+  },
+  {
+    "Set Number": "003",
+    "Card Number": "33,33",
+    "Count": 1,
+    "Name": "Pride Lands - Pride Rock",
+    "Color": "Amber",
+    "Rarity": "Rare",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set3/33_7c8e9fc27a82021356e4571a43b99e5d2c8d1f2f.jpg"
+  },
+  {
+    "Set Number": "004",
+    "Card Number": "34,34",
+    "Count": 3,
+    "Name": "The Underworld - River Styx",
+    "Color": "Amber",
+    "Rarity": "Rare",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set4/34_eb2e590d7aab5c27da12964691ea0fbbc7487eec.jpg"
+  },
+  {
+    "Set Number": "012",
+    "Card Number": "58,58",
+    "Count": 2,
+    "Name": "Alma Madrigal - Keeper of the Flame",
+    "Color": "Amethyst",
+    "Rarity": "Rare",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set12/58_0a0a96a4680a4a9c7400027441258b3a43cd1771.jpg"
+  },
+  {
+    "Set Number": "011",
+    "Card Number": "50,50",
+    "Count": 3,
+    "Name": "Anna - Soothing Sister",
+    "Color": "Amethyst",
+    "Rarity": "Legendary",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set11/50_a2b8a5ef1546f17e9f6de92350be2e14832dfc9f.jpg"
+  },
+  {
+    "Set Number": "002",
+    "Card Number": "35,35",
+    "Count": 3,
+    "Name": "Arthur - Wizard's Apprentice",
+    "Color": "Amethyst",
+    "Rarity": "Super Rare",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set2/35_e4cc87bb2c2675e1d0b50ca2f643ed0f306f8c59.jpg"
+  },
+  {
+    "Set Number": "008",
+    "Card Number": "63,63",
+    "Count": 4,
+    "Name": "Bambi - Little Prince",
+    "Color": "Amethyst",
+    "Rarity": "Legendary",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set8/63_c142fdc79227b5bada644044b309df4318c3862d.jpg"
+  },
+  {
+    "Set Number": "004",
+    "Card Number": "36,36,41/P3",
+    "Count": 2,
+    "Name": "Belle - Accomplished Mystic",
+    "Color": "Amethyst",
+    "Rarity": "Super Rare,Promo",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set4/36_8d797ae34702f28cc696d97e188e8b390b08c1f0.jpg"
+  },
+  {
+    "Set Number": "002",
+    "Card Number": "36,36",
+    "Count": 3,
+    "Name": "Blue Fairy - Rewarding Good Deeds",
+    "Color": "Amethyst",
+    "Rarity": "Uncommon",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set2/36_77cd66e48745310ef6939c1e05cac22e0a180dc4.jpg"
+  },
+  {
+    "Set Number": "010",
+    "Card Number": "60,60",
+    "Count": 3,
+    "Name": "Cheshire Cat - Inexplicable",
+    "Color": "Amethyst",
+    "Rarity": "Super Rare",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set10/60_7c1e74253a339d34ecd8f52d82fb1ae28ff90368.jpg"
+  },
+  {
+    "Set Number": "013",
+    "Card Number": "61,61",
+    "Count": 2,
+    "Name": "Christopher Robin - Hunny Sage",
+    "Color": "Amethyst Sapphire",
+    "Rarity": "Legendary",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set13/61_c18372bc899dd5130c520f305f42e4b70339b1c8.jpg"
+  },
+  {
+    "Set Number": "011",
+    "Card Number": "55,55",
+    "Count": 3,
+    "Name": "Christopher Robin - Joining the Fun",
+    "Color": "Amethyst",
+    "Rarity": "Uncommon",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set11/55_84566b64c868c6e336ef3f0f0e679bf96b2334ea.jpg"
+  },
+  {
+    "Set Number": "010",
+    "Card Number": "55,55",
+    "Count": 3,
+    "Name": "Demona - Scourge of the Wyvern Clan",
+    "Color": "Amethyst",
+    "Rarity": "Legendary",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set10/55_b420b205673498ff1f1f209cb23a7a2ebfb3284d.jpg"
+  },
+  {
+    "Set Number": "007",
+    "Card Number": "73,73",
+    "Count": 1,
+    "Name": "Donald Duck - Flustered Sorcerer",
+    "Color": "Amethyst",
+    "Rarity": "Legendary",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set7/73_04373de891cfa905b48ea08fdfce94161b325f30.jpg"
+  },
+  {
+    "Set Number": "001",
+    "Card Number": "37,37",
+    "Count": 1,
+    "Name": "Dr. Facilier - Agent Provocateur",
+    "Color": "Amethyst",
+    "Rarity": "Rare",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set1/37_95a8bf5060a2244b6e9434febb7ed5f6cce0f658.jpg"
+  },
+  {
+    "Set Number": "001",
+    "Card Number": "39,39",
+    "Count": 1,
+    "Name": "Dr. Facilier - Remarkable Gentleman",
+    "Color": "Amethyst",
+    "Rarity": "Rare",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set1/39_af9ccae35e3e66e8923425eed96c8111153a1ceb.jpg"
+  },
+  {
+    "Set Number": "009",
+    "Card Number": "45,45",
+    "Count": 4,
+    "Name": "Dumbo - Ninth Wonder of the Universe",
+    "Color": "Amethyst",
+    "Rarity": "Legendary",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set9/45_8579789f79360cc5b2014499dd9a2eb1d34011b4.jpg"
+  },
+  {
+    "Set Number": "011",
+    "Card Number": "45,45",
+    "Count": 1,
+    "Name": "Eeyore - In the Way",
+    "Color": "Amethyst",
+    "Rarity": "Rare",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set11/45_f831c42e1003ad2749972b61256bf4db2ecb56eb.jpg"
+  },
+  {
+    "Set Number": "009",
+    "Card Number": "43,43",
+    "Count": 2,
+    "Name": "Elsa - Spirit of Winter",
+    "Color": "Amethyst",
+    "Rarity": "Legendary",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set9/43_aef7c93b44961368600650a545acfc7b05f5dd2e.jpg"
+  },
+  {
+    "Set Number": "001",
+    "Card Number": "42,42",
+    "Count": 4,
+    "Name": "Elsa - Spirit of Winter",
+    "Color": "Amethyst",
+    "Rarity": "Legendary",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set1/42_1745d8b8ed5830fcf8693ee95a85e85d0d1ef309.jpg"
+  },
+  {
+    "Set Number": "005",
+    "Card Number": "48,48,6/P3",
+    "Count": 1,
+    "Name": "Elsa - The Fifth Spirit",
+    "Color": "Amethyst",
+    "Rarity": "Super Rare,Promo",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set5/48_edd4f9b4983f2554a8c4f2537cd850a511401294.jpg"
+  },
+  {
+    "Set Number": "002",
+    "Card Number": "41,41",
+    "Count": 2,
+    "Name": "Fairy Godmother - Mystic Armorer",
+    "Color": "Amethyst",
+    "Rarity": "Legendary",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set2/41_0bdcc3bfcef3eee23a761333ae4975d1b6b29826.jpg"
+  },
+  {
+    "Set Number": "004",
+    "Card Number": "43,43",
+    "Count": 2,
+    "Name": "Flotsam - Ursula's \"Baby\"",
+    "Color": "Amethyst",
+    "Rarity": "Uncommon",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set4/43_5e6ef033c942a1af1ea4b2c1af5b9d0d7402daa0.jpg"
+  },
+  {
+    "Set Number": "011",
+    "Card Number": "49,49,210",
+    "Count": 2,
+    "Name": "Genie - Magical Researcher",
+    "Color": "Amethyst",
+    "Rarity": "Rare,Epic",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set11/49_95968432aafa8b277c52868300311296f18146a9.jpg"
+  },
+  {
+    "Set Number": "005",
+    "Card Number": "49,49",
+    "Count": 1,
+    "Name": "Genie - Main Attraction",
+    "Color": "Amethyst",
+    "Rarity": "Legendary",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set5/49_037e0ba828adfc929150639a308c981283e1f789.jpg"
+  },
+  {
+    "Set Number": "009",
+    "Card Number": "54,54",
+    "Count": 1,
+    "Name": "Genie - Supportive Friend",
+    "Color": "Amethyst",
+    "Rarity": "Rare",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set9/54_4b448baf430bd02a4df9d7ed97eaee34bb73d86b.jpg"
+  },
+  {
+    "Set Number": "003",
+    "Card Number": "38,38",
+    "Count": 2,
+    "Name": "Genie - Supportive Friend",
+    "Color": "Amethyst",
+    "Rarity": "Super Rare",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set3/38_f9b0eff391eea3885cbff9c430ce500db753d193.jpg"
+  },
+  {
+    "Set Number": "006",
+    "Card Number": "61,61",
+    "Count": 1,
+    "Name": "Genie - Wonderful Trickster",
+    "Color": "Amethyst",
+    "Rarity": "Legendary",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set6/61_b48a1a429b8220c50c19d4e45f65ef124e738df8.jpg"
+  },
+  {
+    "Set Number": "013",
+    "Card Number": "53,53",
+    "Count": 2,
+    "Name": "Grandma Wu - Wise Grandmother",
+    "Color": "Amethyst",
+    "Rarity": "Rare",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set13/53_a80a83b25999ee99bd4316cf32915cb7674e4844.jpg"
+  },
+  {
+    "Set Number": "010",
+    "Card Number": "37,37",
+    "Count": 2,
+    "Name": "Gwythaint - Savage Hunter",
+    "Color": "Amethyst",
+    "Rarity": "Uncommon",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set10/37_4ab62f9afc8830084812a83c9849695b9c1abf2c.jpg"
+  },
+  {
+    "Set Number": "007",
+    "Card Number": "52,52",
+    "Count": 3,
+    "Name": "Hades - Fast Talker",
+    "Color": "Amethyst Ruby",
+    "Rarity": "Rare",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set7/52_fc4e9c0170d865e9eedb36a1b7f88751f444af8d.jpg"
+  },
+  {
+    "Set Number": "010",
+    "Card Number": "56,56",
+    "Count": 4,
+    "Name": "Hades - Looking for a Deal",
+    "Color": "Amethyst",
+    "Rarity": "Legendary",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set10/56_01f7ba79c1d23c0c8f7474533a4d3fded5880337.jpg"
+  },
+  {
+    "Set Number": "006",
+    "Card Number": "36,36",
+    "Count": 1,
+    "Name": "Hades - Lord of the Dead",
+    "Color": "Amethyst",
+    "Rarity": "Rare",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set6/36_5aee91f8f984adaa73029cc97d165aa105c26a7a.jpg"
+  },
+  {
+    "Set Number": "013",
+    "Card Number": "54,54,211",
+    "Count": 2,
+    "Name": "Heihei - Created by the Vine",
+    "Color": "Amethyst",
+    "Rarity": "Rare,Epic",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set13/54_620b5405f0dabd41193b29addff561404877926a.jpg"
+  },
+  {
+    "Set Number": "004",
+    "Card Number": "45,45",
+    "Count": 3,
+    "Name": "Isabela Madrigal - Golden Child",
+    "Color": "Amethyst",
+    "Rarity": "Rare",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set4/45_9ab751052a7051058baf0ba713eaf09442c97f81.jpg"
+  },
+  {
+    "Set Number": "003",
+    "Card Number": "42,42",
+    "Count": 4,
+    "Name": "Jafar - Striking Illusionist",
+    "Color": "Amethyst",
+    "Rarity": "Legendary",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set3/42_31c58d0346461e58d2302c8037894bed260fabf5.jpg"
+  },
+  {
+    "Set Number": "008",
+    "Card Number": "62,62",
+    "Count": 1,
+    "Name": "Jiminy Cricket - Level-Headed and Wise",
+    "Color": "Amethyst",
+    "Rarity": "Rare",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set8/62_1c47493ddbfc02a7971f5c988d9db896e9dd5861.jpg"
+  },
+  {
+    "Set Number": "011",
+    "Card Number": "51,51",
+    "Count": 2,
+    "Name": "Kristoff - Icy Explorer",
+    "Color": "Amethyst",
+    "Rarity": "Rare",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set11/51_379a90764c40582ee75599d3198e577d51377a51.jpg"
+  },
+  {
+    "Set Number": "012",
+    "Card Number": "60,60",
+    "Count": 3,
+    "Name": "Luisa Madrigal - Confident Climber",
+    "Color": "Amethyst",
+    "Rarity": "Legendary",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set12/60_af3206e69568dbfad883b657a1de241336f40d18.jpg"
+  },
+  {
+    "Set Number": "005",
+    "Card Number": "45,45",
+    "Count": 1,
+    "Name": "Luisa Madrigal - Entertaining Muscle",
+    "Color": "Amethyst",
+    "Rarity": "Rare",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set5/45_6b398b3d757fbfe2358039c8acfd053286d474c5.jpg"
+  },
+  {
+    "Set Number": "005",
+    "Card Number": "44,44",
+    "Count": 3,
+    "Name": "Madam Mim - Elephant",
+    "Color": "Amethyst",
+    "Rarity": "Super Rare",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set5/44_d5b3e3ff5a8bb6e4f768a412feef31c92e104e05.jpg"
+  },
+  {
+    "Set Number": "002",
+    "Card Number": "47,47",
+    "Count": 2,
+    "Name": "Madam Mim - Purple Dragon",
+    "Color": "Amethyst",
+    "Rarity": "Legendary",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set2/47_12520a750019d8aa8c89e2ace7c714e5f9b32aec.jpg"
+  },
+  {
+    "Set Number": "006",
+    "Card Number": "37,37",
+    "Count": 1,
+    "Name": "Madam Mim - Tiny Adversary",
+    "Color": "Amethyst",
+    "Rarity": "Rare",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set6/37_cae2111c1755fc09e68fbd5720fbb40e1a047827.jpg"
+  },
+  {
+    "Set Number": "006",
+    "Card Number": "55,55",
+    "Count": 1,
+    "Name": "Madam Mim - Truly Marvelous",
+    "Color": "Amethyst",
+    "Rarity": "Super Rare",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set6/55_c3aa0957a4b378fa99c854c382a4ce15b89ed4da.jpg"
+  },
+  {
+    "Set Number": "010",
+    "Card Number": "54,54",
+    "Count": 3,
+    "Name": "Magica De Spell - Conniving Sorceress",
+    "Color": "Amethyst",
+    "Rarity": "Super Rare",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set10/54_d44ecff9c3a0eb255fc5f4b728d730fce3329c10.jpg"
+  },
+  {
+    "Set Number": "005",
+    "Card Number": "53,53",
+    "Count": 1,
+    "Name": "Magica De Spell - Cruel Sorceress",
+    "Color": "Amethyst",
+    "Rarity": "Rare",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set5/53_ead6b65ed55adc3e3ea12afe7b8738f0e4e24f95.jpg"
+  },
+  {
+    "Set Number": "003",
+    "Card Number": "49,49",
+    "Count": 2,
+    "Name": "Magica De Spell - The Midas Touch",
+    "Color": "Amethyst",
+    "Rarity": "Super Rare",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set3/49_1517ceda61aaaf1080a3d4dbf5147689558385ed.jpg"
+  },
+  {
+    "Set Number": "001",
+    "Card Number": "48,48",
+    "Count": 3,
+    "Name": "Maleficent - Biding Her Time",
+    "Color": "Amethyst",
+    "Rarity": "Rare",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set1/48_19f4ec25d442590b45b62ea4d697f4ddd2f93375.jpg"
+  },
+  {
+    "Set Number": "005",
+    "Card Number": "35,35",
+    "Count": 1,
+    "Name": "Maleficent - Formidable Queen",
+    "Color": "Amethyst",
+    "Rarity": "Super Rare",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set5/35_a0ce34b6172ac9df0791808593afc3493a95f9d2.jpg"
+  },
+  {
+    "Set Number": "012",
+    "Card Number": "55,55,44/P3",
+    "Count": 1,
+    "Name": "Maleficent - Imperious Traveler",
+    "Color": "Amethyst",
+    "Rarity": "Rare,Promo",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set12/55_f704bd3f3430445a3085f37da1d9b990a8b33843.jpg"
+  },
+  {
+    "Set Number": "003",
+    "Card Number": "51,51",
+    "Count": 4,
+    "Name": "Maleficent - Mistress of All Evil",
+    "Color": "Amethyst",
+    "Rarity": "Legendary",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set3/51_f1d808e9468b1ac1919e1bc9c21652a90c7c56aa.jpg"
+  },
+  {
+    "Set Number": "001",
+    "Card Number": "50,50",
+    "Count": 1,
+    "Name": "Marshmallow - Persistent Guardian",
+    "Color": "Amethyst",
+    "Rarity": "Super Rare",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set1/50_8b4a5528aff962fd726962cb7591ba00b86bf6fd.jpg"
+  },
+  {
+    "Set Number": "010",
+    "Card Number": "58,58,209",
+    "Count": 1,
+    "Name": "Merlin - Completing His Research",
+    "Color": "Amethyst",
+    "Rarity": "Uncommon,Epic",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set10/58_2805a2ac115ecc5e61c11a64fba7e095cf2c9f23.jpg"
+  },
+  {
+    "Set Number": "013",
+    "Card Number": "49,49",
+    "Count": 1,
+    "Name": "Ming Lee - Overprotective Parent",
+    "Color": "Amethyst",
+    "Rarity": "Rare",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set13/49_1e00ab6d9b752086b1c88fa3d0d775cd00af0de9.jpg"
+  },
+  {
+    "Set Number": "008",
+    "Card Number": "64,64",
+    "Count": 2,
+    "Name": "Monstro - Infamous Whale",
+    "Color": "Amethyst",
+    "Rarity": "Rare",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set8/64_acdd9f63f197356a29f961a782920232d24c5e39.jpg"
+  },
+  {
+    "Set Number": "005",
+    "Card Number": "52,52",
+    "Count": 2,
+    "Name": "Monstro - Whale of a Whale",
+    "Color": "Amethyst",
+    "Rarity": "Uncommon",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set5/52_65252a78b4cbecfbe9a2c54d920367b3fad83eed.jpg"
+  },
+  {
+    "Set Number": "012",
+    "Card Number": "57,57",
+    "Count": 2,
+    "Name": "Mor'du - Savage Cursed Prince",
+    "Color": "Amethyst",
+    "Rarity": "Super Rare",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set12/57_08e538a5c71dc7d0ae9d591b486d06fdeff560e5.jpg"
+  },
+  {
+    "Set Number": "012",
+    "Card Number": "49,49",
+    "Count": 1,
+    "Name": "Mrs. Incredible - Super Stretchy",
+    "Color": "Amethyst",
+    "Rarity": "Rare",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set12/49_ea5c3b0583d7f5c0535d469ced2f6875c8c8decc.jpg"
+  },
+  {
+    "Set Number": "012",
+    "Card Number": "56,56",
+    "Count": 3,
+    "Name": "Pepa Madrigal - Calm Before the Storm",
+    "Color": "Amethyst",
+    "Rarity": "Super Rare",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set12/56_e468268cfa6f2cee160671e7604a4b8e8483702b.jpg"
+  },
+  {
+    "Set Number": "004",
+    "Card Number": "54,54",
+    "Count": 3,
+    "Name": "Peter Pan - Shadow Finder",
+    "Color": "Amethyst",
+    "Rarity": "Super Rare",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set4/54_11c3eb00666010a106cd8dbe5e335151b3119f96.jpg"
+  },
+  {
+    "Set Number": "002",
+    "Card Number": "55,55",
+    "Count": 3,
+    "Name": "Peter Pan's Shadow - Not Sewn On",
+    "Color": "Amethyst",
+    "Rarity": "Super Rare",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set2/55_57ab6208082cd9837f7a231f019a327d50c3557e.jpg"
+  },
+  {
+    "Set Number": "008",
+    "Card Number": "61,61,224",
+    "Count": 1,
+    "Name": "Pinocchio - Strings Attached",
+    "Color": "Amethyst",
+    "Rarity": "Legendary",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set8/61_f7ddccae7c15ffbb88923320c100fda44ac30ca7.jpg"
+  },
+  {
+    "Set Number": "011",
+    "Card Number": "42,42",
+    "Count": 3,
+    "Name": "Pocahontas - Following the Wind",
+    "Color": "Amethyst",
+    "Rarity": "Super Rare",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set11/42_82e867a912c32397b2b2673df6b1e7a81c33e2de.jpg"
+  },
+  {
+    "Set Number": "009",
+    "Card Number": "36,36",
+    "Count": 1,
+    "Name": "Rafiki - Mystical Fighter",
+    "Color": "Amethyst",
+    "Rarity": "Rare",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set9/36_1659e039b7eaf7b343fc7213d2e1ecb34b96ea09.jpg"
+  },
+  {
+    "Set Number": "003",
+    "Card Number": "54,54",
+    "Count": 3,
+    "Name": "Rafiki - Mystical Fighter",
+    "Color": "Amethyst",
+    "Rarity": "Rare",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set3/54_82b59bcc39d43617751c25c04d0c3618fc0aaaa0.jpg"
+  },
+  {
+    "Set Number": "011",
+    "Card Number": "60,60",
+    "Count": 1,
+    "Name": "Sven - Leaping Reindeer",
+    "Color": "Amethyst",
+    "Rarity": "Super Rare",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set11/60_17cf957914eda93087a0a95d15418ccc3fd1a7da.jpg"
+  },
+  {
+    "Set Number": "010",
+    "Card Number": "36,36",
+    "Count": 3,
+    "Name": "The Horned King - Wicked Ruler",
+    "Color": "Amethyst",
+    "Rarity": "Super Rare",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set10/36_c20ffde5736831aee196df1c57f2522c07fcce2c.jpg"
+  },
+  {
+    "Set Number": "007",
+    "Card Number": "74,74",
+    "Count": 2,
+    "Name": "The Queen - Jealous Beauty",
+    "Color": "Amethyst",
+    "Rarity": "Legendary",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set7/74_9d08fd835776fe3a19eb9f27d01159b7f702d430.jpg"
+  },
+  {
+    "Set Number": "003",
+    "Card Number": "58,58",
+    "Count": 2,
+    "Name": "Treasure Guardian - Protector of the Cave",
+    "Color": "Amethyst",
+    "Rarity": "Rare",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set3/58_7b53dc1d4c91033fe1cf2596a303aa5eed0f3a5e.jpg"
+  },
+  {
+    "Set Number": "001",
+    "Card Number": "59,59",
+    "Count": 3,
+    "Name": "Ursula - Power Hungry",
+    "Color": "Amethyst",
+    "Rarity": "Legendary",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set1/59_e535a4d8cf350394272fb18957a63ddebd103ddb.jpg"
+  },
+  {
+    "Set Number": "003",
+    "Card Number": "59,59",
+    "Count": 3,
+    "Name": "Ursula - Sea Witch",
+    "Color": "Amethyst",
+    "Rarity": "Rare",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set3/59_8532b4f823426249fd92fc479eef4224bfc0c2ea.jpg"
+  },
+  {
+    "Set Number": "004",
+    "Card Number": "58,58,38/P1",
+    "Count": 3,
+    "Name": "Ursula - Sea Witch Queen",
+    "Color": "Amethyst",
+    "Rarity": "Legendary,Promo",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set4/58_32fb0c4d1064a1d0383ae32ec494ffc09f07117b.jpg"
+  },
+  {
+    "Set Number": "009",
+    "Card Number": "44,44",
+    "Count": 1,
+    "Name": "Ursula - Voice Stealer",
+    "Color": "Amethyst",
+    "Rarity": "Super Rare",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set9/44_42f903eff18a03d8a4e4d767ccd785463a7261a4.jpg"
+  },
+  {
+    "Set Number": "013",
+    "Card Number": "46,46,4/PD1",
+    "Count": 3,
+    "Name": "Vixey - Expert Fisher",
+    "Color": "Amethyst",
+    "Rarity": "Rare,Promo",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set13/46_380e4dac98ff0d3c5b651912e447b786986a4944.jpg"
+  },
+  {
+    "Set Number": "011",
+    "Card Number": "57,57",
+    "Count": 2,
+    "Name": "Witches of Morva - Orddu, Orwen, and Orgoch",
+    "Color": "Amethyst",
+    "Rarity": "Rare",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set11/57_ce8e6730689d82de36b3e99dc2dec20e288c0d2c.jpg"
+  },
+  {
+    "Set Number": "004",
+    "Card Number": "59,59,223",
+    "Count": 3,
+    "Name": "Yen Sid - Powerful Sorcerer",
+    "Color": "Amethyst",
+    "Rarity": "Legendary",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set4/59_76659fe23e04491738b6dd45a0cea0f9ee249b8b.jpg"
+  },
+  {
+    "Set Number": "007",
+    "Card Number": "68,68",
+    "Count": 2,
+    "Name": "Yzma - Above It All",
+    "Color": "Amethyst Emerald",
+    "Rarity": "Super Rare",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set7/68_798ba4db9116b7aba0d5baff93d6791398ded3a3.jpg"
+  },
+  {
+    "Set Number": "006",
+    "Card Number": "56,56",
+    "Count": 1,
+    "Name": "Yzma - Conniving Chemist",
+    "Color": "Amethyst",
+    "Rarity": "Legendary",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set6/56_27e73c3880e21571b4889f846207c24b3c5c7013.jpg"
+  },
+  {
+    "Set Number": "002",
+    "Card Number": "60,60",
+    "Count": 2,
+    "Name": "Yzma - Scary Beyond All Reason",
+    "Color": "Amethyst",
+    "Rarity": "Super Rare",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set2/60_3892d5f5b92e154f52824e1c2feb48f705290d9e.jpg"
+  },
+  {
+    "Set Number": "001",
+    "Card Number": "61,61",
+    "Count": 2,
+    "Name": "Zeus - God of Lightning",
+    "Color": "Amethyst",
+    "Rarity": "Rare",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set1/61_5b446f0ea2cac25ecfc36ce75611f812bc29cb9d.jpg"
+  },
+  {
+    "Set Number": "010",
+    "Card Number": "62,62",
+    "Count": 2,
+    "Name": "Can't Hold It Back Anymore",
+    "Color": "Amethyst",
+    "Rarity": "Rare",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set10/62_688951cb7bae52d1acea82bfe53be76ecff5f096.jpg"
+  },
+  {
+    "Set Number": "008",
+    "Card Number": "82,82",
+    "Count": 1,
+    "Name": "Everybody's Got a Weakness",
+    "Color": "Amethyst",
+    "Rarity": "Rare",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set8/82_a3eabb8e0761d9f79bdf85e7e0dccb48ed0c4833.jpg"
+  },
+  {
+    "Set Number": "002",
+    "Card Number": "62,62",
+    "Count": 3,
+    "Name": "Gruesome and Grim",
+    "Color": "Amethyst",
+    "Rarity": "Rare",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set2/62_6dea1887243d5d7eafee4ee8eff3b34788ff0d55.jpg"
+  },
+  {
+    "Set Number": "009",
+    "Card Number": "60,60",
+    "Count": 2,
+    "Name": "Second Star to the Right",
+    "Color": "Amethyst",
+    "Rarity": "Rare",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set9/60_45c54e3f527068db7980219ef3f91971b594c2db.jpg"
+  },
+  {
+    "Set Number": "004",
+    "Card Number": "61,61",
+    "Count": 3,
+    "Name": "Second Star To The Right",
+    "Color": "Amethyst",
+    "Rarity": "Rare",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set4/61_0226c7b6618f3050813d6083343f88a4e64f3c7b.jpg"
+  },
+  {
+    "Set Number": "003",
+    "Card Number": "63,63",
+    "Count": 3,
+    "Name": "The Boss Is On A Roll",
+    "Color": "Amethyst",
+    "Rarity": "Rare",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set3/63_15486232d554c6844613f8836cd7afb343742e2b.jpg"
+  },
+  {
+    "Set Number": "010",
+    "Card Number": "67,67",
+    "Count": 1,
+    "Name": "Grimorum Arcanorum",
+    "Color": "Amethyst",
+    "Rarity": "Rare",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set10/67_ae619750809eed3d05656b5c05ddae3428ec2ba0.jpg"
+  },
+  {
+    "Set Number": "005",
+    "Card Number": "65,65,223",
+    "Count": 3,
+    "Name": "Half Hexwell Crown",
+    "Color": "Amethyst",
+    "Rarity": "Rare",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set5/65_229298729b372b2547af6d975f43b1808aa0f5ce.jpg"
+  },
+  {
+    "Set Number": "001",
+    "Card Number": "66,66",
+    "Count": 2,
+    "Name": "Magic Mirror",
+    "Color": "Amethyst",
+    "Rarity": "Rare",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set1/66_32477f25a8e0cb772791b23377d468b00f2b8d02.jpg"
+  },
+  {
+    "Set Number": "011",
+    "Card Number": "66,66",
+    "Count": 2,
+    "Name": "Mystical Inkcaster",
+    "Color": "Amethyst",
+    "Rarity": "Rare",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set11/66_e1ac33408ea826d19ea45411ec09c9cc6e4fcbb9.jpg"
+  },
+  {
+    "Set Number": "004",
+    "Card Number": "64,64",
+    "Count": 1,
+    "Name": "Mystical Rose",
+    "Color": "Amethyst",
+    "Rarity": "Rare",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set4/64_7a638face46727381e9f2fb831fc463c868b3627.jpg"
+  },
+  {
+    "Set Number": "002",
+    "Card Number": "67,67",
+    "Count": 2,
+    "Name": "Perplexing Signposts",
+    "Color": "Amethyst",
+    "Rarity": "Rare",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set2/67_c5aa93f576fe3c4988a05b7920ebc1173d431d11.jpg"
+  },
+  {
+    "Set Number": "009",
+    "Card Number": "64,64",
+    "Count": 4,
+    "Name": "The Magic Feather",
+    "Color": "Amethyst",
+    "Rarity": "Rare",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set9/64_e44f90862364d6a5242005e99ed15aed2caf995e.jpg"
+  },
+  {
+    "Set Number": "002",
+    "Card Number": "68,68",
+    "Count": 3,
+    "Name": "The Sorcerer's Spellbook",
+    "Color": "Amethyst",
+    "Rarity": "Rare",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set2/68_0c967f1060be662c4707ffb2b52459d4f4a00865.jpg"
+  },
+  {
+    "Set Number": "001",
+    "Card Number": "68,68",
+    "Count": 4,
+    "Name": "White Rabbit's Pocket Watch",
+    "Color": "Amethyst",
+    "Rarity": "Rare",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set1/68_ceb9ce955f23e1fde63d763ea6801fffc0f75348.jpg"
+  },
+  {
+    "Set Number": "013",
+    "Card Number": "73,73",
+    "Count": 3,
+    "Name": "Ring of Stones - Taken by the Vine",
+    "Color": "Amethyst",
+    "Rarity": "Rare",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set13/73_3ab31a2f464bd52a7795ea0ebb9080aabba62229.jpg"
+  },
+  {
+    "Set Number": "003",
+    "Card Number": "67,67",
+    "Count": 1,
+    "Name": "The Queen's Castle - Mirror Chamber",
+    "Color": "Amethyst",
+    "Rarity": "Rare",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set3/67_8b0a1e0b47c99ea2373b6ac468453312a35583f5.jpg"
+  },
+  {
+    "Set Number": "004",
+    "Card Number": "68,68,35/P1",
+    "Count": 2,
+    "Name": "Ursula's Lair - Eye of the Storm",
+    "Color": "Amethyst",
+    "Rarity": "Rare,Promo",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set4/68_8a3291883dc2321c514d546e5e3d8f94fcd93d1a.jpg"
+  },
+  {
+    "Set Number": "008",
+    "Card Number": "104,104",
+    "Count": 1,
+    "Name": "Alice - Clumsy as Can Be",
+    "Color": "Emerald Ruby",
+    "Rarity": "Rare",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set8/104_e70119989f8e5d2c1af3eb92f0b2a2ab0efa8054.jpg"
+  },
+  {
+    "Set Number": "012",
+    "Card Number": "83,83",
+    "Count": 1,
+    "Name": "Alien - True Believer",
+    "Color": "Emerald",
+    "Rarity": "Rare",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set12/83_3e2cdb38b9f66d072d28ad6f22cbec90c7e8e067.jpg"
+  },
+  {
+    "Set Number": "007",
+    "Card Number": "113,113",
+    "Count": 1,
+    "Name": "Anastasia - Bossy Stepsister",
+    "Color": "Emerald",
+    "Rarity": "Uncommon",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set7/113_8231a6a3caa99320496c6ef6b318109fa4930bdc.jpg"
+  },
+  {
+    "Set Number": "008",
+    "Card Number": "86,86",
+    "Count": 1,
+    "Name": "Basil - Undercover Detective",
+    "Color": "Emerald",
+    "Rarity": "Rare",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set8/86_40d53d79afd63bfdf4d4a57166c73d38a331d9c0.jpg"
+  },
+  {
+    "Set Number": "007",
+    "Card Number": "104,104",
+    "Count": 1,
+    "Name": "Baymax - Giant Robot",
+    "Color": "Emerald Sapphire",
+    "Rarity": "Uncommon",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set7/104_bce732dd8b366ca14afcbb1272b152dbf3259eee.jpg"
+  },
+  {
+    "Set Number": "002",
+    "Card Number": "70,70",
+    "Count": 2,
+    "Name": "Beast - Relentless",
+    "Color": "Emerald",
+    "Rarity": "Legendary",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set2/70_05cce67fd688afbfeac136bad05613ff2c252987.jpg"
+  },
+  {
+    "Set Number": "001",
+    "Card Number": "70,70",
+    "Count": 3,
+    "Name": "Beast - Wolfsbane",
+    "Color": "Emerald",
+    "Rarity": "Legendary",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set1/70_e8e3d65bfca512415780d4a63f70ecd4c3e06b5a.jpg"
+  },
+  {
+    "Set Number": "002",
+    "Card Number": "72,72",
+    "Count": 4,
+    "Name": "Belle - Hidden Archer",
+    "Color": "Emerald",
+    "Rarity": "Legendary",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set2/72_bd26a679b712182bece0b248b02e9cca4850d51b.jpg"
+  },
+  {
+    "Set Number": "011",
+    "Card Number": "71,71",
+    "Count": 2,
+    "Name": "Big Mama - Clever and Calming",
+    "Color": "Emerald",
+    "Rarity": "Uncommon",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set11/71_473e7c4021d0cbf72f42df19cf10c699800babd6.jpg"
+  },
+  {
+    "Set Number": "002",
+    "Card Number": "73,73,15/P1",
+    "Count": 1,
+    "Name": "Bucky - Squirrel Squeak Tutor",
+    "Color": "Emerald",
+    "Rarity": "Uncommon,Promo",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set2/73_964c21fdfd56e2099218b3d77a9c1e1acfe43e6f.jpg"
+  },
+  {
+    "Set Number": "012",
+    "Card Number": "91,91",
+    "Count": 1,
+    "Name": "Buzz Lightyear - Jungle Ranger",
+    "Color": "Emerald",
+    "Rarity": "Legendary",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set12/91_8a8f7415fb9f1db4aa8a5791d5aa60c12af8a995.jpg"
+  },
+  {
+    "Set Number": "012",
+    "Card Number": "85,85,56/P3",
+    "Count": 1,
+    "Name": "Buzz Lightyear - On the Way",
+    "Color": "Emerald",
+    "Rarity": "Rare,Promo",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set12/85_d6a197aa39d3d6b3978d19b9ec5b0f04448a2433.jpg"
+  },
+  {
+    "Set Number": "013",
+    "Card Number": "77,77,5/PD1",
+    "Count": 1,
+    "Name": "Buzz Lightyear - Providing Cover",
+    "Color": "Emerald",
+    "Rarity": "Rare,Promo",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set13/77_05e96d064bb0ca4481e1890214092d9ce7f8cda8.jpg"
+  },
+  {
+    "Set Number": "013",
+    "Card Number": "98,98",
+    "Count": 2,
+    "Name": "Carl Fredricksen & Russell - Intrepid Explorers",
+    "Color": "Emerald Ruby",
+    "Rarity": "Rare",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set13/98_f504cefaa21eca8d3023daf2208d9c573d2700e6.jpg"
+  },
+  {
+    "Set Number": "011",
+    "Card Number": "77,77",
+    "Count": 4,
+    "Name": "Chernabog - Unnatural Force",
+    "Color": "Emerald",
+    "Rarity": "Super Rare",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set11/77_278679b43e0bc83083cf6ac68ab10a3c884b4995.jpg"
+  },
+  {
+    "Set Number": "002",
+    "Card Number": "74,74",
+    "Count": 3,
+    "Name": "Cheshire Cat - Always Grinning",
+    "Color": "Emerald",
+    "Rarity": "Uncommon",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set2/74_2ddedcf89e5f2f356f72f45cd0c7ec50e6af1028.jpg"
+  },
+  {
+    "Set Number": "002",
+    "Card Number": "75,75",
+    "Count": 3,
+    "Name": "Cheshire Cat - From the Shadows",
+    "Color": "Emerald",
+    "Rarity": "Super Rare",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set2/75_a7de8c4589d237d554f29e0c93d18696a94f36a6.jpg"
+  },
+  {
+    "Set Number": "011",
+    "Card Number": "74,74",
+    "Count": 2,
+    "Name": "Chien-Po - Snow Warrior",
+    "Color": "Emerald",
+    "Rarity": "Uncommon",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set11/74_5ee7def70e99d6c81303c5a52f00c70a19d18131.jpg"
+  },
+  {
+    "Set Number": "005",
+    "Card Number": "84,84",
+    "Count": 2,
+    "Name": "Clarabelle - Light on Her Hooves",
+    "Color": "Emerald",
+    "Rarity": "Legendary",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set5/84_147cc2817842e0b084d4e36ed062d5729ca678ec.jpg"
+  },
+  {
+    "Set Number": "011",
+    "Card Number": "84,84",
+    "Count": 4,
+    "Name": "Copper - Champion of the Forest",
+    "Color": "Emerald",
+    "Rarity": "Rare",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set11/84_1acae23a25f80d0cbcbc44aef4298aa0236d8f1f.jpg"
+  },
+  {
+    "Set Number": "001",
+    "Card Number": "72,72",
+    "Count": 1,
+    "Name": "Cruella De Vil - Miserable as Usual",
+    "Color": "Emerald",
+    "Rarity": "Rare",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set1/72_fb74ec07e0eef0bca211bbcb9e12a8920d07ae37.jpg"
+  },
+  {
+    "Set Number": "003",
+    "Card Number": "70,70",
+    "Count": 3,
+    "Name": "Cursed Merfolk - Ursula's Handiwork",
+    "Color": "Emerald",
+    "Rarity": "Rare",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set3/70_6b08223828b1fdc12a02d2c787e634560d5c85ef.jpg"
+  },
+  {
+    "Set Number": "007",
+    "Card Number": "108,108",
+    "Count": 2,
+    "Name": "Daisy Duck - Multitalented Pirate",
+    "Color": "Emerald",
+    "Rarity": "Rare",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set7/108_1d4c2ddbaefe201f18f3e3d06701afac886281bd.jpg"
+  },
+  {
+    "Set Number": "004",
+    "Card Number": "70,70",
+    "Count": 2,
+    "Name": "Diablo - Devoted Herald",
+    "Color": "Emerald",
+    "Rarity": "Legendary",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set4/70_91e94185f0e3fffce9b56084668884110855cebf.jpg"
+  },
+  {
+    "Set Number": "013",
+    "Card Number": "92,92",
+    "Count": 1,
+    "Name": "Dr. Bushroot - Evil Botanist",
+    "Color": "Emerald",
+    "Rarity": "Rare",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set13/92_1e78c22dc9b392f85820673d499873bc6591f916.jpg"
+  },
+  {
+    "Set Number": "002",
+    "Card Number": "79,79",
+    "Count": 3,
+    "Name": "Dr. Facilier - Fortune Teller",
+    "Color": "Emerald",
+    "Rarity": "Super Rare",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set2/79_9a857a3831dd73ef6cfcf2b1eacf6aa9c0d3ddb3.jpg"
+  },
+  {
+    "Set Number": "012",
+    "Card Number": "86,86",
+    "Count": 2,
+    "Name": "Elinor - Renowned Diplomat",
+    "Color": "Emerald",
+    "Rarity": "Super Rare",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set12/86_658b3143cf82da4f244b5a4ef654ce49498281a2.jpg"
+  },
+  {
+    "Set Number": "008",
+    "Card Number": "102,102",
+    "Count": 2,
+    "Name": "Flynn Rider - Breaking and Entering",
+    "Color": "Emerald",
+    "Rarity": "Super Rare",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set8/102_b3e70b0210d0f1cb58599298e6a737d4ee2a859d.jpg"
+  },
+  {
+    "Set Number": "001",
+    "Card Number": "74,74",
+    "Count": 1,
+    "Name": "Flynn Rider - Charming Rogue",
+    "Color": "Emerald",
+    "Rarity": "Uncommon",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set1/74_10ff4083c612424e91403919615318b94d919c60.jpg"
+  },
+  {
+    "Set Number": "002",
+    "Card Number": "82,82",
+    "Count": 2,
+    "Name": "Flynn Rider - His Own Biggest Fan",
+    "Color": "Emerald",
+    "Rarity": "Rare",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set2/82_8744140673fbdc998f6852c26d7ba574199ecc65.jpg"
+  },
+  {
+    "Set Number": "010",
+    "Card Number": "81,81",
+    "Count": 1,
+    "Name": "Flynn Rider - Spectral Scoundrel",
+    "Color": "Emerald",
+    "Rarity": "Uncommon",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set10/81_3b5b8ff4b4ed92f1bfa25f498f3b2d4ab79f4d80.jpg"
+  },
+  {
+    "Set Number": "003",
+    "Card Number": "73,73",
+    "Count": 1,
+    "Name": "Friar Tuck - Priest Of Nottingham",
+    "Color": "Emerald",
+    "Rarity": "Uncommon",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set3/73_ea0025bd1aa8089e9a2cc4804c6a01896bf16546.jpg"
+  },
+  {
+    "Set Number": "008",
+    "Card Number": "99,99",
+    "Count": 1,
+    "Name": "Gadget Hackwrench - Quirky Scientist",
+    "Color": "Emerald",
+    "Rarity": "Rare",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set8/99_c470fb2200d757bc8051e8e0d723b0732d0d06e9.jpg"
+  },
+  {
+    "Set Number": "001",
+    "Card Number": "75,75",
+    "Count": 1,
+    "Name": "Genie - On the Job",
+    "Color": "Emerald",
+    "Rarity": "Super Rare",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set1/75_515f19729aab74a3b2e60654c0cf3d164e7eccb2.jpg"
+  },
+  {
+    "Set Number": "001",
+    "Card Number": "76,76,20/P1",
+    "Count": 2,
+    "Name": "Genie - Powers Unleashed",
+    "Color": "Emerald",
+    "Rarity": "Rare,Promo",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set1/76_2f3e3baaa5a279edc40526f15eecea965fe9982e.jpg"
+  },
+  {
+    "Set Number": "010",
+    "Card Number": "87,87",
+    "Count": 2,
+    "Name": "Goldie O'Gilt - Cunning Prospector",
+    "Color": "Emerald",
+    "Rarity": "Rare",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set10/87_90807268acf6a0f1017fcbee24b8c19361430e5c.jpg"
+  },
+  {
+    "Set Number": "010",
+    "Card Number": "91,91,25/P3",
+    "Count": 2,
+    "Name": "Goofy - Emerald Champion",
+    "Color": "Emerald",
+    "Rarity": "Rare,Promo",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set10/91_2ee66414312445ab9987f23b483be97d6e7a3c64.jpg"
+  },
+  {
+    "Set Number": "006",
+    "Card Number": "89,89,14/P3",
+    "Count": 2,
+    "Name": "Goofy - Expert Shipwright",
+    "Color": "Emerald",
+    "Rarity": "Rare,Promo",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set6/89_fb4aa62fc58234c806c4fa4ec54d6d39f57881b8.jpg"
+  },
+  {
+    "Set Number": "011",
+    "Card Number": "83,83",
+    "Count": 1,
+    "Name": "Goofy - Ghost of Jacob Marley",
+    "Color": "Emerald",
+    "Rarity": "Super Rare",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set11/83_3a2218544b6fef950f4fe0a10e3656928ba4b1c7.jpg"
+  },
+  {
+    "Set Number": "009",
+    "Card Number": "74,74,211,39/P3",
+    "Count": 1,
+    "Name": "Goofy - Set for Adventure",
+    "Color": "Emerald",
+    "Rarity": "Rare,Epic,Promo",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set9/74_80ca7805f07696a52675afc79ecec56b7e104fac.jpg"
+  },
+  {
+    "Set Number": "004",
+    "Card Number": "74,74",
+    "Count": 3,
+    "Name": "Hades - Double Dealer",
+    "Color": "Emerald",
+    "Rarity": "Legendary",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set4/74_94fa559dd6716e1682da6eaad837340dbe792b4a.jpg"
+  },
+  {
+    "Set Number": "001",
+    "Card Number": "78,78",
+    "Count": 4,
+    "Name": "Hans - Scheming Prince",
+    "Color": "Emerald",
+    "Rarity": "Rare",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set1/78_e8a8cd62253a976dbb2799812277f27a629769e8.jpg"
+  },
+  {
+    "Set Number": "004",
+    "Card Number": "75,75",
+    "Count": 2,
+    "Name": "HeiHei - Bumbling Rooster",
+    "Color": "Emerald",
+    "Rarity": "Uncommon",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set4/75_43ca729f433184f8e4ca5f31d8caa13edd88fd29.jpg"
+  },
+  {
+    "Set Number": "012",
+    "Card Number": "93,93",
+    "Count": 1,
+    "Name": "Helga Sinclair - Prepared for Anything",
+    "Color": "Emerald",
+    "Rarity": "Rare",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set12/93_0134d10d7a4537a4578daf9178fabf5da03c7e81.jpg"
+  },
+  {
+    "Set Number": "006",
+    "Card Number": "86,86",
+    "Count": 1,
+    "Name": "Hercules - Baby Demigod",
+    "Color": "Emerald",
+    "Rarity": "Legendary",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set6/86_f4525013c4064bff7f719c0e32a4da87bbae77bb.jpg"
+  },
+  {
+    "Set Number": "007",
+    "Card Number": "96,96,24A/P2,24B/P2",
+    "Count": 2,
+    "Name": "Hiro Hamada - Armor Designer",
+    "Color": "Emerald Sapphire",
+    "Rarity": "Super Rare,Promo",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set7/96_1f227bc4bf295dead92486efb32550721d72f04c.jpg"
+  },
+  {
+    "Set Number": "008",
+    "Card Number": "111,111",
+    "Count": 3,
+    "Name": "Honey Lemon - Costumed Catalyst",
+    "Color": "Emerald Sapphire",
+    "Rarity": "Rare",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set8/111_8b1df2357bf33d9e861cdb6a275846b70b5ab0ba.jpg"
+  },
+  {
+    "Set Number": "004",
+    "Card Number": "78,78",
+    "Count": 1,
+    "Name": "Jasmine - Desert Warrior",
+    "Color": "Emerald",
+    "Rarity": "Rare",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set4/78_887da597ffb5beadd33f908f9feebea1fff7bd76.jpg"
+  },
+  {
+    "Set Number": "006",
+    "Card Number": "70,70,3/CC1",
+    "Count": 2,
+    "Name": "Jasmine - Royal Seafarer",
+    "Color": "Emerald",
+    "Rarity": "Rare,Promo",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set6/70_62e9188f64fe50e47dc3a7068467994a827786d5.jpg"
+  },
+  {
+    "Set Number": "009",
+    "Card Number": "89,89",
+    "Count": 1,
+    "Name": "John Silver - Alien Pirate",
+    "Color": "Emerald",
+    "Rarity": "Legendary",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set9/89_3a05d49f5fc79bdd73b7efb7c972692f774a1e07.jpg"
+  },
+  {
+    "Set Number": "001",
+    "Card Number": "82,82",
+    "Count": 3,
+    "Name": "John Silver - Alien Pirate",
+    "Color": "Emerald",
+    "Rarity": "Legendary",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set1/82_781fc50abac07a3afaae606a2709d3079e0656c3.jpg"
+  },
+  {
+    "Set Number": "007",
+    "Card Number": "111,111",
+    "Count": 1,
+    "Name": "King of Hearts - Picky Ruler",
+    "Color": "Emerald",
+    "Rarity": "Rare",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set7/111_e1e14b165c8ca1935b2f1de3f99d040a74eaa424.jpg"
+  },
+  {
+    "Set Number": "001",
+    "Card Number": "84,84,8/C1,8/C1",
+    "Count": 2,
+    "Name": "Kuzco - Temperamental Emperor",
+    "Color": "Emerald",
+    "Rarity": "Rare,Promo",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set1/84_25d7d6873c9f8d3f2ddfb1503a9e27b5adf3de1f.jpg"
+  },
+  {
+    "Set Number": "007",
+    "Card Number": "115,115",
+    "Count": 2,
+    "Name": "Lady Tremaine - Bitterly Jealous",
+    "Color": "Emerald",
+    "Rarity": "Legendary",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set7/115_6f49d60e8515478115cac61c416bc5b6c03cd596.jpg"
+  },
+  {
+    "Set Number": "012",
+    "Card Number": "79,79",
+    "Count": 2,
+    "Name": "Lenny - Toy Binoculars",
+    "Color": "Emerald",
+    "Rarity": "Rare",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set12/79_7fc0076982a7bf5d9d7295725c8900c45068a0f5.jpg"
+  },
+  {
+    "Set Number": "011",
+    "Card Number": "75,75",
+    "Count": 2,
+    "Name": "Ling - Snow Warrior",
+    "Color": "Emerald",
+    "Rarity": "Rare",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set11/75_3300bd9bb8ddbc17d81f2f9cf79e25165e528c45.jpg"
+  },
+  {
+    "Set Number": "002",
+    "Card Number": "84,84",
+    "Count": 2,
+    "Name": "Little John - Loyal Friend",
+    "Color": "Emerald",
+    "Rarity": "Rare",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set2/84_73911315bb1b7f29311f1a9df66094a8cc3e2d11.jpg"
+  },
+  {
+    "Set Number": "002",
+    "Card Number": "85,85",
+    "Count": 1,
+    "Name": "Lucifer - Cunning Cat",
+    "Color": "Emerald",
+    "Rarity": "Rare",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set2/85_483c4795f3042778c5f0a0052d894709a58c39e8.jpg"
+  },
+  {
+    "Set Number": "003",
+    "Card Number": "78,78",
+    "Count": 1,
+    "Name": "Lyle Tiberius Rourke - Cunning Mercenary",
+    "Color": "Emerald",
+    "Rarity": "Super Rare",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set3/78_b34d202b92a9363d08d49d99dcba3b51e341288e.jpg"
+  },
+  {
+    "Set Number": "008",
+    "Card Number": "110,110",
+    "Count": 2,
+    "Name": "Maui - Stubborn Trickster",
+    "Color": "Emerald Steel",
+    "Rarity": "Super Rare",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set8/110_0165aefa078bb499a8a88ae55b0a1f6f50abde50.jpg"
+  },
+  {
+    "Set Number": "009",
+    "Card Number": "77,77",
+    "Count": 4,
+    "Name": "Max Goof - Chart Topper",
+    "Color": "Emerald",
+    "Rarity": "Legendary",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set9/77_4989ea70648e9e05c291ef8976e2ba803716dc8d.jpg"
+  },
+  {
+    "Set Number": "009",
+    "Card Number": "75,75",
+    "Count": 1,
+    "Name": "Max Goof - Rebellious Teen",
+    "Color": "Emerald",
+    "Rarity": "Rare",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set9/75_8f188bd46b20b5201aa086fcee91e588bbb4ed7f.jpg"
+  },
+  {
+    "Set Number": "010",
+    "Card Number": "86,86,213",
+    "Count": 1,
+    "Name": "Megara - Secret Keeper",
+    "Color": "Emerald",
+    "Rarity": "Rare,Epic",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set10/86_119fb0cd31060d49ec96f54fd55127e7b4387a7f.jpg"
+  },
+  {
+    "Set Number": "012",
+    "Card Number": "89,89,213",
+    "Count": 1,
+    "Name": "Merida - Gifted Archer",
+    "Color": "Emerald",
+    "Rarity": "Rare,Epic",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set12/89_76c466a2d538763b54f1eb37e2e6d3cc285d7d7d.jpg"
+  },
+  {
+    "Set Number": "001",
+    "Card Number": "88,88",
+    "Count": 1,
+    "Name": "Mickey Mouse - Artful Rogue",
+    "Color": "Emerald",
+    "Rarity": "Super Rare",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set1/88_307aedc1d66eb275c6eb4eddcfef31828e154f0d.jpg"
+  },
+  {
+    "Set Number": "011",
+    "Card Number": "91,91",
+    "Count": 1,
+    "Name": "Mickey Mouse - Snowboard Ace",
+    "Color": "Emerald",
+    "Rarity": "Uncommon",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set11/91_fc6ff6290356594bfd9dd7d0d789b2eb8988b661.jpg"
+  },
+  {
+    "Set Number": "013",
+    "Card Number": "99,99",
+    "Count": 2,
+    "Name": "Mickey Mouse & Minnie Mouse - Adventuring Duo",
+    "Color": "Emerald Sapphire",
+    "Rarity": "Legendary",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set13/99_8489e8d10a2c30080087bc0cbab2a5b7095d4f86.jpg"
+  },
+  {
+    "Set Number": "012",
+    "Card Number": "82,82",
+    "Count": 2,
+    "Name": "Milo Thatch - Getting His Hands Dirty",
+    "Color": "Emerald",
+    "Rarity": "Super Rare",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set12/82_01b1e8530860dd2ce09b36a41d4cd2cb6facf0a7.jpg"
+  },
+  {
+    "Set Number": "003",
+    "Card Number": "80,80",
+    "Count": 2,
+    "Name": "Milo Thatch - King of Atlantis",
+    "Color": "Emerald",
+    "Rarity": "Legendary",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set3/80_202f15be9a0d9e160d3d10c37a3d6840f3d7a208.jpg"
+  },
+  {
+    "Set Number": "001",
+    "Card Number": "90,90",
+    "Count": 2,
+    "Name": "Mother Gothel - Selfish Manipulator",
+    "Color": "Emerald",
+    "Rarity": "Super Rare",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set1/90_99d605ee4cc4c78c7c1531e5529ee46acc36301a.jpg"
+  },
+  {
+    "Set Number": "005",
+    "Card Number": "92,92",
+    "Count": 1,
+    "Name": "Mother Gothel - Unwavering Schemer",
+    "Color": "Emerald",
+    "Rarity": "Super Rare",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set5/92_92bb38db9577b514916ca847cb5a2f19c755fec8.jpg"
+  },
+  {
+    "Set Number": "011",
+    "Card Number": "69,69",
+    "Count": 2,
+    "Name": "Mulan - Resourceful Recruit",
+    "Color": "Emerald",
+    "Rarity": "Super Rare",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set11/69_3b38780887fda0aa7de9755016c7f90c6693fb84.jpg"
+  },
+  {
+    "Set Number": "011",
+    "Card Number": "82,82,212",
+    "Count": 1,
+    "Name": "Mushu - Sneaky Dragon",
+    "Color": "Emerald",
+    "Rarity": "Uncommon,Epic",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set11/82_b0f093950ef84dc668bc17230df8cfe7f004e7a5.jpg"
+  },
+  {
+    "Set Number": "013",
+    "Card Number": "97,97",
+    "Count": 2,
+    "Name": "Mushu - Stealthy Dragon",
+    "Color": "Emerald",
+    "Rarity": "Legendary",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set13/97_6b9a164ac4d1d971ac58e574fb4ef0a065724f4d.jpg"
+  },
+  {
+    "Set Number": "004",
+    "Card Number": "81,81",
+    "Count": 1,
+    "Name": "Pain - Immortal Sidekick",
+    "Color": "Emerald",
+    "Rarity": "Uncommon",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set4/81_02035fea98eb935050741c2c448b947821a302d7.jpg"
+  },
+  {
+    "Set Number": "010",
+    "Card Number": "84,84",
+    "Count": 2,
+    "Name": "Penumbra - Moon Alien",
+    "Color": "Emerald",
+    "Rarity": "Rare",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set10/84_b3f674064b4475aeedfd9c4bb3c3dcdff17f9c3f.jpg"
+  },
+  {
+    "Set Number": "013",
+    "Card Number": "89,89,216",
+    "Count": 2,
+    "Name": "Peter Pan - Created by the Vine",
+    "Color": "Emerald",
+    "Rarity": "Rare,Epic",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set13/89_77cae35fe71476b8eef6f104f24099ff5dd273a6.jpg"
+  },
+  {
+    "Set Number": "002",
+    "Card Number": "89,89",
+    "Count": 3,
+    "Name": "Prince John - Greediest of All",
+    "Color": "Emerald",
+    "Rarity": "Rare",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set2/89_059277104c92432bf0bab1ed12c2e6e9ed775c55.jpg"
+  },
+  {
+    "Set Number": "003",
+    "Card Number": "83,83",
+    "Count": 2,
+    "Name": "Prince John - Phony King",
+    "Color": "Emerald",
+    "Rarity": "Uncommon",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set3/83_aef38a7c81d65dbfa7d0014f8f40060324166aaf.jpg"
+  },
+  {
+    "Set Number": "005",
+    "Card Number": "83,83",
+    "Count": 2,
+    "Name": "Prince Phillip - Swordsman of the Realm",
+    "Color": "Emerald",
+    "Rarity": "Super Rare",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set5/83_fd3057e8a722875495969fa9bcffd8ff6f79b55a.jpg"
+  },
+  {
+    "Set Number": "004",
+    "Card Number": "87,87",
+    "Count": 2,
+    "Name": "Prince Phillip - Vanquisher of Foes",
+    "Color": "Emerald",
+    "Rarity": "Super Rare",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set4/87_cbdb3f1a624ef100f587c52de49522df2f919c19.jpg"
+  },
+  {
+    "Set Number": "002",
+    "Card Number": "90,90",
+    "Count": 1,
+    "Name": "Queen of Hearts - Quick-Tempered",
+    "Color": "Emerald",
+    "Rarity": "Common",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set2/90_d2041ebebf4696e726d5109d3c39a760271723c9.jpg"
+  },
+  {
+    "Set Number": "013",
+    "Card Number": "95,95,15/P4,16/P4",
+    "Count": 4,
+    "Name": "Rapunzel - Escaping the Tower",
+    "Color": "Emerald",
+    "Rarity": "Super Rare,Promo",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set13/95_f7868eabe6961f3b8c1bb2700c692e93d537afc5.jpg"
+  },
+  {
+    "Set Number": "008",
+    "Card Number": "101,101",
+    "Count": 2,
+    "Name": "Rapunzel - High Climber",
+    "Color": "Emerald",
+    "Rarity": "Legendary",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set8/101_1b07fee66cd573667b6473d36bab292d2fdcc56c.jpg"
+  },
+  {
+    "Set Number": "013",
+    "Card Number": "100,100",
+    "Count": 1,
+    "Name": "Rapunzel & Flynn Rider - Unlikely Pair",
+    "Color": "Emerald Steel",
+    "Rarity": "Legendary",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set13/100_9bc5e54a3400fb082a2920702733ce04a9e38f88.jpg"
+  },
+  {
+    "Set Number": "008",
+    "Card Number": "100,100",
+    "Count": 2,
+    "Name": "Raya - Infiltration Expert",
+    "Color": "Emerald",
+    "Rarity": "Legendary",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set8/100_69219ef4e1aff56213c6ecc34b69b979ab1f5c02.jpg"
+  },
+  {
+    "Set Number": "010",
+    "Card Number": "89,89,36/P3",
+    "Count": 3,
+    "Name": "Scrooge McDuck - S.H.U.S.H. Agent",
+    "Color": "Emerald",
+    "Rarity": "Super Rare,Promo",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set10/89_b0e1cd63c9f28d7cdb3123bf125732f47a39210e.jpg"
+  },
+  {
+    "Set Number": "011",
+    "Card Number": "79,79",
+    "Count": 1,
+    "Name": "Stegmutt - Clumsy Dinosaur",
+    "Color": "Emerald",
+    "Rarity": "Rare",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set11/79_6f605df93b0f36dd512c02673f035efb768b8504.jpg"
+  },
+  {
+    "Set Number": "004",
+    "Card Number": "90,90",
+    "Count": 4,
+    "Name": "The Muses - Proclaimers of Heroes",
+    "Color": "Emerald",
+    "Rarity": "Rare",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set4/90_2a217f87514dd6d6f00c31f6262f496b16c3f25a.jpg"
+  },
+  {
+    "Set Number": "012",
+    "Card Number": "90,90",
+    "Count": 1,
+    "Name": "The Queen - Devious Disguise",
+    "Color": "Emerald",
+    "Rarity": "Legendary",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set12/90_e84a4e1ff3152046d54142a7f4ea97216a5d9e91.jpg"
+  },
+  {
+    "Set Number": "002",
+    "Card Number": "93,93",
+    "Count": 1,
+    "Name": "The Queen - Disguised Peddler",
+    "Color": "Emerald",
+    "Rarity": "Super Rare",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set2/93_f337bad947a5241a8b0254a60823e77064552e27.jpg"
+  },
+  {
+    "Set Number": "002",
+    "Card Number": "94,94",
+    "Count": 2,
+    "Name": "Tiana - True Princess",
+    "Color": "Emerald",
+    "Rarity": "Uncommon",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set2/94_b42b1aa44c4ef8272260232ecca53c1311713bac.jpg"
+  },
+  {
+    "Set Number": "011",
+    "Card Number": "92,92",
+    "Count": 4,
+    "Name": "Tod - Knows All the Tricks",
+    "Color": "Emerald",
+    "Rarity": "Legendary",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set11/92_350a3c7d3088b90d22af31dc19f6570354c8e004.jpg"
+  },
+  {
+    "Set Number": "003",
+    "Card Number": "91,91",
+    "Count": 2,
+    "Name": "Ursula - Deceiver of All",
+    "Color": "Emerald",
+    "Rarity": "Legendary",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set3/91_28ea07becfe881bf4cc2d3e157667112fb8cd94e.jpg"
+  },
+  {
+    "Set Number": "010",
+    "Card Number": "93,93",
+    "Count": 3,
+    "Name": "Webby Vanderquack - Junior Prospector",
+    "Color": "Emerald",
+    "Rarity": "Legendary",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set10/93_54dcb13ee9b1948764057ab23dd1787ee1fc6892.jpg"
+  },
+  {
+    "Set Number": "011",
+    "Card Number": "89,89",
+    "Count": 1,
+    "Name": "White Rabbit - Late Again",
+    "Color": "Emerald",
+    "Rarity": "Uncommon",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set11/89_816e06c3eab667d0e9b83b48fcf65e3ae3a41551.jpg"
+  },
+  {
+    "Set Number": "002",
+    "Card Number": "96,96",
+    "Count": 2,
+    "Name": "Bibbidi Bobbidi Boo",
+    "Color": "Emerald",
+    "Rarity": "Rare",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set2/96_bcc8818faf0e1bc64ad2df95152d65d2972bfca4.jpg"
+  },
+  {
+    "Set Number": "002",
+    "Card Number": "97,97",
+    "Count": 3,
+    "Name": "Bounce",
+    "Color": "Emerald",
+    "Rarity": "Uncommon",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set2/97_47e59b9401bc4d501dd2c370069dc8083709174f.jpg"
+  },
+  {
+    "Set Number": "011",
+    "Card Number": "96,96",
+    "Count": 2,
+    "Name": "Freeze the Vine",
+    "Color": "Emerald",
+    "Rarity": "Rare",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set11/96_8739fc67e116683ee967c96159e834e27a44425e.jpg"
+  },
+  {
+    "Set Number": "010",
+    "Card Number": "97,97",
+    "Count": 1,
+    "Name": "Malicious, Mean, and Scary",
+    "Color": "Emerald",
+    "Rarity": "Uncommon",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set10/97_f8d31d02f9c04bf27586c44dac14f713f048a478.jpg"
+  },
+  {
+    "Set Number": "002",
+    "Card Number": "100,100",
+    "Count": 1,
+    "Name": "Pack Tactics",
+    "Color": "Emerald",
+    "Rarity": "Rare",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set2/100_60e1332a33e639940c014f420771e50c94424b58.jpg"
+  },
+  {
+    "Set Number": "005",
+    "Card Number": "97,97",
+    "Count": 2,
+    "Name": "Remember Who You Are",
+    "Color": "Emerald",
+    "Rarity": "Rare",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set5/97_7bbcdceeb0e768e3e46bf53d6b64eda779093a8a.jpg"
+  },
+  {
+    "Set Number": "002",
+    "Card Number": "101,101",
+    "Count": 1,
+    "Name": "Ring the Bell",
+    "Color": "Emerald",
+    "Rarity": "Uncommon",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set2/101_b6c6cdb5d0562e891a3eb3a89a0008936eaf155a.jpg"
+  },
+  {
+    "Set Number": "012",
+    "Card Number": "97,97",
+    "Count": 3,
+    "Name": "The Family Scattered",
+    "Color": "Emerald",
+    "Rarity": "Super Rare",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set12/97_528520dd28d6da5efd9ec631869f4bf6cf3ffd78.jpg"
+  },
+  {
+    "Set Number": "007",
+    "Card Number": "118,118",
+    "Count": 1,
+    "Name": "The Return of Hercules",
+    "Color": "Emerald",
+    "Rarity": "Legendary",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set7/118_32272c0093e3012abce65a3baabed6283a1bf57b.jpg"
+  },
+  {
+    "Set Number": "009",
+    "Card Number": "97,97",
+    "Count": 2,
+    "Name": "Under the Sea",
+    "Color": "Emerald",
+    "Rarity": "Rare",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set9/97_254a99ac5db9057f9d89893a7b7b3e16116da022.jpg"
+  },
+  {
+    "Set Number": "004",
+    "Card Number": "95,95",
+    "Count": 4,
+    "Name": "Under The Sea",
+    "Color": "Emerald",
+    "Rarity": "Rare",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set4/95_12e7339ac3b617851c85b28a3cd831ca8e88336c.jpg"
+  },
+  {
+    "Set Number": "008",
+    "Card Number": "116,116",
+    "Count": 1,
+    "Name": "Wrong Lever!",
+    "Color": "Emerald",
+    "Rarity": "Rare",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set8/116_4f4860f7ee6bd8d13b9be48d9c45592bc0501493.jpg"
+  },
+  {
+    "Set Number": "011",
+    "Card Number": "101,101",
+    "Count": 1,
+    "Name": "Battering Ram",
+    "Color": "Emerald",
+    "Rarity": "Rare",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set11/101_5022112e655471cd55646bccf5d96c9fe65c6616.jpg"
+  },
+  {
+    "Set Number": "010",
+    "Card Number": "100,100",
+    "Count": 1,
+    "Name": "Enigmatic Inkcaster",
+    "Color": "Emerald",
+    "Rarity": "Rare",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set10/100_2657070860dfd0635d3ee450121b268494c6d49f.jpg"
+  },
+  {
+    "Set Number": "009",
+    "Card Number": "100,100",
+    "Count": 3,
+    "Name": "Family Fishing Pole",
+    "Color": "Emerald",
+    "Rarity": "Rare",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set9/100_c5b222226ee3f86636606db9a4053ef3bd7f936f.jpg"
+  },
+  {
+    "Set Number": "002",
+    "Card Number": "102,102",
+    "Count": 3,
+    "Name": "Ratigan's Marvelous Trap",
+    "Color": "Emerald",
+    "Rarity": "Rare",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set2/102_b0ac961ab9d6d4590f4138e0fadbb22074f01243.jpg"
+  },
+  {
+    "Set Number": "011",
+    "Card Number": "100,100",
+    "Count": 1,
+    "Name": "Retro Evolution Device",
+    "Color": "Emerald",
+    "Rarity": "Rare",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set11/100_309bbc07f849e602888d130d961bd1e868e6a4e3.jpg"
+  },
+  {
+    "Set Number": "004",
+    "Card Number": "99,99",
+    "Count": 1,
+    "Name": "Signed Contract",
+    "Color": "Emerald",
+    "Rarity": "Uncommon",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set4/99_781b62f954fc46e142b643e6e32c237009024477.jpg"
+  },
+  {
+    "Set Number": "003",
+    "Card Number": "99,99",
+    "Count": 3,
+    "Name": "Starlight Vial",
+    "Color": "Emerald",
+    "Rarity": "Rare",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set3/99_366dee7621d0ce3b4abe387e5594a441f31b81fa.jpg"
+  },
+  {
+    "Set Number": "013",
+    "Card Number": "107,107",
+    "Count": 1,
+    "Name": "Vine Pod",
+    "Color": "Emerald",
+    "Rarity": "Rare",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set13/107_c1a1229584f1a7f58ad68284b1de7f7502228518.jpg"
+  },
+  {
+    "Set Number": "004",
+    "Card Number": "100,100",
+    "Count": 1,
+    "Name": "Vision Slab",
+    "Color": "Emerald",
+    "Rarity": "Uncommon",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set4/100_9e2ae1aad966b95cc690d8e36700fdc9e40812f7.jpg"
+  },
+  {
+    "Set Number": "003",
+    "Card Number": "101,101",
+    "Count": 3,
+    "Name": "Fang - River City",
+    "Color": "Emerald",
+    "Rarity": "Rare",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set3/101_566cb703336bb025915e8447c27749ee032aab7c.jpg"
+  },
+  {
+    "Set Number": "006",
+    "Card Number": "102,102",
+    "Count": 1,
+    "Name": "Owl Island - Secluded Entrance",
+    "Color": "Emerald",
+    "Rarity": "Rare",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set6/102_9dad9a198b82d9e667ad77366853d581b1a3fff8.jpg"
+  },
+  {
+    "Set Number": "013",
+    "Card Number": "108,108",
+    "Count": 2,
+    "Name": "Paradise Falls - Exotic Destination",
+    "Color": "Emerald",
+    "Rarity": "Rare",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set13/108_c7917b0589edab47d6e2376e63ef130a6b7610f3.jpg"
+  },
+  {
+    "Set Number": "010",
+    "Card Number": "102,102",
+    "Count": 1,
+    "Name": "White Agony Plains - Golden Lagoon",
+    "Color": "Emerald",
+    "Rarity": "Rare",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set10/102_9a44de1e39d69542abd98f3facc7b7c81a891a0d.jpg"
+  },
+  {
+    "Set Number": "010",
+    "Card Number": "123,123,216",
+    "Count": 1,
+    "Name": "Aladdin - Barreling Through",
+    "Color": "Ruby",
+    "Rarity": "Rare,Epic",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set10/123_8aab31d55e226b9b7928a472a52eabdcf56f4821.jpg"
+  },
+  {
+    "Set Number": "001",
+    "Card Number": "104,104",
+    "Count": 2,
+    "Name": "Aladdin - Heroic Outlaw",
+    "Color": "Ruby",
+    "Rarity": "Super Rare",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set1/104_9392b71a01152c37d64d33ff9bc8213153327667.jpg"
+  },
+  {
+    "Set Number": "007",
+    "Card Number": "142,142",
+    "Count": 2,
+    "Name": "Baloo - Ol' Iron Paws",
+    "Color": "Ruby",
+    "Rarity": "Legendary",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set7/142_c2c149981a8744712d3d3a57d5b790af4766b019.jpg"
+  },
+  {
+    "Set Number": "007",
+    "Card Number": "136,136",
+    "Count": 1,
+    "Name": "Beast - Frustrated Designer",
+    "Color": "Ruby Sapphire",
+    "Rarity": "Rare",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set7/136_ab47ac0ee4ed2be1f6ca9cffe05831b056487784.jpg"
+  },
+  {
+    "Set Number": "011",
+    "Card Number": "118,118,1/PD1",
+    "Count": 3,
+    "Name": "Beast - Snowfield Troublemaker",
+    "Color": "Ruby",
+    "Rarity": "Super Rare,Promo",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set11/118_69e8ce2687419dd03bbb0378c04f9509175b0de8.jpg"
+  },
+  {
+    "Set Number": "004",
+    "Card Number": "103,103",
+    "Count": 1,
+    "Name": "Beast - Wounded",
+    "Color": "Ruby",
+    "Rarity": "Uncommon",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set4/103_8bf0dcc5ee1b6a5971139f9dd6a0e64fd469f47e.jpg"
+  },
+  {
+    "Set Number": "007",
+    "Card Number": "126,126",
+    "Count": 1,
+    "Name": "Belle - Mechanic Extraordinaire",
+    "Color": "Ruby Sapphire",
+    "Rarity": "Super Rare",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set7/126_137f5abd48e09bdc8b36eb976a91aed8bad97bce.jpg"
+  },
+  {
+    "Set Number": "013",
+    "Card Number": "132,132",
+    "Count": 4,
+    "Name": "Belle & Beast - Certain as the Sun",
+    "Color": "Ruby Sapphire",
+    "Rarity": "Super Rare",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set13/132_d04fd77eb06048c006a79cc0d6dfab4f22199cd0.jpg"
+  },
+  {
+    "Set Number": "001",
+    "Card Number": "107,107",
+    "Count": 2,
+    "Name": "Captain Hook - Ruthless Pirate",
+    "Color": "Ruby",
+    "Rarity": "Rare",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set1/107_afbec092296aeca6e6ad6648682465935a6aa73e.jpg"
+  },
+  {
+    "Set Number": "013",
+    "Card Number": "113,113",
+    "Count": 1,
+    "Name": "Carl Fredricksen - On the Move",
+    "Color": "Ruby",
+    "Rarity": "Super Rare",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set13/113_14e7298ff9678c6c585c4500d0dd3e8b59e7a777.jpg"
+  },
+  {
+    "Set Number": "011",
+    "Card Number": "107,107",
+    "Count": 1,
+    "Name": "Copper - On the Scent",
+    "Color": "Ruby",
+    "Rarity": "Uncommon",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set11/107_780c847fb0ad07966ec5cccabf8b7f4a9379db2e.jpg"
+  },
+  {
+    "Set Number": "010",
+    "Card Number": "116,116",
+    "Count": 2,
+    "Name": "David Xanatos - Charismatic Leader",
+    "Color": "Ruby",
+    "Rarity": "Super Rare",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set10/116_bc42327ed8f6e60eafca77b63cd2ed8a784a2a51.jpg"
+  },
+  {
+    "Set Number": "005",
+    "Card Number": "115,115",
+    "Count": 1,
+    "Name": "Denahi - Avenging Brother",
+    "Color": "Ruby",
+    "Rarity": "Rare",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set5/115_efcd6bf0f6a6f693900941942c45f95478025965.jpg"
+  },
+  {
+    "Set Number": "002",
+    "Card Number": "106,106",
+    "Count": 3,
+    "Name": "Donald Duck - Not Again!",
+    "Color": "Ruby",
+    "Rarity": "Legendary",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set2/106_2572814dc55e42c6d64d021c5cea9afe5d67d248.jpg"
+  },
+  {
+    "Set Number": "005",
+    "Card Number": "107,107,2/DIS",
+    "Count": 1,
+    "Name": "Donald Duck - Pie Slinger",
+    "Color": "Ruby",
+    "Rarity": "Legendary,Promo",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set5/107_c139183c96689d9b31aaafce9927a09a0315ef2c.jpg"
+  },
+  {
+    "Set Number": "011",
+    "Card Number": "112,112",
+    "Count": 1,
+    "Name": "Elisa Maza - Transformed Gargoyle",
+    "Color": "Ruby",
+    "Rarity": "Rare",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set11/112_3496cd19627ea82a84882f090e0d6580cd1ce815.jpg"
+  },
+  {
+    "Set Number": "011",
+    "Card Number": "123,123",
+    "Count": 2,
+    "Name": "Elsa - Ice Artisan",
+    "Color": "Ruby",
+    "Rarity": "Legendary",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set11/123_c4e62c081171f16d197d27b8167524141478bdda.jpg"
+  },
+  {
+    "Set Number": "006",
+    "Card Number": "123,123",
+    "Count": 1,
+    "Name": "Goofy - Flying Goof",
+    "Color": "Ruby",
+    "Rarity": "Rare",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set6/123_5b98ddd06263e18fb3e242ec760f3eb1dfc706dd.jpg"
+  },
+  {
+    "Set Number": "011",
+    "Card Number": "121,121,216",
+    "Count": 1,
+    "Name": "Goofy - Klutzy Skier",
+    "Color": "Ruby",
+    "Rarity": "Rare,Epic",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set11/121_3ed945afe1ec326c98b2c3b947db8fa4188fb907.jpg"
+  },
+  {
+    "Set Number": "013",
+    "Card Number": "120,120",
+    "Count": 2,
+    "Name": "Grandma Wu - Fierce Red Panda",
+    "Color": "Ruby",
+    "Rarity": "Rare",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set13/120_ceb78db463043ce92ecd49d783fc8f26222099ec.jpg"
+  },
+  {
+    "Set Number": "006",
+    "Card Number": "125,125",
+    "Count": 2,
+    "Name": "Hades - Strong Arm",
+    "Color": "Ruby",
+    "Rarity": "Legendary",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set6/125_107d935c4f1275267a448eacf1413d834ac894cf.jpg"
+  },
+  {
+    "Set Number": "004",
+    "Card Number": "109,109",
+    "Count": 1,
+    "Name": "Hercules - Daring Demigod",
+    "Color": "Ruby",
+    "Rarity": "Uncommon",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set4/109_2c36b40b650c79164c1615a5d73e1a0f4573a15c.jpg"
+  },
+  {
+    "Set Number": "010",
+    "Card Number": "118,118",
+    "Count": 1,
+    "Name": "Hercules - Mighty Leader",
+    "Color": "Ruby",
+    "Rarity": "Legendary",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set10/118_0d3ad2a11ba7fb41ed0ad04c9eedea1962e05890.jpg"
+  },
+  {
+    "Set Number": "003",
+    "Card Number": "108,108",
+    "Count": 3,
+    "Name": "Hydra - Deadly Serpent",
+    "Color": "Ruby",
+    "Rarity": "Legendary",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set3/108_4b089f0fe8353b41e0e8c15b2be1ab8522ec1ebd.jpg"
+  },
+  {
+    "Set Number": "012",
+    "Card Number": "121,121",
+    "Count": 2,
+    "Name": "Jack-Jack Parr - Incredible Potential",
+    "Color": "Ruby",
+    "Rarity": "Super Rare",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set12/121_fce40410b518d7203a3a64d77931a7409e9e7e40.jpg"
+  },
+  {
+    "Set Number": "003",
+    "Card Number": "109,109",
+    "Count": 3,
+    "Name": "Jim Hawkins - Space Traveler",
+    "Color": "Ruby",
+    "Rarity": "Legendary",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set3/109_7c0ab4dc335972c6a4d664fcd93968d028a34177.jpg"
+  },
+  {
+    "Set Number": "010",
+    "Card Number": "124,124",
+    "Count": 1,
+    "Name": "Lady Tremaine - Sinister Socialite",
+    "Color": "Ruby",
+    "Rarity": "Super Rare",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set10/124_4a4453ce668b1614b0081a9f85936f33137038da.jpg"
+  },
+  {
+    "Set Number": "004",
+    "Card Number": "112,112",
+    "Count": 1,
+    "Name": "Li Shang - Valorous General",
+    "Color": "Ruby",
+    "Rarity": "Uncommon",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set4/112_459cc7977a409b8007981d879fd786467dec6980.jpg"
+  },
+  {
+    "Set Number": "008",
+    "Card Number": "137,137",
+    "Count": 4,
+    "Name": "Lilo - Causing an Uproar",
+    "Color": "Ruby",
+    "Rarity": "Legendary",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set8/137_5224eceace35ceb606d860d40233dd1b5a1098f2.jpg"
+  },
+  {
+    "Set Number": "012",
+    "Card Number": "103,103,214",
+    "Count": 1,
+    "Name": "Lyle Tiberius Rourke - Crystallized Commander",
+    "Color": "Ruby",
+    "Rarity": "Rare,Epic",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set12/103_7693f6a4d2c46a21b69367056863238f3f8e1cc0.jpg"
+  },
+  {
+    "Set Number": "003",
+    "Card Number": "112,112",
+    "Count": 1,
+    "Name": "Madame Medusa - The Boss",
+    "Color": "Ruby",
+    "Rarity": "Super Rare",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set3/112_d8632c18021d99876ea030b8831b9683dc1752a1.jpg"
+  },
+  {
+    "Set Number": "001",
+    "Card Number": "113,113,5/P1",
+    "Count": 3,
+    "Name": "Maleficent - Monstrous Dragon",
+    "Color": "Ruby",
+    "Rarity": "Legendary,Promo",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set1/113_e86cf31ad1b2eff737e1a15b99e8fe501df0a5a1.jpg"
+  },
+  {
+    "Set Number": "006",
+    "Card Number": "124,124",
+    "Count": 3,
+    "Name": "Maui - Half-Shark",
+    "Color": "Ruby",
+    "Rarity": "Legendary",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set6/124_cdaa892b6785de735f3103720660ea67ea66083d.jpg"
+  },
+  {
+    "Set Number": "001",
+    "Card Number": "114,114",
+    "Count": 1,
+    "Name": "Maui - Hero to All",
+    "Color": "Ruby",
+    "Rarity": "Rare",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set1/114_58e744a1e061933a60895d568e3586739dc83a89.jpg"
+  },
+  {
+    "Set Number": "003",
+    "Card Number": "114,114",
+    "Count": 1,
+    "Name": "Maui - Whale",
+    "Color": "Ruby",
+    "Rarity": "Rare",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set3/114_0e6f1e3d53653b7145e274b66e54f1bf75b0f34d.jpg"
+  },
+  {
+    "Set Number": "005",
+    "Card Number": "105,105",
+    "Count": 1,
+    "Name": "Maximus - Team Champion",
+    "Color": "Ruby",
+    "Rarity": "Super Rare",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set5/105_e70367bd2dbf8b1de9c08401141112758b5f969a.jpg"
+  },
+  {
+    "Set Number": "013",
+    "Card Number": "125,125",
+    "Count": 4,
+    "Name": "Meilin Lee - Popular Red Panda",
+    "Color": "Ruby",
+    "Rarity": "Legendary",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set13/125_a59203cc293de0de79466b3a1c72532101366033.jpg"
+  },
+  {
+    "Set Number": "001",
+    "Card Number": "115,115,1/D23,1/P1",
+    "Count": 4,
+    "Name": "Mickey Mouse - Brave Little Tailor",
+    "Color": "Ruby",
+    "Rarity": "Legendary,Promo",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set1/115_f0c553fb7b2d5e6f6fc01509fe97bd89694d8799.jpg"
+  },
+  {
+    "Set Number": "013",
+    "Card Number": "129,129",
+    "Count": 1,
+    "Name": "Ming Lee - Giant Red Panda",
+    "Color": "Ruby",
+    "Rarity": "Super Rare",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set13/129_1ee70cb8053df9849ec39c8ceecd48cc5dc203e5.jpg"
+  },
+  {
+    "Set Number": "005",
+    "Card Number": "126,126",
+    "Count": 3,
+    "Name": "Minnie Mouse - Dazzling Dancer",
+    "Color": "Ruby",
+    "Rarity": "Uncommon",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set5/126_4a74119ce637937525fd93c4431e8256b162cca2.jpg"
+  },
+  {
+    "Set Number": "002",
+    "Card Number": "113,113",
+    "Count": 2,
+    "Name": "Minnie Mouse - Stylish Surfer",
+    "Color": "Ruby",
+    "Rarity": "Uncommon",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set2/113_b06103d8b7f6f8bbe69ff2ef7e43c6e0dbb74759.jpg"
+  },
+  {
+    "Set Number": "002",
+    "Card Number": "116,116",
+    "Count": 1,
+    "Name": "Mother Gothel - Withered and Wicked",
+    "Color": "Ruby",
+    "Rarity": "Uncommon",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set2/116_aadf0a56666ea7c4e943a5fdbec1fd1e84ae39b4.jpg"
+  },
+  {
+    "Set Number": "008",
+    "Card Number": "141,141,3/C2,7/C2",
+    "Count": 1,
+    "Name": "Mulan - Charging Ahead",
+    "Color": "Ruby Steel",
+    "Rarity": "Super Rare,Promo",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set8/141_b451004ee9c82afc2155f4ebb407c7c57947a149.jpg"
+  },
+  {
+    "Set Number": "004",
+    "Card Number": "114,114,224",
+    "Count": 3,
+    "Name": "Mulan - Elite Archer",
+    "Color": "Ruby",
+    "Rarity": "Legendary",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set4/114_eb196dcbd8a6d91fdb43fc8fe39bc6b95a3139d3.jpg"
+  },
+  {
+    "Set Number": "001",
+    "Card Number": "118,118",
+    "Count": 1,
+    "Name": "Mulan - Imperial Soldier",
+    "Color": "Ruby",
+    "Rarity": "Super Rare",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set1/118_2c385b598e5fa3b5d45e125290233a9015ac44e7.jpg"
+  },
+  {
+    "Set Number": "002",
+    "Card Number": "118,118",
+    "Count": 2,
+    "Name": "Namaari - Nemesis",
+    "Color": "Ruby",
+    "Rarity": "Super Rare",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set2/118_62f30cea5d8dfe59cb91945c7785cf8bdf7b19e0.jpg"
+  },
+  {
+    "Set Number": "011",
+    "Card Number": "122,122",
+    "Count": 1,
+    "Name": "Olaf - Snowman of Action",
+    "Color": "Ruby",
+    "Rarity": "Rare",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set11/122_474eaaa3f60646e717a848f4aa7829a2eec312b8.jpg"
+  },
+  {
+    "Set Number": "003",
+    "Card Number": "120,120",
+    "Count": 3,
+    "Name": "Peter Pan - Pirate's Bane",
+    "Color": "Ruby",
+    "Rarity": "Rare",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set3/120_de96e54fdc3de74f63b4ff1c26a767d53c7f73ac.jpg"
+  },
+  {
+    "Set Number": "009",
+    "Card Number": "117,117,215",
+    "Count": 1,
+    "Name": "Powerline - Musical Superstar",
+    "Color": "Ruby",
+    "Rarity": "Rare,Epic",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set9/117_2062111c4b72bdeece6efdf5c342d3fca5bcd3d9.jpg"
+  },
+  {
+    "Set Number": "009",
+    "Card Number": "110,110",
+    "Count": 4,
+    "Name": "Powerline - World's Greatest Rock Star",
+    "Color": "Ruby",
+    "Rarity": "Super Rare",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set9/110_350ccc5e5b7b1009384d9e7ec1000f68378d8d29.jpg"
+  },
+  {
+    "Set Number": "008",
+    "Card Number": "146,146",
+    "Count": 2,
+    "Name": "Prince John - Fraidy-Cat",
+    "Color": "Ruby",
+    "Rarity": "Rare",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set8/146_95d3514d303a59c1c4f06034e01427c963b8db66.jpg"
+  },
+  {
+    "Set Number": "002",
+    "Card Number": "119,119",
+    "Count": 1,
+    "Name": "Queen of Hearts - Impulsive Ruler",
+    "Color": "Ruby",
+    "Rarity": "Uncommon",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set2/119_08a2fb97a1fc59896a5a110db668042d484d767c.jpg"
+  },
+  {
+    "Set Number": "007",
+    "Card Number": "143,143",
+    "Count": 3,
+    "Name": "Ratigan - Nefarious Criminal",
+    "Color": "Ruby",
+    "Rarity": "Legendary",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set7/143_79aa13fe5565cf600c4e8e69b1436c631d166a91.jpg"
+  },
+  {
+    "Set Number": "005",
+    "Card Number": "123,123",
+    "Count": 2,
+    "Name": "Ratigan - Party Crasher",
+    "Color": "Ruby",
+    "Rarity": "Rare",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set5/123_a6fc62907cc023b6617333087beece341707d09a.jpg"
+  },
+  {
+    "Set Number": "002",
+    "Card Number": "121,121",
+    "Count": 2,
+    "Name": "Ratigan - Very Large Mouse",
+    "Color": "Ruby",
+    "Rarity": "Rare",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set2/121_63f0b8aa937447a162b620d42e426eaf92199595.jpg"
+  },
+  {
+    "Set Number": "004",
+    "Card Number": "121,121",
+    "Count": 2,
+    "Name": "Raya - Fierce Protector",
+    "Color": "Ruby",
+    "Rarity": "Super Rare",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set4/121_b0748316c430eac5aebec139153f6c39a896cdbd.jpg"
+  },
+  {
+    "Set Number": "006",
+    "Card Number": "107,107",
+    "Count": 1,
+    "Name": "Raya - Kumandran Rider",
+    "Color": "Ruby",
+    "Rarity": "Rare",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set6/107_1f1f393947b908c4fd0cb967311d652612c36d20.jpg"
+  },
+  {
+    "Set Number": "002",
+    "Card Number": "123,123",
+    "Count": 2,
+    "Name": "Raya - Leader of Heart",
+    "Color": "Ruby",
+    "Rarity": "Super Rare",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set2/123_c33d339aea5eb08aa2ee2994256be46a1246b201.jpg"
+  },
+  {
+    "Set Number": "002",
+    "Card Number": "124,124",
+    "Count": 1,
+    "Name": "Raya - Warrior of Kumandra",
+    "Color": "Ruby",
+    "Rarity": "Uncommon",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set2/124_2757a4cf7393dc7d5da395e895a7fd9c33a5915d.jpg"
+  },
+  {
+    "Set Number": "005",
+    "Card Number": "118,118",
+    "Count": 4,
+    "Name": "Robin Hood - Sharpshooter",
+    "Color": "Ruby",
+    "Rarity": "Legendary",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set5/118_c928e9c42c9b27025a11abd6b748dd98b484dd17.jpg"
+  },
+  {
+    "Set Number": "001",
+    "Card Number": "123,123",
+    "Count": 1,
+    "Name": "Scar - Shameless Firebrand",
+    "Color": "Ruby",
+    "Rarity": "Rare",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set1/123_45c9e1711602e6f48c4d353d867b0466d7c74518.jpg"
+  },
+  {
+    "Set Number": "002",
+    "Card Number": "125,125",
+    "Count": 3,
+    "Name": "Scar - Vicious Cheater",
+    "Color": "Ruby",
+    "Rarity": "Legendary",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set2/125_c492614e2e3c496eead8cd68ed1facc6793eb2cb.jpg"
+  },
+  {
+    "Set Number": "011",
+    "Card Number": "124,124",
+    "Count": 3,
+    "Name": "Scrooge McDuck - Ebenezer Scrooge",
+    "Color": "Ruby",
+    "Rarity": "Super Rare",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set11/124_f0eb04c7682034f1a14c4be90d62273455e3bb59.jpg"
+  },
+  {
+    "Set Number": "002",
+    "Card Number": "126,126",
+    "Count": 1,
+    "Name": "Shere Khan - Menacing Predator",
+    "Color": "Ruby",
+    "Rarity": "Rare",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set2/126_176f585990d6e04b401d890eaf76a7eca5ee3213.jpg"
+  },
+  {
+    "Set Number": "004",
+    "Card Number": "125,125",
+    "Count": 4,
+    "Name": "Sisu - Empowered Sibling",
+    "Color": "Ruby",
+    "Rarity": "Legendary",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set4/125_6c63f935fe3f4786f2dd20b8f411d1acff3fc2e7.jpg"
+  },
+  {
+    "Set Number": "003",
+    "Card Number": "124,124",
+    "Count": 2,
+    "Name": "Slightly - Lost Boy",
+    "Color": "Ruby",
+    "Rarity": "Uncommon",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set3/124_9e684c2145be367c753b8a10cf72b39ad7065437.jpg"
+  },
+  {
+    "Set Number": "005",
+    "Card Number": "117,117",
+    "Count": 1,
+    "Name": "Taffyta Muttonfudge - Sour Speedster",
+    "Color": "Ruby",
+    "Rarity": "Uncommon",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set5/117_9564676bbdc83dd4455aa026773d75a55fd0002f.jpg"
+  },
+  {
+    "Set Number": "010",
+    "Card Number": "125,125",
+    "Count": 3,
+    "Name": "The Headless Horseman - Terror of Sleepy Hollow",
+    "Color": "Ruby",
+    "Rarity": "Legendary",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set10/125_aa56ac7324d98d44ade1bfb27d31ec11075ac800.jpg"
+  },
+  {
+    "Set Number": "012",
+    "Card Number": "125,125",
+    "Count": 4,
+    "Name": "The Leviathan - Guardian of Atlantis",
+    "Color": "Ruby",
+    "Rarity": "Super Rare",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set12/125_848b6cdeadece89335c13383974bfeab0fed0318.jpg"
+  },
+  {
+    "Set Number": "013",
+    "Card Number": "126,126,12/P4",
+    "Count": 2,
+    "Name": "Tigger - Hunny Barbarian",
+    "Color": "Ruby",
+    "Rarity": "Rare,Promo",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set13/126_7e1c38c819bfed313c6a9b8508b1873f32352e29.jpg"
+  },
+  {
+    "Set Number": "006",
+    "Card Number": "126,126",
+    "Count": 1,
+    "Name": "Tigger - In the Crow's Nest",
+    "Color": "Ruby",
+    "Rarity": "Rare",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set6/126_1ff34daf11c060b211509557d5ac47b07aac8c63.jpg"
+  },
+  {
+    "Set Number": "008",
+    "Card Number": "136,136",
+    "Count": 1,
+    "Name": "Tinker Bell - Insistent Fairy",
+    "Color": "Ruby",
+    "Rarity": "Legendary",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set8/136_145a97c687428a553fd4c1779e308adc70eb985c.jpg"
+  },
+  {
+    "Set Number": "010",
+    "Card Number": "115,115",
+    "Count": 3,
+    "Name": "Tinker Bell - Temperamental Fairy",
+    "Color": "Ruby",
+    "Rarity": "Uncommon",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set10/115_971b33067c65a8bac60163ac0205e727eb56a85a.jpg"
+  },
+  {
+    "Set Number": "003",
+    "Card Number": "126,126",
+    "Count": 1,
+    "Name": "Trigger - Not-So-Sharp Shooter",
+    "Color": "Ruby",
+    "Rarity": "Uncommon",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set3/126_84e22fd01521769ba27c9aa27418fa532aa1b0b8.jpg"
+  },
+  {
+    "Set Number": "002",
+    "Card Number": "128,128",
+    "Count": 1,
+    "Name": "Tuk Tuk - Wrecking Ball",
+    "Color": "Ruby",
+    "Rarity": "Rare",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set2/128_f69bab9046554c2e429fbc1c7572f364d9f2528b.jpg"
+  },
+  {
+    "Set Number": "011",
+    "Card Number": "126,126",
+    "Count": 2,
+    "Name": "Willie the Giant - Ghost of Christmas Present",
+    "Color": "Ruby",
+    "Rarity": "Rare",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set11/126_ac272f1e2a53bbe56d5e5740308ff7dfc53bfb31.jpg"
+  },
+  {
+    "Set Number": "005",
+    "Card Number": "104,104",
+    "Count": 3,
+    "Name": "Wreck-It Ralph - Demolition Dude",
+    "Color": "Ruby",
+    "Rarity": "Rare",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set5/104_866a9625b376fadedd47c84bcea7bc08027e7c8c.jpg"
+  },
+  {
+    "Set Number": "011",
+    "Card Number": "103,103",
+    "Count": 3,
+    "Name": "Wreck-it Ralph - Raging Wrecker",
+    "Color": "Ruby",
+    "Rarity": "Legendary",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set11/103_71345422efc6346fe0adb1de9db879445be6a225.jpg"
+  },
+  {
+    "Set Number": "004",
+    "Card Number": "129,129",
+    "Count": 1,
+    "Name": "Be King Undisputed",
+    "Color": "Ruby",
+    "Rarity": "Rare",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set4/129_5f6d420deb5bf9bd9c3fd89b3385c2c3b158d539.jpg"
+  },
+  {
+    "Set Number": "001",
+    "Card Number": "128,128",
+    "Count": 2,
+    "Name": "Be Prepared",
+    "Color": "Ruby",
+    "Rarity": "Rare",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set1/128_7051173a90d664745d25892d6f0d37c87b097332.jpg"
+  },
+  {
+    "Set Number": "009",
+    "Card Number": "130,130",
+    "Count": 4,
+    "Name": "I2I",
+    "Color": "Ruby",
+    "Rarity": "Rare",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set9/130_be88a76786cc685670a1c9b95e5753be658b6e12.jpg"
+  },
+  {
+    "Set Number": "011",
+    "Card Number": "127,127",
+    "Count": 2,
+    "Name": "Nani's Payback",
+    "Color": "Ruby",
+    "Rarity": "Super Rare",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set11/127_c8c104a21688cf8e2e9f565f765927d6372d96ad.jpg"
+  },
+  {
+    "Set Number": "003",
+    "Card Number": "130,130",
+    "Count": 1,
+    "Name": "On Your Feet! Now!",
+    "Color": "Ruby",
+    "Rarity": "Rare",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set3/130_04b19540f7e47f37e7d24d33747011b59b53ac22.jpg"
+  },
+  {
+    "Set Number": "011",
+    "Card Number": "130,130",
+    "Count": 1,
+    "Name": "The Cold Never Bothered Me",
+    "Color": "Ruby",
+    "Rarity": "Rare",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set11/130_98e5d8227d4d32f21be12a4590e0161318344e85.jpg"
+  },
+  {
+    "Set Number": "013",
+    "Card Number": "140,140",
+    "Count": 2,
+    "Name": "Bunch of Balloons",
+    "Color": "Ruby",
+    "Rarity": "Rare",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set13/140_119ade6fa776a3559eafc7c2d117b6c96cecff22.jpg"
+  },
+  {
+    "Set Number": "007",
+    "Card Number": "152,152",
+    "Count": 1,
+    "Name": "Devil's Eye Diamond",
+    "Color": "Ruby",
+    "Rarity": "Rare",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set7/152_4671cf3af1774dd0323de6fe38ab6009c69a2742.jpg"
+  },
+  {
+    "Set Number": "002",
+    "Card Number": "134,134",
+    "Count": 2,
+    "Name": "Dinner Bell",
+    "Color": "Ruby",
+    "Rarity": "Rare",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set2/134_da12bf4667f78ca8617bff329c4bd269144ccb93.jpg"
+  },
+  {
+    "Set Number": "011",
+    "Card Number": "133,133",
+    "Count": 3,
+    "Name": "Kristoff's Lute",
+    "Color": "Ruby",
+    "Rarity": "Rare",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set11/133_5107ae12ba8e26acbeff9fb2277683e778f0ec3f.jpg"
+  },
+  {
+    "Set Number": "011",
+    "Card Number": "132,132",
+    "Count": 1,
+    "Name": "Lonely Grave",
+    "Color": "Ruby",
+    "Rarity": "Uncommon",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set11/132_495d2c11bc2d5c67acbdb3b83a931f60f24e4a0a.jpg"
+  },
+  {
+    "Set Number": "001",
+    "Card Number": "134,134",
+    "Count": 2,
+    "Name": "Poisoned Apple",
+    "Color": "Ruby",
+    "Rarity": "Rare",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set1/134_e86c8147d6f948f0dea6809c3f7805953a6ac520.jpg"
+  },
+  {
+    "Set Number": "005",
+    "Card Number": "134,134",
+    "Count": 2,
+    "Name": "Ruby Chromicon",
+    "Color": "Ruby",
+    "Rarity": "Uncommon",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set5/134_388a43c0f105082298b23fcabcf7421c101fc9fc.jpg"
+  },
+  {
+    "Set Number": "002",
+    "Card Number": "136,136",
+    "Count": 2,
+    "Name": "Sword in the Stone",
+    "Color": "Ruby",
+    "Rarity": "Uncommon",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set2/136_06e9df51f5dcb35ce4917fa2118b2c1987169631.jpg"
+  },
+  {
+    "Set Number": "013",
+    "Card Number": "141,141",
+    "Count": 2,
+    "Name": "Beast's Castle - Overrun by the Vine",
+    "Color": "Ruby",
+    "Rarity": "Rare",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set13/141_36e9f34890198c7a53519988bb05ea2048e8dab4.jpg"
+  },
+  {
+    "Set Number": "011",
+    "Card Number": "136,136",
+    "Count": 2,
+    "Name": "Beast's Castle - Winter Gardens",
+    "Color": "Ruby",
+    "Rarity": "Common",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set11/136_9479546d8c1cfb290ab62532a77828fd674bb619.jpg"
+  },
+  {
+    "Set Number": "013",
+    "Card Number": "142,142",
+    "Count": 2,
+    "Name": "Carl's House - Flying High",
+    "Color": "Ruby",
+    "Rarity": "Rare",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set13/142_47c08f7601ab3becbd401665922b607704724922.jpg"
+  },
+  {
+    "Set Number": "011",
+    "Card Number": "135,135",
+    "Count": 3,
+    "Name": "Graveyard of Christmas Future - Lonely Resting Place",
+    "Color": "Ruby",
+    "Rarity": "Rare",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set11/135_00f12892d22853fc4783a5fbe5e890db1816c95b.jpg"
+  },
+  {
+    "Set Number": "012",
+    "Card Number": "135,135",
+    "Count": 3,
+    "Name": "Remote Inklands - Desert Ruins",
+    "Color": "Ruby",
+    "Rarity": "Rare",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set12/135_7303071bc007b16e17ba45e90b9494e39fadac7c.jpg"
+  },
+  {
+    "Set Number": "003",
+    "Card Number": "136,136",
+    "Count": 1,
+    "Name": "RLS Legacy - Solar Galleon",
+    "Color": "Ruby",
+    "Rarity": "Rare",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set3/136_6d318b724689e4880c7c9e1c7ccd6f1e854e11da.jpg"
+  },
+  {
+    "Set Number": "011",
+    "Card Number": "134,134",
+    "Count": 1,
+    "Name": "Scrooge's Counting House - Ebenezer's Office",
+    "Color": "Ruby",
+    "Rarity": "Uncommon",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set11/134_ee10966756dc28274e7c002038cacd13f9b5cb8b.jpg"
+  },
+  {
+    "Set Number": "002",
+    "Card Number": "137,137",
+    "Count": 4,
+    "Name": "Alice - Growing Girl",
+    "Color": "Sapphire",
+    "Rarity": "Legendary",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set2/137_12c2cca21952db6d63d78dbef1338a9e55d7b578.jpg"
+  },
+  {
+    "Set Number": "013",
+    "Card Number": "151,151",
+    "Count": 3,
+    "Name": "Alpha - Pack Leader",
+    "Color": "Sapphire",
+    "Rarity": "Rare",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set13/151_c36875aa8fd83915413b500c9c625daa2fdee0a0.jpg"
+  },
+  {
+    "Set Number": "004",
+    "Card Number": "139,139",
+    "Count": 1,
+    "Name": "Ariel - Treasure Collector",
+    "Color": "Sapphire",
+    "Rarity": "Super Rare",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set4/139_2082e4faff6ff18e41c5022ac48b2293e65ddfba.jpg"
+  },
+  {
+    "Set Number": "001",
+    "Card Number": "137,137",
+    "Count": 2,
+    "Name": "Ariel - Whoseit Collector",
+    "Color": "Sapphire",
+    "Rarity": "Rare",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set1/137_0269203974974f4c619188b559177eb4f17bf013.jpg"
+  },
+  {
+    "Set Number": "004",
+    "Card Number": "140,140",
+    "Count": 3,
+    "Name": "Aurora - Lore Guardian",
+    "Color": "Sapphire",
+    "Rarity": "Super Rare",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set4/140_338da2e79739c9133801c99ac9bea0a567dff2f3.jpg"
+  },
+  {
+    "Set Number": "006",
+    "Card Number": "157,157,9/C1,9/C1",
+    "Count": 2,
+    "Name": "Baymax - Armored Companion",
+    "Color": "Sapphire",
+    "Rarity": "Legendary,Promo",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set6/157_eb797c7517e349eb7c277644586eb192d642753c.jpg"
+  },
+  {
+    "Set Number": "006",
+    "Card Number": "156,156",
+    "Count": 1,
+    "Name": "Baymax - Personal Healthcare Companion",
+    "Color": "Sapphire",
+    "Rarity": "Rare",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set6/156_abede20dbac6738aa2efeac09f39621431e036a4.jpg"
+  },
+  {
+    "Set Number": "007",
+    "Card Number": "175,175",
+    "Count": 1,
+    "Name": "Baymax - Upgraded Robot",
+    "Color": "Sapphire",
+    "Rarity": "Rare",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set7/175_db028c4fde97b15bc41c98cc40557c87712b7d78.jpg"
+  },
+  {
+    "Set Number": "005",
+    "Card Number": "158,158",
+    "Count": 1,
+    "Name": "Belle - Of the Ball",
+    "Color": "Sapphire",
+    "Rarity": "Rare",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set5/158_d060efbe54a821c329065aad3bc643232d0b8140.jpg"
+  },
+  {
+    "Set Number": "011",
+    "Card Number": "158,158",
+    "Count": 2,
+    "Name": "Belle - Snowfield Strategist",
+    "Color": "Sapphire",
+    "Rarity": "Super Rare",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set11/158_c3630708cf481908ffb3375e898cdd1d28bb411e.jpg"
+  },
+  {
+    "Set Number": "001",
+    "Card Number": "142,142",
+    "Count": 4,
+    "Name": "Belle - Strange but Special",
+    "Color": "Sapphire",
+    "Rarity": "Legendary",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set1/142_84b8d52ee47dac22d0ebc3deaf7b134aac59556b.jpg"
+  },
+  {
+    "Set Number": "013",
+    "Card Number": "162,162",
+    "Count": 2,
+    "Name": "Charles Muntz - Obsessive Explorer",
+    "Color": "Sapphire",
+    "Rarity": "Super Rare",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set13/162_dd72435352000c68b0af6373e211ef0fa70e9025.jpg"
+  },
+  {
+    "Set Number": "010",
+    "Card Number": "155,155",
+    "Count": 3,
+    "Name": "Cinderella - Dream Come True",
+    "Color": "Sapphire",
+    "Rarity": "Legendary",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set10/155_878f2ca9c3008df27f40209650cc21d3cd2ed0a4.jpg"
+  },
+  {
+    "Set Number": "012",
+    "Card Number": "155,155,47/P3",
+    "Count": 1,
+    "Name": "Cinderella - Resourceful Traveler",
+    "Color": "Sapphire",
+    "Rarity": "Rare,Promo",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set12/155_f202b45301fc9ce1a4337c604f138195b7c3f236.jpg"
+  },
+  {
+    "Set Number": "002",
+    "Card Number": "142,142",
+    "Count": 4,
+    "Name": "Cogsworth - Grandfather Clock",
+    "Color": "Sapphire",
+    "Rarity": "Super Rare",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set2/142_099eb671939713d36bfd0945b75c086edb72236c.jpg"
+  },
+  {
+    "Set Number": "009",
+    "Card Number": "143,143",
+    "Count": 3,
+    "Name": "Cruella De Vil - Style Icon",
+    "Color": "Sapphire",
+    "Rarity": "Legendary",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set9/143_fa23b5cadf365be58ae65ce83678335346af215b.jpg"
+  },
+  {
+    "Set Number": "011",
+    "Card Number": "150,150",
+    "Count": 1,
+    "Name": "Darkwing Duck - Dashing Gadgeteer",
+    "Color": "Sapphire",
+    "Rarity": "Super Rare",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set11/150_c1abd4e096cf31a6632a506c13510286cd48bc35.jpg"
+  },
+  {
+    "Set Number": "012",
+    "Card Number": "141,141",
+    "Count": 2,
+    "Name": "Flora - Strong-Willed Fairy",
+    "Color": "Sapphire",
+    "Rarity": "Rare",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set12/141_26ba969711636a74ef2215673c6d0070b4d17834.jpg"
+  },
+  {
+    "Set Number": "006",
+    "Card Number": "140,140",
+    "Count": 3,
+    "Name": "Gadget Hackwrench - Brilliant Bosun",
+    "Color": "Sapphire",
+    "Rarity": "Super Rare",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set6/140_370e32b57cc90dfe68cf58148c5ca98987af401e.jpg"
+  },
+  {
+    "Set Number": "012",
+    "Card Number": "145,145",
+    "Count": 3,
+    "Name": "Gadget Hackwrench - Resourceful Mechanic",
+    "Color": "Sapphire",
+    "Rarity": "Super Rare",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set12/145_ce902ae082841adb40eea8bf63359adeb319b74e.jpg"
+  },
+  {
+    "Set Number": "008",
+    "Card Number": "174,174",
+    "Count": 2,
+    "Name": "Geppetto - Skilled Craftsman",
+    "Color": "Sapphire",
+    "Rarity": "Rare",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set8/174_80fcad912eec31e0bd577e6873eb4533d61ebac9.jpg"
+  },
+  {
+    "Set Number": "011",
+    "Card Number": "149,149",
+    "Count": 1,
+    "Name": "Gosalyn Mallard - Curious Child",
+    "Color": "Sapphire",
+    "Rarity": "Uncommon",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set11/149_79ebb0b6295734d8eb8e77d4473cca6d168361bb.jpg"
+  },
+  {
+    "Set Number": "011",
+    "Card Number": "148,148",
+    "Count": 2,
+    "Name": "Gramma Tala - Connected to Nature",
+    "Color": "Sapphire",
+    "Rarity": "Rare",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set11/148_98c690813895e1eac88717d021de8dc6ce7bb8e8.jpg"
+  },
+  {
+    "Set Number": "003",
+    "Card Number": "143,143",
+    "Count": 1,
+    "Name": "Gramma Tala - Spirit of the Ocean",
+    "Color": "Sapphire",
+    "Rarity": "Legendary",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set3/143_52b9f4e308de47f9e31ac056cec180b5fdb1b64b.jpg"
+  },
+  {
+    "Set Number": "009",
+    "Card Number": "151,151",
+    "Count": 2,
+    "Name": "Hades - Infernal Schemer",
+    "Color": "Sapphire",
+    "Rarity": "Legendary",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set9/151_89606004320251c988e166d43089aabedd668f35.jpg"
+  },
+  {
+    "Set Number": "001",
+    "Card Number": "147,147",
+    "Count": 3,
+    "Name": "Hades - Infernal Schemer",
+    "Color": "Sapphire",
+    "Rarity": "Legendary",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set1/147_04b20a09cec71e603f495cdf72309f800ef8e21b.jpg"
+  },
+  {
+    "Set Number": "010",
+    "Card Number": "148,148",
+    "Count": 1,
+    "Name": "Ichabod Crane - Bookish Schoolmaster",
+    "Color": "Sapphire",
+    "Rarity": "Rare",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set10/148_18dd7c969a9d812fea43681ef65b643066c4da24.jpg"
+  },
+  {
+    "Set Number": "012",
+    "Card Number": "153,153",
+    "Count": 2,
+    "Name": "Isabela Madrigal - Perfectly in Control",
+    "Color": "Sapphire",
+    "Rarity": "Super Rare",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set12/153_d7643b5303d2b7be8db2fa53578cb231d19ddba0.jpg"
+  },
+  {
+    "Set Number": "002",
+    "Card Number": "150,150",
+    "Count": 1,
+    "Name": "James - Role Model",
+    "Color": "Sapphire",
+    "Rarity": "Common",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set2/150_1753701256b83aa2c1b20ae4feb1f0f0383c105c.jpg"
+  },
+  {
+    "Set Number": "001",
+    "Card Number": "149,149",
+    "Count": 1,
+    "Name": "Jasmine - Queen of Agrabah",
+    "Color": "Sapphire",
+    "Rarity": "Rare",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set1/149_4c89146bcc26a6a60b434403a1c07159fc15cb69.jpg"
+  },
+  {
+    "Set Number": "008",
+    "Card Number": "171,171",
+    "Count": 1,
+    "Name": "Jasmine - Steady Strategist",
+    "Color": "Sapphire Steel",
+    "Rarity": "Super Rare",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set8/171_e78cf568f13e34f652bd068e7e4e412fc407b887.jpg"
+  },
+  {
+    "Set Number": "004",
+    "Card Number": "148,148",
+    "Count": 3,
+    "Name": "John Silver - Terror of the Realm",
+    "Color": "Sapphire",
+    "Rarity": "Rare",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set4/148_678f4c1bfa156ec2a656055cfb0e431dd477da80.jpg"
+  },
+  {
+    "Set Number": "010",
+    "Card Number": "150,150",
+    "Count": 1,
+    "Name": "Judy Hopps - Lead Detective",
+    "Color": "Sapphire",
+    "Rarity": "Rare",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set10/150_7af5ae092dd4c0eb9bbd190c98f1a8992e3a5391.jpg"
+  },
+  {
+    "Set Number": "010",
+    "Card Number": "137,137",
+    "Count": 1,
+    "Name": "Judy Hopps - On the Case",
+    "Color": "Sapphire",
+    "Rarity": "Uncommon",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set10/137_8ab099b6d4c5b62bfc6676c418da3c0acd1746ed.jpg"
+  },
+  {
+    "Set Number": "012",
+    "Card Number": "160,160",
+    "Count": 3,
+    "Name": "Kida - Crystal Scion",
+    "Color": "Sapphire",
+    "Rarity": "Legendary",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set12/160_da29f2a3b54de9369ae561b3c70bad73b437d908.jpg"
+  },
+  {
+    "Set Number": "012",
+    "Card Number": "157,157",
+    "Count": 3,
+    "Name": "Kida - Discovering the Unknown",
+    "Color": "Sapphire",
+    "Rarity": "Rare",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set12/157_6552dac537ce56f3cd9c31731c2bebf1afb99b79.jpg"
+  },
+  {
+    "Set Number": "003",
+    "Card Number": "147,147",
+    "Count": 1,
+    "Name": "Kit Cloudkicker - Navigator",
+    "Color": "Sapphire",
+    "Rarity": "Uncommon",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set3/147_f2871c1ee6315ebd486ad555a09aa444252989f2.jpg"
+  },
+  {
+    "Set Number": "005",
+    "Card Number": "149,149",
+    "Count": 4,
+    "Name": "Kuzco - Selfish Emperor",
+    "Color": "Sapphire",
+    "Rarity": "Super Rare",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set5/149_39bcbba9ed54c9ba25f32b32a7e49037811719e7.jpg"
+  },
+  {
+    "Set Number": "007",
+    "Card Number": "176,176",
+    "Count": 2,
+    "Name": "Maid Marian - Badminton Ace",
+    "Color": "Sapphire Steel",
+    "Rarity": "Super Rare",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set7/176_3ad245db2beb3487d755b1b9aeaaf4ad9fbd3e63.jpg"
+  },
+  {
+    "Set Number": "013",
+    "Card Number": "158,158",
+    "Count": 3,
+    "Name": "Maid Marian - Created by the Vine",
+    "Color": "Sapphire",
+    "Rarity": "Rare",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set13/158_f1e63a8c4d0221f9b1402a48ed8cd9a3cd753fc0.jpg"
+  },
+  {
+    "Set Number": "003",
+    "Card Number": "151,151",
+    "Count": 2,
+    "Name": "Mama Odie - Mystical Maven",
+    "Color": "Sapphire",
+    "Rarity": "Rare",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set3/151_a9ca9bdc9888cd76af42016b050146e893f2c17f.jpg"
+  },
+  {
+    "Set Number": "001",
+    "Card Number": "152,152",
+    "Count": 3,
+    "Name": "Maurice - World-Famous Inventor",
+    "Color": "Sapphire",
+    "Rarity": "Rare",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set1/152_b3b50c66714c3852c5c9e24b6bef77f47bd099bb.jpg"
+  },
+  {
+    "Set Number": "013",
+    "Card Number": "146,146,7/PD1",
+    "Count": 3,
+    "Name": "Merlin - Envisioning the Future",
+    "Color": "Sapphire",
+    "Rarity": "Rare,Promo",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set13/146_43b0cdf7ec730b2d615cb897dae345292143c010.jpg"
+  },
+  {
+    "Set Number": "005",
+    "Card Number": "159,159",
+    "Count": 1,
+    "Name": "Merlin - Intellectual Visionary",
+    "Color": "Sapphire",
+    "Rarity": "Legendary",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set5/159_d2334c646940494e5e01a89bc18d3bea5fefc42a.jpg"
+  },
+  {
+    "Set Number": "011",
+    "Card Number": "159,159,219",
+    "Count": 1,
+    "Name": "Mickey Mouse - Bob Cratchit",
+    "Color": "Sapphire",
+    "Rarity": "Rare,Epic",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set11/159_e74d99747d8eae4899d7e23515406ea81abab183.jpg"
+  },
+  {
+    "Set Number": "011",
+    "Card Number": "155,155",
+    "Count": 3,
+    "Name": "Moana - Curious Explorer",
+    "Color": "Sapphire",
+    "Rarity": "Legendary",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set11/155_f989124b39917c67fc1744c69264eee4664c42c3.jpg"
+  },
+  {
+    "Set Number": "011",
+    "Card Number": "157,157",
+    "Count": 2,
+    "Name": "Morty Fieldmouse - Tiny Tim",
+    "Color": "Sapphire",
+    "Rarity": "Rare",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set11/157_df3a92b004b7a3aba2c0892042f947bc80d62714.jpg"
+  },
+  {
+    "Set Number": "005",
+    "Card Number": "150,150",
+    "Count": 4,
+    "Name": "Mufasa - Ruler of Pride Rock",
+    "Color": "Sapphire",
+    "Rarity": "Legendary",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set5/150_eadbc76bfe6ad69b9fa5e8a760e8ddaa2291c2bd.jpg"
+  },
+  {
+    "Set Number": "008",
+    "Card Number": "165,165",
+    "Count": 1,
+    "Name": "Nani - Heist Mastermind",
+    "Color": "Sapphire",
+    "Rarity": "Rare",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set8/165_9ea697912c5b414a93ede5f26732c6c7ead26934.jpg"
+  },
+  {
+    "Set Number": "002",
+    "Card Number": "155,155",
+    "Count": 1,
+    "Name": "Noi - Orphaned Thief",
+    "Color": "Sapphire",
+    "Rarity": "Rare",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set2/155_3511d2cb5a7d2171758eef3a85626cb00dd42186.jpg"
+  },
+  {
+    "Set Number": "011",
+    "Card Number": "147,147",
+    "Count": 3,
+    "Name": "Piglet - Cocoa Maker",
+    "Color": "Sapphire",
+    "Rarity": "Rare",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set11/147_e5c9703c1ad77ac6af0d129abb304f2532d444bb.jpg"
+  },
+  {
+    "Set Number": "002",
+    "Card Number": "157,157",
+    "Count": 2,
+    "Name": "Prince Charming - Heir to the Throne",
+    "Color": "Sapphire",
+    "Rarity": "Rare",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set2/157_900aeb2a00d6fac67764874a23d22a7adcf79382.jpg"
+  },
+  {
+    "Set Number": "005",
+    "Card Number": "147,147,1/P2",
+    "Count": 3,
+    "Name": "Prince John - Gold Lover",
+    "Color": "Sapphire",
+    "Rarity": "Super Rare,Promo",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set5/147_119635b43373ed970b024602c3946b022c2a041b.jpg"
+  },
+  {
+    "Set Number": "013",
+    "Card Number": "147,147",
+    "Count": 1,
+    "Name": "Quackerjack - Loony Toymaker",
+    "Color": "Sapphire",
+    "Rarity": "Legendary",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set13/147_ed8993480a00da61ab4829e32c13dd8d2990cbc5.jpg"
+  },
+  {
+    "Set Number": "008",
+    "Card Number": "167,167",
+    "Count": 2,
+    "Name": "Ratigan - Greedy Genius",
+    "Color": "Sapphire",
+    "Rarity": "Legendary",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set8/167_8fb8720429a710cf4498817060f6d668383f59f4.jpg"
+  },
+  {
+    "Set Number": "010",
+    "Card Number": "153,153,21/P3",
+    "Count": 1,
+    "Name": "Scar - Eerily Prepared",
+    "Color": "Sapphire",
+    "Rarity": "Super Rare,Promo",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set10/153_4438bc513790cfe0d19ae26a8d4b9828dee38524.jpg"
+  },
+  {
+    "Set Number": "011",
+    "Card Number": "152,152",
+    "Count": 4,
+    "Name": "Scrooge McDuck - Reformed Ebenezer",
+    "Color": "Sapphire",
+    "Rarity": "Legendary",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set11/152_8c07282bea2efa817dda425fca242ac96251fb85.jpg"
+  },
+  {
+    "Set Number": "007",
+    "Card Number": "154,154",
+    "Count": 3,
+    "Name": "Scrooge McDuck - Resourceful Miser",
+    "Color": "Sapphire",
+    "Rarity": "Legendary",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set7/154_15e4c66cc154264ab460c5d09f15be9db24beb89.jpg"
+  },
+  {
+    "Set Number": "003",
+    "Card Number": "154,154",
+    "Count": 2,
+    "Name": "Scrooge McDuck - Richest Duck in the World",
+    "Color": "Sapphire",
+    "Rarity": "Super Rare",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set3/154_d2bdbb8004ec7cf46b57681d9c8789b19d7511c8.jpg"
+  },
+  {
+    "Set Number": "004",
+    "Card Number": "154,154",
+    "Count": 1,
+    "Name": "Scuttle - Expert on Humans",
+    "Color": "Sapphire",
+    "Rarity": "Uncommon",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set4/154_d0258a32d28a9baa2dc43aae2ab4c5bfb203e123.jpg"
+  },
+  {
+    "Set Number": "005",
+    "Card Number": "145,145",
+    "Count": 3,
+    "Name": "Sheriff Of Nottingham - Bushel Britches",
+    "Color": "Sapphire",
+    "Rarity": "Rare",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set5/145_36bc9abc87e58bf3ac74f6bb5ed29fda6c142a2f.jpg"
+  },
+  {
+    "Set Number": "002",
+    "Card Number": "159,159",
+    "Count": 4,
+    "Name": "Sisu - Divine Water Dragon",
+    "Color": "Sapphire",
+    "Rarity": "Legendary",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set2/159_2a502dd92f75c3505e12ac3e52e560e37b1bbba2.jpg"
+  },
+  {
+    "Set Number": "008",
+    "Card Number": "166,166",
+    "Count": 1,
+    "Name": "Stitch - Experiment 626",
+    "Color": "Sapphire",
+    "Rarity": "Legendary",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set8/166_4ec419a31b55af2098ab49179c96d4cc42593518.jpg"
+  },
+  {
+    "Set Number": "006",
+    "Card Number": "153,153",
+    "Count": 1,
+    "Name": "Tadashi Hamada - Baymax Inventor",
+    "Color": "Sapphire",
+    "Rarity": "Super Rare",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set6/153_f420cae7a7c0060fa72a302553bf4bc4f82ec781.jpg"
+  },
+  {
+    "Set Number": "006",
+    "Card Number": "155,155",
+    "Count": 1,
+    "Name": "Tadashi Hamada - Gifted Roboticist",
+    "Color": "Sapphire",
+    "Rarity": "Rare",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set6/155_2d09ab6884343495ada305338a679162c0e8de7b.jpg"
+  },
+  {
+    "Set Number": "007",
+    "Card Number": "162,162",
+    "Count": 4,
+    "Name": "Tamatoa - Happy as a Clam",
+    "Color": "Sapphire",
+    "Rarity": "Legendary",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set7/162_beb30d1569ded979b93cb23b46c0cc7c5ea71ba9.jpg"
+  },
+  {
+    "Set Number": "011",
+    "Card Number": "156,156",
+    "Count": 2,
+    "Name": "Tamatoa - Seeker of Shine",
+    "Color": "Sapphire",
+    "Rarity": "Super Rare",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set11/156_bc3710030731fc700f6edffae0eead81b85ae13e.jpg"
+  },
+  {
+    "Set Number": "001",
+    "Card Number": "159,159",
+    "Count": 3,
+    "Name": "Tamatoa - So Shiny!",
+    "Color": "Sapphire",
+    "Rarity": "Super Rare",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set1/159_5b7165ccc18d23f52b3b1022994e0cbfb8bae40b.jpg"
+  },
+  {
+    "Set Number": "005",
+    "Card Number": "148,148",
+    "Count": 3,
+    "Name": "The Queen - Crown of the Council",
+    "Color": "Sapphire",
+    "Rarity": "Rare",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set5/148_30c8ea65fd7543c27b327c642efbb6cf08b4b1de.jpg"
+  },
+  {
+    "Set Number": "004",
+    "Card Number": "156,156",
+    "Count": 3,
+    "Name": "The Queen - Diviner",
+    "Color": "Sapphire",
+    "Rarity": "Legendary",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set4/156_68814504bdce58e87b0656047ebeedc72bf05a00.jpg"
+  },
+  {
+    "Set Number": "003",
+    "Card Number": "157,157",
+    "Count": 2,
+    "Name": "Tinker Bell - Very Clever Fairy",
+    "Color": "Sapphire",
+    "Rarity": "Super Rare",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set3/157_49768ce983b94afcb4c803e637f9dd8bd4cd2291.jpg"
+  },
+  {
+    "Set Number": "004",
+    "Card Number": "158,158",
+    "Count": 3,
+    "Name": "Triton - Champion of Atlantica",
+    "Color": "Sapphire",
+    "Rarity": "Legendary",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set4/158_cd7350f69f80d71053ebc84296d5ba1f16d40baa.jpg"
+  },
+  {
+    "Set Number": "012",
+    "Card Number": "161,161",
+    "Count": 3,
+    "Name": "Ursula - Deal Maker",
+    "Color": "Sapphire",
+    "Rarity": "Legendary",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set12/161_989e5dfc9d3ebf7f89ae21b9de382629247ffd48.jpg"
+  },
+  {
+    "Set Number": "006",
+    "Card Number": "160,160",
+    "Count": 1,
+    "Name": "Yokai - Scientific Supervillain",
+    "Color": "Sapphire",
+    "Rarity": "Rare",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set6/160_d4802681288687b01fc3f2244f09d6622eb0228d.jpg"
+  },
+  {
+    "Set Number": "012",
+    "Card Number": "150,150",
+    "Count": 2,
+    "Name": "Zipper - Big Helper",
+    "Color": "Sapphire",
+    "Rarity": "Super Rare",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set12/150_2de82ada090343aeeb6311d7af3a9e69de3fc2c9.jpg"
+  },
+  {
+    "Set Number": "008",
+    "Card Number": "177,177",
+    "Count": 3,
+    "Name": "Down in New Orleans",
+    "Color": "Sapphire",
+    "Rarity": "Super Rare",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set8/177_aee1b4c7f26cc606c399547e40c4a53d031eb6e9.jpg"
+  },
+  {
+    "Set Number": "012",
+    "Card Number": "164,164",
+    "Count": 3,
+    "Name": "Escape Plan",
+    "Color": "Sapphire",
+    "Rarity": "Rare",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set12/164_5e82da24b6bbcfcbe82ce69f2ec0fb8ec986d275.jpg"
+  },
+  {
+    "Set Number": "002",
+    "Card Number": "162,162",
+    "Count": 1,
+    "Name": "Falling Down the Rabbit Hole",
+    "Color": "Sapphire",
+    "Rarity": "Rare",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set2/162_a54d6ec956ba776ccf6905e18c8fc979be93a520.jpg"
+  },
+  {
+    "Set Number": "005",
+    "Card Number": "163,163",
+    "Count": 2,
+    "Name": "Hide Away",
+    "Color": "Sapphire",
+    "Rarity": "Uncommon",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set5/163_8d94a21dab11e8ad7f4d1727cf5a064212d9fc05.jpg"
+  },
+  {
+    "Set Number": "010",
+    "Card Number": "163,163",
+    "Count": 2,
+    "Name": "Might Solve a Mystery",
+    "Color": "Sapphire",
+    "Rarity": "Uncommon",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set10/163_c622f18130d4a7f2ab3b84c1d4b284c1467452b1.jpg"
+  },
+  {
+    "Set Number": "010",
+    "Card Number": "165,165",
+    "Count": 2,
+    "Name": "Spooky Sight",
+    "Color": "Sapphire",
+    "Rarity": "Rare",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set10/165_6f67b0c1e2ce1e16fac5968ef8f600781926631b.jpg"
+  },
+  {
+    "Set Number": "012",
+    "Card Number": "163,163",
+    "Count": 2,
+    "Name": "What Else Can I Do?",
+    "Color": "Sapphire",
+    "Rarity": "Rare",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set12/163_4013c056bfddc0ffd42ad6b70e31e9e62561dfa1.jpg"
+  },
+  {
+    "Set Number": "013",
+    "Card Number": "170,170",
+    "Count": 2,
+    "Name": "Closet Door Portal",
+    "Color": "Sapphire",
+    "Rarity": "Super Rare",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set13/170_280a80d57d0998b98966cd6a20bcfa51ea13c2a0.jpg"
+  },
+  {
+    "Set Number": "011",
+    "Card Number": "168,168",
+    "Count": 3,
+    "Name": "Darkwing's Chair Set",
+    "Color": "Sapphire",
+    "Rarity": "Rare",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set11/168_88ec6066c7bb3d4bbb9882cb8847a380fffcb3a9.jpg"
+  },
+  {
+    "Set Number": "004",
+    "Card Number": "166,166",
+    "Count": 1,
+    "Name": "Field Of Ice",
+    "Color": "Sapphire",
+    "Rarity": "Rare",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set4/166_a30ab725e33d86b7e56b2fada69f3d33e462818e.jpg"
+  },
+  {
+    "Set Number": "001",
+    "Card Number": "168,168",
+    "Count": 2,
+    "Name": "Fishbone Quill",
+    "Color": "Sapphire",
+    "Rarity": "Rare",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set1/168_61cd2a7b3be07e62197d689fbf615de31d421fad.jpg"
+  },
+  {
+    "Set Number": "003",
+    "Card Number": "164,164",
+    "Count": 1,
+    "Name": "Heart of Te Fiti",
+    "Color": "Sapphire",
+    "Rarity": "Rare",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set3/164_1c5f28d8cb5723f181e1f7427b5e19efeab6883f.jpg"
+  },
+  {
+    "Set Number": "011",
+    "Card Number": "170,170",
+    "Count": 1,
+    "Name": "Hidden Trap",
+    "Color": "Sapphire",
+    "Rarity": "Uncommon",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set11/170_127dd614a4559533119d9f0f3014131d03b952a5.jpg"
+  },
+  {
+    "Set Number": "010",
+    "Card Number": "167,167",
+    "Count": 1,
+    "Name": "Ink Amplifier",
+    "Color": "Sapphire",
+    "Rarity": "Rare",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set10/167_ca8f2109c0547ef4501175db32e475c1698e0463.jpg"
+  },
+  {
+    "Set Number": "003",
+    "Card Number": "165,165",
+    "Count": 1,
+    "Name": "Lucky Dime",
+    "Color": "Sapphire",
+    "Rarity": "Legendary",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set3/165_d78256ca28926b3719aa56ca590530da94acb004.jpg"
+  },
+  {
+    "Set Number": "002",
+    "Card Number": "168,168",
+    "Count": 3,
+    "Name": "Maurice's Workshop",
+    "Color": "Sapphire",
+    "Rarity": "Rare",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set2/168_ecf923a4d5c3147a41c689d69a797aa1eeed4b8d.jpg"
+  },
+  {
+    "Set Number": "013",
+    "Card Number": "173,173",
+    "Count": 4,
+    "Name": "Translation Collar",
+    "Color": "Sapphire",
+    "Rarity": "Rare",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set13/173_26b7dcab76909476a7e374ce2230aace53ee0d26.jpg"
+  },
+  {
+    "Set Number": "004",
+    "Card Number": "169,169",
+    "Count": 4,
+    "Name": "Ariel's Grotto - A Secret Place",
+    "Color": "Sapphire",
+    "Rarity": "Rare",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set4/169_3edd5e97be3e899c2dd8c1fb14cf54c2fa26609f.jpg"
+  },
+  {
+    "Set Number": "006",
+    "Card Number": "169,169",
+    "Count": 3,
+    "Name": "Rescue Rangers Submarine - Mobile Headquarters",
+    "Color": "Sapphire",
+    "Rarity": "Rare",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set6/169_d8dab8b8714a4e372fecf15ecf4adfb7e261170e.jpg"
+  },
+  {
+    "Set Number": "005",
+    "Card Number": "169,169",
+    "Count": 1,
+    "Name": "The Great Illuminary - Radiant Ballroom",
+    "Color": "Sapphire",
+    "Rarity": "Rare",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set5/169_a5853f0f85a9d732755b4023b95ab8f9adf58809.jpg"
+  },
+  {
+    "Set Number": "013",
+    "Card Number": "177,177",
+    "Count": 4,
+    "Name": "Aladdin - Created by the Vine",
+    "Color": "Steel",
+    "Rarity": "Rare",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set13/177_43e625eb39691554c2b9e157152029fc511d87fb.jpg"
+  },
+  {
+    "Set Number": "011",
+    "Card Number": "191,191",
+    "Count": 1,
+    "Name": "Angel - Experiment 624",
+    "Color": "Steel",
+    "Rarity": "Legendary",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set11/191_16ceb956f1448b91b29fe7d31d5467e11e57b517.jpg"
+  },
+  {
+    "Set Number": "011",
+    "Card Number": "187,187",
+    "Count": 1,
+    "Name": "Angela - Night Warrior",
+    "Color": "Steel",
+    "Rarity": "Super Rare",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set11/187_285489b4b091254347ff58d72911c9c7e50468f6.jpg"
+  },
+  {
+    "Set Number": "004",
+    "Card Number": "175,175",
+    "Count": 1,
+    "Name": "Ariel - Sonic Warrior",
+    "Color": "Steel",
+    "Rarity": "Super Rare",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set4/175_fa0da6aaea9afdbe8a4c043249739642ed14a86a.jpg"
+  },
+  {
+    "Set Number": "007",
+    "Card Number": "198,198",
+    "Count": 3,
+    "Name": "Bagheera - Guardian Jaguar",
+    "Color": "Steel",
+    "Rarity": "Legendary",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set7/198_df17032242b4e9d070dd488cc1a5ef09e1af7c41.jpg"
+  },
+  {
+    "Set Number": "002",
+    "Card Number": "172,172",
+    "Count": 2,
+    "Name": "Beast - Selfless Protector",
+    "Color": "Steel",
+    "Rarity": "Super Rare",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set2/172_52f728a769c5c33d55221365582e2c34386cf9ec.jpg"
+  },
+  {
+    "Set Number": "002",
+    "Card Number": "173,173",
+    "Count": 2,
+    "Name": "Beast - Tragic Hero",
+    "Color": "Steel",
+    "Rarity": "Legendary",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set2/173_90e7a8e4f24109dcbda85082abd1e90a3bce273f.jpg"
+  },
+  {
+    "Set Number": "006",
+    "Card Number": "192,192",
+    "Count": 2,
+    "Name": "Captain Amelia - Commander of the Legacy",
+    "Color": "Steel",
+    "Rarity": "Super Rare",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set6/192_c047176c5ba1e01c36f5c0130358c80fc8bce4ef.jpg"
+  },
+  {
+    "Set Number": "001",
+    "Card Number": "173,173",
+    "Count": 2,
+    "Name": "Captain Hook - Captain of the Jolly Roger",
+    "Color": "Steel",
+    "Rarity": "Rare",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set1/173_ea192dc06b68210148000c6ccb035532563a46d7.jpg"
+  },
+  {
+    "Set Number": "001",
+    "Card Number": "175,175",
+    "Count": 3,
+    "Name": "Captain Hook - Thinking a Happy Thought",
+    "Color": "Steel",
+    "Rarity": "Rare",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set1/175_c91fc6a1aa884629f1a955d331e4e00790307ebd.jpg"
+  },
+  {
+    "Set Number": "011",
+    "Card Number": "179,179",
+    "Count": 3,
+    "Name": "Chief - Seasoned Tracker",
+    "Color": "Steel",
+    "Rarity": "Uncommon",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set11/179_0307d8d0982bb70348758ad0e46d07419bdb82d4.jpg"
+  },
+  {
+    "Set Number": "002",
+    "Card Number": "175,175",
+    "Count": 2,
+    "Name": "Chief Bogo - Respected Officer",
+    "Color": "Steel",
+    "Rarity": "Rare",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set2/175_f987fae892d436b3c198996c9174b9292d17a416.jpg"
+  },
+  {
+    "Set Number": "004",
+    "Card Number": "178,178",
+    "Count": 3,
+    "Name": "Chien-Po - Imperial Soldier",
+    "Color": "Steel",
+    "Rarity": "Common",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set4/178_a9ccc5d1e3246f7cc6a450f29449fe613ee882ae.jpg"
+  },
+  {
+    "Set Number": "011",
+    "Card Number": "192,192",
+    "Count": 4,
+    "Name": "Darkwing Duck - Cool Under Pressure",
+    "Color": "Steel",
+    "Rarity": "Legendary",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set11/192_0de855ac01b52bcc070b0e3f7729d2122fb20734.jpg"
+  },
+  {
+    "Set Number": "011",
+    "Card Number": "188,188",
+    "Count": 2,
+    "Name": "Darkwing Duck - Darkwarrior",
+    "Color": "Steel",
+    "Rarity": "Rare",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set11/188_f1685f43882cd13d6dce521259016fd1c23e23e4.jpg"
+  },
+  {
+    "Set Number": "004",
+    "Card Number": "179,179,15/P3",
+    "Count": 2,
+    "Name": "Donald Duck - Buccaneer",
+    "Color": "Steel",
+    "Rarity": "Legendary,Promo",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set4/179_1d2e2d45ae7466bbf862e7d547b4a118f6892ae9.jpg"
+  },
+  {
+    "Set Number": "001",
+    "Card Number": "177,177,13/P1",
+    "Count": 1,
+    "Name": "Donald Duck - Musketeer",
+    "Color": "Steel",
+    "Rarity": "Uncommon,Promo",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set1/177_6d9c55f1b49e96bc9988c2c1092d52cfc8a3b715.jpg"
+  },
+  {
+    "Set Number": "013",
+    "Card Number": "184,184",
+    "Count": 2,
+    "Name": "Dr. Hamsterviel - Evil Observer",
+    "Color": "Steel",
+    "Rarity": "Uncommon",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set13/184_577ef9a9e4cd5c6605adbddf49f963bbd508c604.jpg"
+  },
+  {
+    "Set Number": "011",
+    "Card Number": "186,186",
+    "Count": 1,
+    "Name": "Dr. Hamsterviel - Infamous Scientist",
+    "Color": "Steel",
+    "Rarity": "Rare",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set11/186_3116cbb5e8d4f1631f747848c2b691cb8a4f24a2.jpg"
+  },
+  {
+    "Set Number": "011",
+    "Card Number": "182,182",
+    "Count": 2,
+    "Name": "Duke Weaselton - Surly Crook",
+    "Color": "Steel",
+    "Rarity": "Rare",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set11/182_566b00c2eae6a2ae5a48603bbefb73bd7a6d6434.jpg"
+  },
+  {
+    "Set Number": "012",
+    "Card Number": "187,187",
+    "Count": 2,
+    "Name": "Fat Cat - Criminal Businessman",
+    "Color": "Steel",
+    "Rarity": "Rare",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set12/187_124da119b3fd9563f38df5677a006c1d6f4f9c0e.jpg"
+  },
+  {
+    "Set Number": "012",
+    "Card Number": "194,194",
+    "Count": 3,
+    "Name": "Fergus - Outpost Builder",
+    "Color": "Steel",
+    "Rarity": "Super Rare",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set12/194_5c4cbcf46ac1cb2a321a87ecf97a47abac826ca2.jpg"
+  },
+  {
+    "Set Number": "007",
+    "Card Number": "199,199",
+    "Count": 3,
+    "Name": "Gantu - Experienced Enforcer",
+    "Color": "Steel",
+    "Rarity": "Super Rare",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set7/199_fb973cbfbe7892d4f2fbe7cac2767244940848d5.jpg"
+  },
+  {
+    "Set Number": "001",
+    "Card Number": "178,178",
+    "Count": 4,
+    "Name": "Gantu - Galactic Federation Captain",
+    "Color": "Steel",
+    "Rarity": "Legendary",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set1/178_af2d9e3bae97e1ca33f7dbe0f41d78197a523c02.jpg"
+  },
+  {
+    "Set Number": "010",
+    "Card Number": "173,173",
+    "Count": 4,
+    "Name": "Goliath - Clan Leader",
+    "Color": "Steel",
+    "Rarity": "Legendary",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set10/173_41ca97eaaea66fac6ba913148a6244ac8df4ebb9.jpg"
+  },
+  {
+    "Set Number": "002",
+    "Card Number": "180,180",
+    "Count": 3,
+    "Name": "Goofy - Knight for a Day",
+    "Color": "Steel",
+    "Rarity": "Rare",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set2/180_903d4945e208235360e51969c5f01cf268b78ea2.jpg"
+  },
+  {
+    "Set Number": "011",
+    "Card Number": "190,190",
+    "Count": 1,
+    "Name": "Grand Councilwoman - Galactic Authority",
+    "Color": "Steel",
+    "Rarity": "Rare",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set11/190_b44638759d9cb1d88d2c9124e0bb8090c2943ebe.jpg"
+  },
+  {
+    "Set Number": "001",
+    "Card Number": "180,180",
+    "Count": 1,
+    "Name": "Hans - Thirteenth in Line",
+    "Color": "Steel",
+    "Rarity": "Super Rare",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set1/180_44305a71cc6b90f4c37e8a342a7f088a61afebfd.jpg"
+  },
+  {
+    "Set Number": "002",
+    "Card Number": "181,181",
+    "Count": 2,
+    "Name": "Hercules - Divine Hero",
+    "Color": "Steel",
+    "Rarity": "Rare",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set2/181_fc07bc2a61fb462d8ce42f7f71868444cc688892.jpg"
+  },
+  {
+    "Set Number": "008",
+    "Card Number": "195,195,8/D23",
+    "Count": 3,
+    "Name": "Iago - Out of Reach",
+    "Color": "Steel",
+    "Rarity": "Rare,Promo",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set8/195_e335fb638ac7cdb385c6861a8fbd10550c192b13.jpg"
+  },
+  {
+    "Set Number": "002",
+    "Card Number": "183,183",
+    "Count": 1,
+    "Name": "Jafar - Dreadnought",
+    "Color": "Steel",
+    "Rarity": "Uncommon",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set2/183_4ddc92396a72ae9cb1606ba4e65136e13f6d4be4.jpg"
+  },
+  {
+    "Set Number": "005",
+    "Card Number": "172,172",
+    "Count": 3,
+    "Name": "Jafar - Tyrannical Hypnotist",
+    "Color": "Steel",
+    "Rarity": "Legendary",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set5/172_7abe33f9beed67b1b91b47ab77c46533929c4471.jpg"
+  },
+  {
+    "Set Number": "009",
+    "Card Number": "178,178",
+    "Count": 4,
+    "Name": "Jasmine - Fearless Princess",
+    "Color": "Steel",
+    "Rarity": "Rare",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set9/178_48fdfedaf6d32f74437210dc5638b917ebad38fd.jpg"
+  },
+  {
+    "Set Number": "006",
+    "Card Number": "183,183",
+    "Count": 1,
+    "Name": "Jim Hawkins - Rigging Specialist",
+    "Color": "Steel",
+    "Rarity": "Uncommon",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set6/183_390fc63e270d27e937d860912eab3eef20a77627.jpg"
+  },
+  {
+    "Set Number": "003",
+    "Card Number": "176,176",
+    "Count": 4,
+    "Name": "John Silver - Greedy Treasure Seeker",
+    "Color": "Steel",
+    "Rarity": "Rare",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set3/176_b4326f9b15de9387283151377e5caf00087858bf.jpg"
+  },
+  {
+    "Set Number": "012",
+    "Card Number": "192,192",
+    "Count": 2,
+    "Name": "John Smith - Skillful Explorer",
+    "Color": "Steel",
+    "Rarity": "Rare",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set12/192_98c2b07a1a1bdf6b6ea3f211451756113d5c6cbb.jpg"
+  },
+  {
+    "Set Number": "005",
+    "Card Number": "185,185",
+    "Count": 1,
+    "Name": "Kronk - Head of Security",
+    "Color": "Steel",
+    "Rarity": "Super Rare",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set5/185_9d7f683b567d708e2f090cd74dd11abdbc38e50e.jpg"
+  },
+  {
+    "Set Number": "013",
+    "Card Number": "191,191,223",
+    "Count": 2,
+    "Name": "Kronk - Meat Hut Cook",
+    "Color": "Steel",
+    "Rarity": "Rare,Epic",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set13/191_59eae03dc841811a9ae320336137e5f0dc9f5b47.jpg"
+  },
+  {
+    "Set Number": "011",
+    "Card Number": "172,172",
+    "Count": 1,
+    "Name": "Launchpad - Hideout Defender",
+    "Color": "Steel",
+    "Rarity": "Uncommon",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set11/172_d39b073f6c2a06928875370af38922d5cc14007a.jpg"
+  },
+  {
+    "Set Number": "004",
+    "Card Number": "181,181",
+    "Count": 3,
+    "Name": "LeFou - Opportunistic Flunky",
+    "Color": "Steel",
+    "Rarity": "Rare",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set4/181_845819a8329793b270ae7a694bf11cbc49f5ff54.jpg"
+  },
+  {
+    "Set Number": "011",
+    "Card Number": "195,195",
+    "Count": 2,
+    "Name": "Lilo - Bundled Up",
+    "Color": "Steel",
+    "Rarity": "Super Rare",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set11/195_20e29ee0e63b75cd3dfb714fcb7ec3f313ad7bf1.jpg"
+  },
+  {
+    "Set Number": "003",
+    "Card Number": "178,178",
+    "Count": 1,
+    "Name": "Little John - Resourceful Outlaw",
+    "Color": "Steel",
+    "Rarity": "Super Rare",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set3/178_d8c251ff50315dacbdf9cf16a45e04740ac60daa.jpg"
+  },
+  {
+    "Set Number": "013",
+    "Card Number": "195,195,8/PD1",
+    "Count": 2,
+    "Name": "Maximus - Relentless Stallion",
+    "Color": "Steel",
+    "Rarity": "Rare,Promo",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set13/195_bd29d35305e83cb6e04a6dc220fdf443ed7cbc3d.jpg"
+  },
+  {
+    "Set Number": "010",
+    "Card Number": "188,188",
+    "Count": 1,
+    "Name": "Mayor Winddancer - Actor-Turned-Politician",
+    "Color": "Steel",
+    "Rarity": "Rare",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set10/188_33fac05f5298dcb6389deef16635f7716c6aaacc.jpg"
+  },
+  {
+    "Set Number": "008",
+    "Card Number": "199,199",
+    "Count": 1,
+    "Name": "Mickey Mouse - Giant Mouse",
+    "Color": "Steel",
+    "Rarity": "Legendary",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set8/199_62a9f268ce51f5bef918a514ac61c2d06e8c941f.jpg"
+  },
+  {
+    "Set Number": "007",
+    "Card Number": "200,200",
+    "Count": 3,
+    "Name": "Mickey Mouse - Inspirational Warrior",
+    "Color": "Steel",
+    "Rarity": "Legendary",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set7/200_1e84dfe752add37b0df21bb436d7da106dff4b91.jpg"
+  },
+  {
+    "Set Number": "003",
+    "Card Number": "182,182",
+    "Count": 1,
+    "Name": "Mickey Mouse - Trumpeter",
+    "Color": "Steel",
+    "Rarity": "Legendary",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set3/182_c0d243cc41c0d60457a261299d48458efa1eaa4f.jpg"
+  },
+  {
+    "Set Number": "003",
+    "Card Number": "184,184",
+    "Count": 2,
+    "Name": "Mr. Smee - Bumbling Mate",
+    "Color": "Steel",
+    "Rarity": "Uncommon",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set3/184_3350d8c592f1d77f07e434d6d509895c11205928.jpg"
+  },
+  {
+    "Set Number": "003",
+    "Card Number": "185,185",
+    "Count": 1,
+    "Name": "Mufasa - Champion of the Pride Lands",
+    "Color": "Steel",
+    "Rarity": "Rare",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set3/185_5fe402fb01e6e8697046a3b09df71b5bf974dd7d.jpg"
+  },
+  {
+    "Set Number": "009",
+    "Card Number": "173,173",
+    "Count": 3,
+    "Name": "Nala - Undaunted Lioness",
+    "Color": "Steel",
+    "Rarity": "Rare",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set9/173_26c3a09d32da3048758427afe9f903b422dd0dc8.jpg"
+  },
+  {
+    "Set Number": "002",
+    "Card Number": "189,189",
+    "Count": 1,
+    "Name": "Namaari - Morning Mist",
+    "Color": "Steel",
+    "Rarity": "Legendary",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set2/189_d13a92907020fa6e7515b2378e527c6eb6af7c58.jpg"
+  },
+  {
+    "Set Number": "005",
+    "Card Number": "182,182",
+    "Count": 1,
+    "Name": "Namaari - Resolute Daughter",
+    "Color": "Steel",
+    "Rarity": "Rare",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set5/182_bdedb639bd9cc9786b41640c51fb99d568aae335.jpg"
+  },
+  {
+    "Set Number": "008",
+    "Card Number": "198,198",
+    "Count": 1,
+    "Name": "Namaari - Single-Minded Rival",
+    "Color": "Steel",
+    "Rarity": "Legendary",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set8/198_450b20d1bffe2c0e2dda5c402138ff304bf4da46.jpg"
+  },
+  {
+    "Set Number": "011",
+    "Card Number": "184,184",
+    "Count": 2,
+    "Name": "Nani - No Worries",
+    "Color": "Steel",
+    "Rarity": "Common",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set11/184_f92a410228427b92b2b9d1ecb1da73848a1ab07b.jpg"
+  },
+  {
+    "Set Number": "013",
+    "Card Number": "196,196",
+    "Count": 3,
+    "Name": "Omnidroid - Ultimate Iteration",
+    "Color": "Steel",
+    "Rarity": "Rare",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set13/196_28a4ecf05a37c1399e286e2b510d179e450cba4e.jpg"
+  },
+  {
+    "Set Number": "002",
+    "Card Number": "190,190",
+    "Count": 1,
+    "Name": "Pacha - Village Leader",
+    "Color": "Steel",
+    "Rarity": "Uncommon",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set2/190_6b7b58c230927bede276e7b3ee20a48b032351fb.jpg"
+  },
+  {
+    "Set Number": "004",
+    "Card Number": "191,191",
+    "Count": 2,
+    "Name": "Piglet - Sturdy Swordsman",
+    "Color": "Steel",
+    "Rarity": "Legendary",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set4/191_eab1609ce766bef7c954ab7ab16fed69b8a576de.jpg"
+  },
+  {
+    "Set Number": "012",
+    "Card Number": "171,171,220,48/P3",
+    "Count": 1,
+    "Name": "Pocahontas - Steadfast Traveler",
+    "Color": "Steel",
+    "Rarity": "Rare,Epic,Promo",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set12/171_5111d53f19745649594de244e310d24e6d30edc0.jpg"
+  },
+  {
+    "Set Number": "002",
+    "Card Number": "192,192",
+    "Count": 1,
+    "Name": "Queen of Hearts - Capricious Monarch",
+    "Color": "Steel",
+    "Rarity": "Rare",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set2/192_691f7e6133bcacce4373d79588253be9cfa00d23.jpg"
+  },
+  {
+    "Set Number": "003",
+    "Card Number": "190,190",
+    "Count": 3,
+    "Name": "Robin Hood - Champion of Sherwood",
+    "Color": "Steel",
+    "Rarity": "Legendary",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set3/190_3b1545c1c34c7123ea2121b8ed41c21aa6736459.jpg"
+  },
+  {
+    "Set Number": "013",
+    "Card Number": "194,194",
+    "Count": 1,
+    "Name": "Scar - Created by the Vine",
+    "Color": "Steel",
+    "Rarity": "Legendary",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set13/194_1607e5dc9894bc1e1b6f06b608ff465bf72a45fe.jpg"
+  },
+  {
+    "Set Number": "009",
+    "Card Number": "175,175",
+    "Count": 2,
+    "Name": "Scar - Finally King",
+    "Color": "Steel",
+    "Rarity": "Legendary",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set9/175_6c84d62f0ea490ce81e571d7405a866b092b4c6f.jpg"
+  },
+  {
+    "Set Number": "001",
+    "Card Number": "189,189",
+    "Count": 2,
+    "Name": "Simba - Returned King",
+    "Color": "Steel",
+    "Rarity": "Rare",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set1/189_3af8896fe3a79c0113abe6b2f9c2c78b30ee8580.jpg"
+  },
+  {
+    "Set Number": "005",
+    "Card Number": "188,188",
+    "Count": 2,
+    "Name": "Sir Ector - Castle Lord",
+    "Color": "Steel",
+    "Rarity": "Rare",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set5/188_2a26d9ec65c9eea732263a290100e3de6d763289.jpg"
+  },
+  {
+    "Set Number": "001",
+    "Card Number": "192,192",
+    "Count": 1,
+    "Name": "Te K\u0101 - Heartless",
+    "Color": "Steel",
+    "Rarity": "Legendary",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set1/192_6e5a4bfb95780bfbdfa5e8a0def8ea8f5ab4e93b.jpg"
+  },
+  {
+    "Set Number": "010",
+    "Card Number": "174,174",
+    "Count": 1,
+    "Name": "The Headless Horseman - Cursed Rider",
+    "Color": "Steel",
+    "Rarity": "Super Rare",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set10/174_0a65600e7724d7556554d31dcf8bd31c22bb4744.jpg"
+  },
+  {
+    "Set Number": "013",
+    "Card Number": "197,197",
+    "Count": 3,
+    "Name": "The Vine - Towering Stalk",
+    "Color": "Steel",
+    "Rarity": "Super Rare",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set13/197_a39f69cbdf42d50caffd39515d9e549e9976d51e.jpg"
+  },
+  {
+    "Set Number": "007",
+    "Card Number": "187,187",
+    "Count": 1,
+    "Name": "Tuk Tuk - Disarmingly Cute",
+    "Color": "Steel",
+    "Rarity": "Rare",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set7/187_f3f4936a720ea8cde34fc1e61efd9e3f6385d94d.jpg"
+  },
+  {
+    "Set Number": "013",
+    "Card Number": "176,176",
+    "Count": 1,
+    "Name": "Violet Parr - Super Resilient",
+    "Color": "Steel",
+    "Rarity": "Super Rare",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set13/176_a89340528db256dfe698f1b66f9381792b8fab1d.jpg"
+  },
+  {
+    "Set Number": "004",
+    "Card Number": "194,194",
+    "Count": 2,
+    "Name": "Yao - Imperial Soldier",
+    "Color": "Steel",
+    "Rarity": "Common",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set4/194_7a892941fd1bf64969daec7918f02c80eca42018.jpg"
+  },
+  {
+    "Set Number": "001",
+    "Card Number": "195,195",
+    "Count": 1,
+    "Name": "A Whole New World",
+    "Color": "Steel",
+    "Rarity": "Super Rare",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set1/195_18333bc1be91df24f64e34b540bde8d66e6ef992.jpg"
+  },
+  {
+    "Set Number": "003",
+    "Card Number": "195,195",
+    "Count": 2,
+    "Name": "And Then Along Came Zeus",
+    "Color": "Steel",
+    "Rarity": "Rare",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set3/195_5546bd9c5f20c02485eae3f17cf9720ec961a7ba.jpg"
+  },
+  {
+    "Set Number": "013",
+    "Card Number": "202,202",
+    "Count": 2,
+    "Name": "Attack of the Vine!",
+    "Color": "Steel",
+    "Rarity": "Rare",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set13/202_f4f21f6d9d9d7af7bcc042bc3ab7e3a286238f2d.jpg"
+  },
+  {
+    "Set Number": "005",
+    "Card Number": "199,199",
+    "Count": 3,
+    "Name": "Food Fight!",
+    "Color": "Steel",
+    "Rarity": "Uncommon",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set5/199_d63918b1f0c8243cebd183d002d2ce020a968451.jpg"
+  },
+  {
+    "Set Number": "001",
+    "Card Number": "198,198",
+    "Count": 2,
+    "Name": "Grab Your Sword",
+    "Color": "Steel",
+    "Rarity": "Rare",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set1/198_cb045cae7b3d40d2e2b544a6c2eb0e02677553cd.jpg"
+  },
+  {
+    "Set Number": "004",
+    "Card Number": "196,196",
+    "Count": 2,
+    "Name": "I Find 'Em, I Flatten 'Em",
+    "Color": "Steel",
+    "Rarity": "Uncommon",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set4/196_7e615ef1628f394e7170107d40c3c2865b4f9d38.jpg"
+  },
+  {
+    "Set Number": "011",
+    "Card Number": "198,198",
+    "Count": 2,
+    "Name": "Let's Get Dangerous",
+    "Color": "Steel",
+    "Rarity": "Rare",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set11/198_72aabf6adde350406194dee776cadd66b213059e.jpg"
+  },
+  {
+    "Set Number": "007",
+    "Card Number": "201,201",
+    "Count": 1,
+    "Name": "Restoring Atlantis",
+    "Color": "Steel",
+    "Rarity": "Rare",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set7/201_83298fb192737684705f0a35deef7bbeb840b20a.jpg"
+  },
+  {
+    "Set Number": "002",
+    "Card Number": "201,201",
+    "Count": 2,
+    "Name": "Strength of a Raging Fire",
+    "Color": "Steel",
+    "Rarity": "Rare",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set2/201_1dfea933e71ee18456c83b805633660852aec47b.jpg"
+  },
+  {
+    "Set Number": "012",
+    "Card Number": "199,199",
+    "Count": 2,
+    "Name": "Touch the Sky",
+    "Color": "Steel",
+    "Rarity": "Rare",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set12/199_55c7642ed72313159634b6a8f56266c169c9d181.jpg"
+  },
+  {
+    "Set Number": "011",
+    "Card Number": "199,199",
+    "Count": 1,
+    "Name": "Winterspell",
+    "Color": "Steel",
+    "Rarity": "Uncommon",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set11/199_7247818304cb8628dada851d3673e79d1d3b046c.jpg"
+  },
+  {
+    "Set Number": "003",
+    "Card Number": "199,199",
+    "Count": 2,
+    "Name": "Captain Hook's Rapier",
+    "Color": "Steel",
+    "Rarity": "Uncommon",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set3/199_cbd493ae451360b4a03753dc080080b5e873f2cc.jpg"
+  },
+  {
+    "Set Number": "011",
+    "Card Number": "203,203",
+    "Count": 4,
+    "Name": "Containment Unit",
+    "Color": "Steel",
+    "Rarity": "Rare",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set11/203_14243cbb4a2ea7dd8dac314f1d4e75f8b6b33bf8.jpg"
+  },
+  {
+    "Set Number": "010",
+    "Card Number": "201,201",
+    "Count": 2,
+    "Name": "Ingenious Device",
+    "Color": "Steel",
+    "Rarity": "Rare",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set10/201_9019c46ac72587b16dcb78ba8882d21262ff4f7e.jpg"
+  },
+  {
+    "Set Number": "003",
+    "Card Number": "201,201",
+    "Count": 1,
+    "Name": "Map of Treasure Planet",
+    "Color": "Steel",
+    "Rarity": "Rare",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set3/201_08b9dee7dcab379150034b95fa21101e60fd0524.jpg"
+  },
+  {
+    "Set Number": "004",
+    "Card Number": "202,202",
+    "Count": 1,
+    "Name": "RLS Legacy's Cannon",
+    "Color": "Steel",
+    "Rarity": "Rare",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set4/202_d3783e43c3531db4e2d37bb2fd163730f68d6ab4.jpg"
+  },
+  {
+    "Set Number": "012",
+    "Card Number": "201,201",
+    "Count": 2,
+    "Name": "Syndrome's Remote",
+    "Color": "Steel",
+    "Rarity": "Rare",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set12/201_20ebc7d91cf9ae241991c15f191dfc3fbcdbcba9.jpg"
+  },
+  {
+    "Set Number": "011",
+    "Card Number": "202,202",
+    "Count": 1,
+    "Name": "The Thunderquack",
+    "Color": "Steel",
+    "Rarity": "Rare",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set11/202_a2c8e449b83a0fd8ad4f7328acef261441ac022d.jpg"
+  },
+  {
+    "Set Number": "002",
+    "Card Number": "204,204",
+    "Count": 3,
+    "Name": "Weight Set",
+    "Color": "Steel",
+    "Rarity": "Rare",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set2/204_df737daac45e5025413b84bad3171cfdfdef0c64.jpg"
+  },
+  {
+    "Set Number": "010",
+    "Card Number": "202,202",
+    "Count": 1,
+    "Name": "Illuminary Tunnels - Linked Caverns",
+    "Color": "Steel",
+    "Rarity": "Super Rare",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set10/202_22d7e2f940a9f0b5bea3c0d87a0b75a30ec188fb.jpg"
+  },
+  {
+    "Set Number": "003",
+    "Card Number": "202,202",
+    "Count": 1,
+    "Name": "Maui's Place of Exile - Hidden Island",
+    "Color": "Steel",
+    "Rarity": "Rare",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set3/202_5e91c43147576e07a17f94f6a6c0dbae1b7f5097.jpg"
+  },
+  {
+    "Set Number": "012",
+    "Card Number": "204,204",
+    "Count": 1,
+    "Name": "The Island of Nomanisan - Syndrome's Headquarters",
+    "Color": "Steel",
+    "Rarity": "Rare",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set12/204_3384da8f30cdcb801f45b76af8c73d8ca7fe4798.jpg"
+  },
+  {
+    "Set Number": "004",
+    "Card Number": "203,203",
+    "Count": 2,
+    "Name": "The Wall - Border Fortress",
+    "Color": "Steel",
+    "Rarity": "Rare",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set4/203_c2a30412eb6a7b9ff7bc49b232565a825f55c47e.jpg"
+  },
+  {
+    "Set Number": "006",
+    "Card Number": "203,203",
+    "Count": 1,
+    "Name": "Treasure Mountain - Azurite Sea Island",
+    "Color": "Steel",
+    "Rarity": "Rare",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set6/203_78fe10bfb07473b1812a6ef5a8577caea1335fd4.jpg"
+  },
+  {
+    "Set Number": "013",
+    "Card Number": "207,207",
+    "Count": 2,
+    "Name": "Vine Entrance - Ominous Passageway",
+    "Color": "Steel",
+    "Rarity": "Rare",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set13/207_c685755cc78148fa4a38a9c1aa5844bea147c95e.jpg"
+  },
+  {
+    "Set Number": "011",
+    "Card Number": "207,42/P3",
+    "Count": 2,
+    "Name": "Stitch - Carefree Snowboarder",
+    "Color": "Amber",
+    "Rarity": "Epic,Promo",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set11/207_0afc3039075cfafd175f25c97cb81d5eee2a5bf2.jpg"
+  },
+  {
+    "Set Number": "010",
+    "Card Number": "208,22/P3",
+    "Count": 1,
+    "Name": "Elsa - Exploring the Unknown",
+    "Color": "Amethyst",
+    "Rarity": "Epic,Promo",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set10/208_a097b76c5c05b5ae641c93fabe65de6a85c5ccc7.jpg"
+  },
+  {
+    "Set Number": "012",
+    "Card Number": "211,57/P3",
+    "Count": 4,
+    "Name": "Buzz Lightyear - Space Ranger",
+    "Color": "Emerald",
+    "Rarity": "Epic,Promo",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set12/211_bb1b0b8c83da6f3d7d3b2e83ca932cacc28452e1.jpg"
+  },
+  {
+    "Set Number": "009",
+    "Card Number": "212,1/C2,5/C2",
+    "Count": 4,
+    "Name": "Pegasus - Gift for Hercules",
+    "Color": "Emerald",
+    "Rarity": "Epic,Promo",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set9/212_c432540b81fbff6691a9d3c4e325df2611217834.jpg"
+  },
+  {
+    "Set Number": "009",
+    "Card Number": "219,12/P3",
+    "Count": 4,
+    "Name": "The Queen - Mirror Seeker",
+    "Color": "Sapphire",
+    "Rarity": "Epic,Promo",
+    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set9/219_66d70c36328b4db3644279b953fbd70335d617ee.jpg"
+  }
+]

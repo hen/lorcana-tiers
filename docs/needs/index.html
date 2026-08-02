@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta
+      http-equiv="Content-Security-Policy"
+      content="default-src 'self'; style-src 'self'; script-src 'self'; img-src 'self' https://api.lorcana.ravensburger.com; connect-src 'self'; object-src 'none'; base-uri 'self'; form-action 'self'">
+    <title>Lorcana Cards I Need</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <main class="page">
+      <header class="hero">
+        <p class="eyebrow">Lorcana collection</p>
+        <h1>Cards I Need</h1>
+        <p class="subhead">Find the cards needed to finish each playset.</p>
+      </header>
+
+      <section class="filters" aria-label="Card filters">
+        <label class="search-label" for="search">Search cards</label>
+        <input id="search" type="search" placeholder="Search by card name" autocomplete="off" list="card-names">
+        <datalist id="card-names"></datalist>
+        <label class="rarity-toggle" for="rare-toggle">
+          <input id="rare-toggle" type="checkbox">
+          <span>Rare?</span>
+        </label>
+      </section>
+
+      <p id="results-summary" class="results-summary" aria-live="polite">Loading cards…</p>
+      <section id="cards" class="card-grid" aria-label="Cards needed"></section>
+    </main>
+
+    <script src="app.js"></script>
+  </body>
+</html>
