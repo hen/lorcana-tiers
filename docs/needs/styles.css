@@ -104,10 +104,17 @@ body {
   min-width: 0;
   border: 1px solid var(--border);
   border-radius: 13px;
-  background: var(--panel-alt);
+  appearance: none;
+  -webkit-appearance: none;
+  background:
+    linear-gradient(45deg, transparent 50%, var(--muted) 50%) calc(100% - 17px) 50% / 6px 6px no-repeat,
+    linear-gradient(135deg, var(--muted) 50%, transparent 50%) calc(100% - 11px) 50% / 6px 6px no-repeat,
+    var(--panel-alt);
   color: var(--text);
-  padding: 0 13px;
+  padding: 0 32px 0 13px;
   font: inherit;
+  font-size: 1rem;
+  font-weight: 600;
   letter-spacing: normal;
   text-transform: none;
 }

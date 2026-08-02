@@ -84,12 +84,6 @@
         option.value = name;
         cardNames.append(option);
       }
-      for (const setNumber of [...new Set(cards.map((card) => card["Set Number"]))].sort((a, b) => Number(a) - Number(b))) {
-        const option = document.createElement("option");
-        option.value = setNumber;
-        option.textContent = `Set ${Number(setNumber)}`;
-        setFilter.append(option);
-      }
       render();
     } catch (error) {
       resultsSummary.textContent = error instanceof Error ? error.message : "Unable to load cards.";
