@@ -55,6 +55,7 @@ The mobile-focused collection needs site lives in `docs/needs/`. Regenerate its 
 thumbnail-enriched data after updating `needs.json`:
 
 ```bash
+python3 scripts/unify.py dreamborn-export.csv docs/needs/needs.json --json
 python3 scripts/build_needs_site_data.py docs/needs/needs.json ../allCards.json docs/needs/cards.json
 ```
 

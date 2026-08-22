@@ -208,14 +208,6 @@
     "Rarity": "Super Rare"
   },
   {
-    "Set Number": "012",
-    "Card Number": "26,26",
-    "Count": 1,
-    "Name": "Mickey Mouse - Expedition Leader",
-    "Color": "Amber",
-    "Rarity": "Super Rare"
-  },
-  {
     "Set Number": "002",
     "Card Number": "13,13,18/P1",
     "Count": 1,
@@ -531,7 +523,7 @@
     "Set Number": "004",
     "Card Number": "28,28",
     "Count": 1,
-    "Name": "Look At This Family",
+    "Name": "Look at This Family",
     "Color": "Amber",
     "Rarity": "Rare"
   },
@@ -648,26 +640,18 @@
     "Rarity": "Legendary"
   },
   {
-    "Set Number": "001",
-    "Card Number": "34,34",
-    "Count": 3,
+    "Set Number": "009",
+    "Card Number": "33,33",
+    "Count": 2,
     "Name": "Ursula's Shell Necklace",
     "Color": "Amber",
     "Rarity": "Rare"
   },
   {
-    "Set Number": "009",
-    "Card Number": "33,33",
-    "Count": 2,
-    "Name": "Ursula\u2019s Shell Necklace",
-    "Color": "Amber",
-    "Rarity": "Rare"
-  },
-  {
-    "Set Number": "012",
+    "Set Number": "001",
     "Card Number": "34,34",
-    "Count": 1,
-    "Name": "Andy's Room - Home Base",
+    "Count": 3,
+    "Name": "Ursula's Shell Necklace",
     "Color": "Amber",
     "Rarity": "Rare"
   },
@@ -906,7 +890,7 @@
   {
     "Set Number": "010",
     "Card Number": "37,37",
-    "Count": 2,
+    "Count": 1,
     "Name": "Gwythaint - Savage Hunter",
     "Color": "Amethyst",
     "Rarity": "Uncommon"
@@ -1347,7 +1331,7 @@
     "Set Number": "004",
     "Card Number": "61,61",
     "Count": 3,
-    "Name": "Second Star To The Right",
+    "Name": "Second Star to the Right",
     "Color": "Amethyst",
     "Rarity": "Rare"
   },
@@ -1355,15 +1339,7 @@
     "Set Number": "003",
     "Card Number": "63,63",
     "Count": 3,
-    "Name": "The Boss Is On A Roll",
-    "Color": "Amethyst",
-    "Rarity": "Rare"
-  },
-  {
-    "Set Number": "010",
-    "Card Number": "67,67",
-    "Count": 1,
-    "Name": "Grimorum Arcanorum",
+    "Name": "The Boss is on a Roll",
     "Color": "Amethyst",
     "Rarity": "Rare"
   },
@@ -1464,14 +1440,6 @@
     "Rarity": "Rare"
   },
   {
-    "Set Number": "012",
-    "Card Number": "83,83",
-    "Count": 1,
-    "Name": "Alien - True Believer",
-    "Color": "Emerald",
-    "Rarity": "Rare"
-  },
-  {
     "Set Number": "007",
     "Card Number": "113,113",
     "Count": 1,
@@ -1544,14 +1512,6 @@
     "Rarity": "Legendary"
   },
   {
-    "Set Number": "012",
-    "Card Number": "85,85,56/P3",
-    "Count": 1,
-    "Name": "Buzz Lightyear - On the Way",
-    "Color": "Emerald",
-    "Rarity": "Rare,Promo"
-  },
-  {
     "Set Number": "013",
     "Card Number": "77,77,5/PD1",
     "Count": 1,
@@ -1617,11 +1577,11 @@
   },
   {
     "Set Number": "001",
-    "Card Number": "72,72",
+    "Card Number": "72,72,4/P1",
     "Count": 1,
-    "Name": "Cruella De Vil - Miserable as Usual",
+    "Name": "Cruella De Vil - Miserable As Usual",
     "Color": "Emerald",
-    "Rarity": "Rare"
+    "Rarity": "Rare,Promo"
   },
   {
     "Set Number": "003",
@@ -1707,7 +1667,7 @@
     "Set Number": "003",
     "Card Number": "73,73",
     "Count": 1,
-    "Name": "Friar Tuck - Priest Of Nottingham",
+    "Name": "Friar Tuck - Priest of Nottingham",
     "Color": "Emerald",
     "Rarity": "Uncommon"
   },
@@ -1795,7 +1755,7 @@
     "Set Number": "004",
     "Card Number": "75,75",
     "Count": 2,
-    "Name": "HeiHei - Bumbling Rooster",
+    "Name": "Heihei - Bumbling Rooster",
     "Color": "Emerald",
     "Rarity": "Uncommon"
   },
@@ -2128,14 +2088,6 @@
     "Rarity": "Legendary"
   },
   {
-    "Set Number": "013",
-    "Card Number": "100,100",
-    "Count": 1,
-    "Name": "Rapunzel & Flynn Rider - Unlikely Pair",
-    "Color": "Emerald Steel",
-    "Rarity": "Legendary"
-  },
-  {
     "Set Number": "008",
     "Card Number": "100,100",
     "Count": 2,
@@ -2307,7 +2259,7 @@
     "Set Number": "004",
     "Card Number": "95,95",
     "Count": 4,
-    "Name": "Under The Sea",
+    "Name": "Under the Sea",
     "Color": "Emerald",
     "Rarity": "Rare"
   },
@@ -2482,7 +2434,7 @@
   {
     "Set Number": "013",
     "Card Number": "132,132",
-    "Count": 4,
+    "Count": 3,
     "Name": "Belle & Beast - Certain as the Sun",
     "Color": "Ruby Sapphire",
     "Rarity": "Super Rare"
@@ -2616,14 +2568,6 @@
     "Rarity": "Legendary"
   },
   {
-    "Set Number": "012",
-    "Card Number": "121,121",
-    "Count": 2,
-    "Name": "Jack-Jack Parr - Incredible Potential",
-    "Color": "Ruby",
-    "Rarity": "Super Rare"
-  },
-  {
     "Set Number": "003",
     "Card Number": "109,109",
     "Count": 3,
@@ -2726,14 +2670,6 @@
     "Name": "Mickey Mouse - Brave Little Tailor",
     "Color": "Ruby",
     "Rarity": "Legendary,Promo"
-  },
-  {
-    "Set Number": "013",
-    "Card Number": "129,129",
-    "Count": 1,
-    "Name": "Ming Lee - Giant Red Panda",
-    "Color": "Ruby",
-    "Rarity": "Super Rare"
   },
   {
     "Set Number": "005",
@@ -3043,7 +2979,7 @@
     "Set Number": "011",
     "Card Number": "103,103",
     "Count": 3,
-    "Name": "Wreck-it Ralph - Raging Wrecker",
+    "Name": "Wreck-It Ralph - Raging Wrecker",
     "Color": "Ruby",
     "Rarity": "Legendary"
   },
@@ -3473,14 +3409,6 @@
   },
   {
     "Set Number": "010",
-    "Card Number": "150,150",
-    "Count": 1,
-    "Name": "Judy Hopps - Lead Detective",
-    "Color": "Sapphire",
-    "Rarity": "Rare"
-  },
-  {
-    "Set Number": "010",
     "Card Number": "137,137",
     "Count": 1,
     "Name": "Judy Hopps - On the Case",
@@ -3699,7 +3627,7 @@
     "Set Number": "005",
     "Card Number": "145,145",
     "Count": 3,
-    "Name": "Sheriff Of Nottingham - Bushel Britches",
+    "Name": "Sheriff of Nottingham - Bushel Britches",
     "Color": "Sapphire",
     "Rarity": "Rare"
   },
@@ -3850,7 +3778,7 @@
   {
     "Set Number": "010",
     "Card Number": "163,163",
-    "Count": 2,
+    "Count": 1,
     "Name": "Might Solve a Mystery",
     "Color": "Sapphire",
     "Rarity": "Uncommon"
@@ -3891,7 +3819,7 @@
     "Set Number": "004",
     "Card Number": "166,166",
     "Count": 1,
-    "Name": "Field Of Ice",
+    "Name": "Field of Ice",
     "Color": "Sapphire",
     "Rarity": "Rare"
   },
@@ -4320,14 +4248,6 @@
     "Rarity": "Rare,Promo"
   },
   {
-    "Set Number": "010",
-    "Card Number": "188,188",
-    "Count": 1,
-    "Name": "Mayor Winddancer - Actor-Turned-Politician",
-    "Color": "Steel",
-    "Rarity": "Rare"
-  },
-  {
     "Set Number": "008",
     "Card Number": "199,199",
     "Count": 1,
@@ -4604,14 +4524,6 @@
     "Card Number": "201,201",
     "Count": 2,
     "Name": "Strength of a Raging Fire",
-    "Color": "Steel",
-    "Rarity": "Rare"
-  },
-  {
-    "Set Number": "012",
-    "Card Number": "199,199",
-    "Count": 2,
-    "Name": "Touch the Sky",
     "Color": "Steel",
     "Rarity": "Rare"
   },
