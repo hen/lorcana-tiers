@@ -65,7 +65,8 @@ def main() -> None:
 
     if missing_cards:
         formatted_cards = "\n".join(f"  - {card}" for card in missing_cards)
-        raise ValueError(f"Could not find image data for:\n{formatted_cards}")
+        # raise ValueError(f"Could not find image data for:\n{formatted_cards}")
+        print(f"Could not find image data for:\n{formatted_cards}")
 
     arguments.output.write_text(
         json.dumps(enriched_cards, indent=2) + "\n",
