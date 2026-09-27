@@ -32,6 +32,14 @@
     "Rarity": "Super Rare,Promo"
   },
   {
+    "Set Number": "014",
+    "Card Number": "19,19",
+    "Count": 4,
+    "Name": "Aurora - Delightful Musician",
+    "Color": "Amber",
+    "Rarity": "Legendary"
+  },
+  {
     "Set Number": "009",
     "Card Number": "6,6,206",
     "Count": 1,
@@ -184,10 +192,26 @@
     "Rarity": "Super Rare"
   },
   {
+    "Set Number": "014",
+    "Card Number": "18,18",
+    "Count": 4,
+    "Name": "Lionheart - Incumbent Mayor",
+    "Color": "Amber",
+    "Rarity": "Rare"
+  },
+  {
     "Set Number": "001",
     "Card Number": "10,10",
     "Count": 2,
     "Name": "Maximus - Palace Horse",
+    "Color": "Amber",
+    "Rarity": "Super Rare"
+  },
+  {
+    "Set Number": "014",
+    "Card Number": "23,23",
+    "Count": 4,
+    "Name": "Mickey Mouse - Best in Town",
     "Color": "Amber",
     "Rarity": "Super Rare"
   },
@@ -201,16 +225,8 @@
   },
   {
     "Set Number": "013",
-    "Card Number": "18,18",
-    "Count": 1,
-    "Name": "Mike Wazowski - Heroic Climber",
-    "Color": "Amber",
-    "Rarity": "Super Rare"
-  },
-  {
-    "Set Number": "013",
     "Card Number": "2,2",
-    "Count": 3,
+    "Count": 2,
     "Name": "Ming Lee - Proud Parent",
     "Color": "Amber",
     "Rarity": "Rare"
@@ -296,6 +312,22 @@
     "Rarity": "Uncommon"
   },
   {
+    "Set Number": "014",
+    "Card Number": "11,11",
+    "Count": 4,
+    "Name": "Nick Wilde - Inquisitive Harbormaster",
+    "Color": "Amber",
+    "Rarity": "Rare"
+  },
+  {
+    "Set Number": "014",
+    "Card Number": "25,25",
+    "Count": 4,
+    "Name": "Nick Wilde - Providing Backup",
+    "Color": "Amber",
+    "Rarity": "Uncommon"
+  },
+  {
     "Set Number": "003",
     "Card Number": "223",
     "Count": 3,
@@ -314,7 +346,7 @@
   {
     "Set Number": "013",
     "Card Number": "27,27",
-    "Count": 3,
+    "Count": 2,
     "Name": "Pocahontas & Meeko - Adventurous Friends",
     "Color": "Amber Amethyst",
     "Rarity": "Legendary"
@@ -326,6 +358,14 @@
     "Name": "Pongo - Determined Father",
     "Color": "Amber",
     "Rarity": "Super Rare"
+  },
+  {
+    "Set Number": "014",
+    "Card Number": "17,17",
+    "Count": 4,
+    "Name": "Powerline - Megastar",
+    "Color": "Amber",
+    "Rarity": "Legendary"
   },
   {
     "Set Number": "005",
@@ -394,7 +434,7 @@
   {
     "Set Number": "013",
     "Card Number": "30,30",
-    "Count": 4,
+    "Count": 3,
     "Name": "The Madrigal Family - Every Generation",
     "Color": "Amber Sapphire",
     "Rarity": "Rare"
@@ -432,28 +472,12 @@
     "Rarity": "Rare"
   },
   {
-    "Set Number": "013",
-    "Card Number": "26,26",
-    "Count": 1,
-    "Name": "Ursula - Created by the Vine",
-    "Color": "Amber",
-    "Rarity": "Rare"
-  },
-  {
     "Set Number": "004",
     "Card Number": "24,24",
     "Count": 1,
     "Name": "Ursula - Eric's Bride",
     "Color": "Amber",
     "Rarity": "Rare"
-  },
-  {
-    "Set Number": "013",
-    "Card Number": "28,28",
-    "Count": 2,
-    "Name": "Woody & Buzz Lightyear - Best Buddies",
-    "Color": "Amber Emerald",
-    "Rarity": "Legendary"
   },
   {
     "Set Number": "005",
@@ -512,14 +536,6 @@
     "Rarity": "Rare"
   },
   {
-    "Set Number": "013",
-    "Card Number": "35,35",
-    "Count": 1,
-    "Name": "Nobody Like U",
-    "Color": "Amber",
-    "Rarity": "Rare"
-  },
-  {
     "Set Number": "011",
     "Card Number": "32,32",
     "Count": 2,
@@ -532,6 +548,14 @@
     "Card Number": "28,28",
     "Count": 4,
     "Name": "Raging Storm",
+    "Color": "Amber",
+    "Rarity": "Super Rare"
+  },
+  {
+    "Set Number": "014",
+    "Card Number": "29,29",
+    "Count": 4,
+    "Name": "Remember Me",
     "Color": "Amber",
     "Rarity": "Super Rare"
   },
@@ -624,6 +648,14 @@
     "Rarity": "Rare"
   },
   {
+    "Set Number": "014",
+    "Card Number": "34,34",
+    "Count": 4,
+    "Name": "Port Authority - Center Hub",
+    "Color": "Amber",
+    "Rarity": "Uncommon"
+  },
+  {
     "Set Number": "005",
     "Card Number": "34,34",
     "Count": 1,
@@ -662,6 +694,14 @@
     "Name": "Anna - Soothing Sister",
     "Color": "Amethyst",
     "Rarity": "Legendary"
+  },
+  {
+    "Set Number": "014",
+    "Card Number": "58,58",
+    "Count": 4,
+    "Name": "Archimedes - Messenger Owl",
+    "Color": "Amethyst",
+    "Rarity": "Rare"
   },
   {
     "Set Number": "002",
@@ -706,7 +746,7 @@
   {
     "Set Number": "013",
     "Card Number": "61,61",
-    "Count": 2,
+    "Count": 1,
     "Name": "Christopher Robin - Hunny Sage",
     "Color": "Amethyst Sapphire",
     "Rarity": "Legendary"
@@ -718,6 +758,14 @@
     "Name": "Christopher Robin - Joining the Fun",
     "Color": "Amethyst",
     "Rarity": "Uncommon"
+  },
+  {
+    "Set Number": "014",
+    "Card Number": "37,37",
+    "Count": 4,
+    "Name": "David Xanatos - Arcane Industrialist",
+    "Color": "Amethyst",
+    "Rarity": "Common"
   },
   {
     "Set Number": "010",
@@ -785,7 +833,7 @@
   },
   {
     "Set Number": "005",
-    "Card Number": "48,48,6/P3",
+    "Card Number": "48,48,7/DIS,6/P3",
     "Count": 1,
     "Name": "Elsa - The Fifth Spirit",
     "Color": "Amethyst",
@@ -928,6 +976,14 @@
     "Rarity": "Rare"
   },
   {
+    "Set Number": "014",
+    "Card Number": "38,38",
+    "Count": 4,
+    "Name": "Lexington - Fearless Flier",
+    "Color": "Amethyst",
+    "Rarity": "Common"
+  },
+  {
     "Set Number": "012",
     "Card Number": "60,60",
     "Count": 3,
@@ -956,6 +1012,14 @@
     "Card Number": "47,47",
     "Count": 2,
     "Name": "Madam Mim - Purple Dragon",
+    "Color": "Amethyst",
+    "Rarity": "Legendary"
+  },
+  {
+    "Set Number": "014",
+    "Card Number": "59,59",
+    "Count": 4,
+    "Name": "Madam Mim - Resourceful Trickster",
     "Color": "Amethyst",
     "Rarity": "Legendary"
   },
@@ -1032,6 +1096,14 @@
     "Rarity": "Legendary"
   },
   {
+    "Set Number": "014",
+    "Card Number": "44,44",
+    "Count": 4,
+    "Name": "Mam\u00e1 Coco - Visiting the Park",
+    "Color": "Amethyst",
+    "Rarity": "Rare"
+  },
+  {
     "Set Number": "001",
     "Card Number": "50,50",
     "Count": 1,
@@ -1040,10 +1112,18 @@
     "Rarity": "Super Rare"
   },
   {
-    "Set Number": "013",
-    "Card Number": "49,49",
-    "Count": 1,
-    "Name": "Ming Lee - Overprotective Parent",
+    "Set Number": "014",
+    "Card Number": "39,39",
+    "Count": 4,
+    "Name": "Merlin - Bauble Expert",
+    "Color": "Amethyst",
+    "Rarity": "Common"
+  },
+  {
+    "Set Number": "014",
+    "Card Number": "52,52",
+    "Count": 4,
+    "Name": "Merlin - Ink Drop Tinkerer",
     "Color": "Amethyst",
     "Rarity": "Rare"
   },
@@ -1080,6 +1160,14 @@
     "Rarity": "Rare"
   },
   {
+    "Set Number": "014",
+    "Card Number": "35,35",
+    "Count": 4,
+    "Name": "Owen Burnett - Xanatos's Assistant",
+    "Color": "Amethyst",
+    "Rarity": "Common"
+  },
+  {
     "Set Number": "012",
     "Card Number": "56,56",
     "Count": 3,
@@ -1113,11 +1201,11 @@
   },
   {
     "Set Number": "011",
-    "Card Number": "42,42",
+    "Card Number": "42,42,11/D23",
     "Count": 3,
     "Name": "Pocahontas - Following the Wind",
     "Color": "Amethyst",
-    "Rarity": "Super Rare"
+    "Rarity": "Super Rare,Promo"
   },
   {
     "Set Number": "009",
@@ -1272,12 +1360,36 @@
     "Rarity": "Rare"
   },
   {
+    "Set Number": "014",
+    "Card Number": "60,60",
+    "Count": 4,
+    "Name": "Everyone Knows Juanita",
+    "Color": "Amethyst",
+    "Rarity": "Common"
+  },
+  {
     "Set Number": "002",
     "Card Number": "62,62",
     "Count": 3,
     "Name": "Gruesome and Grim",
     "Color": "Amethyst",
     "Rarity": "Rare"
+  },
+  {
+    "Set Number": "014",
+    "Card Number": "62,62",
+    "Count": 4,
+    "Name": "Higitus Figitus",
+    "Color": "Amethyst",
+    "Rarity": "Common"
+  },
+  {
+    "Set Number": "014",
+    "Card Number": "64,64",
+    "Count": 4,
+    "Name": "Magnificent, Marvelous",
+    "Color": "Amethyst",
+    "Rarity": "Uncommon"
   },
   {
     "Set Number": "009",
@@ -1424,6 +1536,14 @@
     "Rarity": "Uncommon"
   },
   {
+    "Set Number": "014",
+    "Card Number": "85,85",
+    "Count": 4,
+    "Name": "Baymax - Lab Assistant",
+    "Color": "Emerald",
+    "Rarity": "Rare"
+  },
+  {
     "Set Number": "002",
     "Card Number": "70,70",
     "Count": 2,
@@ -1446,6 +1566,14 @@
     "Name": "Belle - Hidden Archer",
     "Color": "Emerald",
     "Rarity": "Legendary"
+  },
+  {
+    "Set Number": "014",
+    "Card Number": "75,75",
+    "Count": 4,
+    "Name": "Belle - Reflective Writer",
+    "Color": "Emerald",
+    "Rarity": "Uncommon"
   },
   {
     "Set Number": "011",
@@ -1473,19 +1601,11 @@
   },
   {
     "Set Number": "013",
-    "Card Number": "77,77,5/PD1",
+    "Card Number": "77,77,8/DIS,5/PD1",
     "Count": 1,
     "Name": "Buzz Lightyear - Providing Cover",
     "Color": "Emerald",
     "Rarity": "Rare,Promo"
-  },
-  {
-    "Set Number": "013",
-    "Card Number": "98,98",
-    "Count": 1,
-    "Name": "Carl Fredricksen & Russell - Intrepid Explorers",
-    "Color": "Emerald Ruby",
-    "Rarity": "Rare"
   },
   {
     "Set Number": "011",
@@ -1624,6 +1744,14 @@
     "Rarity": "Uncommon"
   },
   {
+    "Set Number": "014",
+    "Card Number": "91,91",
+    "Count": 4,
+    "Name": "Fred - Big Stomper",
+    "Color": "Emerald",
+    "Rarity": "Common"
+  },
+  {
     "Set Number": "003",
     "Card Number": "73,73",
     "Count": 1,
@@ -1752,6 +1880,14 @@
     "Rarity": "Rare"
   },
   {
+    "Set Number": "014",
+    "Card Number": "93,93",
+    "Count": 4,
+    "Name": "Honey Lemon - Testing the Limits",
+    "Color": "Emerald",
+    "Rarity": "Rare"
+  },
+  {
     "Set Number": "004",
     "Card Number": "78,78",
     "Count": 1,
@@ -1766,6 +1902,14 @@
     "Name": "Jasmine - Royal Seafarer",
     "Color": "Emerald",
     "Rarity": "Rare,Promo"
+  },
+  {
+    "Set Number": "014",
+    "Card Number": "78,78",
+    "Count": 4,
+    "Name": "Jock - Enjoying the Sights",
+    "Color": "Emerald",
+    "Rarity": "Common"
   },
   {
     "Set Number": "009",
@@ -1864,6 +2008,14 @@
     "Rarity": "Legendary"
   },
   {
+    "Set Number": "014",
+    "Card Number": "89,89",
+    "Count": 4,
+    "Name": "Max Goof - Karaoke Star",
+    "Color": "Emerald",
+    "Rarity": "Legendary"
+  },
+  {
     "Set Number": "009",
     "Card Number": "75,75",
     "Count": 1,
@@ -1928,6 +2080,14 @@
     "Rarity": "Legendary"
   },
   {
+    "Set Number": "014",
+    "Card Number": "73,73",
+    "Count": 4,
+    "Name": "Molly Cunningham - Remembers to Share",
+    "Color": "Emerald",
+    "Rarity": "Uncommon"
+  },
+  {
     "Set Number": "001",
     "Card Number": "90,90",
     "Count": 2,
@@ -1958,14 +2118,6 @@
     "Name": "Mushu - Sneaky Dragon",
     "Color": "Emerald",
     "Rarity": "Uncommon,Epic"
-  },
-  {
-    "Set Number": "013",
-    "Card Number": "97,97",
-    "Count": 1,
-    "Name": "Mushu - Stealthy Dragon",
-    "Color": "Emerald",
-    "Rarity": "Legendary"
   },
   {
     "Set Number": "004",
@@ -2032,14 +2184,6 @@
     "Rarity": "Common"
   },
   {
-    "Set Number": "013",
-    "Card Number": "95,95,15/P4,16/P4",
-    "Count": 3,
-    "Name": "Rapunzel - Escaping the Tower",
-    "Color": "Emerald",
-    "Rarity": "Super Rare,Promo"
-  },
-  {
     "Set Number": "008",
     "Card Number": "101,101",
     "Count": 2,
@@ -2062,6 +2206,14 @@
     "Name": "Scrooge McDuck - S.H.U.S.H. Agent",
     "Color": "Emerald",
     "Rarity": "Super Rare,Promo"
+  },
+  {
+    "Set Number": "014",
+    "Card Number": "81,81",
+    "Count": 4,
+    "Name": "Shere Khan - Opportunistic Tycoon",
+    "Color": "Emerald",
+    "Rarity": "Uncommon"
   },
   {
     "Set Number": "011",
@@ -2136,6 +2288,14 @@
     "Rarity": "Uncommon"
   },
   {
+    "Set Number": "014",
+    "Card Number": "95,95",
+    "Count": 4,
+    "Name": "Above the Crowd",
+    "Color": "Emerald",
+    "Rarity": "Rare"
+  },
+  {
     "Set Number": "002",
     "Card Number": "96,96",
     "Count": 2,
@@ -2198,6 +2358,14 @@
     "Name": "The Return of Hercules",
     "Color": "Emerald",
     "Rarity": "Legendary"
+  },
+  {
+    "Set Number": "014",
+    "Card Number": "97,97",
+    "Count": 4,
+    "Name": "This Is Business",
+    "Color": "Emerald",
+    "Rarity": "Rare"
   },
   {
     "Set Number": "009",
@@ -2272,14 +2440,6 @@
     "Rarity": "Rare"
   },
   {
-    "Set Number": "013",
-    "Card Number": "107,107",
-    "Count": 1,
-    "Name": "Vine Pod",
-    "Color": "Emerald",
-    "Rarity": "Rare"
-  },
-  {
     "Set Number": "004",
     "Card Number": "100,100",
     "Count": 1,
@@ -2318,6 +2478,14 @@
     "Name": "White Agony Plains - Golden Lagoon",
     "Color": "Emerald",
     "Rarity": "Rare"
+  },
+  {
+    "Set Number": "014",
+    "Card Number": "104,104",
+    "Count": 4,
+    "Name": "Abby Park - Intense Fan",
+    "Color": "Ruby",
+    "Rarity": "Common"
   },
   {
     "Set Number": "010",
@@ -2408,6 +2576,14 @@
     "Rarity": "Uncommon"
   },
   {
+    "Set Number": "014",
+    "Card Number": "113,113",
+    "Count": 4,
+    "Name": "Cruella De Vil - Dodging Traffic",
+    "Color": "Ruby",
+    "Rarity": "Common"
+  },
+  {
     "Set Number": "010",
     "Card Number": "116,116",
     "Count": 2,
@@ -2440,6 +2616,14 @@
     "Rarity": "Legendary,Promo"
   },
   {
+    "Set Number": "014",
+    "Card Number": "110,110",
+    "Count": 4,
+    "Name": "Donald Duck - Taxi Driver",
+    "Color": "Ruby",
+    "Rarity": "Common"
+  },
+  {
     "Set Number": "011",
     "Card Number": "112,112",
     "Count": 1,
@@ -2454,6 +2638,22 @@
     "Name": "Elsa - Ice Artisan",
     "Color": "Ruby",
     "Rarity": "Legendary"
+  },
+  {
+    "Set Number": "014",
+    "Card Number": "120,120",
+    "Count": 4,
+    "Name": "Ernesto de la Cruz - Ruthless Musician",
+    "Color": "Ruby",
+    "Rarity": "Rare"
+  },
+  {
+    "Set Number": "014",
+    "Card Number": "105,105",
+    "Count": 4,
+    "Name": "Goofy - Dancing Superstar",
+    "Color": "Ruby",
+    "Rarity": "Rare"
   },
   {
     "Set Number": "006",
@@ -2474,7 +2674,7 @@
   {
     "Set Number": "013",
     "Card Number": "120,120",
-    "Count": 2,
+    "Count": 1,
     "Name": "Grandma Wu - Fierce Red Panda",
     "Color": "Ruby",
     "Rarity": "Rare"
@@ -2602,7 +2802,7 @@
   {
     "Set Number": "013",
     "Card Number": "125,125",
-    "Count": 3,
+    "Count": 2,
     "Name": "Meilin Lee - Popular Red Panda",
     "Color": "Ruby",
     "Rarity": "Legendary"
@@ -2832,6 +3032,14 @@
     "Rarity": "Uncommon"
   },
   {
+    "Set Number": "014",
+    "Card Number": "116,116",
+    "Count": 4,
+    "Name": "Stacey - Powerline Superfan",
+    "Color": "Ruby",
+    "Rarity": "Uncommon"
+  },
+  {
     "Set Number": "005",
     "Card Number": "117,117",
     "Count": 1,
@@ -2880,6 +3088,14 @@
     "Rarity": "Uncommon"
   },
   {
+    "Set Number": "014",
+    "Card Number": "122,122",
+    "Count": 4,
+    "Name": "Tramp - Quick on His Feet",
+    "Color": "Ruby",
+    "Rarity": "Rare"
+  },
+  {
     "Set Number": "003",
     "Card Number": "126,126",
     "Count": 1,
@@ -2894,6 +3110,14 @@
     "Name": "Tuk Tuk - Wrecking Ball",
     "Color": "Ruby",
     "Rarity": "Rare"
+  },
+  {
+    "Set Number": "014",
+    "Card Number": "125,125",
+    "Count": 4,
+    "Name": "Wasabi - Called into Battle",
+    "Color": "Ruby",
+    "Rarity": "Super Rare"
   },
   {
     "Set Number": "011",
@@ -2970,7 +3194,7 @@
   {
     "Set Number": "013",
     "Card Number": "140,140",
-    "Count": 2,
+    "Count": 1,
     "Name": "Bunch of Balloons",
     "Color": "Ruby",
     "Rarity": "Rare"
@@ -3046,14 +3270,6 @@
     "Name": "Beast's Castle - Winter Gardens",
     "Color": "Ruby",
     "Rarity": "Common"
-  },
-  {
-    "Set Number": "013",
-    "Card Number": "142,142",
-    "Count": 1,
-    "Name": "Carl's House - Flying High",
-    "Color": "Ruby",
-    "Rarity": "Rare"
   },
   {
     "Set Number": "011",
@@ -3192,12 +3408,28 @@
     "Rarity": "Legendary"
   },
   {
+    "Set Number": "014",
+    "Card Number": "138,138",
+    "Count": 4,
+    "Name": "Cinderella - Homespun Dressmaker",
+    "Color": "Sapphire",
+    "Rarity": "Common"
+  },
+  {
     "Set Number": "012",
     "Card Number": "155,155,47/P3",
     "Count": 1,
     "Name": "Cinderella - Resourceful Traveler",
     "Color": "Sapphire",
     "Rarity": "Rare,Promo"
+  },
+  {
+    "Set Number": "014",
+    "Card Number": "157,157",
+    "Count": 4,
+    "Name": "Cinderella - Unintentional Icon",
+    "Color": "Sapphire",
+    "Rarity": "Super Rare"
   },
   {
     "Set Number": "002",
@@ -3222,6 +3454,22 @@
     "Name": "Darkwing Duck - Dashing Gadgeteer",
     "Color": "Sapphire",
     "Rarity": "Super Rare"
+  },
+  {
+    "Set Number": "014",
+    "Card Number": "161,161",
+    "Count": 4,
+    "Name": "Doug - Lying in Wait",
+    "Color": "Sapphire",
+    "Rarity": "Common"
+  },
+  {
+    "Set Number": "014",
+    "Card Number": "153,153",
+    "Count": 4,
+    "Name": "Duchess - Cosmopolitan Cat",
+    "Color": "Sapphire",
+    "Rarity": "Rare"
   },
   {
     "Set Number": "012",
@@ -3344,6 +3592,14 @@
     "Rarity": "Rare"
   },
   {
+    "Set Number": "014",
+    "Card Number": "154,154",
+    "Count": 4,
+    "Name": "Judy Hopps - Day Camp Instructor",
+    "Color": "Sapphire",
+    "Rarity": "Rare"
+  },
+  {
     "Set Number": "012",
     "Card Number": "160,160",
     "Count": 3,
@@ -3376,6 +3632,22 @@
     "Rarity": "Super Rare"
   },
   {
+    "Set Number": "014",
+    "Card Number": "147,147",
+    "Count": 4,
+    "Name": "Lionheart - Cleaning Up the City",
+    "Color": "Sapphire",
+    "Rarity": "Uncommon"
+  },
+  {
+    "Set Number": "014",
+    "Card Number": "146,146",
+    "Count": 4,
+    "Name": "Madam Mim - Nosy Neighbor",
+    "Color": "Sapphire",
+    "Rarity": "Common"
+  },
+  {
     "Set Number": "007",
     "Card Number": "176,176",
     "Count": 2,
@@ -3386,7 +3658,7 @@
   {
     "Set Number": "013",
     "Card Number": "158,158",
-    "Count": 3,
+    "Count": 2,
     "Name": "Maid Marian - Created by the Vine",
     "Color": "Sapphire",
     "Rarity": "Rare"
@@ -3430,6 +3702,14 @@
     "Name": "Mickey Mouse - Bob Cratchit",
     "Color": "Sapphire",
     "Rarity": "Rare,Epic"
+  },
+  {
+    "Set Number": "014",
+    "Card Number": "155,155",
+    "Count": 4,
+    "Name": "Minnie Mouse - Urban Visionary",
+    "Color": "Sapphire",
+    "Rarity": "Super Rare"
   },
   {
     "Set Number": "011",
@@ -3632,6 +3912,14 @@
     "Rarity": "Legendary"
   },
   {
+    "Set Number": "014",
+    "Card Number": "152,152",
+    "Count": 4,
+    "Name": "Thomas O'Malley - Savvy Vagabond",
+    "Color": "Sapphire",
+    "Rarity": "Super Rare"
+  },
+  {
     "Set Number": "003",
     "Card Number": "157,157",
     "Count": 2,
@@ -3654,6 +3942,14 @@
     "Name": "Ursula - Deal Maker",
     "Color": "Sapphire",
     "Rarity": "Legendary"
+  },
+  {
+    "Set Number": "014",
+    "Card Number": "139,139",
+    "Count": 4,
+    "Name": "Wasabi - Future Thinker",
+    "Color": "Sapphire",
+    "Rarity": "Uncommon"
   },
   {
     "Set Number": "006",
@@ -3702,6 +3998,14 @@
     "Name": "Hide Away",
     "Color": "Sapphire",
     "Rarity": "Uncommon"
+  },
+  {
+    "Set Number": "014",
+    "Card Number": "164,164",
+    "Count": 4,
+    "Name": "Intense Research",
+    "Color": "Sapphire",
+    "Rarity": "Rare"
   },
   {
     "Set Number": "010",
@@ -3856,6 +4160,14 @@
     "Rarity": "Super Rare"
   },
   {
+    "Set Number": "014",
+    "Card Number": "185,185",
+    "Count": 4,
+    "Name": "Arthur - Novice Blacksmith",
+    "Color": "Steel",
+    "Rarity": "Common"
+  },
+  {
     "Set Number": "007",
     "Card Number": "198,198",
     "Count": 3,
@@ -3878,6 +4190,14 @@
     "Name": "Beast - Tragic Hero",
     "Color": "Steel",
     "Rarity": "Legendary"
+  },
+  {
+    "Set Number": "014",
+    "Card Number": "186,186",
+    "Count": 4,
+    "Name": "Berlioz - Tiny Rascal",
+    "Color": "Steel",
+    "Rarity": "Rare"
   },
   {
     "Set Number": "006",
@@ -4152,12 +4472,12 @@
     "Rarity": "Super Rare"
   },
   {
-    "Set Number": "013",
-    "Card Number": "195,195,8/PD1",
-    "Count": 2,
-    "Name": "Maximus - Relentless Stallion",
+    "Set Number": "014",
+    "Card Number": "187,187",
+    "Count": 4,
+    "Name": "Marie - Caught in the Act",
     "Color": "Steel",
-    "Rarity": "Rare,Promo"
+    "Rarity": "Rare"
   },
   {
     "Set Number": "008",
@@ -4304,6 +4624,14 @@
     "Rarity": "Legendary"
   },
   {
+    "Set Number": "014",
+    "Card Number": "195,195",
+    "Count": 4,
+    "Name": "Shere Khan - Khan Industries CEO",
+    "Color": "Steel",
+    "Rarity": "Legendary"
+  },
+  {
     "Set Number": "001",
     "Card Number": "189,189",
     "Count": 2,
@@ -4338,10 +4666,26 @@
   {
     "Set Number": "013",
     "Card Number": "197,197",
-    "Count": 3,
+    "Count": 2,
     "Name": "The Vine - Towering Stalk",
     "Color": "Steel",
     "Rarity": "Super Rare"
+  },
+  {
+    "Set Number": "014",
+    "Card Number": "196,196",
+    "Count": 4,
+    "Name": "Tiana - Party Hostess",
+    "Color": "Steel",
+    "Rarity": "Legendary"
+  },
+  {
+    "Set Number": "014",
+    "Card Number": "182,182",
+    "Count": 4,
+    "Name": "Toulouse - Rough and Tumble",
+    "Color": "Steel",
+    "Rarity": "Uncommon"
   },
   {
     "Set Number": "007",
@@ -4414,6 +4758,14 @@
     "Name": "I Find 'Em, I Flatten 'Em",
     "Color": "Steel",
     "Rarity": "Uncommon"
+  },
+  {
+    "Set Number": "014",
+    "Card Number": "197,197",
+    "Count": 4,
+    "Name": "Jousting Match",
+    "Color": "Steel",
+    "Rarity": "Rare"
   },
   {
     "Set Number": "011",
@@ -4570,7 +4922,7 @@
   {
     "Set Number": "012",
     "Card Number": "211,57/P3",
-    "Count": 3,
+    "Count": 2,
     "Name": "Buzz Lightyear - Space Ranger",
     "Color": "Emerald",
     "Rarity": "Epic,Promo"

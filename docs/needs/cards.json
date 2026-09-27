@@ -226,17 +226,8 @@
   },
   {
     "Set Number": "013",
-    "Card Number": "18,18",
-    "Count": 1,
-    "Name": "Mike Wazowski - Heroic Climber",
-    "Color": "Amber",
-    "Rarity": "Super Rare",
-    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set13/18_d3e1fe8a2f0f4ba533e9860580ccfe54dfe3a530.jpg"
-  },
-  {
-    "Set Number": "013",
     "Card Number": "2,2",
-    "Count": 3,
+    "Count": 2,
     "Name": "Ming Lee - Proud Parent",
     "Color": "Amber",
     "Rarity": "Rare",
@@ -353,7 +344,7 @@
   {
     "Set Number": "013",
     "Card Number": "27,27",
-    "Count": 3,
+    "Count": 2,
     "Name": "Pocahontas & Meeko - Adventurous Friends",
     "Color": "Amber Amethyst",
     "Rarity": "Legendary",
@@ -443,7 +434,7 @@
   {
     "Set Number": "013",
     "Card Number": "30,30",
-    "Count": 4,
+    "Count": 3,
     "Name": "The Madrigal Family - Every Generation",
     "Color": "Amber Sapphire",
     "Rarity": "Rare",
@@ -486,15 +477,6 @@
     "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set11/16_209deba1e059e9e2d3a11e2ff46c0e8fb1adfdbe.jpg"
   },
   {
-    "Set Number": "013",
-    "Card Number": "26,26",
-    "Count": 1,
-    "Name": "Ursula - Created by the Vine",
-    "Color": "Amber",
-    "Rarity": "Rare",
-    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set13/26_52c25bc8ae89b33409a6097d1de6953bd46e00a6.jpg"
-  },
-  {
     "Set Number": "004",
     "Card Number": "24,24",
     "Count": 1,
@@ -502,15 +484,6 @@
     "Color": "Amber",
     "Rarity": "Rare",
     "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set4/24_01ae066a2ddcf068452cf33e234296f2346e485a.jpg"
-  },
-  {
-    "Set Number": "013",
-    "Card Number": "28,28",
-    "Count": 2,
-    "Name": "Woody & Buzz Lightyear - Best Buddies",
-    "Color": "Amber Emerald",
-    "Rarity": "Legendary",
-    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set13/28_ab8e1f7faef740decfd15ec9104090c01c7cabf1.jpg"
   },
   {
     "Set Number": "005",
@@ -574,15 +547,6 @@
     "Color": "Amber",
     "Rarity": "Rare",
     "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set12/31_40137d53377d66ebdf9e3b42e91916635ff64cbf.jpg"
-  },
-  {
-    "Set Number": "013",
-    "Card Number": "35,35",
-    "Count": 1,
-    "Name": "Nobody Like U",
-    "Color": "Amber",
-    "Rarity": "Rare",
-    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set13/35_791fd66f58363f276e3fd724a7b5555ca7955943.jpg"
   },
   {
     "Set Number": "011",
@@ -794,7 +758,7 @@
   {
     "Set Number": "013",
     "Card Number": "61,61",
-    "Count": 2,
+    "Count": 1,
     "Name": "Christopher Robin - Hunny Sage",
     "Color": "Amethyst Sapphire",
     "Rarity": "Legendary",
@@ -883,7 +847,7 @@
   },
   {
     "Set Number": "005",
-    "Card Number": "48,48,6/P3",
+    "Card Number": "48,48,7/DIS,6/P3",
     "Count": 1,
     "Name": "Elsa - The Fifth Spirit",
     "Color": "Amethyst",
@@ -1170,15 +1134,6 @@
     "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set1/50_8b4a5528aff962fd726962cb7591ba00b86bf6fd.jpg"
   },
   {
-    "Set Number": "013",
-    "Card Number": "49,49",
-    "Count": 1,
-    "Name": "Ming Lee - Overprotective Parent",
-    "Color": "Amethyst",
-    "Rarity": "Rare",
-    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set13/49_1e00ab6d9b752086b1c88fa3d0d775cd00af0de9.jpg"
-  },
-  {
     "Set Number": "008",
     "Card Number": "64,64",
     "Count": 2,
@@ -1252,11 +1207,11 @@
   },
   {
     "Set Number": "011",
-    "Card Number": "42,42",
+    "Card Number": "42,42,11/D23",
     "Count": 3,
     "Name": "Pocahontas - Following the Wind",
     "Color": "Amethyst",
-    "Rarity": "Super Rare",
+    "Rarity": "Super Rare,Promo",
     "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set11/42_82e867a912c32397b2b2673df6b1e7a81c33e2de.jpg"
   },
   {
@@ -1657,21 +1612,12 @@
   },
   {
     "Set Number": "013",
-    "Card Number": "77,77,5/PD1",
+    "Card Number": "77,77,8/DIS,5/PD1",
     "Count": 1,
     "Name": "Buzz Lightyear - Providing Cover",
     "Color": "Emerald",
     "Rarity": "Rare,Promo",
     "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set13/77_05e96d064bb0ca4481e1890214092d9ce7f8cda8.jpg"
-  },
-  {
-    "Set Number": "013",
-    "Card Number": "98,98",
-    "Count": 1,
-    "Name": "Carl Fredricksen & Russell - Intrepid Explorers",
-    "Color": "Emerald Ruby",
-    "Rarity": "Rare",
-    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set13/98_f504cefaa21eca8d3023daf2208d9c573d2700e6.jpg"
   },
   {
     "Set Number": "011",
@@ -2205,15 +2151,6 @@
     "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set11/82_b0f093950ef84dc668bc17230df8cfe7f004e7a5.jpg"
   },
   {
-    "Set Number": "013",
-    "Card Number": "97,97",
-    "Count": 1,
-    "Name": "Mushu - Stealthy Dragon",
-    "Color": "Emerald",
-    "Rarity": "Legendary",
-    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set13/97_6b9a164ac4d1d971ac58e574fb4ef0a065724f4d.jpg"
-  },
-  {
     "Set Number": "004",
     "Card Number": "81,81",
     "Count": 1,
@@ -2284,15 +2221,6 @@
     "Color": "Emerald",
     "Rarity": "Common",
     "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set2/90_d2041ebebf4696e726d5109d3c39a760271723c9.jpg"
-  },
-  {
-    "Set Number": "013",
-    "Card Number": "95,95,15/P4,16/P4",
-    "Count": 3,
-    "Name": "Rapunzel - Escaping the Tower",
-    "Color": "Emerald",
-    "Rarity": "Super Rare,Promo",
-    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set13/95_f7868eabe6961f3b8c1bb2700c692e93d537afc5.jpg"
   },
   {
     "Set Number": "008",
@@ -2556,15 +2484,6 @@
     "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set3/99_366dee7621d0ce3b4abe387e5594a441f31b81fa.jpg"
   },
   {
-    "Set Number": "013",
-    "Card Number": "107,107",
-    "Count": 1,
-    "Name": "Vine Pod",
-    "Color": "Emerald",
-    "Rarity": "Rare",
-    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set13/107_c1a1229584f1a7f58ad68284b1de7f7502228518.jpg"
-  },
-  {
     "Set Number": "004",
     "Card Number": "100,100",
     "Count": 1,
@@ -2783,7 +2702,7 @@
   {
     "Set Number": "013",
     "Card Number": "120,120",
-    "Count": 2,
+    "Count": 1,
     "Name": "Grandma Wu - Fierce Red Panda",
     "Color": "Ruby",
     "Rarity": "Rare",
@@ -2927,7 +2846,7 @@
   {
     "Set Number": "013",
     "Card Number": "125,125",
-    "Count": 3,
+    "Count": 2,
     "Name": "Meilin Lee - Popular Red Panda",
     "Color": "Ruby",
     "Rarity": "Legendary",
@@ -3341,7 +3260,7 @@
   {
     "Set Number": "013",
     "Card Number": "140,140",
-    "Count": 2,
+    "Count": 1,
     "Name": "Bunch of Balloons",
     "Color": "Ruby",
     "Rarity": "Rare",
@@ -3427,15 +3346,6 @@
     "Color": "Ruby",
     "Rarity": "Common",
     "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set11/136_9479546d8c1cfb290ab62532a77828fd674bb619.jpg"
-  },
-  {
-    "Set Number": "013",
-    "Card Number": "142,142",
-    "Count": 1,
-    "Name": "Carl's House - Flying High",
-    "Color": "Ruby",
-    "Rarity": "Rare",
-    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set13/142_47c08f7601ab3becbd401665922b607704724922.jpg"
   },
   {
     "Set Number": "011",
@@ -3809,7 +3719,7 @@
   {
     "Set Number": "013",
     "Card Number": "158,158",
-    "Count": 3,
+    "Count": 2,
     "Name": "Maid Marian - Created by the Vine",
     "Color": "Sapphire",
     "Rarity": "Rare",
@@ -4671,15 +4581,6 @@
     "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set3/178_d8c251ff50315dacbdf9cf16a45e04740ac60daa.jpg"
   },
   {
-    "Set Number": "013",
-    "Card Number": "195,195,8/PD1",
-    "Count": 2,
-    "Name": "Maximus - Relentless Stallion",
-    "Color": "Steel",
-    "Rarity": "Rare,Promo",
-    "thumbnail": "https://api.lorcana.ravensburger.com/images/en/set13/195_bd29d35305e83cb6e04a6dc220fdf443ed7cbc3d.jpg"
-  },
-  {
     "Set Number": "008",
     "Card Number": "199,199",
     "Count": 1,
@@ -4880,7 +4781,7 @@
   {
     "Set Number": "013",
     "Card Number": "197,197",
-    "Count": 3,
+    "Count": 2,
     "Name": "The Vine - Towering Stalk",
     "Color": "Steel",
     "Rarity": "Super Rare",
@@ -5141,7 +5042,7 @@
   {
     "Set Number": "012",
     "Card Number": "211,57/P3",
-    "Count": 3,
+    "Count": 2,
     "Name": "Buzz Lightyear - Space Ranger",
     "Color": "Emerald",
     "Rarity": "Epic,Promo",
