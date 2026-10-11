@@ -1,6 +1,6 @@
 window.LORCANA_TIER_SITE_MANIFEST = {
-  "generatedAt": "2026-07-28T21:52:39.980047+00:00",
-  "defaultSetId": "13",
+  "generatedAt": "2026-10-11T06:40:01.873630+00:00",
+  "defaultSetId": "14",
   "sets": [
     {
       "id": "1",
@@ -131,6 +131,16 @@ window.LORCANA_TIER_SITE_MANIFEST = {
       "prereleaseDate": "2026-07-17",
       "cardCount": 207,
       "asset": "data/set.13.js"
+    },
+    {
+      "id": "14",
+      "number": 14,
+      "code": "14",
+      "name": "Hyperia City",
+      "releaseDate": "2026-10-23",
+      "prereleaseDate": "2026-10-16",
+      "cardCount": 204,
+      "asset": "data/set.14.js"
     }
   ]
 };
